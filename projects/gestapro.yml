@@ -1,0 +1,36 @@
+slug: gestapro
+repo: clinicoailab/gestapro
+title: Gestapro Dashboard
+description: >
+  This dashboard. Aggregates GitHub data from clinicoailab projects and
+  renders a static site to GitHub Pages. Tracks itself for fun.
+owner: clinicoailab
+status: active
+tags: [meta, astro, typescript, dashboard]
+headline_metric:
+  label: Tracked repos
+  source: manual
+  value: 3
+created_at: 2026-05-11
+links:
+  - { label: Live site, url: "https://clinicoailab.github.io/gestapro/" }
+  - { label: Repo, url: "https://github.com/clinicoailab/gestapro" }
+todos:
+  enabled: false
+  label_map:
+    todo:        [todo, backlog]
+    in_progress: [in-progress, wip]
+    done:        [done]
+  ignore_labels: [duplicate, invalid, wontfix]
+churn:
+  enabled: true
+  since_days: 365
+  exclude_paths:
+    - "**/node_modules/**"
+    - "**/dist/**"
+    - "**/.astro/**"
+    - "**/_work/**"
+    - "src/data/**"         # generated; skip to avoid self-noise
+    - "**/*.lock"
+    - "**/*.min.js"
+    - "package-lock.json"

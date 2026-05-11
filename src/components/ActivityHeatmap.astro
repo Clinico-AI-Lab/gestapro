@@ -1,0 +1,9 @@
+---
+import CalHeatmap from "./islands/CalHeatmap.tsx";
+interface Week { week: number; total: number; days: number[]; }
+interface Props { weeks: Week[]; }
+const { weeks } = Astro.props;
+---
+<div class="heatmap-wrap">
+  <CalHeatmap weeks={weeks} client:visible />
+</div>

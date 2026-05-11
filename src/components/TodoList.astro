@@ -1,0 +1,45 @@
+---
+interface IssueRef {
+  number: number;
+  title: string;
+  url: string;
+  labels: string[];
+  state: "open" | "closed";
+}
+interface Props {
+  buckets: { todo: IssueRef[]; in_progress: IssueRef[]; done: IssueRef[] };
+  enabled: boolean;
+}
+const { buckets, enabled } = Astro.props;
+const cols: Array<{ key: keyof typeof buckets; label: string }> = [
+  { key: "todo", label: "Todo" },
+  { key: "in_progress", label: "In progress" },
+  { key: "done", label: "Done (90d)" },
+];
+const empty = !enabled || (buckets.todo.length + buckets.in_progress.length + buckets.done.length === 0);
+---
+{empty ? (
+  <div class="empty-state">
+    {enabled
+      ? "No issues with matching todo labels yet."
+      : "Todos disabled. Add labels to your repo issues and flip `todos.enabled: true` in projects/<slug>.yml."}
+  </div>
+) : (
+  <div class="todo-cols">
+    {cols.map((c) => (
+      <div class="todo-col">
+        <h3>{c.label} <span class="dim">({buckets[c.key].length})</span></h3>
+        {buckets[c.key].length === 0 ? (
+          <div class="dim tiny" style="padding: 0.4rem 0;">—</div>
+        ) : (
+          buckets[c.key].map((it) => (
+            <div class="todo-item">
+              <span class="todo-item-number">#{it.number}</span>
+              <a href={it.url} target="_blank" rel="noopener">{it.title}</a>
+            </div>
+          ))
+        )}
+      </div>
+    ))}
+  </div>
+)}

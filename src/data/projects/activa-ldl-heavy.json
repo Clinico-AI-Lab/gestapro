@@ -1,0 +1,703 @@
+{
+  "slug": "activa-ldl-heavy",
+  "title": "ACTIVA-LDL Heavy",
+  "description": "Heavy-pipeline variant of the ACTIVA LDL stack. Production-grade benchmark harness — to be filled in with project details.\n",
+  "status": "active",
+  "tags": [
+    "python",
+    "agent",
+    "benchmark"
+  ],
+  "links": [],
+  "headline_metric": {
+    "label": "Open issues",
+    "source": "issues_count",
+    "value": 0
+  },
+  "status_data": "ok",
+  "repo": {
+    "owner": "clinicoailab",
+    "name": "activa-ldl-heavy",
+    "url": "https://github.com/clinicoailab/activa-ldl-heavy",
+    "default_branch": "master",
+    "pushed_at": "2026-04-30T12:29:18Z",
+    "languages": {
+      "Python": 143396,
+      "TeX": 42874
+    },
+    "open_issues": 0,
+    "open_prs": 0,
+    "contributors": [
+      {
+        "login": "clinicoailab",
+        "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+        "contributions": 14,
+        "html_url": "https://github.com/clinicoailab"
+      }
+    ],
+    "size_kb": 2815,
+    "is_empty": false
+  },
+  "activity": {
+    "weeks": []
+  },
+  "commits": [
+    {
+      "sha": "1bbd4d8238eab67e89cf03065c340801c1e872ef",
+      "short_sha": "1bbd4d8",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-30T12:29:17Z",
+      "message": "remove calibration/ directory",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/1bbd4d8238eab67e89cf03065c340801c1e872ef"
+    },
+    {
+      "sha": "647da9ca88f35368a4c82a0d2a40e5533e62f67d",
+      "short_sha": "647da9c",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-30T12:26:25Z",
+      "message": "fix: enforce bit-determinism across all LLM stages",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/647da9ca88f35368a4c82a0d2a40e5533e62f67d"
+    },
+    {
+      "sha": "bddcea2a75193efcb5f6ff975cf7c5ad7c279f31",
+      "short_sha": "bddcea2",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-30T07:35:29Z",
+      "message": "refactor: consolidate run dirs under runs/ subtree",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/bddcea2a75193efcb5f6ff975cf7c5ad7c279f31"
+    },
+    {
+      "sha": "c8e6cb1f0799d7cbb4369caa9c3ed967f2b6d92b",
+      "short_sha": "c8e6cb1",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-23T10:05:52Z",
+      "message": "Clean repo + integrate pipeline as single orchestrator + Postgres DB",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/c8e6cb1f0799d7cbb4369caa9c3ed967f2b6d92b"
+    },
+    {
+      "sha": "af0030bbd0719f2248532433b93e77b8ffe89336",
+      "short_sha": "af0030b",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-30T07:09:48Z",
+      "message": "Port adecuacion stage: JSON input, deterministic schema, stats logging",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/af0030bbd0719f2248532433b93e77b8ffe89336"
+    },
+    {
+      "sha": "755afb8114a1c54adceea1613f1440da2c44179f",
+      "short_sha": "755afb8",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-27T13:34:10Z",
+      "message": "Fix audit JSON parsing: strip JS-style // comments from R1 output",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/755afb8114a1c54adceea1613f1440da2c44179f"
+    },
+    {
+      "sha": "54a5985fe42f832c22a144e42724da52f3ab9e0f",
+      "short_sha": "54a5985",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-27T13:03:14Z",
+      "message": "Port adecuacion stage: JSON input, deterministic schema, stats logging",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/54a5985fe42f832c22a144e42724da52f3ab9e0f"
+    },
+    {
+      "sha": "d63b01f066ecd75ea1e53c9ad342756b5be2443f",
+      "short_sha": "d63b01f",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-27T12:41:23Z",
+      "message": "Replace LLM schema validator with deterministic Python, fix risk grade corruption",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/d63b01f066ecd75ea1e53c9ad342756b5be2443f"
+    },
+    {
+      "sha": "a2b13c713d9659d61d1f23c69e8ce690437568eb",
+      "short_sha": "a2b13c7",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-27T12:03:51Z",
+      "message": "Qwen n_parallel=10, replace Selenium with risk_calculator, updated TODOs",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/a2b13c713d9659d61d1f23c69e8ce690437568eb"
+    },
+    {
+      "sha": "ff9726be4647cc23c3ae6dc0b0b59ecf0189a97f",
+      "short_sha": "ff9726b",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-27T10:27:36Z",
+      "message": "DeepSeek-R1 IQ4_XS n_parallel=2, updated TODOs",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/ff9726be4647cc23c3ae6dc0b0b59ecf0189a97f"
+    },
+    {
+      "sha": "2861efe3b1b8f2ca6c608a83079790221358c7b9",
+      "short_sha": "2861efe",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-26T12:22:38Z",
+      "message": "MedGemma n_parallel=2, stats logging, updated OCR TODO",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/2861efe3b1b8f2ca6c608a83079790221358c7b9"
+    },
+    {
+      "sha": "56a73eaec333559914760551f55f6fb3a3e5b6ab",
+      "short_sha": "56a73ea",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-26T10:52:16Z",
+      "message": "Fix stats logging",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/56a73eaec333559914760551f55f6fb3a3e5b6ab"
+    },
+    {
+      "sha": "ae7c8e78c5b28ca8bab59549e03b1e35172905a5",
+      "short_sha": "ae7c8e7",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-26T10:38:32Z",
+      "message": "OCR refinements",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/ae7c8e78c5b28ca8bab59549e03b1e35172905a5"
+    },
+    {
+      "sha": "a6c49a2945559929bb545b43a99b54f6e63f0e95",
+      "short_sha": "a6c49a2",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-26T09:12:11Z",
+      "message": "Initial commit",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/a6c49a2945559929bb545b43a99b54f6e63f0e95"
+    }
+  ],
+  "todos": {
+    "todo": [],
+    "in_progress": [],
+    "done": []
+  },
+  "churn": {
+    "since": "2025-05-11T11:20:44.732Z",
+    "totals": {
+      "files": 50,
+      "commits": 14,
+      "adds": 9636,
+      "dels": 3977
+    },
+    "tree": {
+      "name": "<root>",
+      "churn": 13613,
+      "adds": 9636,
+      "dels": 3977,
+      "commits": 101,
+      "children": [
+        {
+          "name": "src",
+          "churn": 8354,
+          "adds": 6106,
+          "dels": 2248,
+          "commits": 44,
+          "children": [
+            {
+              "name": "run_validation.py",
+              "path": "src/run_validation.py",
+              "churn": 2304,
+              "adds": 1152,
+              "dels": 1152,
+              "commits": 2,
+              "last_touched": "2026-04-23T10:58:23.000Z"
+            },
+            {
+              "name": "pipeline.py",
+              "path": "src/pipeline.py",
+              "churn": 1065,
+              "adds": 825,
+              "dels": 240,
+              "commits": 4,
+              "last_touched": "2026-04-30T12:26:25.000Z"
+            },
+            {
+              "name": "adequacy_assessor.py",
+              "path": "src/adequacy_assessor.py",
+              "churn": 964,
+              "adds": 741,
+              "dels": 223,
+              "commits": 3,
+              "last_touched": "2026-03-30T07:09:48.000Z"
+            },
+            {
+              "name": "selenium_filler.py",
+              "path": "src/selenium_filler.py",
+              "churn": 736,
+              "adds": 368,
+              "dels": 368,
+              "commits": 2,
+              "last_touched": "2026-04-23T10:58:23.000Z"
+            },
+            {
+              "name": "run_ocr_parallel_I.py",
+              "path": "src/run_ocr_parallel_I.py",
+              "churn": 568,
+              "adds": 532,
+              "dels": 36,
+              "commits": 5,
+              "last_touched": "2026-04-30T12:26:25.000Z"
+            },
+            {
+              "name": "qwen_schema_validator.py",
+              "path": "src/qwen_schema_validator.py",
+              "churn": 562,
+              "adds": 392,
+              "dels": 170,
+              "commits": 3,
+              "last_touched": "2026-03-27T12:41:23.000Z"
+            },
+            {
+              "name": "deepseek_auditor.py",
+              "path": "src/deepseek_auditor.py",
+              "churn": 304,
+              "adds": 296,
+              "dels": 8,
+              "commits": 3,
+              "last_touched": "2026-03-27T13:34:10.000Z"
+            },
+            {
+              "name": "risk_calculator.py",
+              "path": "src/risk_calculator.py",
+              "churn": 266,
+              "adds": 266,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-27T12:03:51.000Z"
+            },
+            {
+              "name": "extract_analytics.py",
+              "path": "src/extract_analytics.py",
+              "churn": 264,
+              "adds": 259,
+              "dels": 5,
+              "commits": 2,
+              "last_touched": "2026-04-23T10:58:23.000Z"
+            },
+            {
+              "name": "load_to_postgres.py",
+              "path": "src/load_to_postgres.py",
+              "churn": 229,
+              "adds": 229,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-23T10:58:23.000Z"
+            },
+            {
+              "name": "config.py",
+              "path": "src/config.py",
+              "churn": 198,
+              "adds": 175,
+              "dels": 23,
+              "commits": 8,
+              "last_touched": "2026-04-30T12:26:25.000Z"
+            },
+            {
+              "name": "medgemma_extractor.py",
+              "path": "src/medgemma_extractor.py",
+              "churn": 193,
+              "adds": 192,
+              "dels": 1,
+              "commits": 2,
+              "last_touched": "2026-03-26T12:22:38.000Z"
+            },
+            {
+              "name": "stats.py",
+              "path": "src/stats.py",
+              "churn": 161,
+              "adds": 161,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-03-26T12:22:38.000Z"
+            },
+            {
+              "name": "clean_ocr_output.py",
+              "path": "src/clean_ocr_output.py",
+              "churn": 142,
+              "adds": 120,
+              "dels": 22,
+              "commits": 2,
+              "last_touched": "2026-04-23T10:58:23.000Z"
+            },
+            {
+              "name": "llama_server.py",
+              "path": "src/llama_server.py",
+              "churn": 138,
+              "adds": 138,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            },
+            {
+              "name": "run_ocr_parallel_A.py",
+              "path": "src/run_ocr_parallel_A.py",
+              "churn": 123,
+              "adds": 123,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            },
+            {
+              "name": "risk_evaluator.py",
+              "path": "src/risk_evaluator.py",
+              "churn": 114,
+              "adds": 114,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-27T12:03:51.000Z"
+            },
+            {
+              "name": "center_utils.py",
+              "path": "src/center_utils.py",
+              "churn": 23,
+              "adds": 23,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-23T10:58:23.000Z"
+            }
+          ]
+        },
+        {
+          "name": "deepseek-r1_TODO.md",
+          "path": "deepseek-r1_TODO.md",
+          "churn": 618,
+          "adds": 309,
+          "dels": 309,
+          "commits": 3,
+          "last_touched": "2026-04-23T10:58:23.000Z"
+        },
+        {
+          "name": "paper",
+          "churn": 536,
+          "adds": 536,
+          "dels": 0,
+          "commits": 1,
+          "children": [
+            {
+              "name": "main.tex",
+              "path": "paper/main.tex",
+              "churn": 536,
+              "adds": 536,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            }
+          ]
+        },
+        {
+          "name": "selenium_TODO.md",
+          "path": "selenium_TODO.md",
+          "churn": 522,
+          "adds": 261,
+          "dels": 261,
+          "commits": 3,
+          "last_touched": "2026-04-23T10:58:23.000Z"
+        },
+        {
+          "name": "improvs_ip.md",
+          "path": "improvs_ip.md",
+          "churn": 520,
+          "adds": 260,
+          "dels": 260,
+          "commits": 2,
+          "last_touched": "2026-04-23T10:58:23.000Z"
+        },
+        {
+          "name": "qwen-coder_TODO.md",
+          "path": "qwen-coder_TODO.md",
+          "churn": 474,
+          "adds": 237,
+          "dels": 237,
+          "commits": 3,
+          "last_touched": "2026-04-23T10:58:23.000Z"
+        },
+        {
+          "name": "medgemma_TODO.md",
+          "path": "medgemma_TODO.md",
+          "churn": 410,
+          "adds": 205,
+          "dels": 205,
+          "commits": 3,
+          "last_touched": "2026-04-23T10:58:23.000Z"
+        },
+        {
+          "name": "dpsk-ocr_TODO.md",
+          "path": "dpsk-ocr_TODO.md",
+          "churn": 368,
+          "adds": 184,
+          "dels": 184,
+          "commits": 3,
+          "last_touched": "2026-04-23T10:58:23.000Z"
+        },
+        {
+          "name": "prompts",
+          "churn": 923,
+          "adds": 899,
+          "dels": 24,
+          "commits": 8,
+          "children": [
+            {
+              "name": "clinical_glossary.md",
+              "path": "prompts/clinical_glossary.md",
+              "churn": 246,
+              "adds": 246,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            },
+            {
+              "name": "auditor_prompt.md",
+              "path": "prompts/auditor_prompt.md",
+              "churn": 167,
+              "adds": 167,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            },
+            {
+              "name": "scriba_prompt.md",
+              "path": "prompts/scriba_prompt.md",
+              "churn": 147,
+              "adds": 147,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            },
+            {
+              "name": "adecuacion_auditor_prompt.md",
+              "path": "prompts/adecuacion_auditor_prompt.md",
+              "churn": 109,
+              "adds": 109,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            },
+            {
+              "name": "schema_check_prompt.md",
+              "path": "prompts/schema_check_prompt.md",
+              "churn": 108,
+              "adds": 84,
+              "dels": 24,
+              "commits": 2,
+              "last_touched": "2026-03-27T12:41:23.000Z"
+            },
+            {
+              "name": "adecuacion_scribe_prompt.md",
+              "path": "prompts/adecuacion_scribe_prompt.md",
+              "churn": 92,
+              "adds": 92,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            },
+            {
+              "name": "adecuacion_schema_prompt.md",
+              "path": "prompts/adecuacion_schema_prompt.md",
+              "churn": 54,
+              "adds": 54,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            }
+          ]
+        },
+        {
+          "name": "improvements.md",
+          "path": "improvements.md",
+          "churn": 242,
+          "adds": 121,
+          "dels": 121,
+          "commits": 2,
+          "last_touched": "2026-04-23T10:58:23.000Z"
+        },
+        {
+          "name": "road_to_dpsk_r1.md",
+          "path": "road_to_dpsk_r1.md",
+          "churn": 242,
+          "adds": 121,
+          "dels": 121,
+          "commits": 2,
+          "last_touched": "2026-04-23T10:58:23.000Z"
+        },
+        {
+          "name": "sql",
+          "churn": 77,
+          "adds": 77,
+          "dels": 0,
+          "commits": 1,
+          "children": [
+            {
+              "name": "001_schema.sql",
+              "path": "sql/001_schema.sql",
+              "churn": 77,
+              "adds": 77,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-23T10:58:23.000Z"
+            }
+          ]
+        },
+        {
+          "name": "grammars",
+          "churn": 289,
+          "adds": 289,
+          "dels": 0,
+          "commits": 6,
+          "children": [
+            {
+              "name": "clinical_output.gbnf",
+              "path": "grammars/clinical_output.gbnf",
+              "churn": 63,
+              "adds": 63,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            },
+            {
+              "name": "audit_output.gbnf",
+              "path": "grammars/audit_output.gbnf",
+              "churn": 56,
+              "adds": 56,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            },
+            {
+              "name": "schema_check_output.gbnf",
+              "path": "grammars/schema_check_output.gbnf",
+              "churn": 54,
+              "adds": 54,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            },
+            {
+              "name": "adecuacion_output.gbnf",
+              "path": "grammars/adecuacion_output.gbnf",
+              "churn": 43,
+              "adds": 43,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            },
+            {
+              "name": "adecuacion_audit.gbnf",
+              "path": "grammars/adecuacion_audit.gbnf",
+              "churn": 38,
+              "adds": 38,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            },
+            {
+              "name": "adecuacion_schema_check.gbnf",
+              "path": "grammars/adecuacion_schema_check.gbnf",
+              "churn": 35,
+              "adds": 35,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-03-26T09:12:11.000Z"
+            }
+          ]
+        },
+        {
+          "name": ".gitignore",
+          "path": ".gitignore",
+          "churn": 38,
+          "adds": 31,
+          "dels": 7,
+          "commits": 4,
+          "last_touched": "2026-04-30T07:35:29.000Z"
+        },
+        {
+          "name": "calibration",
+          "churn": 0,
+          "adds": 0,
+          "dels": 0,
+          "commits": 16,
+          "children": [
+            {
+              "name": "HUF_p1_preview.png",
+              "path": "calibration/HUF_p1_preview.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-04-30T12:29:17.000Z"
+            },
+            {
+              "name": "HUF_p2_preview.png",
+              "path": "calibration/HUF_p2_preview.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-04-30T12:29:17.000Z"
+            },
+            {
+              "name": "HUF_p3_preview.png",
+              "path": "calibration/HUF_p3_preview.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-04-30T12:29:17.000Z"
+            },
+            {
+              "name": "HUPA_p1_preview.png",
+              "path": "calibration/HUPA_p1_preview.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-04-30T12:29:17.000Z"
+            },
+            {
+              "name": "HUPA_p2_preview.png",
+              "path": "calibration/HUPA_p2_preview.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-04-30T12:29:17.000Z"
+            },
+            {
+              "name": "HUPA_p3_preview.png",
+              "path": "calibration/HUPA_p3_preview.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-04-30T12:29:17.000Z"
+            },
+            {
+              "name": "HUSO_p1_preview.png",
+              "path": "calibration/HUSO_p1_preview.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-04-30T12:29:17.000Z"
+            },
+            {
+              "name": "HUSO_p2_preview.png",
+              "path": "calibration/HUSO_p2_preview.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-04-30T12:29:17.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_generated_at": "2026-05-11T11:25:40.442Z",
+  "_warnings": [
+    "activity: commit_activity still 202 after 5 retries — stats not yet computed by GitHub; will populate on next run"
+  ]
+}

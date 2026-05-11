@@ -1,0 +1,23 @@
+---
+interface Contributor {
+  login: string;
+  avatar_url: string;
+  contributions: number;
+  html_url: string;
+}
+interface Props { contributors: Contributor[]; }
+const { contributors } = Astro.props;
+---
+{contributors.length === 0 ? (
+  <div class="empty-state tiny">No contributors yet.</div>
+) : (
+  <div class="contributors-row">
+    {contributors.map((c) => (
+      <a class="contributor" href={c.html_url} target="_blank" rel="noopener" title={`${c.contributions} commits`}>
+        <img src={c.avatar_url} alt={c.login} />
+        <span>{c.login}</span>
+        <span class="dim tiny">{c.contributions}</span>
+      </a>
+    ))}
+  </div>
+)}

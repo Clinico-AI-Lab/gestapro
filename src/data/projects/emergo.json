@@ -1,0 +1,41 @@
+{
+  "slug": "emergo",
+  "title": "Emergo",
+  "description": "Early-stage project — repo created, no commits yet. Description to come.\n",
+  "status": "planning",
+  "tags": [],
+  "links": [],
+  "headline_metric": {
+    "label": "Status",
+    "source": "manual",
+    "value": "planning"
+  },
+  "status_data": "empty",
+  "repo": {
+    "owner": "clinicoailab",
+    "name": "emergo",
+    "url": "https://github.com/clinicoailab/emergo",
+    "default_branch": "main",
+    "pushed_at": "2026-04-13T07:15:01Z",
+    "languages": {},
+    "open_issues": 0,
+    "open_prs": 0,
+    "contributors": [],
+    "size_kb": 0,
+    "is_empty": true
+  },
+  "activity": {
+    "weeks": []
+  },
+  "commits": [],
+  "todos": {
+    "todo": [],
+    "in_progress": [],
+    "done": []
+  },
+  "churn": null,
+  "_generated_at": "2026-05-11T11:20:25.492Z",
+  "_warnings": [
+    "repo is empty (no commits)"
+  ]
+}

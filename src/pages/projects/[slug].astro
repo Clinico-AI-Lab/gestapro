@@ -1,0 +1,138 @@
+---
+import Base from "~/layouts/Base.astro";
+import StatusBadge from "~/components/StatusBadge.astro";
+import LinkList from "~/components/LinkList.astro";
+import TodoList from "~/components/TodoList.astro";
+import RecentCommits from "~/components/RecentCommits.astro";
+import Contributors from "~/components/Contributors.astro";
+import ActivityHeatmap from "~/components/ActivityHeatmap.astro";
+import ChurnTreemap from "~/components/ChurnTreemap.astro";
+import LanguagesChart from "~/components/LanguagesChart.astro";
+import { relativeTime, formatNumber } from "~/lib/format";
+
+type ProjectSnapshot = {
+  slug: string; title: string; description: string;
+  status: "active" | "paused" | "archived" | "planning";
+  tags: string[];
+  links: Array<{ label: string; url: string }>;
+  headline_metric: { label: string; source: string; value?: number | string };
+  status_data: "ok" | "empty" | "error";
+  repo: {
+    owner: string; name: string; url: string;
+    default_branch: string;
+    pushed_at: string | null;
+    languages: Record<string, number>;
+    open_issues: number; open_prs: number;
+    contributors: Array<{ login: string; avatar_url: string; contributions: number; html_url: string }>;
+    size_kb: number; is_empty: boolean;
+  };
+  activity: { weeks: Array<{ week: number; total: number; days: number[] }> };
+  commits: Array<{ sha: string; short_sha: string; author: string; author_avatar_url: string | null; date: string; message: string; url: string }>;
+  todos: { todo: any[]; in_progress: any[]; done: any[] };
+  churn: { since: string; totals: { files: number; commits: number; adds: number; dels: number }; tree: any } | null;
+  _generated_at: string;
+  _warnings: string[];
+};
+
+export async function getStaticPaths() {
+  const files = import.meta.glob<{ default: ProjectSnapshot }>("../../data/projects/*.json", { eager: true });
+  return Object.values(files).map((m) => ({
+    params: { slug: m.default.slug },
+    props: { snapshot: m.default },
+  }));
+}
+
+const { snapshot } = Astro.props as { snapshot: ProjectSnapshot };
+const isEmpty = snapshot.status_data === "empty" || snapshot.repo.is_empty;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// Per-project todos config flag (we infer from snapshot — if buckets exist treat enabled)
+const todosEnabled = (snapshot.todos.todo.length + snapshot.todos.in_progress.length + snapshot.todos.done.length) > 0;
+---
+<Base title={snapshot.title} description={snapshot.description}>
+  <div class="row row-between" style="margin-bottom: 0.75rem;">
+    <div>
+      <h1 style="margin: 0;">{snapshot.title}</h1>
+      <div class="row tiny muted" style="margin-top: 0.4rem;">
+        <a href={snapshot.repo.url} target="_blank" rel="noopener">{snapshot.repo.owner}/{snapshot.repo.name}</a>
+        <StatusBadge status={snapshot.status} />
+        {snapshot.repo.pushed_at && <span class="dim">last pushed {relativeTime(snapshot.repo.pushed_at)}</span>}
+      </div>
+    </div>
+    <a href={`${base}/`} class="tiny muted">← All projects</a>
+  </div>
+
+  <p class="muted" style="max-width: 70ch;">{snapshot.description}</p>
+  <LinkList links={snapshot.links} />
+
+  {snapshot._warnings.length > 0 && (
+    <div class="warnings" style="margin-top: 1rem;">
+      ⚠ {snapshot._warnings.join(" · ")}
+    </div>
+  )}
+
+  {isEmpty ? (
+    <div class="card" style="margin-top: 1.5rem;">
+      <div class="empty-state">
+        This repo has no commits yet. Once content is pushed, the dashboard will populate on the next refresh.
+      </div>
+    </div>
+  ) : (
+    <>
+      <div class="grid grid-cols-4" style="margin-top: 1.25rem;">
+        <div class="stat-tile">
+          <div class="stat-tile-label">Open issues</div>
+          <div class="stat-tile-value">{snapshot.repo.open_issues}</div>
+        </div>
+        <div class="stat-tile">
+          <div class="stat-tile-label">Open PRs</div>
+          <div class="stat-tile-value">{snapshot.repo.open_prs}</div>
+        </div>
+        <div class="stat-tile">
+          <div class="stat-tile-label">Commits (52w)</div>
+          <div class="stat-tile-value">{formatNumber(snapshot.activity.weeks.reduce((a, w) => a + w.total, 0))}</div>
+        </div>
+        <div class="stat-tile">
+          <div class="stat-tile-label">{snapshot.headline_metric.label}</div>
+          <div class="stat-tile-value">{snapshot.headline_metric.value ?? "—"}</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Activity — last 12 months</h2>
+        <ActivityHeatmap weeks={snapshot.activity.weeks} />
+      </div>
+
+      <div class="grid grid-cols-2">
+        <div class="card">
+          <h2>Languages</h2>
+          <LanguagesChart languages={snapshot.repo.languages} />
+        </div>
+        <div class="card">
+          <h2>Recent commits</h2>
+          <RecentCommits commits={snapshot.commits} />
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Todos</h2>
+        <TodoList buckets={snapshot.todos} enabled={todosEnabled} />
+      </div>
+
+      <div class="card">
+        <h2>File-path churn — where effort is going</h2>
+        <ChurnTreemap tree={snapshot.churn?.tree ?? null} totals={snapshot.churn?.totals} />
+      </div>
+
+      <div class="card">
+        <h2>Contributors</h2>
+        <Contributors contributors={snapshot.repo.contributors} />
+      </div>
+    </>
+  )}
+
+  <div class="tiny dim" style="margin-top: 2rem;">
+    Snapshot generated {relativeTime(snapshot._generated_at)} ·
+    <a href={`https://github.com/clinicoailab/gestapro/blob/main/projects/${snapshot.slug}.yml`} target="_blank" rel="noopener">edit metadata</a>
+  </div>
+</Base>

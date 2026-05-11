@@ -1,0 +1,100 @@
+---
+import Base from "~/layouts/Base.astro";
+import ProjectCard from "~/components/ProjectCard.astro";
+import WeeklyStack from "~/components/islands/WeeklyStack.tsx";
+import { relativeTime, formatNumber } from "~/lib/format";
+
+type IndexSnapshot = {
+  generated_at: string;
+  projects: Array<{
+    slug: string; title: string; status: "active" | "paused" | "archived" | "planning";
+    tags: string[]; pushed_at: string | null;
+    open_issues: number; open_prs: number;
+    languages_top: string | null;
+    headline_metric: { label: string; value?: number | string };
+    sparkline_12w: number[];
+    description: string;
+  }>;
+  totals: { repo_count: number; commits_52w: number; open_todos: number; languages: Record<string, number> };
+  weekly_stack: Array<{ week: number; per_project: Record<string, number>; total: number }>;
+  recent_activity: Array<{
+    sha: string; short_sha: string; author: string; author_avatar_url: string | null;
+    date: string; message: string; url: string;
+    project_slug: string; project_title: string;
+  }>;
+};
+
+let data: IndexSnapshot | null = null;
+try {
+  const mod = await import("~/data/index.json");
+  data = mod.default as IndexSnapshot;
+} catch {
+  data = null;
+}
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+<Base title="Projects">
+  {!data ? (
+    <div class="card">
+      <h2>No data yet</h2>
+      <p class="muted">Run <code>npm run fetch</code> with <code>PROJECTS_PAT</code> set to populate the dashboard, then rebuild.</p>
+    </div>
+  ) : (
+    <>
+      <div class="grid grid-cols-4" style="margin-bottom: 1.25rem;">
+        <div class="stat-tile">
+          <div class="stat-tile-label">Projects</div>
+          <div class="stat-tile-value">{data.totals.repo_count}</div>
+        </div>
+        <div class="stat-tile">
+          <div class="stat-tile-label">Commits (52w)</div>
+          <div class="stat-tile-value">{formatNumber(data.totals.commits_52w)}</div>
+        </div>
+        <div class="stat-tile">
+          <div class="stat-tile-label">Open todos</div>
+          <div class="stat-tile-value">{data.totals.open_todos}</div>
+        </div>
+        <div class="stat-tile">
+          <div class="stat-tile-label">Last refresh</div>
+          <div class="stat-tile-value" style="font-size: 1rem; padding-top: 0.4rem;">{relativeTime(data.generated_at)}</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Commits per week — last 12 weeks</h2>
+        <WeeklyStack rows={data.weekly_stack} client:visible />
+      </div>
+
+      <h2 style="margin-top: 1.5rem;">All projects</h2>
+      <div class="grid grid-cards">
+        {data.projects.map((p) => <ProjectCard project={p} />)}
+      </div>
+
+      <div class="card" style="margin-top: 1.75rem;">
+        <h2>Recent activity</h2>
+        {data.recent_activity.length === 0 ? (
+          <div class="empty-state">No commits yet across tracked repos.</div>
+        ) : (
+          <div>
+            {data.recent_activity.map((c) => (
+              <div class="commit-row">
+                {c.author_avatar_url && <img class="commit-avatar" src={c.author_avatar_url} alt={c.author} />}
+                <div class="commit-msg">
+                  <div class="msg-line">
+                    <a href={c.url} target="_blank" rel="noopener">{c.message}</a>
+                  </div>
+                  <div class="commit-meta">
+                    <a href={`${base}/projects/${c.project_slug}`} class="muted">{c.project_title}</a>
+                    · <span class="commit-sha">{c.short_sha}</span>
+                    · {c.author} · {relativeTime(c.date)}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </>
+  )}
+</Base>

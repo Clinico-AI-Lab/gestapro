@@ -1,0 +1,46 @@
+{
+  "name": "gestapro",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "tsx scripts/fetch.ts",
+    "validate": "tsx scripts/validate.ts",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview --host",
+    "typecheck": "tsc --noEmit && astro check"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.0",
+    "@astrojs/react": "^3.6.0",
+    "@popperjs/core": "^2.11.8",
+    "astro": "^4.16.0",
+    "cal-heatmap": "^4.2.4",
+    "d3": "^7.9.0",
+    "d3-hierarchy": "^3.1.2",
+    "dayjs": "^1.11.13",
+    "echarts": "^5.5.1",
+    "echarts-for-react": "^3.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@octokit/plugin-retry": "^7.1.2",
+    "@octokit/plugin-throttling": "^9.3.2",
+    "@octokit/rest": "^21.0.2",
+    "@types/d3": "^7.4.3",
+    "@types/d3-hierarchy": "^3.1.7",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.16.5",
+    "@types/picomatch": "^3.0.1",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "js-yaml": "^4.1.0",
+    "picomatch": "^4.0.2",
+    "simple-git": "^3.27.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.0",
+    "zod": "^3.23.8"
+  }
+}

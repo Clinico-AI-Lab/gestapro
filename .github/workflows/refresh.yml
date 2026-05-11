@@ -1,0 +1,96 @@
+name: refresh-and-deploy
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "projects/**"
+      - "src/**"
+      - "scripts/**"
+      - "public/**"
+      - "astro.config.mjs"
+      - "package.json"
+      - "package-lock.json"
+      - "tsconfig.json"
+      - ".github/workflows/refresh.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    name: Fetch GitHub snapshots
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - name: Validate project YAML
+        run: npm run validate
+
+      - name: Fetch snapshots
+        env:
+          PROJECTS_PAT: ${{ secrets.PROJECTS_PAT }}
+        run: npm run fetch
+
+      - name: Commit data snapshot
+        run: |
+          git config user.name  "gestapro-bot"
+          git config user.email "gestapro-bot@users.noreply.github.com"
+          git add src/data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: refresh $(date -u +%FT%TZ)"
+            git push
+          fi
+
+  build-deploy:
+    name: Build + deploy to Pages
+    runs-on: ubuntu-latest
+    # On manual/scheduled runs, wait for fetch. On push events, fetch is skipped → build directly.
+    needs: [fetch]
+    if: always() && (needs.fetch.result == 'success' || needs.fetch.result == 'skipped')
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

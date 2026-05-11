@@ -1,0 +1,35 @@
+---
+import { relativeTime } from "~/lib/format";
+interface CommitRef {
+  sha: string;
+  short_sha: string;
+  author: string;
+  author_avatar_url: string | null;
+  date: string;
+  message: string;
+  url: string;
+}
+interface Props {
+  commits: CommitRef[];
+  limit?: number;
+}
+const { commits, limit = 15 } = Astro.props;
+const shown = commits.slice(0, limit);
+---
+{shown.length === 0 ? (
+  <div class="empty-state">No commits yet.</div>
+) : (
+  <div>
+    {shown.map((c) => (
+      <div class="commit-row">
+        {c.author_avatar_url && <img class="commit-avatar" src={c.author_avatar_url} alt={c.author} />}
+        <div class="commit-msg">
+          <div class="msg-line"><a href={c.url} target="_blank" rel="noopener">{c.message || "(no message)"}</a></div>
+          <div class="commit-meta">
+            <span class="commit-sha">{c.short_sha}</span> · {c.author} · {relativeTime(c.date)}
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+)}

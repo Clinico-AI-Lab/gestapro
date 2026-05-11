@@ -1,0 +1,67 @@
+---
+import Base from "~/layouts/Base.astro";
+import { relativeTime } from "~/lib/format";
+
+type IndexSnapshot = {
+  recent_activity: Array<{
+    sha: string; short_sha: string; author: string; author_avatar_url: string | null;
+    date: string; message: string; url: string;
+    project_slug: string; project_title: string;
+  }>;
+};
+
+let data: IndexSnapshot | null = null;
+try {
+  const mod = await import("~/data/index.json");
+  data = mod.default as IndexSnapshot;
+} catch {
+  data = null;
+}
+
+function dayKey(iso: string) {
+  return iso.slice(0, 10);
+}
+
+const grouped: Record<string, IndexSnapshot["recent_activity"]> = {};
+if (data) {
+  for (const c of data.recent_activity) {
+    const k = dayKey(c.date);
+    (grouped[k] ??= []).push(c);
+  }
+}
+const dayKeys = Object.keys(grouped).sort().reverse();
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+<Base title="Activity">
+  <h1>Activity</h1>
+  {!data ? (
+    <div class="card"><p class="muted">No data yet. Run <code>npm run fetch</code>.</p></div>
+  ) : (
+    <div class="card">
+      {dayKeys.length === 0 ? (
+        <div class="empty-state">No recent commits across tracked repos.</div>
+      ) : (
+        dayKeys.map((day) => (
+          <div style="margin-bottom: 1.25rem;">
+            <h3 style="border-bottom: 1px solid var(--border); padding-bottom: 0.4rem;">{day}</h3>
+            {grouped[day].map((c) => (
+              <div class="commit-row">
+                {c.author_avatar_url && <img class="commit-avatar" src={c.author_avatar_url} alt={c.author} />}
+                <div class="commit-msg">
+                  <div class="msg-line">
+                    <a href={c.url} target="_blank" rel="noopener">{c.message}</a>
+                  </div>
+                  <div class="commit-meta">
+                    <a href={`${base}/projects/${c.project_slug}`} class="muted">{c.project_title}</a>
+                    · <span class="commit-sha">{c.short_sha}</span>
+                    · {c.author} · {relativeTime(c.date)}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        ))
+      )}
+    </div>
+  )}
+</Base>

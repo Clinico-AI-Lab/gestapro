@@ -1,0 +1,21 @@
+---
+interface Props {
+  values: number[];
+  width?: number;
+  height?: number;
+  color?: string;
+}
+const { values, width = 200, height = 30, color = "var(--accent)" } = Astro.props;
+const max = Math.max(1, ...values);
+const n = values.length;
+const points = values
+  .map((v, i) => {
+    const x = (i / Math.max(1, n - 1)) * width;
+    const y = height - (v / max) * (height - 2) - 1;
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  })
+  .join(" ");
+---
+<svg class="sparkline" viewBox={`0 0 ${width} ${height}`} preserveAspectRatio="none" aria-hidden="true">
+  <polyline fill="none" stroke={color} stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" points={points} />
+</svg>

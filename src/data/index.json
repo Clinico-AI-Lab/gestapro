@@ -1,0 +1,226 @@
+{
+  "generated_at": "2026-05-11T11:25:40.445Z",
+  "projects": [
+    {
+      "slug": "activa-ldl-heavy",
+      "title": "ACTIVA-LDL Heavy",
+      "status": "active",
+      "tags": [
+        "python",
+        "agent",
+        "benchmark"
+      ],
+      "pushed_at": "2026-04-30T12:29:18Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "languages_top": "Python",
+      "headline_metric": {
+        "label": "Open issues",
+        "source": "issues_count",
+        "value": 0
+      },
+      "sparkline_12w": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "description": "Heavy-pipeline variant of the ACTIVA LDL stack. Production-grade benchmark harness — to be filled in with project details.\n"
+    },
+    {
+      "slug": "emergo",
+      "title": "Emergo",
+      "status": "planning",
+      "tags": [],
+      "pushed_at": "2026-04-13T07:15:01Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "languages_top": null,
+      "headline_metric": {
+        "label": "Status",
+        "source": "manual",
+        "value": "planning"
+      },
+      "sparkline_12w": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "description": "Early-stage project — repo created, no commits yet. Description to come.\n"
+    },
+    {
+      "slug": "gestapro",
+      "title": "Gestapro Dashboard",
+      "status": "active",
+      "tags": [
+        "meta",
+        "astro",
+        "typescript",
+        "dashboard"
+      ],
+      "pushed_at": "2026-05-11T09:36:57Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "languages_top": null,
+      "headline_metric": {
+        "label": "Tracked repos",
+        "source": "manual",
+        "value": 3
+      },
+      "sparkline_12w": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "description": "This dashboard. Aggregates GitHub data from clinicoailab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
+    }
+  ],
+  "totals": {
+    "repo_count": 3,
+    "commits_52w": 0,
+    "open_todos": 0,
+    "languages": {
+      "Python": 143396,
+      "TeX": 42874
+    }
+  },
+  "weekly_stack": [],
+  "recent_activity": [
+    {
+      "sha": "1bbd4d8238eab67e89cf03065c340801c1e872ef",
+      "short_sha": "1bbd4d8",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-30T12:29:17Z",
+      "message": "remove calibration/ directory",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/1bbd4d8238eab67e89cf03065c340801c1e872ef",
+      "project_slug": "activa-ldl-heavy",
+      "project_title": "ACTIVA-LDL Heavy"
+    },
+    {
+      "sha": "647da9ca88f35368a4c82a0d2a40e5533e62f67d",
+      "short_sha": "647da9c",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-30T12:26:25Z",
+      "message": "fix: enforce bit-determinism across all LLM stages",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/647da9ca88f35368a4c82a0d2a40e5533e62f67d",
+      "project_slug": "activa-ldl-heavy",
+      "project_title": "ACTIVA-LDL Heavy"
+    },
+    {
+      "sha": "bddcea2a75193efcb5f6ff975cf7c5ad7c279f31",
+      "short_sha": "bddcea2",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-30T07:35:29Z",
+      "message": "refactor: consolidate run dirs under runs/ subtree",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/bddcea2a75193efcb5f6ff975cf7c5ad7c279f31",
+      "project_slug": "activa-ldl-heavy",
+      "project_title": "ACTIVA-LDL Heavy"
+    },
+    {
+      "sha": "c8e6cb1f0799d7cbb4369caa9c3ed967f2b6d92b",
+      "short_sha": "c8e6cb1",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-23T10:05:52Z",
+      "message": "Clean repo + integrate pipeline as single orchestrator + Postgres DB",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/c8e6cb1f0799d7cbb4369caa9c3ed967f2b6d92b",
+      "project_slug": "activa-ldl-heavy",
+      "project_title": "ACTIVA-LDL Heavy"
+    },
+    {
+      "sha": "af0030bbd0719f2248532433b93e77b8ffe89336",
+      "short_sha": "af0030b",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-30T07:09:48Z",
+      "message": "Port adecuacion stage: JSON input, deterministic schema, stats logging",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/af0030bbd0719f2248532433b93e77b8ffe89336",
+      "project_slug": "activa-ldl-heavy",
+      "project_title": "ACTIVA-LDL Heavy"
+    },
+    {
+      "sha": "755afb8114a1c54adceea1613f1440da2c44179f",
+      "short_sha": "755afb8",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-27T13:34:10Z",
+      "message": "Fix audit JSON parsing: strip JS-style // comments from R1 output",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/755afb8114a1c54adceea1613f1440da2c44179f",
+      "project_slug": "activa-ldl-heavy",
+      "project_title": "ACTIVA-LDL Heavy"
+    },
+    {
+      "sha": "54a5985fe42f832c22a144e42724da52f3ab9e0f",
+      "short_sha": "54a5985",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-27T13:03:14Z",
+      "message": "Port adecuacion stage: JSON input, deterministic schema, stats logging",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/54a5985fe42f832c22a144e42724da52f3ab9e0f",
+      "project_slug": "activa-ldl-heavy",
+      "project_title": "ACTIVA-LDL Heavy"
+    },
+    {
+      "sha": "d63b01f066ecd75ea1e53c9ad342756b5be2443f",
+      "short_sha": "d63b01f",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-27T12:41:23Z",
+      "message": "Replace LLM schema validator with deterministic Python, fix risk grade corruption",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/d63b01f066ecd75ea1e53c9ad342756b5be2443f",
+      "project_slug": "activa-ldl-heavy",
+      "project_title": "ACTIVA-LDL Heavy"
+    },
+    {
+      "sha": "a2b13c713d9659d61d1f23c69e8ce690437568eb",
+      "short_sha": "a2b13c7",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-27T12:03:51Z",
+      "message": "Qwen n_parallel=10, replace Selenium with risk_calculator, updated TODOs",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/a2b13c713d9659d61d1f23c69e8ce690437568eb",
+      "project_slug": "activa-ldl-heavy",
+      "project_title": "ACTIVA-LDL Heavy"
+    },
+    {
+      "sha": "ff9726be4647cc23c3ae6dc0b0b59ecf0189a97f",
+      "short_sha": "ff9726b",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-03-27T10:27:36Z",
+      "message": "DeepSeek-R1 IQ4_XS n_parallel=2, updated TODOs",
+      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/ff9726be4647cc23c3ae6dc0b0b59ecf0189a97f",
+      "project_slug": "activa-ldl-heavy",
+      "project_title": "ACTIVA-LDL Heavy"
+    }
+  ]
+}

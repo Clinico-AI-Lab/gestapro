@@ -1,0 +1,16 @@
+---
+import ChurnTreemap from "./islands/ChurnTreemap.tsx";
+interface ChurnNode {
+  name: string; path?: string; churn: number; adds: number; dels: number; commits: number; last_touched?: string; children?: ChurnNode[];
+}
+interface Props { tree: ChurnNode | null; totals?: { files: number; commits: number; adds: number; dels: number }; }
+const { tree, totals } = Astro.props;
+---
+<div class="treemap-wrap">
+  {tree ? <ChurnTreemap tree={tree} client:visible /> : <div class="empty-state">Churn disabled for this project.</div>}
+  {totals && tree && (
+    <div class="tiny dim" style="margin-top: 0.5rem;">
+      {totals.files} files · {totals.commits} commits · +{totals.adds} / -{totals.dels} lines (last year)
+    </div>
+  )}
+</div>

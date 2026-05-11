@@ -1,0 +1,47 @@
+---
+import "~/styles/global.css";
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = "clinicoailab project dashboard" } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title} · Gestapro</title>
+    <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-inner">
+        <div class="nav-brand"><a href={`${base}/`}>gestapro</a></div>
+        <div class="nav-links">
+          <a href={`${base}/`}>Projects</a>
+          <a href={`${base}/activity`}>Activity</a>
+          <a href={`${base}/about`}>About</a>
+          <a href="https://github.com/clinicoailab/gestapro" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <slot />
+      </div>
+    </main>
+    <footer>
+      <slot name="footer">
+        Auto-refreshes every 6h via GitHub Actions ·
+        <a href="https://github.com/clinicoailab/gestapro">source</a>
+      </slot>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  html, body { background: var(--bg); }
+</style>
