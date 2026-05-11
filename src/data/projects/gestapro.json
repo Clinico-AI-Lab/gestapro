@@ -1,7 +1,7 @@
 {
   "slug": "gestapro",
   "title": "Gestapro Dashboard",
-  "description": "This dashboard. Aggregates GitHub data from clinicoailab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n",
+  "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n",
   "status": "active",
   "tags": [
     "meta",
@@ -12,11 +12,11 @@
   "links": [
     {
       "label": "Live site",
-      "url": "https://clinicoailab.github.io/gestapro/"
+      "url": "https://clinico-ai-lab.github.io/gestapro/"
     },
     {
       "label": "Repo",
-      "url": "https://github.com/clinicoailab/gestapro"
+      "url": "https://github.com/Clinico-AI-Lab/gestapro"
     }
   ],
   "headline_metric": {
@@ -26,13 +26,13 @@
   },
   "status_data": "ok",
   "repo": {
-    "owner": "clinicoailab",
+    "owner": "Clinico-AI-Lab",
     "name": "gestapro",
-    "url": "https://github.com/clinicoailab/gestapro",
+    "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-05-11T11:48:18Z",
+    "pushed_at": "2026-05-11T12:06:32Z",
     "languages": {
-      "TypeScript": 40838,
+      "TypeScript": 43953,
       "Astro": 22181,
       "CSS": 7356,
       "JavaScript": 371
@@ -47,7 +47,7 @@
         "html_url": "https://github.com/clinicoailab"
       }
     ],
-    "size_kb": 0,
+    "size_kb": 116,
     "is_empty": false
   },
   "activity": {
@@ -717,10 +717,10 @@
       },
       {
         "week": 1778371200,
-        "total": 2,
+        "total": 3,
         "days": [
           0,
-          2,
+          3,
           0,
           0,
           0,
@@ -732,13 +732,22 @@
   },
   "commits": [
     {
+      "sha": "8568e2e316a3904c71fe5c1837b10bc359f73c05",
+      "short_sha": "8568e2e",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-11T12:05:59Z",
+      "message": "fix: derive activity from git log + robust empty-repo detection",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/8568e2e316a3904c71fe5c1837b10bc359f73c05"
+    },
+    {
       "sha": "fae2e2a8baf778b736aa7a53f8037caf6a0deb90",
       "short_sha": "fae2e2a",
       "author": "gestapro-bot",
       "author_avatar_url": null,
       "date": "2026-05-11T11:48:17Z",
       "message": "data: refresh 2026-05-11T11:48:17Z",
-      "url": "https://github.com/clinicoailab/gestapro/commit/fae2e2a8baf778b736aa7a53f8037caf6a0deb90"
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/fae2e2a8baf778b736aa7a53f8037caf6a0deb90"
     },
     {
       "sha": "1e46fcdab20ac035403091f92593a9cecd1231ca",
@@ -747,7 +756,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-05-11T11:28:16Z",
       "message": "init: gestapro dashboard skeleton + first data snapshot",
-      "url": "https://github.com/clinicoailab/gestapro/commit/1e46fcdab20ac035403091f92593a9cecd1231ca"
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/1e46fcdab20ac035403091f92593a9cecd1231ca"
     }
   ],
   "todos": {
@@ -756,19 +765,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-11T12:04:48.185Z",
+    "since": "2025-05-11T12:44:19.185Z",
     "totals": {
       "files": 47,
-      "commits": 2,
-      "adds": 2562,
-      "dels": 0
+      "commits": 3,
+      "adds": 2652,
+      "dels": 18
     },
     "tree": {
       "name": "<root>",
-      "churn": 2562,
-      "adds": 2562,
-      "dels": 0,
-      "commits": 47,
+      "churn": 2670,
+      "adds": 2652,
+      "dels": 18,
+      "commits": 51,
       "children": [
         {
           "name": "src",
@@ -1051,26 +1060,26 @@
         },
         {
           "name": "scripts",
-          "churn": 1008,
-          "adds": 1008,
-          "dels": 0,
-          "commits": 12,
+          "churn": 1116,
+          "adds": 1098,
+          "dels": 18,
+          "commits": 16,
           "children": [
             {
               "name": "lib",
-              "churn": 653,
-              "adds": 653,
-              "dels": 0,
-              "commits": 9,
+              "churn": 742,
+              "adds": 730,
+              "dels": 12,
+              "commits": 12,
               "children": [
                 {
                   "name": "churn.ts",
                   "path": "scripts/lib/churn.ts",
-                  "churn": 197,
-                  "adds": 197,
-                  "dels": 0,
-                  "commits": 1,
-                  "last_touched": "2026-05-11T11:28:16.000Z"
+                  "churn": 261,
+                  "adds": 253,
+                  "dels": 8,
+                  "commits": 2,
+                  "last_touched": "2026-05-11T12:06:24.000Z"
                 },
                 {
                   "name": "issues.ts",
@@ -1102,20 +1111,20 @@
                 {
                   "name": "repo-meta.ts",
                   "path": "scripts/lib/repo-meta.ts",
-                  "churn": 61,
-                  "adds": 61,
-                  "dels": 0,
-                  "commits": 1,
-                  "last_touched": "2026-05-11T11:28:16.000Z"
+                  "churn": 79,
+                  "adds": 77,
+                  "dels": 2,
+                  "commits": 2,
+                  "last_touched": "2026-05-11T12:06:24.000Z"
                 },
                 {
                   "name": "activity.ts",
                   "path": "scripts/lib/activity.ts",
-                  "churn": 51,
-                  "adds": 51,
-                  "dels": 0,
-                  "commits": 1,
-                  "last_touched": "2026-05-11T11:28:16.000Z"
+                  "churn": 58,
+                  "adds": 56,
+                  "dels": 2,
+                  "commits": 2,
+                  "last_touched": "2026-05-11T12:06:24.000Z"
                 },
                 {
                   "name": "commits.ts",
@@ -1149,11 +1158,11 @@
             {
               "name": "fetch.ts",
               "path": "scripts/fetch.ts",
-              "churn": 172,
-              "adds": 172,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-11T11:28:16.000Z"
+              "churn": 191,
+              "adds": 185,
+              "dels": 6,
+              "commits": 2,
+              "last_touched": "2026-05-11T12:06:24.000Z"
             },
             {
               "name": "types.ts",
@@ -1322,6 +1331,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-11T12:04:48.187Z",
+  "_generated_at": "2026-05-11T12:44:19.187Z",
   "_warnings": []
 }

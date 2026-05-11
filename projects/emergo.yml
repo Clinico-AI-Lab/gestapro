@@ -1,15 +1,14 @@
 slug: emergo
-repo: clinicoailab/emergo
+repo: Clinico-AI-Lab/emergo
 title: Emergo
 description: >
-  Early-stage project — repo created, no commits yet. Description to come.
-owner: clinicoailab
-status: planning
+  Description to come.
+owner: Clinico-AI-Lab
+status: active
 tags: []
 headline_metric:
-  label: Status
-  source: manual
-  value: planning
+  label: Open issues
+  source: issues_count
 created_at: 2026-04-13
 links: []
 todos:
@@ -20,6 +19,15 @@ todos:
     done:        [done]
   ignore_labels: [duplicate, invalid, wontfix]
 churn:
-  enabled: false       # empty repo, nothing to clone
+  enabled: true
   since_days: 365
-  exclude_paths: []
+  exclude_paths:
+    - "**/node_modules/**"
+    - "**/.venv/**"
+    - "**/venv/**"
+    - "**/__pycache__/**"
+    - "**/dist/**"
+    - "**/build/**"
+    - "**/*.lock"
+    - "**/*.min.js"
+    - "package-lock.json"

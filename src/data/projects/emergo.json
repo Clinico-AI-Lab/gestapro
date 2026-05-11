@@ -1,41 +1,1509 @@
 {
   "slug": "emergo",
   "title": "Emergo",
-  "description": "Early-stage project — repo created, no commits yet. Description to come.\n",
-  "status": "planning",
+  "description": "Description to come.\n",
+  "status": "active",
   "tags": [],
   "links": [],
   "headline_metric": {
-    "label": "Status",
-    "source": "manual",
-    "value": "planning"
+    "label": "Open issues",
+    "source": "issues_count",
+    "value": 0
   },
-  "status_data": "empty",
+  "status_data": "ok",
   "repo": {
-    "owner": "clinicoailab",
+    "owner": "Clinico-AI-Lab",
     "name": "emergo",
-    "url": "https://github.com/clinicoailab/emergo",
-    "default_branch": "main",
-    "pushed_at": "2026-04-13T07:15:01Z",
-    "languages": {},
+    "url": "https://github.com/Clinico-AI-Lab/emergo",
+    "default_branch": "master",
+    "pushed_at": "2026-05-11T12:11:35Z",
+    "languages": {
+      "Python": 657968,
+      "HTML": 33701
+    },
     "open_issues": 0,
     "open_prs": 0,
-    "contributors": [],
+    "contributors": [
+      {
+        "login": "clinicoailab",
+        "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+        "contributions": 10,
+        "html_url": "https://github.com/clinicoailab"
+      }
+    ],
     "size_kb": 0,
-    "is_empty": true
+    "is_empty": false
   },
   "activity": {
-    "weeks": []
+    "weeks": [
+      {
+        "week": 1747526400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1748131200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1748736000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1749340800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1749945600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1750550400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1751155200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1751760000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1752364800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1752969600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1753574400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1754179200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1754784000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1755388800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1755993600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1756598400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1757203200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1757808000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1758412800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1759017600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1759622400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1760227200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1760832000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1761436800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1762041600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1762646400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1763251200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1763856000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1764460800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1765065600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1765670400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1766275200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1766880000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1767484800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1768089600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1768694400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1769299200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1769904000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1770508800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1771113600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1771718400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1772323200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1772928000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1773532800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1774137600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1774742400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1775347200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1775952000,
+        "total": 6,
+        "days": [
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1776556800,
+        "total": 3,
+        "days": [
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1777161600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1777766400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1778371200,
+        "total": 1,
+        "days": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
   },
-  "commits": [],
+  "commits": [
+    {
+      "sha": "07b657bf7487de6335dacfd84f81d997fdcf96fb",
+      "short_sha": "07b657b",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-11T12:10:33Z",
+      "message": "Add user guide + flow docs, drop stale TODO, ignore runtime artifacts",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/07b657bf7487de6335dacfd84f81d997fdcf96fb"
+    },
+    {
+      "sha": "f4847f33ad0494799eb7debde8b47b359cd87245",
+      "short_sha": "f4847f3",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-22T12:23:49Z",
+      "message": "Add Stage-2/3 gap-driven literature search + v5 hypothesis-tree refinement",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/f4847f33ad0494799eb7debde8b47b359cd87245"
+    },
+    {
+      "sha": "220839b4a6a25beda459325d7b68d5fb249665b4",
+      "short_sha": "220839b",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-22T12:25:25Z",
+      "message": "mods stage 2",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/220839b4a6a25beda459325d7b68d5fb249665b4"
+    },
+    {
+      "sha": "3af6d5b241df29dc1e7e92799980c68ab219f576",
+      "short_sha": "3af6d5b",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-21T12:44:55Z",
+      "message": "Add seed-grounded gap harvester (Stage-2 Part B)",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/3af6d5b241df29dc1e7e92799980c68ab219f576"
+    },
+    {
+      "sha": "12c9bbde206c957a96d7dabc675bd994ee6e1263",
+      "short_sha": "12c9bbd",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-16T12:40:29Z",
+      "message": "Reweight scoring: 6-dim composite, breadth gate, depth-critic ratings",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/12c9bbde206c957a96d7dabc675bd994ee6e1263"
+    },
+    {
+      "sha": "9d28994e9db01f85e11dcd0447905114ee74d71c",
+      "short_sha": "9d28994",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-16T12:16:43Z",
+      "message": "Fix server.py: score ceiling, free-slot starvation, resource leaks, index stability",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/9d28994e9db01f85e11dcd0447905114ee74d71c"
+    },
+    {
+      "sha": "b211e89f387de1fed18aa1d2b750087cf1cac315",
+      "short_sha": "b211e89",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-16T12:16:23Z",
+      "message": "Fix evaluation and literature search pitfalls",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/b211e89f387de1fed18aa1d2b750087cf1cac315"
+    },
+    {
+      "sha": "9aa14569a9f9cb1096d89c589e5e697da1c9e325",
+      "short_sha": "9aa1456",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-16T12:16:05Z",
+      "message": "Add autoresearch core modules with built-in pitfall fixes",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/9aa14569a9f9cb1096d89c589e5e697da1c9e325"
+    },
+    {
+      "sha": "f3d3b9dad207dd582e193955b39bf99edee73326",
+      "short_sha": "f3d3b9d",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-16T12:15:50Z",
+      "message": "Add docs, test harnesses, iteration logs, and reports",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/f3d3b9dad207dd582e193955b39bf99edee73326"
+    },
+    {
+      "sha": "27dafccbdd1a486265c75ec65d8aeb3cef2a3f98",
+      "short_sha": "27dafcc",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-13T13:41:41Z",
+      "message": "Initial commit: Emergo MCP server",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/27dafccbdd1a486265c75ec65d8aeb3cef2a3f98"
+    }
+  ],
   "todos": {
     "todo": [],
     "in_progress": [],
     "done": []
   },
-  "churn": null,
-  "_generated_at": "2026-05-11T12:04:59.970Z",
-  "_warnings": [
-    "repo is empty (no commits)"
-  ]
+  "churn": {
+    "since": "2025-05-11T12:44:32.051Z",
+    "totals": {
+      "files": 72,
+      "commits": 10,
+      "adds": 34430,
+      "dels": 9419
+    },
+    "tree": {
+      "name": "<root>",
+      "churn": 43849,
+      "adds": 34430,
+      "dels": 9419,
+      "commits": 97,
+      "children": [
+        {
+          "name": "iteration_logs",
+          "churn": 18410,
+          "adds": 9205,
+          "dels": 9205,
+          "commits": 12,
+          "children": [
+            {
+              "name": "iter_004_20260415T094944.json",
+              "path": "iteration_logs/iter_004_20260415T094944.json",
+              "churn": 5426,
+              "adds": 2713,
+              "dels": 2713,
+              "commits": 2,
+              "last_touched": "2026-04-22T12:29:57.000Z"
+            },
+            {
+              "name": "iter_002_20260415T083648.json",
+              "path": "iteration_logs/iter_002_20260415T083648.json",
+              "churn": 5154,
+              "adds": 2577,
+              "dels": 2577,
+              "commits": 2,
+              "last_touched": "2026-04-22T12:29:57.000Z"
+            },
+            {
+              "name": "iter_005_20260415T103344.json",
+              "path": "iteration_logs/iter_005_20260415T103344.json",
+              "churn": 4436,
+              "adds": 2218,
+              "dels": 2218,
+              "commits": 2,
+              "last_touched": "2026-04-22T12:29:57.000Z"
+            },
+            {
+              "name": "iter_006_20260415T111957.json",
+              "path": "iteration_logs/iter_006_20260415T111957.json",
+              "churn": 3238,
+              "adds": 1619,
+              "dels": 1619,
+              "commits": 2,
+              "last_touched": "2026-04-22T12:29:57.000Z"
+            },
+            {
+              "name": "iter_001_20260415T083341.json",
+              "path": "iteration_logs/iter_001_20260415T083341.json",
+              "churn": 78,
+              "adds": 39,
+              "dels": 39,
+              "commits": 2,
+              "last_touched": "2026-04-22T12:29:57.000Z"
+            },
+            {
+              "name": "iter_003_20260415T092746.json",
+              "path": "iteration_logs/iter_003_20260415T092746.json",
+              "churn": 78,
+              "adds": 39,
+              "dels": 39,
+              "commits": 2,
+              "last_touched": "2026-04-22T12:29:57.000Z"
+            }
+          ]
+        },
+        {
+          "name": "server.py",
+          "path": "server.py",
+          "churn": 3817,
+          "adds": 3725,
+          "dels": 92,
+          "commits": 5,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "test_output",
+          "churn": 5079,
+          "adds": 5079,
+          "dels": 0,
+          "commits": 13,
+          "children": [
+            {
+              "name": "availability_report.json",
+              "path": "test_output/availability_report.json",
+              "churn": 2778,
+              "adds": 2778,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            },
+            {
+              "name": "bibliography.json",
+              "path": "test_output/bibliography.json",
+              "churn": 856,
+              "adds": 856,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            },
+            {
+              "name": "iteration_1_candidates.json",
+              "path": "test_output/iteration_1_candidates.json",
+              "churn": 740,
+              "adds": 740,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            },
+            {
+              "name": "iteration_1.json",
+              "path": "test_output/iteration_1.json",
+              "churn": 358,
+              "adds": 358,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            },
+            {
+              "name": "paywalled_dois.json",
+              "path": "test_output/paywalled_dois.json",
+              "churn": 166,
+              "adds": 166,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            },
+            {
+              "name": "iteration_1_ranked.txt",
+              "path": "test_output/iteration_1_ranked.txt",
+              "churn": 51,
+              "adds": 51,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            },
+            {
+              "name": "iteration_1_adds.json",
+              "path": "test_output/iteration_1_adds.json",
+              "churn": 50,
+              "adds": 50,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            },
+            {
+              "name": "iteration_1_fulltext_adds.json",
+              "path": "test_output/iteration_1_fulltext_adds.json",
+              "churn": 50,
+              "adds": 50,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            },
+            {
+              "name": "iteration_1_searches.json",
+              "path": "test_output/iteration_1_searches.json",
+              "churn": 30,
+              "adds": 30,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            },
+            {
+              "name": "first_test.png",
+              "path": "test_output/first_test.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            },
+            {
+              "name": "granularity_scrape.png",
+              "path": "test_output/granularity_scrape.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            },
+            {
+              "name": "iteration_1_report.png",
+              "path": "test_output/iteration_1_report.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            },
+            {
+              "name": "pipeline_report.png",
+              "path": "test_output/pipeline_report.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-16T12:15:50.000Z"
+            }
+          ]
+        },
+        {
+          "name": "gap_harvester.py",
+          "path": "gap_harvester.py",
+          "churn": 1056,
+          "adds": 1042,
+          "dels": 14,
+          "commits": 2,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "fulltext.py",
+          "path": "fulltext.py",
+          "churn": 1045,
+          "adds": 1029,
+          "dels": 16,
+          "commits": 2,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "emergo_guide.html",
+          "path": "emergo_guide.html",
+          "churn": 1019,
+          "adds": 1019,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-11T12:10:33.000Z"
+        },
+        {
+          "name": "literature.py",
+          "path": "literature.py",
+          "churn": 980,
+          "adds": 972,
+          "dels": 8,
+          "commits": 3,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "scoring.py",
+          "path": "scoring.py",
+          "churn": 897,
+          "adds": 860,
+          "dels": 37,
+          "commits": 3,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "autoresearch.py",
+          "path": "autoresearch.py",
+          "churn": 751,
+          "adds": 748,
+          "dels": 3,
+          "commits": 3,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "gap_search.py",
+          "path": "gap_search.py",
+          "churn": 672,
+          "adds": 672,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "evaluation.py",
+          "path": "evaluation.py",
+          "churn": 576,
+          "adds": 576,
+          "dels": 0,
+          "commits": 2,
+          "last_touched": "2026-04-16T12:16:23.000Z"
+        },
+        {
+          "name": "tests",
+          "churn": 1419,
+          "adds": 1417,
+          "dels": 2,
+          "commits": 5,
+          "children": [
+            {
+              "name": "test_gap_search.py",
+              "path": "tests/test_gap_search.py",
+              "churn": 544,
+              "adds": 544,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-22T12:29:57.000Z"
+            },
+            {
+              "name": "test_gap_harvester.py",
+              "path": "tests/test_gap_harvester.py",
+              "churn": 466,
+              "adds": 464,
+              "dels": 2,
+              "commits": 2,
+              "last_touched": "2026-04-22T12:29:57.000Z"
+            },
+            {
+              "name": "test_hypothesis_tree.py",
+              "path": "tests/test_hypothesis_tree.py",
+              "churn": 299,
+              "adds": 299,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-22T12:29:57.000Z"
+            },
+            {
+              "name": "test_title_check.py",
+              "path": "tests/test_title_check.py",
+              "churn": 110,
+              "adds": 110,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-04-22T12:29:57.000Z"
+            }
+          ]
+        },
+        {
+          "name": "gap_viz.py",
+          "path": "gap_viz.py",
+          "churn": 445,
+          "adds": 445,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-21T12:44:55.000Z"
+        },
+        {
+          "name": "hypothesis_tree.py",
+          "path": "hypothesis_tree.py",
+          "churn": 439,
+          "adds": 439,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "test_deep_research.py",
+          "path": "test_deep_research.py",
+          "churn": 433,
+          "adds": 433,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-16T12:15:50.000Z"
+        },
+        {
+          "name": "run_seed_bg.py",
+          "path": "run_seed_bg.py",
+          "churn": 422,
+          "adds": 422,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "run_resolve_remainder_bg.py",
+          "path": "run_resolve_remainder_bg.py",
+          "churn": 369,
+          "adds": 369,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "run_cycle_bg.py",
+          "path": "run_cycle_bg.py",
+          "churn": 353,
+          "adds": 353,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "run_seed_ungraded_bg.py",
+          "path": "run_seed_ungraded_bg.py",
+          "churn": 352,
+          "adds": 352,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "iteration_report.py",
+          "path": "iteration_report.py",
+          "churn": 309,
+          "adds": 309,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-16T12:15:50.000Z"
+        },
+        {
+          "name": "run_title_check_bg.py",
+          "path": "run_title_check_bg.py",
+          "churn": 308,
+          "adds": 308,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "run_grade_bg.py",
+          "path": "run_grade_bg.py",
+          "churn": 288,
+          "adds": 288,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "run_regrade_bg.py",
+          "path": "run_regrade_bg.py",
+          "churn": 282,
+          "adds": 282,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "run_refinement_bg.py",
+          "path": "run_refinement_bg.py",
+          "churn": 275,
+          "adds": 275,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "pipeline_report.py",
+          "path": "pipeline_report.py",
+          "churn": 275,
+          "adds": 275,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-16T12:15:50.000Z"
+        },
+        {
+          "name": "run_gap_harvest_bg.py",
+          "path": "run_gap_harvest_bg.py",
+          "churn": 245,
+          "adds": 244,
+          "dels": 1,
+          "commits": 2,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "run_gap_search_bg.py",
+          "path": "run_gap_search_bg.py",
+          "churn": 244,
+          "adds": 244,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "pool.py",
+          "path": "pool.py",
+          "churn": 241,
+          "adds": 241,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "iteration_log.py",
+          "path": "iteration_log.py",
+          "churn": 216,
+          "adds": 216,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-16T12:16:05.000Z"
+        },
+        {
+          "name": "run_iteration.py",
+          "path": "run_iteration.py",
+          "churn": 213,
+          "adds": 213,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-16T12:15:50.000Z"
+        },
+        {
+          "name": "ADMIN_SETUP.md",
+          "path": "ADMIN_SETUP.md",
+          "churn": 207,
+          "adds": 207,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-13T13:41:41.000Z"
+        },
+        {
+          "name": "idea_gen.py",
+          "path": "idea_gen.py",
+          "churn": 206,
+          "adds": 206,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "leymans_limitations.md",
+          "path": "leymans_limitations.md",
+          "churn": 192,
+          "adds": 192,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-11T12:10:33.000Z"
+        },
+        {
+          "name": "run_unload_bg.py",
+          "path": "run_unload_bg.py",
+          "churn": 176,
+          "adds": 176,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "EMERGO_OVERVIEW.md",
+          "path": "EMERGO_OVERVIEW.md",
+          "churn": 174,
+          "adds": 174,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-16T12:15:50.000Z"
+        },
+        {
+          "name": "run_retitle_bg.py",
+          "path": "run_retitle_bg.py",
+          "churn": 157,
+          "adds": 157,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "usage.py",
+          "path": "usage.py",
+          "churn": 146,
+          "adds": 146,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-13T13:41:41.000Z"
+        },
+        {
+          "name": "websearch.py",
+          "path": "websearch.py",
+          "churn": 146,
+          "adds": 146,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-13T13:41:41.000Z"
+        },
+        {
+          "name": "USER_GUIDE.md",
+          "path": "USER_GUIDE.md",
+          "churn": 140,
+          "adds": 140,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-11T12:10:33.000Z"
+        },
+        {
+          "name": "config.py",
+          "path": "config.py",
+          "churn": 137,
+          "adds": 137,
+          "dels": 0,
+          "commits": 2,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "grading.py",
+          "path": "grading.py",
+          "churn": 135,
+          "adds": 135,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "title_check.py",
+          "path": "title_check.py",
+          "churn": 134,
+          "adds": 134,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "batch_add_sources.py",
+          "path": "batch_add_sources.py",
+          "churn": 122,
+          "adds": 121,
+          "dels": 1,
+          "commits": 2,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "report_combined_grades.py",
+          "path": "report_combined_grades.py",
+          "churn": 93,
+          "adds": 93,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "TODO.md",
+          "path": "TODO.md",
+          "churn": 80,
+          "adds": 40,
+          "dels": 40,
+          "commits": 2,
+          "last_touched": "2026-05-11T12:10:33.000Z"
+        },
+        {
+          "name": "bootstrap_seed.py",
+          "path": "bootstrap_seed.py",
+          "churn": 67,
+          "adds": 67,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": "_wipe_nlm.py",
+          "path": "_wipe_nlm.py",
+          "churn": 45,
+          "adds": 45,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-22T12:29:57.000Z"
+        },
+        {
+          "name": ".gitignore",
+          "path": ".gitignore",
+          "churn": 27,
+          "adds": 27,
+          "dels": 0,
+          "commits": 2,
+          "last_touched": "2026-05-11T12:10:33.000Z"
+        },
+        {
+          "name": "emergo.service",
+          "path": "emergo.service",
+          "churn": 15,
+          "adds": 15,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-13T13:41:41.000Z"
+        },
+        {
+          "name": "# EMERGO Flow logic v1.md",
+          "path": "# EMERGO Flow logic v1.md",
+          "churn": 12,
+          "adds": 12,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-11T12:10:33.000Z"
+        },
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "churn": 8,
+          "adds": 8,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-04-13T13:41:41.000Z"
+        },
+        {
+          "name": "emergo_v1.png",
+          "path": "emergo_v1.png",
+          "churn": 0,
+          "adds": 0,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-11T12:10:33.000Z"
+        }
+      ]
+    }
+  },
+  "_generated_at": "2026-05-11T12:44:32.052Z",
+  "_warnings": []
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T12:05:08.723Z",
+  "generated_at": "2026-05-11T12:44:38.214Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -38,16 +38,16 @@
     {
       "slug": "emergo",
       "title": "Emergo",
-      "status": "planning",
+      "status": "active",
       "tags": [],
-      "pushed_at": "2026-04-13T07:15:01Z",
+      "pushed_at": "2026-05-11T12:11:35Z",
       "open_issues": 0,
       "open_prs": 0,
-      "languages_top": null,
+      "languages_top": "Python",
       "headline_metric": {
-        "label": "Status",
-        "source": "manual",
-        "value": "planning"
+        "label": "Open issues",
+        "source": "issues_count",
+        "value": 0
       },
       "sparkline_12w": [
         0,
@@ -57,13 +57,13 @@
         0,
         0,
         0,
+        6,
+        3,
         0,
         0,
-        0,
-        0,
-        0
+        1
       ],
-      "description": "Early-stage project — repo created, no commits yet. Description to come.\n"
+      "description": "Description to come.\n"
     },
     {
       "slug": "gestapro",
@@ -75,7 +75,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-11T11:48:18Z",
+      "pushed_at": "2026-05-11T12:06:32Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -96,19 +96,20 @@
         0,
         0,
         0,
-        2
+        3
       ],
-      "description": "This dashboard. Aggregates GitHub data from clinicoailab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
+      "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 3,
-    "commits_52w": 16,
+    "commits_52w": 27,
     "open_todos": 0,
     "languages": {
-      "Python": 143396,
+      "Python": 801364,
       "TeX": 42874,
-      "TypeScript": 40838,
+      "HTML": 33701,
+      "TypeScript": 43953,
       "Astro": 22181,
       "CSS": 7356,
       "JavaScript": 371
@@ -119,6 +120,7 @@
       "week": 1771718400,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "emergo": 0,
         "gestapro": 0
       },
       "total": 0
@@ -127,6 +129,7 @@
       "week": 1772323200,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "emergo": 0,
         "gestapro": 0
       },
       "total": 0
@@ -135,6 +138,7 @@
       "week": 1772928000,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "emergo": 0,
         "gestapro": 0
       },
       "total": 0
@@ -143,6 +147,7 @@
       "week": 1773532800,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "emergo": 0,
         "gestapro": 0
       },
       "total": 0
@@ -151,6 +156,7 @@
       "week": 1774137600,
       "per_project": {
         "activa-ldl-heavy": 9,
+        "emergo": 0,
         "gestapro": 0
       },
       "total": 9
@@ -159,6 +165,7 @@
       "week": 1774742400,
       "per_project": {
         "activa-ldl-heavy": 1,
+        "emergo": 0,
         "gestapro": 0
       },
       "total": 1
@@ -167,6 +174,7 @@
       "week": 1775347200,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "emergo": 0,
         "gestapro": 0
       },
       "total": 0
@@ -175,22 +183,25 @@
       "week": 1775952000,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "emergo": 6,
         "gestapro": 0
       },
-      "total": 0
+      "total": 6
     },
     {
       "week": 1776556800,
       "per_project": {
         "activa-ldl-heavy": 1,
+        "emergo": 3,
         "gestapro": 0
       },
-      "total": 1
+      "total": 4
     },
     {
       "week": 1777161600,
       "per_project": {
         "activa-ldl-heavy": 3,
+        "emergo": 0,
         "gestapro": 0
       },
       "total": 3
@@ -199,6 +210,7 @@
       "week": 1777766400,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "emergo": 0,
         "gestapro": 0
       },
       "total": 0
@@ -207,12 +219,35 @@
       "week": 1778371200,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "gestapro": 2
+        "emergo": 1,
+        "gestapro": 3
       },
-      "total": 2
+      "total": 4
     }
   ],
   "recent_activity": [
+    {
+      "sha": "07b657bf7487de6335dacfd84f81d997fdcf96fb",
+      "short_sha": "07b657b",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-11T12:10:33Z",
+      "message": "Add user guide + flow docs, drop stale TODO, ignore runtime artifacts",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/07b657bf7487de6335dacfd84f81d997fdcf96fb",
+      "project_slug": "emergo",
+      "project_title": "Emergo"
+    },
+    {
+      "sha": "8568e2e316a3904c71fe5c1837b10bc359f73c05",
+      "short_sha": "8568e2e",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-11T12:05:59Z",
+      "message": "fix: derive activity from git log + robust empty-repo detection",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/8568e2e316a3904c71fe5c1837b10bc359f73c05",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "fae2e2a8baf778b736aa7a53f8037caf6a0deb90",
       "short_sha": "fae2e2a",
@@ -220,7 +255,7 @@
       "author_avatar_url": null,
       "date": "2026-05-11T11:48:17Z",
       "message": "data: refresh 2026-05-11T11:48:17Z",
-      "url": "https://github.com/clinicoailab/gestapro/commit/fae2e2a8baf778b736aa7a53f8037caf6a0deb90",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/fae2e2a8baf778b736aa7a53f8037caf6a0deb90",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
     },
@@ -231,7 +266,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-05-11T11:28:16Z",
       "message": "init: gestapro dashboard skeleton + first data snapshot",
-      "url": "https://github.com/clinicoailab/gestapro/commit/1e46fcdab20ac035403091f92593a9cecd1231ca",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/1e46fcdab20ac035403091f92593a9cecd1231ca",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
     },
@@ -242,7 +277,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-04-30T12:29:17Z",
       "message": "remove calibration/ directory",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/1bbd4d8238eab67e89cf03065c340801c1e872ef",
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/1bbd4d8238eab67e89cf03065c340801c1e872ef",
       "project_slug": "activa-ldl-heavy",
       "project_title": "ACTIVA-LDL Heavy"
     },
@@ -253,7 +288,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-04-30T12:26:25Z",
       "message": "fix: enforce bit-determinism across all LLM stages",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/647da9ca88f35368a4c82a0d2a40e5533e62f67d",
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/647da9ca88f35368a4c82a0d2a40e5533e62f67d",
       "project_slug": "activa-ldl-heavy",
       "project_title": "ACTIVA-LDL Heavy"
     },
@@ -264,7 +299,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-04-30T07:35:29Z",
       "message": "refactor: consolidate run dirs under runs/ subtree",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/bddcea2a75193efcb5f6ff975cf7c5ad7c279f31",
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/bddcea2a75193efcb5f6ff975cf7c5ad7c279f31",
       "project_slug": "activa-ldl-heavy",
       "project_title": "ACTIVA-LDL Heavy"
     },
@@ -275,9 +310,108 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-04-23T10:05:52Z",
       "message": "Clean repo + integrate pipeline as single orchestrator + Postgres DB",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/c8e6cb1f0799d7cbb4369caa9c3ed967f2b6d92b",
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/c8e6cb1f0799d7cbb4369caa9c3ed967f2b6d92b",
       "project_slug": "activa-ldl-heavy",
       "project_title": "ACTIVA-LDL Heavy"
+    },
+    {
+      "sha": "220839b4a6a25beda459325d7b68d5fb249665b4",
+      "short_sha": "220839b",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-22T12:25:25Z",
+      "message": "mods stage 2",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/220839b4a6a25beda459325d7b68d5fb249665b4",
+      "project_slug": "emergo",
+      "project_title": "Emergo"
+    },
+    {
+      "sha": "f4847f33ad0494799eb7debde8b47b359cd87245",
+      "short_sha": "f4847f3",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-22T12:23:49Z",
+      "message": "Add Stage-2/3 gap-driven literature search + v5 hypothesis-tree refinement",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/f4847f33ad0494799eb7debde8b47b359cd87245",
+      "project_slug": "emergo",
+      "project_title": "Emergo"
+    },
+    {
+      "sha": "3af6d5b241df29dc1e7e92799980c68ab219f576",
+      "short_sha": "3af6d5b",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-21T12:44:55Z",
+      "message": "Add seed-grounded gap harvester (Stage-2 Part B)",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/3af6d5b241df29dc1e7e92799980c68ab219f576",
+      "project_slug": "emergo",
+      "project_title": "Emergo"
+    },
+    {
+      "sha": "12c9bbde206c957a96d7dabc675bd994ee6e1263",
+      "short_sha": "12c9bbd",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-16T12:40:29Z",
+      "message": "Reweight scoring: 6-dim composite, breadth gate, depth-critic ratings",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/12c9bbde206c957a96d7dabc675bd994ee6e1263",
+      "project_slug": "emergo",
+      "project_title": "Emergo"
+    },
+    {
+      "sha": "9d28994e9db01f85e11dcd0447905114ee74d71c",
+      "short_sha": "9d28994",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-16T12:16:43Z",
+      "message": "Fix server.py: score ceiling, free-slot starvation, resource leaks, index stability",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/9d28994e9db01f85e11dcd0447905114ee74d71c",
+      "project_slug": "emergo",
+      "project_title": "Emergo"
+    },
+    {
+      "sha": "b211e89f387de1fed18aa1d2b750087cf1cac315",
+      "short_sha": "b211e89",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-16T12:16:23Z",
+      "message": "Fix evaluation and literature search pitfalls",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/b211e89f387de1fed18aa1d2b750087cf1cac315",
+      "project_slug": "emergo",
+      "project_title": "Emergo"
+    },
+    {
+      "sha": "9aa14569a9f9cb1096d89c589e5e697da1c9e325",
+      "short_sha": "9aa1456",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-16T12:16:05Z",
+      "message": "Add autoresearch core modules with built-in pitfall fixes",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/9aa14569a9f9cb1096d89c589e5e697da1c9e325",
+      "project_slug": "emergo",
+      "project_title": "Emergo"
+    },
+    {
+      "sha": "f3d3b9dad207dd582e193955b39bf99edee73326",
+      "short_sha": "f3d3b9d",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-16T12:15:50Z",
+      "message": "Add docs, test harnesses, iteration logs, and reports",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/f3d3b9dad207dd582e193955b39bf99edee73326",
+      "project_slug": "emergo",
+      "project_title": "Emergo"
+    },
+    {
+      "sha": "27dafccbdd1a486265c75ec65d8aeb3cef2a3f98",
+      "short_sha": "27dafcc",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-04-13T13:41:41Z",
+      "message": "Initial commit: Emergo MCP server",
+      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/27dafccbdd1a486265c75ec65d8aeb3cef2a3f98",
+      "project_slug": "emergo",
+      "project_title": "Emergo"
     },
     {
       "sha": "af0030bbd0719f2248532433b93e77b8ffe89336",
@@ -286,7 +420,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-30T07:09:48Z",
       "message": "Port adecuacion stage: JSON input, deterministic schema, stats logging",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/af0030bbd0719f2248532433b93e77b8ffe89336",
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/af0030bbd0719f2248532433b93e77b8ffe89336",
       "project_slug": "activa-ldl-heavy",
       "project_title": "ACTIVA-LDL Heavy"
     },
@@ -297,7 +431,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-27T13:34:10Z",
       "message": "Fix audit JSON parsing: strip JS-style // comments from R1 output",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/755afb8114a1c54adceea1613f1440da2c44179f",
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/755afb8114a1c54adceea1613f1440da2c44179f",
       "project_slug": "activa-ldl-heavy",
       "project_title": "ACTIVA-LDL Heavy"
     },
@@ -308,40 +442,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-27T13:03:14Z",
       "message": "Port adecuacion stage: JSON input, deterministic schema, stats logging",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/54a5985fe42f832c22a144e42724da52f3ab9e0f",
-      "project_slug": "activa-ldl-heavy",
-      "project_title": "ACTIVA-LDL Heavy"
-    },
-    {
-      "sha": "d63b01f066ecd75ea1e53c9ad342756b5be2443f",
-      "short_sha": "d63b01f",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-03-27T12:41:23Z",
-      "message": "Replace LLM schema validator with deterministic Python, fix risk grade corruption",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/d63b01f066ecd75ea1e53c9ad342756b5be2443f",
-      "project_slug": "activa-ldl-heavy",
-      "project_title": "ACTIVA-LDL Heavy"
-    },
-    {
-      "sha": "a2b13c713d9659d61d1f23c69e8ce690437568eb",
-      "short_sha": "a2b13c7",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-03-27T12:03:51Z",
-      "message": "Qwen n_parallel=10, replace Selenium with risk_calculator, updated TODOs",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/a2b13c713d9659d61d1f23c69e8ce690437568eb",
-      "project_slug": "activa-ldl-heavy",
-      "project_title": "ACTIVA-LDL Heavy"
-    },
-    {
-      "sha": "ff9726be4647cc23c3ae6dc0b0b59ecf0189a97f",
-      "short_sha": "ff9726b",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-03-27T10:27:36Z",
-      "message": "DeepSeek-R1 IQ4_XS n_parallel=2, updated TODOs",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/ff9726be4647cc23c3ae6dc0b0b59ecf0189a97f",
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/54a5985fe42f832c22a144e42724da52f3ab9e0f",
       "project_slug": "activa-ldl-heavy",
       "project_title": "ACTIVA-LDL Heavy"
     }

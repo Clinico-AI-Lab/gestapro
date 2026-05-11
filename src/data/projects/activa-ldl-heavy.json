@@ -16,9 +16,9 @@
   },
   "status_data": "ok",
   "repo": {
-    "owner": "clinicoailab",
+    "owner": "Clinico-AI-Lab",
     "name": "activa-ldl-heavy",
-    "url": "https://github.com/clinicoailab/activa-ldl-heavy",
+    "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy",
     "default_branch": "master",
     "pushed_at": "2026-04-30T12:29:18Z",
     "languages": {
@@ -726,7 +726,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-04-30T12:29:17Z",
       "message": "remove calibration/ directory",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/1bbd4d8238eab67e89cf03065c340801c1e872ef"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/1bbd4d8238eab67e89cf03065c340801c1e872ef"
     },
     {
       "sha": "647da9ca88f35368a4c82a0d2a40e5533e62f67d",
@@ -735,7 +735,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-04-30T12:26:25Z",
       "message": "fix: enforce bit-determinism across all LLM stages",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/647da9ca88f35368a4c82a0d2a40e5533e62f67d"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/647da9ca88f35368a4c82a0d2a40e5533e62f67d"
     },
     {
       "sha": "bddcea2a75193efcb5f6ff975cf7c5ad7c279f31",
@@ -744,7 +744,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-04-30T07:35:29Z",
       "message": "refactor: consolidate run dirs under runs/ subtree",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/bddcea2a75193efcb5f6ff975cf7c5ad7c279f31"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/bddcea2a75193efcb5f6ff975cf7c5ad7c279f31"
     },
     {
       "sha": "c8e6cb1f0799d7cbb4369caa9c3ed967f2b6d92b",
@@ -753,7 +753,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-04-23T10:05:52Z",
       "message": "Clean repo + integrate pipeline as single orchestrator + Postgres DB",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/c8e6cb1f0799d7cbb4369caa9c3ed967f2b6d92b"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/c8e6cb1f0799d7cbb4369caa9c3ed967f2b6d92b"
     },
     {
       "sha": "af0030bbd0719f2248532433b93e77b8ffe89336",
@@ -762,7 +762,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-30T07:09:48Z",
       "message": "Port adecuacion stage: JSON input, deterministic schema, stats logging",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/af0030bbd0719f2248532433b93e77b8ffe89336"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/af0030bbd0719f2248532433b93e77b8ffe89336"
     },
     {
       "sha": "755afb8114a1c54adceea1613f1440da2c44179f",
@@ -771,7 +771,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-27T13:34:10Z",
       "message": "Fix audit JSON parsing: strip JS-style // comments from R1 output",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/755afb8114a1c54adceea1613f1440da2c44179f"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/755afb8114a1c54adceea1613f1440da2c44179f"
     },
     {
       "sha": "54a5985fe42f832c22a144e42724da52f3ab9e0f",
@@ -780,7 +780,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-27T13:03:14Z",
       "message": "Port adecuacion stage: JSON input, deterministic schema, stats logging",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/54a5985fe42f832c22a144e42724da52f3ab9e0f"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/54a5985fe42f832c22a144e42724da52f3ab9e0f"
     },
     {
       "sha": "d63b01f066ecd75ea1e53c9ad342756b5be2443f",
@@ -789,7 +789,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-27T12:41:23Z",
       "message": "Replace LLM schema validator with deterministic Python, fix risk grade corruption",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/d63b01f066ecd75ea1e53c9ad342756b5be2443f"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/d63b01f066ecd75ea1e53c9ad342756b5be2443f"
     },
     {
       "sha": "a2b13c713d9659d61d1f23c69e8ce690437568eb",
@@ -798,7 +798,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-27T12:03:51Z",
       "message": "Qwen n_parallel=10, replace Selenium with risk_calculator, updated TODOs",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/a2b13c713d9659d61d1f23c69e8ce690437568eb"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/a2b13c713d9659d61d1f23c69e8ce690437568eb"
     },
     {
       "sha": "ff9726be4647cc23c3ae6dc0b0b59ecf0189a97f",
@@ -807,7 +807,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-27T10:27:36Z",
       "message": "DeepSeek-R1 IQ4_XS n_parallel=2, updated TODOs",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/ff9726be4647cc23c3ae6dc0b0b59ecf0189a97f"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/ff9726be4647cc23c3ae6dc0b0b59ecf0189a97f"
     },
     {
       "sha": "2861efe3b1b8f2ca6c608a83079790221358c7b9",
@@ -816,7 +816,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-26T12:22:38Z",
       "message": "MedGemma n_parallel=2, stats logging, updated OCR TODO",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/2861efe3b1b8f2ca6c608a83079790221358c7b9"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/2861efe3b1b8f2ca6c608a83079790221358c7b9"
     },
     {
       "sha": "56a73eaec333559914760551f55f6fb3a3e5b6ab",
@@ -825,7 +825,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-26T10:52:16Z",
       "message": "Fix stats logging",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/56a73eaec333559914760551f55f6fb3a3e5b6ab"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/56a73eaec333559914760551f55f6fb3a3e5b6ab"
     },
     {
       "sha": "ae7c8e78c5b28ca8bab59549e03b1e35172905a5",
@@ -834,7 +834,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-26T10:38:32Z",
       "message": "OCR refinements",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/ae7c8e78c5b28ca8bab59549e03b1e35172905a5"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/ae7c8e78c5b28ca8bab59549e03b1e35172905a5"
     },
     {
       "sha": "a6c49a2945559929bb545b43a99b54f6e63f0e95",
@@ -843,7 +843,7 @@
       "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
       "date": "2026-03-26T09:12:11Z",
       "message": "Initial commit",
-      "url": "https://github.com/clinicoailab/activa-ldl-heavy/commit/a6c49a2945559929bb545b43a99b54f6e63f0e95"
+      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/a6c49a2945559929bb545b43a99b54f6e63f0e95"
     }
   ],
   "todos": {
@@ -852,7 +852,7 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-11T12:05:08.718Z",
+    "since": "2025-05-11T12:44:38.210Z",
     "totals": {
       "files": 50,
       "commits": 14,
@@ -1373,6 +1373,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-11T12:05:08.719Z",
+  "_generated_at": "2026-05-11T12:44:38.210Z",
   "_warnings": []
 }

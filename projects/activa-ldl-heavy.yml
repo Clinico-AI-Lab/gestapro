@@ -1,10 +1,10 @@
 slug: activa-ldl-heavy
-repo: clinicoailab/activa-ldl-heavy
+repo: Clinico-AI-Lab/activa-ldl-heavy
 title: ACTIVA-LDL Heavy
 description: >
   Heavy-pipeline variant of the ACTIVA LDL stack. Production-grade
   benchmark harness — to be filled in with project details.
-owner: clinicoailab
+owner: Clinico-AI-Lab
 status: active
 tags: [python, agent, benchmark]
 headline_metric:

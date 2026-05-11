@@ -12,7 +12,7 @@ try {
   <div class="card">
     <h2>What it shows</h2>
     <p>
-      Aggregated project status for the <strong>clinicoailab</strong> AI lab. Each tracked project
+      Aggregated project status for the <strong>Clinico AI Lab</strong>. Each tracked project
       has a page with description, status, links, todos (from GitHub Issues), recent commits, a 52-week
       activity heatmap, file-path churn treemap (where coding effort is concentrated), languages
       breakdown, and contributors.
@@ -22,7 +22,7 @@ try {
   <div class="card">
     <h2>How it works</h2>
     <ol>
-      <li>Project metadata lives in <a href="https://github.com/clinicoailab/gestapro/tree/main/projects"><code>projects/&lt;slug&gt;.yml</code></a>.</li>
+      <li>Project metadata lives in <a href="https://github.com/Clinico-AI-Lab/gestapro/tree/main/projects"><code>projects/&lt;slug&gt;.yml</code></a>.</li>
       <li>A GitHub Actions workflow runs every 6 hours (and on demand): it fetches stats via the GitHub REST API and clones each tracked repo to compute per-file churn.</li>
       <li>Results are snapshotted as JSON files in <code>src/data/</code> and committed back to <code>main</code>.</li>
       <li>The Astro static site is built and deployed to GitHub Pages.</li>

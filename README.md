@@ -1,6 +1,6 @@
 # gestapro
 
-Project-management dashboard for the **clinicoailab** AI dev lab. Live at <https://clinicoailab.github.io/gestapro/>.
+Project-management dashboard for the **Clinico AI Lab**. Live at <https://clinico-ai-lab.github.io/gestapro/>.
 
 ## What it does
 

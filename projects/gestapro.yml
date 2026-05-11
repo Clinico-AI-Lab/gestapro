@@ -1,10 +1,10 @@
 slug: gestapro
-repo: clinicoailab/gestapro
+repo: Clinico-AI-Lab/gestapro
 title: Gestapro Dashboard
 description: >
-  This dashboard. Aggregates GitHub data from clinicoailab projects and
+  This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and
   renders a static site to GitHub Pages. Tracks itself for fun.
-owner: clinicoailab
+owner: Clinico-AI-Lab
 status: active
 tags: [meta, astro, typescript, dashboard]
 headline_metric:
@@ -13,8 +13,8 @@ headline_metric:
   value: 3
 created_at: 2026-05-11
 links:
-  - { label: Live site, url: "https://clinicoailab.github.io/gestapro/" }
-  - { label: Repo, url: "https://github.com/clinicoailab/gestapro" }
+  - { label: Live site, url: "https://clinico-ai-lab.github.io/gestapro/" }
+  - { label: Repo, url: "https://github.com/Clinico-AI-Lab/gestapro" }
 todos:
   enabled: false
   label_map:

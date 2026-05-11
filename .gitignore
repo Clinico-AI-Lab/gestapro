@@ -7,3 +7,4 @@ _work/
 !.env.example
 *.log
 .DS_Store
+CLAUDE.md
