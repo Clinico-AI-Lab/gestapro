@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T11:25:40.445Z",
+  "generated_at": "2026-05-11T11:48:17.651Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -75,10 +75,10 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-11T09:36:57Z",
+      "pushed_at": "2026-05-11T11:28:56Z",
       "open_issues": 0,
       "open_prs": 0,
-      "languages_top": null,
+      "languages_top": "TypeScript",
       "headline_metric": {
         "label": "Tracked repos",
         "source": "manual",
@@ -107,7 +107,11 @@
     "open_todos": 0,
     "languages": {
       "Python": 143396,
-      "TeX": 42874
+      "TeX": 42874,
+      "TypeScript": 40838,
+      "Astro": 22181,
+      "CSS": 7356,
+      "JavaScript": 371
     }
   },
   "weekly_stack": [],
