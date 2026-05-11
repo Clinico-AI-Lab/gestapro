@@ -30,12 +30,12 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-05-11T12:06:32Z",
+    "pushed_at": "2026-05-11T12:52:32Z",
     "languages": {
       "TypeScript": 43953,
-      "Astro": 22181,
+      "Astro": 22186,
       "CSS": 7356,
-      "JavaScript": 371
+      "JavaScript": 373
     },
     "open_issues": 0,
     "open_prs": 0,
@@ -43,11 +43,11 @@
       {
         "login": "clinicoailab",
         "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-        "contributions": 1,
+        "contributions": 3,
         "html_url": "https://github.com/clinicoailab"
       }
     ],
-    "size_kb": 116,
+    "size_kb": 123,
     "is_empty": false
   },
   "activity": {
@@ -717,10 +717,10 @@
       },
       {
         "week": 1778371200,
-        "total": 3,
+        "total": 4,
         "days": [
           0,
-          3,
+          4,
           0,
           0,
           0,
@@ -731,6 +731,15 @@
     ]
   },
   "commits": [
+    {
+      "sha": "4943905eaf1c9afb300021f155d893acf52848f2",
+      "short_sha": "4943905",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-11T12:52:21Z",
+      "message": "chore: migrate from user clinicoailab to Clinico-AI-Lab org",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/4943905eaf1c9afb300021f155d893acf52848f2"
+    },
     {
       "sha": "8568e2e316a3904c71fe5c1837b10bc359f73c05",
       "short_sha": "8568e2e",
@@ -765,26 +774,26 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-11T12:44:19.185Z",
+    "since": "2025-05-11T14:35:22.546Z",
     "totals": {
       "files": 47,
-      "commits": 3,
-      "adds": 2652,
-      "dels": 18
+      "commits": 4,
+      "adds": 2685,
+      "dels": 42
     },
     "tree": {
       "name": "<root>",
-      "churn": 2670,
-      "adds": 2652,
-      "dels": 18,
-      "commits": 51,
+      "churn": 2727,
+      "adds": 2685,
+      "dels": 42,
+      "commits": 60,
       "children": [
         {
           "name": "src",
-          "churn": 1229,
-          "adds": 1229,
-          "dels": 0,
-          "commits": 23,
+          "churn": 1241,
+          "adds": 1235,
+          "dels": 6,
+          "commits": 26,
           "children": [
             {
               "name": "styles",
@@ -806,26 +815,26 @@
             },
             {
               "name": "pages",
-              "churn": 356,
-              "adds": 356,
-              "dels": 0,
-              "commits": 4,
+              "churn": 362,
+              "adds": 359,
+              "dels": 3,
+              "commits": 6,
               "children": [
                 {
                   "name": "projects",
-                  "churn": 138,
-                  "adds": 138,
-                  "dels": 0,
-                  "commits": 1,
+                  "churn": 140,
+                  "adds": 139,
+                  "dels": 1,
+                  "commits": 2,
                   "children": [
                     {
                       "name": "[slug].astro",
                       "path": "src/pages/projects/[slug].astro",
-                      "churn": 138,
-                      "adds": 138,
-                      "dels": 0,
-                      "commits": 1,
-                      "last_touched": "2026-05-11T11:28:16.000Z"
+                      "churn": 140,
+                      "adds": 139,
+                      "dels": 1,
+                      "commits": 2,
+                      "last_touched": "2026-05-11T12:52:21.000Z"
                     }
                   ]
                 },
@@ -850,11 +859,11 @@
                 {
                   "name": "about.astro",
                   "path": "src/pages/about.astro",
-                  "churn": 51,
-                  "adds": 51,
-                  "dels": 0,
-                  "commits": 1,
-                  "last_touched": "2026-05-11T11:28:16.000Z"
+                  "churn": 55,
+                  "adds": 53,
+                  "dels": 2,
+                  "commits": 2,
+                  "last_touched": "2026-05-11T12:52:21.000Z"
                 }
               ]
             },
@@ -1004,19 +1013,19 @@
             },
             {
               "name": "layouts",
-              "churn": 47,
-              "adds": 47,
-              "dels": 0,
-              "commits": 1,
+              "churn": 53,
+              "adds": 50,
+              "dels": 3,
+              "commits": 2,
               "children": [
                 {
                   "name": "Base.astro",
                   "path": "src/layouts/Base.astro",
-                  "churn": 47,
-                  "adds": 47,
-                  "dels": 0,
-                  "commits": 1,
-                  "last_touched": "2026-05-11T11:28:16.000Z"
+                  "churn": 53,
+                  "adds": 50,
+                  "dels": 3,
+                  "commits": 2,
+                  "last_touched": "2026-05-11T12:52:21.000Z"
                 }
               ]
             },
@@ -1212,6 +1221,42 @@
           ]
         },
         {
+          "name": "projects",
+          "churn": 138,
+          "adds": 122,
+          "dels": 16,
+          "commits": 6,
+          "children": [
+            {
+              "name": "emergo.yml",
+              "path": "projects/emergo.yml",
+              "churn": 51,
+              "adds": 42,
+              "dels": 9,
+              "commits": 2,
+              "last_touched": "2026-05-11T12:52:21.000Z"
+            },
+            {
+              "name": "gestapro.yml",
+              "path": "projects/gestapro.yml",
+              "churn": 46,
+              "adds": 41,
+              "dels": 5,
+              "commits": 2,
+              "last_touched": "2026-05-11T12:52:21.000Z"
+            },
+            {
+              "name": "activa-ldl-heavy.yml",
+              "path": "projects/activa-ldl-heavy.yml",
+              "churn": 41,
+              "adds": 39,
+              "dels": 2,
+              "commits": 2,
+              "last_touched": "2026-05-11T12:52:21.000Z"
+            }
+          ]
+        },
+        {
           "name": "package.json",
           "path": "package.json",
           "churn": 46,
@@ -1223,56 +1268,20 @@
         {
           "name": "README.md",
           "path": "README.md",
-          "churn": 40,
-          "adds": 40,
-          "dels": 0,
-          "commits": 1,
-          "last_touched": "2026-05-11T11:28:16.000Z"
-        },
-        {
-          "name": "projects",
-          "churn": 98,
-          "adds": 98,
-          "dels": 0,
-          "commits": 3,
-          "children": [
-            {
-              "name": "activa-ldl-heavy.yml",
-              "path": "projects/activa-ldl-heavy.yml",
-              "churn": 37,
-              "adds": 37,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-11T11:28:16.000Z"
-            },
-            {
-              "name": "gestapro.yml",
-              "path": "projects/gestapro.yml",
-              "churn": 36,
-              "adds": 36,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-11T11:28:16.000Z"
-            },
-            {
-              "name": "emergo.yml",
-              "path": "projects/emergo.yml",
-              "churn": 25,
-              "adds": 25,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-11T11:28:16.000Z"
-            }
-          ]
+          "churn": 42,
+          "adds": 41,
+          "dels": 1,
+          "commits": 2,
+          "last_touched": "2026-05-11T12:52:21.000Z"
         },
         {
           "name": "astro.config.mjs",
           "path": "astro.config.mjs",
-          "churn": 17,
-          "adds": 17,
-          "dels": 0,
-          "commits": 1,
-          "last_touched": "2026-05-11T11:28:16.000Z"
+          "churn": 19,
+          "adds": 18,
+          "dels": 1,
+          "commits": 2,
+          "last_touched": "2026-05-11T12:52:21.000Z"
         },
         {
           "name": "tsconfig.json",
@@ -1286,11 +1295,11 @@
         {
           "name": ".gitignore",
           "path": ".gitignore",
-          "churn": 9,
-          "adds": 9,
+          "churn": 10,
+          "adds": 10,
           "dels": 0,
-          "commits": 1,
-          "last_touched": "2026-05-11T11:28:16.000Z"
+          "commits": 2,
+          "last_touched": "2026-05-11T12:52:21.000Z"
         },
         {
           "name": ".env.example",
@@ -1331,6 +1340,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-11T12:44:19.187Z",
+  "_generated_at": "2026-05-11T14:35:22.546Z",
   "_warnings": []
 }
