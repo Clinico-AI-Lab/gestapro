@@ -3,7 +3,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { join, dirname } from "node:path";
 import picomatch from "picomatch";
-import type { ChurnConfig, ChurnNode, ChurnSnapshot } from "../types.js";
+import type { ActivityWeek, ChurnConfig, ChurnNode, ChurnSnapshot } from "../types.js";
 
 const execFileP = promisify(execFile);
 
@@ -15,14 +15,49 @@ interface FileChurn {
   last_touched: string;
 }
 
+export interface ChurnResult {
+  snapshot: ChurnSnapshot | null;
+  activity: ActivityWeek[] | null;
+}
+
+/** Sunday 00:00 UTC of the week containing `unixSec`. */
+function weekStartSec(unixSec: number): number {
+  const d = new Date(unixSec * 1000);
+  d.setUTCHours(0, 0, 0, 0);
+  d.setUTCDate(d.getUTCDate() - d.getUTCDay());
+  return Math.floor(d.getTime() / 1000);
+}
+
+/** Build a continuous 52-week zero-filled series ending at the current week's Sunday. */
+function buildWeekSeries(commitTimestamps: number[]): ActivityWeek[] {
+  const buckets = new Map<number, ActivityWeek>();
+  const nowWeekStart = weekStartSec(Math.floor(Date.now() / 1000));
+
+  for (let i = 51; i >= 0; i--) {
+    const w = nowWeekStart - i * 7 * 86400;
+    buckets.set(w, { week: w, total: 0, days: [0, 0, 0, 0, 0, 0, 0] });
+  }
+
+  for (const ct of commitTimestamps) {
+    const w = weekStartSec(ct);
+    const bucket = buckets.get(w);
+    if (!bucket) continue;          // older than 52 weeks — drop
+    const dayIdx = new Date(ct * 1000).getUTCDay();
+    bucket.days[dayIdx] += 1;
+    bucket.total += 1;
+  }
+
+  return Array.from(buckets.values()).sort((a, b) => a.week - b.week);
+}
+
 export async function fetchChurn(
   repoFull: string,
   defaultBranch: string,
   config: ChurnConfig,
   pat: string,
   workDir: string,
-): Promise<ChurnSnapshot | null> {
-  if (!config.enabled) return null;
+): Promise<ChurnResult> {
+  if (!config.enabled) return { snapshot: null, activity: null };
 
   const [owner, name] = repoFull.split("/");
   const slug = `${owner}-${name}`.replace(/[^a-z0-9-]/gi, "-");
@@ -47,12 +82,15 @@ export async function fetchChurn(
     ], { timeout: 120_000 });
   } catch (e) {
     console.warn(`[churn] clone failed for ${repoFull}: ${(e as Error).message}`);
-    return null;
+    return { snapshot: null, activity: null };
   }
 
   let stdout = "";
   try {
-    const since = new Date(Date.now() - config.since_days * 24 * 60 * 60 * 1000).toISOString();
+    // For activity, pull the last 52 weeks of commits regardless of churn.since_days,
+    // and for churn aggregate use the configured window (whichever is wider).
+    const sinceMs = Math.max(config.since_days, 366) * 24 * 60 * 60 * 1000;
+    const since = new Date(Date.now() - sinceMs).toISOString();
     const result = await execFileP(
       "git",
       [
@@ -70,14 +108,17 @@ export async function fetchChurn(
   } catch (e) {
     console.warn(`[churn] git log failed for ${repoFull}: ${(e as Error).message}`);
     rmSync(cloneDir, { recursive: true, force: true });
-    return null;
+    return { snapshot: null, activity: null };
   }
 
   const isExcluded = picomatch(config.exclude_paths, { dot: true });
+  const churnCutoffSec = Math.floor((Date.now() - config.since_days * 24 * 60 * 60 * 1000) / 1000);
 
   const fileMap = new Map<string, FileChurn>();
+  const commitTimestamps: number[] = [];
   let totalCommits = 0;
   let currentCommitTs = 0;
+  let currentInChurnWindow = false;
 
   for (const rawLine of stdout.split("\n")) {
     const line = rawLine.trim();
@@ -85,9 +126,12 @@ export async function fetchChurn(
     if (line.startsWith("COMMIT|")) {
       const parts = line.split("|");
       currentCommitTs = Number(parts[2]) || 0;
-      totalCommits++;
+      currentInChurnWindow = currentCommitTs >= churnCutoffSec;
+      if (currentInChurnWindow) totalCommits++;
+      if (currentCommitTs > 0) commitTimestamps.push(currentCommitTs);
       continue;
     }
+    if (!currentInChurnWindow) continue;     // numstat lines belong to current commit
     // numstat: adds<TAB>dels<TAB>path  (path may contain " => " for renames)
     const m = line.match(/^(\d+|-)\t(\d+|-)\t(.+)$/);
     if (!m) continue;
@@ -136,11 +180,15 @@ export async function fetchChurn(
     { files: top.length, commits: totalCommits, adds: 0, dels: 0 },
   );
 
-  return {
+  const snapshot: ChurnSnapshot = {
     since: new Date(Date.now() - config.since_days * 24 * 60 * 60 * 1000).toISOString(),
     totals,
     tree: buildTree(top),
   };
+
+  const activity = buildWeekSeries(commitTimestamps);
+
+  return { snapshot, activity };
 }
 
 function buildTree(files: Array<FileChurn & { churn: number }>): ChurnNode {

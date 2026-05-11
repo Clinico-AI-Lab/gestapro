@@ -7,6 +7,20 @@ export async function fetchRepoMeta(octokit: GestaproOctokit, repoFull: string):
   const repoResp = await octokit.repos.get({ owner, repo: name });
   const r = repoResp.data;
 
+  // Definitive empty-repo check: `size` is asynchronously computed and lags for minutes
+  // after a fresh push. Probing /commits is authoritative — empty array or HTTP 409.
+  let isEmpty = false;
+  try {
+    const head = await octokit.repos.listCommits({ owner, repo: name, per_page: 1 });
+    isEmpty = head.data.length === 0;
+  } catch (e) {
+    if ((e as { status?: number }).status === 409) {
+      isEmpty = true;
+    } else {
+      console.warn(`[repo-meta] commit probe failed for ${repoFull}: ${(e as Error).message}`);
+    }
+  }
+
   let languages: Record<string, number> = {};
   try {
     languages = (await octokit.repos.listLanguages({ owner, repo: name })).data as Record<string, number>;
@@ -29,7 +43,7 @@ export async function fetchRepoMeta(octokit: GestaproOctokit, repoFull: string):
   const openIssues = Math.max(0, (r.open_issues_count ?? 0) - openPrs);
 
   let contributors: Contributor[] = [];
-  if ((r.size ?? 0) > 0) {
+  if (!isEmpty) {
     try {
       const cResp = await octokit.repos.listContributors({ owner, repo: name, per_page: 10, anon: "false" });
       contributors = cResp.data
@@ -56,6 +70,6 @@ export async function fetchRepoMeta(octokit: GestaproOctokit, repoFull: string):
     open_prs: openPrs,
     contributors,
     size_kb: r.size ?? 0,
-    is_empty: (r.size ?? 0) === 0,
+    is_empty: isEmpty,
   };
 }

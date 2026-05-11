@@ -24,13 +24,13 @@
     "source": "manual",
     "value": 3
   },
-  "status_data": "empty",
+  "status_data": "ok",
   "repo": {
     "owner": "clinicoailab",
     "name": "gestapro",
     "url": "https://github.com/clinicoailab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-05-11T11:28:56Z",
+    "pushed_at": "2026-05-11T11:48:18Z",
     "languages": {
       "TypeScript": 40838,
       "Astro": 22181,
@@ -39,22 +39,1289 @@
     },
     "open_issues": 0,
     "open_prs": 0,
-    "contributors": [],
+    "contributors": [
+      {
+        "login": "clinicoailab",
+        "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+        "contributions": 1,
+        "html_url": "https://github.com/clinicoailab"
+      }
+    ],
     "size_kb": 0,
-    "is_empty": true
+    "is_empty": false
   },
   "activity": {
-    "weeks": []
+    "weeks": [
+      {
+        "week": 1747526400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1748131200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1748736000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1749340800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1749945600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1750550400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1751155200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1751760000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1752364800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1752969600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1753574400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1754179200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1754784000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1755388800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1755993600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1756598400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1757203200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1757808000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1758412800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1759017600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1759622400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1760227200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1760832000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1761436800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1762041600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1762646400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1763251200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1763856000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1764460800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1765065600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1765670400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1766275200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1766880000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1767484800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1768089600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1768694400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1769299200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1769904000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1770508800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1771113600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1771718400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1772323200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1772928000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1773532800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1774137600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1774742400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1775347200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1775952000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1776556800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1777161600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1777766400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1778371200,
+        "total": 2,
+        "days": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
   },
-  "commits": [],
+  "commits": [
+    {
+      "sha": "fae2e2a8baf778b736aa7a53f8037caf6a0deb90",
+      "short_sha": "fae2e2a",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-11T11:48:17Z",
+      "message": "data: refresh 2026-05-11T11:48:17Z",
+      "url": "https://github.com/clinicoailab/gestapro/commit/fae2e2a8baf778b736aa7a53f8037caf6a0deb90"
+    },
+    {
+      "sha": "1e46fcdab20ac035403091f92593a9cecd1231ca",
+      "short_sha": "1e46fcd",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-11T11:28:16Z",
+      "message": "init: gestapro dashboard skeleton + first data snapshot",
+      "url": "https://github.com/clinicoailab/gestapro/commit/1e46fcdab20ac035403091f92593a9cecd1231ca"
+    }
+  ],
   "todos": {
     "todo": [],
     "in_progress": [],
     "done": []
   },
-  "churn": null,
-  "_generated_at": "2026-05-11T11:43:08.274Z",
-  "_warnings": [
-    "repo is empty (no commits)"
-  ]
+  "churn": {
+    "since": "2025-05-11T12:04:48.185Z",
+    "totals": {
+      "files": 47,
+      "commits": 2,
+      "adds": 2562,
+      "dels": 0
+    },
+    "tree": {
+      "name": "<root>",
+      "churn": 2562,
+      "adds": 2562,
+      "dels": 0,
+      "commits": 47,
+      "children": [
+        {
+          "name": "src",
+          "churn": 1229,
+          "adds": 1229,
+          "dels": 0,
+          "commits": 23,
+          "children": [
+            {
+              "name": "styles",
+              "churn": 282,
+              "adds": 282,
+              "dels": 0,
+              "commits": 1,
+              "children": [
+                {
+                  "name": "global.css",
+                  "path": "src/styles/global.css",
+                  "churn": 282,
+                  "adds": 282,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                }
+              ]
+            },
+            {
+              "name": "pages",
+              "churn": 356,
+              "adds": 356,
+              "dels": 0,
+              "commits": 4,
+              "children": [
+                {
+                  "name": "projects",
+                  "churn": 138,
+                  "adds": 138,
+                  "dels": 0,
+                  "commits": 1,
+                  "children": [
+                    {
+                      "name": "[slug].astro",
+                      "path": "src/pages/projects/[slug].astro",
+                      "churn": 138,
+                      "adds": 138,
+                      "dels": 0,
+                      "commits": 1,
+                      "last_touched": "2026-05-11T11:28:16.000Z"
+                    }
+                  ]
+                },
+                {
+                  "name": "index.astro",
+                  "path": "src/pages/index.astro",
+                  "churn": 100,
+                  "adds": 100,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "activity.astro",
+                  "path": "src/pages/activity.astro",
+                  "churn": 67,
+                  "adds": 67,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "about.astro",
+                  "path": "src/pages/about.astro",
+                  "churn": 51,
+                  "adds": 51,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                }
+              ]
+            },
+            {
+              "name": "components",
+              "churn": 506,
+              "adds": 506,
+              "dels": 0,
+              "commits": 14,
+              "children": [
+                {
+                  "name": "islands",
+                  "churn": 286,
+                  "adds": 286,
+                  "dels": 0,
+                  "commits": 4,
+                  "children": [
+                    {
+                      "name": "ChurnTreemap.tsx",
+                      "path": "src/components/islands/ChurnTreemap.tsx",
+                      "churn": 118,
+                      "adds": 118,
+                      "dels": 0,
+                      "commits": 1,
+                      "last_touched": "2026-05-11T11:28:16.000Z"
+                    },
+                    {
+                      "name": "CalHeatmap.tsx",
+                      "path": "src/components/islands/CalHeatmap.tsx",
+                      "churn": 62,
+                      "adds": 62,
+                      "dels": 0,
+                      "commits": 1,
+                      "last_touched": "2026-05-11T11:28:16.000Z"
+                    },
+                    {
+                      "name": "LanguagesDonut.tsx",
+                      "path": "src/components/islands/LanguagesDonut.tsx",
+                      "churn": 55,
+                      "adds": 55,
+                      "dels": 0,
+                      "commits": 1,
+                      "last_touched": "2026-05-11T11:28:16.000Z"
+                    },
+                    {
+                      "name": "WeeklyStack.tsx",
+                      "path": "src/components/islands/WeeklyStack.tsx",
+                      "churn": 51,
+                      "adds": 51,
+                      "dels": 0,
+                      "commits": 1,
+                      "last_touched": "2026-05-11T11:28:16.000Z"
+                    }
+                  ]
+                },
+                {
+                  "name": "ProjectCard.astro",
+                  "path": "src/components/ProjectCard.astro",
+                  "churn": 45,
+                  "adds": 45,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "TodoList.astro",
+                  "path": "src/components/TodoList.astro",
+                  "churn": 45,
+                  "adds": 45,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "RecentCommits.astro",
+                  "path": "src/components/RecentCommits.astro",
+                  "churn": 35,
+                  "adds": 35,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "Contributors.astro",
+                  "path": "src/components/Contributors.astro",
+                  "churn": 23,
+                  "adds": 23,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "Sparkline.astro",
+                  "path": "src/components/Sparkline.astro",
+                  "churn": 21,
+                  "adds": 21,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "ChurnTreemap.astro",
+                  "path": "src/components/ChurnTreemap.astro",
+                  "churn": 16,
+                  "adds": 16,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "LinkList.astro",
+                  "path": "src/components/LinkList.astro",
+                  "churn": 11,
+                  "adds": 11,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "ActivityHeatmap.astro",
+                  "path": "src/components/ActivityHeatmap.astro",
+                  "churn": 9,
+                  "adds": 9,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "LanguagesChart.astro",
+                  "path": "src/components/LanguagesChart.astro",
+                  "churn": 9,
+                  "adds": 9,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "StatusBadge.astro",
+                  "path": "src/components/StatusBadge.astro",
+                  "churn": 6,
+                  "adds": 6,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                }
+              ]
+            },
+            {
+              "name": "layouts",
+              "churn": 47,
+              "adds": 47,
+              "dels": 0,
+              "commits": 1,
+              "children": [
+                {
+                  "name": "Base.astro",
+                  "path": "src/layouts/Base.astro",
+                  "churn": 47,
+                  "adds": 47,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                }
+              ]
+            },
+            {
+              "name": "lib",
+              "churn": 30,
+              "adds": 30,
+              "dels": 0,
+              "commits": 1,
+              "children": [
+                {
+                  "name": "format.ts",
+                  "path": "src/lib/format.ts",
+                  "churn": 30,
+                  "adds": 30,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                }
+              ]
+            },
+            {
+              "name": "types.d.ts",
+              "path": "src/types.d.ts",
+              "churn": 7,
+              "adds": 7,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-11T11:28:16.000Z"
+            },
+            {
+              "name": "env.d.ts",
+              "path": "src/env.d.ts",
+              "churn": 1,
+              "adds": 1,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-11T11:28:16.000Z"
+            }
+          ]
+        },
+        {
+          "name": "scripts",
+          "churn": 1008,
+          "adds": 1008,
+          "dels": 0,
+          "commits": 12,
+          "children": [
+            {
+              "name": "lib",
+              "churn": 653,
+              "adds": 653,
+              "dels": 0,
+              "commits": 9,
+              "children": [
+                {
+                  "name": "churn.ts",
+                  "path": "scripts/lib/churn.ts",
+                  "churn": 197,
+                  "adds": 197,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "issues.ts",
+                  "path": "scripts/lib/issues.ts",
+                  "churn": 98,
+                  "adds": 98,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "config.ts",
+                  "path": "scripts/lib/config.ts",
+                  "churn": 96,
+                  "adds": 96,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "aggregate.ts",
+                  "path": "scripts/lib/aggregate.ts",
+                  "churn": 84,
+                  "adds": 84,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "repo-meta.ts",
+                  "path": "scripts/lib/repo-meta.ts",
+                  "churn": 61,
+                  "adds": 61,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "activity.ts",
+                  "path": "scripts/lib/activity.ts",
+                  "churn": 51,
+                  "adds": 51,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "commits.ts",
+                  "path": "scripts/lib/commits.ts",
+                  "churn": 33,
+                  "adds": 33,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "octokit.ts",
+                  "path": "scripts/lib/octokit.ts",
+                  "churn": 24,
+                  "adds": 24,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                },
+                {
+                  "name": "write-snapshot.ts",
+                  "path": "scripts/lib/write-snapshot.ts",
+                  "churn": 9,
+                  "adds": 9,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                }
+              ]
+            },
+            {
+              "name": "fetch.ts",
+              "path": "scripts/fetch.ts",
+              "churn": 172,
+              "adds": 172,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-11T11:28:16.000Z"
+            },
+            {
+              "name": "types.ts",
+              "path": "scripts/types.ts",
+              "churn": 168,
+              "adds": 168,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-11T11:28:16.000Z"
+            },
+            {
+              "name": "validate.ts",
+              "path": "scripts/validate.ts",
+              "churn": 15,
+              "adds": 15,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-11T11:28:16.000Z"
+            }
+          ]
+        },
+        {
+          "name": ".github",
+          "churn": 96,
+          "adds": 96,
+          "dels": 0,
+          "commits": 1,
+          "children": [
+            {
+              "name": "workflows",
+              "churn": 96,
+              "adds": 96,
+              "dels": 0,
+              "commits": 1,
+              "children": [
+                {
+                  "name": "refresh.yml",
+                  "path": ".github/workflows/refresh.yml",
+                  "churn": 96,
+                  "adds": 96,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-11T11:28:16.000Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "package.json",
+          "path": "package.json",
+          "churn": 46,
+          "adds": 46,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-11T11:28:16.000Z"
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "churn": 40,
+          "adds": 40,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-11T11:28:16.000Z"
+        },
+        {
+          "name": "projects",
+          "churn": 98,
+          "adds": 98,
+          "dels": 0,
+          "commits": 3,
+          "children": [
+            {
+              "name": "activa-ldl-heavy.yml",
+              "path": "projects/activa-ldl-heavy.yml",
+              "churn": 37,
+              "adds": 37,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-11T11:28:16.000Z"
+            },
+            {
+              "name": "gestapro.yml",
+              "path": "projects/gestapro.yml",
+              "churn": 36,
+              "adds": 36,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-11T11:28:16.000Z"
+            },
+            {
+              "name": "emergo.yml",
+              "path": "projects/emergo.yml",
+              "churn": 25,
+              "adds": 25,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-11T11:28:16.000Z"
+            }
+          ]
+        },
+        {
+          "name": "astro.config.mjs",
+          "path": "astro.config.mjs",
+          "churn": 17,
+          "adds": 17,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-11T11:28:16.000Z"
+        },
+        {
+          "name": "tsconfig.json",
+          "path": "tsconfig.json",
+          "churn": 16,
+          "adds": 16,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-11T11:28:16.000Z"
+        },
+        {
+          "name": ".gitignore",
+          "path": ".gitignore",
+          "churn": 9,
+          "adds": 9,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-11T11:28:16.000Z"
+        },
+        {
+          "name": ".env.example",
+          "path": ".env.example",
+          "churn": 1,
+          "adds": 1,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-11T11:28:16.000Z"
+        },
+        {
+          "name": ".nvmrc",
+          "path": ".nvmrc",
+          "churn": 1,
+          "adds": 1,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-11T11:28:16.000Z"
+        },
+        {
+          "name": "public",
+          "churn": 1,
+          "adds": 1,
+          "dels": 0,
+          "commits": 1,
+          "children": [
+            {
+              "name": "favicon.svg",
+              "path": "public/favicon.svg",
+              "churn": 1,
+              "adds": 1,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-11T11:28:16.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_generated_at": "2026-05-11T12:04:48.187Z",
+  "_warnings": []
 }

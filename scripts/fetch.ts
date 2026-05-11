@@ -64,8 +64,10 @@ async function fetchProject(
     };
   }
 
-  const [activityRes, commits, todos, churn] = await Promise.all([
-    fetchCommitActivity(octokit, config.repo),
+  // Churn always runs first (in parallel with everything else). Its git log gives us
+  // a reliable activity series — preferable to /stats/commit_activity which lazy-computes
+  // and may 202 indefinitely. Fall back to API only when churn is disabled.
+  const [commits, todos, churnResult] = await Promise.all([
     fetchRecentCommits(octokit, config.repo, repoMeta.default_branch),
     config.todos.enabled
       ? fetchTodos(octokit, config.repo, config.todos.label_map, config.todos.ignore_labels)
@@ -73,9 +75,14 @@ async function fetchProject(
     fetchChurn(config.repo, repoMeta.default_branch, config.churn, pat, workDir),
   ]);
 
-  if (activityRes.warning) warnings.push(`activity: ${activityRes.warning}`);
+  let weeks = churnResult.activity ?? [];
+  if (weeks.length === 0) {
+    const activityRes = await fetchCommitActivity(octokit, config.repo);
+    weeks = activityRes.weeks;
+    if (activityRes.warning) warnings.push(`activity: ${activityRes.warning}`);
+  }
 
-  const commitsTotal = activityRes.weeks.reduce((a, w) => a + w.total, 0);
+  const commitsTotal = weeks.reduce((a, w) => a + w.total, 0);
   return {
     slug: config.slug,
     title: config.title,
@@ -86,10 +93,10 @@ async function fetchProject(
     headline_metric: resolveHeadlineMetric(config.headline_metric, repoMeta.open_issues, commitsTotal),
     status_data: "ok",
     repo: repoMeta,
-    activity: { weeks: activityRes.weeks },
+    activity: { weeks },
     commits,
     todos,
-    churn,
+    churn: churnResult.snapshot,
     _generated_at: new Date().toISOString(),
     _warnings: warnings,
   };

@@ -17,7 +17,10 @@ export async function fetchCommitActivity(
   repoFull: string,
 ): Promise<FetchActivityResult> {
   const [owner, name] = repoFull.split("/");
-  const delays = [10_000, 20_000, 40_000, 80_000, 160_000];
+  // Tightened from 5→3 retries: the git-log path in scripts/lib/churn.ts handles
+  // every churn-enabled repo. This fallback only fires for churn-disabled non-empty
+  // repos (none in the current project set).
+  const delays = [10_000, 20_000, 40_000];
 
   for (let attempt = 0; attempt < delays.length; attempt++) {
     try {
@@ -46,6 +49,6 @@ export async function fetchCommitActivity(
   }
   return {
     weeks: [],
-    warning: "commit_activity still 202 after 5 retries — stats not yet computed by GitHub; will populate on next run",
+    warning: `commit_activity still 202 after ${delays.length} retries — stats not yet computed by GitHub; will populate on next run`,
   };
 }
