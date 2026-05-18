@@ -30,7 +30,7 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-05-18T02:42:47Z",
+    "pushed_at": "2026-05-18T09:48:23Z",
     "languages": {
       "TypeScript": 43953,
       "Astro": 22186,
@@ -47,7 +47,7 @@
         "html_url": "https://github.com/clinicoailab"
       }
     ],
-    "size_kb": 164,
+    "size_kb": 166,
     "is_empty": false
   },
   "activity": {
@@ -717,10 +717,10 @@
       },
       {
         "week": 1778976000,
-        "total": 5,
+        "total": 6,
         "days": [
           4,
-          1,
+          2,
           0,
           0,
           0,
@@ -731,6 +731,15 @@
     ]
   },
   "commits": [
+    {
+      "sha": "46040d12a265b0295bd4a4bb0e4dace195fcb69e",
+      "short_sha": "46040d1",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-18T09:48:22Z",
+      "message": "data: refresh 2026-05-18T09:48:22Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/46040d12a265b0295bd4a4bb0e4dace195fcb69e"
+    },
     {
       "sha": "62b180a5a7e287b3445eacb50660ce4c0f2daa02",
       "short_sha": "62b180a",
@@ -991,15 +1000,6 @@
       "date": "2026-05-11T12:05:59Z",
       "message": "fix: derive activity from git log + robust empty-repo detection",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/8568e2e316a3904c71fe5c1837b10bc359f73c05"
-    },
-    {
-      "sha": "fae2e2a8baf778b736aa7a53f8037caf6a0deb90",
-      "short_sha": "fae2e2a",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-11T11:48:17Z",
-      "message": "data: refresh 2026-05-11T11:48:17Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/fae2e2a8baf778b736aa7a53f8037caf6a0deb90"
     }
   ],
   "todos": {
@@ -1008,10 +1008,10 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-18T09:48:22.241Z",
+    "since": "2025-05-18T15:00:12.804Z",
     "totals": {
       "files": 47,
-      "commits": 31,
+      "commits": 32,
       "adds": 2685,
       "dels": 42
     },
@@ -1574,6 +1574,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-18T09:48:22.242Z",
+  "_generated_at": "2026-05-18T15:00:12.804Z",
   "_warnings": []
 }
