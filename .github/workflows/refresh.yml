@@ -1,5 +1,4 @@
 name: refresh-and-deploy
-
 on:
   schedule:
     - cron: "0 */6 * * *"
@@ -16,16 +15,13 @@ on:
       - "package-lock.json"
       - "tsconfig.json"
       - ".github/workflows/refresh.yml"
-
 permissions:
   contents: write
   pages: write
   id-token: write
-
 concurrency:
   group: pages
   cancel-in-progress: false
-
 jobs:
   fetch:
     name: Fetch GitHub snapshots
@@ -35,22 +31,24 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
           cache: npm
-
       - run: npm ci
-
       - name: Validate project YAML
         run: npm run validate
-
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
       - name: Fetch snapshots
         env:
-          PROJECTS_PAT: ${{ secrets.PROJECTS_PAT }}
+          PROJECTS_PAT: ${{ steps.app-token.outputs.token }}
         run: npm run fetch
-
       - name: Commit data snapshot
         run: |
           git config user.name  "gestapro-bot"
@@ -62,7 +60,6 @@ jobs:
             git commit -m "data: refresh $(date -u +%FT%TZ)"
             git push
           fi
-
   build-deploy:
     name: Build + deploy to Pages
     runs-on: ubuntu-latest
@@ -76,21 +73,15 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-
       - uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
           cache: npm
-
       - run: npm ci
-
       - run: npm run build
-
       - uses: actions/configure-pages@v5
-
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-
       - id: deploy
         uses: actions/deploy-pages@v4
