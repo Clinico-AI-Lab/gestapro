@@ -30,7 +30,7 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-05-19T10:55:04Z",
+    "pushed_at": "2026-05-19T11:10:43Z",
     "languages": {
       "TypeScript": 43953,
       "Astro": 22186,
@@ -723,11 +723,11 @@
       },
       {
         "week": 1778976000,
-        "total": 11,
+        "total": 13,
         "days": [
           4,
           4,
-          3,
+          5,
           0,
           0,
           0,
@@ -737,6 +737,24 @@
     ]
   },
   "commits": [
+    {
+      "sha": "0c2b97e5dd692e63a34a5c5ba928d1782af1b95c",
+      "short_sha": "0c2b97e",
+      "author": "BlancaNietoPetinal",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-19T11:10:42Z",
+      "message": "Create autorot.yaml",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/0c2b97e5dd692e63a34a5c5ba928d1782af1b95c"
+    },
+    {
+      "sha": "6cdd6e5f04dcd40e062c2b65ffd159aebd65b217",
+      "short_sha": "6cdd6e5",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-19T11:00:09Z",
+      "message": "data: refresh 2026-05-19T11:00:09Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/6cdd6e5f04dcd40e062c2b65ffd159aebd65b217"
+    },
     {
       "sha": "a133fd350722dac20d241f6cc3807a690d5d9c42",
       "short_sha": "a133fd3",
@@ -988,24 +1006,6 @@
       "date": "2026-05-12T19:41:40Z",
       "message": "data: refresh 2026-05-12T19:41:40Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/c49ba9fb4448e6adb77636363a8fc20f305ead94"
-    },
-    {
-      "sha": "ffd3d24a3750fc0a83c535dfc7449f1e7cd29b2b",
-      "short_sha": "ffd3d24",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-12T14:06:10Z",
-      "message": "data: refresh 2026-05-12T14:06:10Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/ffd3d24a3750fc0a83c535dfc7449f1e7cd29b2b"
-    },
-    {
-      "sha": "396b101350a79acb15d3bd6389250c66ea1ed085",
-      "short_sha": "396b101",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-12T08:31:15Z",
-      "message": "data: refresh 2026-05-12T08:31:15Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/396b101350a79acb15d3bd6389250c66ea1ed085"
     }
   ],
   "todos": {
@@ -1014,19 +1014,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-19T11:00:09.487Z",
+    "since": "2025-05-19T11:12:12.654Z",
     "totals": {
-      "files": 47,
-      "commits": 37,
-      "adds": 2693,
+      "files": 48,
+      "commits": 39,
+      "adds": 2730,
       "dels": 59
     },
     "tree": {
       "name": "<root>",
-      "churn": 2752,
-      "adds": 2693,
+      "churn": 2789,
+      "adds": 2730,
       "dels": 59,
-      "commits": 61,
+      "commits": 62,
       "children": [
         {
           "name": "src",
@@ -1462,10 +1462,10 @@
         },
         {
           "name": "projects",
-          "churn": 138,
-          "adds": 122,
+          "churn": 175,
+          "adds": 159,
           "dels": 16,
-          "commits": 6,
+          "commits": 7,
           "children": [
             {
               "name": "emergo.yml",
@@ -1493,6 +1493,15 @@
               "dels": 2,
               "commits": 2,
               "last_touched": "2026-05-11T12:52:21.000Z"
+            },
+            {
+              "name": "autorot.yaml",
+              "path": "projects/autorot.yaml",
+              "churn": 37,
+              "adds": 37,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-19T11:10:42.000Z"
             }
           ]
         },
@@ -1580,6 +1589,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-19T11:00:09.487Z",
+  "_generated_at": "2026-05-19T11:12:12.655Z",
   "_warnings": []
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T11:00:09.489Z",
+  "generated_at": "2026-05-19T11:12:18.363Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -34,6 +34,40 @@
         0
       ],
       "description": "Heavy-pipeline variant of the ACTIVA LDL stack. Production-grade benchmark harness — to be filled in with project details.\n"
+    },
+    {
+      "slug": "autorot",
+      "title": "AutoRot",
+      "status": "active",
+      "tags": [
+        "python",
+        "agent",
+        "benchmark"
+      ],
+      "pushed_at": "2026-05-19T09:14:15Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "languages_top": "Python",
+      "headline_metric": {
+        "label": "Open issues",
+        "source": "issues_count",
+        "value": 0
+      },
+      "sparkline_12w": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        18,
+        18,
+        13
+      ],
+      "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
     {
       "slug": "emergo",
@@ -75,7 +109,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-19T10:55:04Z",
+      "pushed_at": "2026-05-19T11:10:43Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -96,17 +130,17 @@
         0,
         0,
         26,
-        11
+        13
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
-    "repo_count": 3,
-    "commits_52w": 61,
+    "repo_count": 4,
+    "commits_52w": 112,
     "open_todos": 0,
     "languages": {
-      "Python": 801364,
+      "Python": 1015067,
       "TeX": 42874,
       "HTML": 33701,
       "TypeScript": 43953,
@@ -120,6 +154,7 @@
       "week": 1772323200,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "autorot": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -129,6 +164,7 @@
       "week": 1772928000,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "autorot": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -138,6 +174,7 @@
       "week": 1773532800,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "autorot": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -147,6 +184,7 @@
       "week": 1774137600,
       "per_project": {
         "activa-ldl-heavy": 9,
+        "autorot": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -156,6 +194,7 @@
       "week": 1774742400,
       "per_project": {
         "activa-ldl-heavy": 1,
+        "autorot": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -165,6 +204,7 @@
       "week": 1775347200,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "autorot": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -174,6 +214,7 @@
       "week": 1775952000,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "autorot": 0,
         "emergo": 6,
         "gestapro": 0
       },
@@ -183,6 +224,7 @@
       "week": 1776556800,
       "per_project": {
         "activa-ldl-heavy": 1,
+        "autorot": 0,
         "emergo": 3,
         "gestapro": 0
       },
@@ -192,6 +234,7 @@
       "week": 1777161600,
       "per_project": {
         "activa-ldl-heavy": 3,
+        "autorot": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -201,31 +244,56 @@
       "week": 1777766400,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "autorot": 18,
         "emergo": 0,
         "gestapro": 0
       },
-      "total": 0
+      "total": 18
     },
     {
       "week": 1778371200,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "autorot": 18,
         "emergo": 1,
         "gestapro": 26
       },
-      "total": 27
+      "total": 45
     },
     {
       "week": 1778976000,
       "per_project": {
         "activa-ldl-heavy": 0,
+        "autorot": 13,
         "emergo": 0,
-        "gestapro": 11
+        "gestapro": 13
       },
-      "total": 11
+      "total": 26
     }
   ],
   "recent_activity": [
+    {
+      "sha": "0c2b97e5dd692e63a34a5c5ba928d1782af1b95c",
+      "short_sha": "0c2b97e",
+      "author": "BlancaNietoPetinal",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-19T11:10:42Z",
+      "message": "Create autorot.yaml",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/0c2b97e5dd692e63a34a5c5ba928d1782af1b95c",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
+    {
+      "sha": "6cdd6e5f04dcd40e062c2b65ffd159aebd65b217",
+      "short_sha": "6cdd6e5",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-19T11:00:09Z",
+      "message": "data: refresh 2026-05-19T11:00:09Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/6cdd6e5f04dcd40e062c2b65ffd159aebd65b217",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "a133fd350722dac20d241f6cc3807a690d5d9c42",
       "short_sha": "a133fd3",
@@ -247,6 +315,17 @@
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/7717acac27e6910715b5d12a5c32cc9159ba5d79",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
+    },
+    {
+      "sha": "a3b4aea06cab89c67c19dd443b1401e29b2f8666",
+      "short_sha": "a3b4aea",
+      "author": "BlancaNietoPetinal",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-19T09:14:15Z",
+      "message": "Merge pull request #12 from Clinico-AI-Lab/design/improve-management-view",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a3b4aea06cab89c67c19dd443b1401e29b2f8666",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
     },
     {
       "sha": "e753d174b17964d1c9e3381c3c2d9d030f448926",
@@ -271,6 +350,61 @@
       "project_title": "Gestapro Dashboard"
     },
     {
+      "sha": "b043f177c411dd4428a9dfd650806088bbf993bb",
+      "short_sha": "b043f17",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-18T17:42:29Z",
+      "message": "Rename side bar buttons",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b043f177c411dd4428a9dfd650806088bbf993bb",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "1584b4aac98850104c7818b6ca8b6ff21983fc36",
+      "short_sha": "1584b4a",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-18T17:28:59Z",
+      "message": "turn gestion tabs to sidebar buttons",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/1584b4aac98850104c7818b6ca8b6ff21983fc36",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "477f171749b42c5b8c6a7e499a61d34eb773b981",
+      "short_sha": "477f171",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-18T17:16:06Z",
+      "message": "Remove Eco/Uco table",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/477f171749b42c5b8c6a7e499a61d34eb773b981",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "2599d3d028d98f576b8dd3deda066f419a60f072",
+      "short_sha": "2599d3d",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-18T17:13:15Z",
+      "message": "Place residents and year filters side by side",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2599d3d028d98f576b8dd3deda066f419a60f072",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "09b0dd160873b35dd6e33275c27de38ce26fb951",
+      "short_sha": "09b0dd1",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-18T17:10:28Z",
+      "message": "Remove management view KPIs",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/09b0dd160873b35dd6e33275c27de38ce26fb951",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
       "sha": "85bb92c79de7f550369e81491063f48e15c0f463",
       "short_sha": "85bb92c",
       "author": "gestapro-bot",
@@ -280,6 +414,50 @@
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/85bb92c79de7f550369e81491063f48e15c0f463",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
+    },
+    {
+      "sha": "4bc4d6645dcef8254444c98aacce54d23dd00ae5",
+      "short_sha": "4bc4d66",
+      "author": "BlancaNietoPetinal",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-18T12:49:53Z",
+      "message": "Merge pull request #11 from Clinico-AI-Lab/feature/add-leave-functionality",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/4bc4d6645dcef8254444c98aacce54d23dd00ae5",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "f45793e283fbdd54f6b0d6f66838e8b8f389f635",
+      "short_sha": "f45793e",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-18T12:38:36Z",
+      "message": "Fix Infeasible when Arritmias or Hemo are uncovered",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/f45793e283fbdd54f6b0d6f66838e8b8f389f635",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "c3b76361e156f2a837aa43fc7f294ebd9e1df7e0",
+      "short_sha": "c3b7636",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-18T11:49:01Z",
+      "message": "Force block integrity when adding a leave",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c3b76361e156f2a837aa43fc7f294ebd9e1df7e0",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "c9f23186b09260bcdd10fdc0c2bf4b324112f5b9",
+      "short_sha": "c9f2318",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-18T10:53:55Z",
+      "message": "Move bajas temporales input into a per-resident modal",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c9f23186b09260bcdd10fdc0c2bf4b324112f5b9",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
     },
     {
       "sha": "46040d12a265b0295bd4a4bb0e4dace195fcb69e",
@@ -313,138 +491,6 @@
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/5f7daa0bc6cd0a8dfd4fb59f6bc6c9fbf931e78c",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "c23389ed7a876441766b89353eed2037b88c4f24",
-      "short_sha": "c23389e",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-17T13:05:40Z",
-      "message": "data: refresh 2026-05-17T13:05:40Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/c23389ed7a876441766b89353eed2037b88c4f24",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "8a4c0071616a3237cdfce4ebff4032bef865498c",
-      "short_sha": "8a4c007",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-17T08:13:28Z",
-      "message": "data: refresh 2026-05-17T08:13:28Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/8a4c0071616a3237cdfce4ebff4032bef865498c",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "07b657bf7487de6335dacfd84f81d997fdcf96fb",
-      "short_sha": "07b657b",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-05-11T12:10:33Z",
-      "message": "Add user guide + flow docs, drop stale TODO, ignore runtime artifacts",
-      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/07b657bf7487de6335dacfd84f81d997fdcf96fb",
-      "project_slug": "emergo",
-      "project_title": "Emergo"
-    },
-    {
-      "sha": "1bbd4d8238eab67e89cf03065c340801c1e872ef",
-      "short_sha": "1bbd4d8",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-04-30T12:29:17Z",
-      "message": "remove calibration/ directory",
-      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/1bbd4d8238eab67e89cf03065c340801c1e872ef",
-      "project_slug": "activa-ldl-heavy",
-      "project_title": "ACTIVA-LDL Heavy"
-    },
-    {
-      "sha": "647da9ca88f35368a4c82a0d2a40e5533e62f67d",
-      "short_sha": "647da9c",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-04-30T12:26:25Z",
-      "message": "fix: enforce bit-determinism across all LLM stages",
-      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/647da9ca88f35368a4c82a0d2a40e5533e62f67d",
-      "project_slug": "activa-ldl-heavy",
-      "project_title": "ACTIVA-LDL Heavy"
-    },
-    {
-      "sha": "bddcea2a75193efcb5f6ff975cf7c5ad7c279f31",
-      "short_sha": "bddcea2",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-04-30T07:35:29Z",
-      "message": "refactor: consolidate run dirs under runs/ subtree",
-      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/bddcea2a75193efcb5f6ff975cf7c5ad7c279f31",
-      "project_slug": "activa-ldl-heavy",
-      "project_title": "ACTIVA-LDL Heavy"
-    },
-    {
-      "sha": "c8e6cb1f0799d7cbb4369caa9c3ed967f2b6d92b",
-      "short_sha": "c8e6cb1",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-04-23T10:05:52Z",
-      "message": "Clean repo + integrate pipeline as single orchestrator + Postgres DB",
-      "url": "https://github.com/Clinico-AI-Lab/activa-ldl-heavy/commit/c8e6cb1f0799d7cbb4369caa9c3ed967f2b6d92b",
-      "project_slug": "activa-ldl-heavy",
-      "project_title": "ACTIVA-LDL Heavy"
-    },
-    {
-      "sha": "220839b4a6a25beda459325d7b68d5fb249665b4",
-      "short_sha": "220839b",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-04-22T12:25:25Z",
-      "message": "mods stage 2",
-      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/220839b4a6a25beda459325d7b68d5fb249665b4",
-      "project_slug": "emergo",
-      "project_title": "Emergo"
-    },
-    {
-      "sha": "f4847f33ad0494799eb7debde8b47b359cd87245",
-      "short_sha": "f4847f3",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-04-22T12:23:49Z",
-      "message": "Add Stage-2/3 gap-driven literature search + v5 hypothesis-tree refinement",
-      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/f4847f33ad0494799eb7debde8b47b359cd87245",
-      "project_slug": "emergo",
-      "project_title": "Emergo"
-    },
-    {
-      "sha": "3af6d5b241df29dc1e7e92799980c68ab219f576",
-      "short_sha": "3af6d5b",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-04-21T12:44:55Z",
-      "message": "Add seed-grounded gap harvester (Stage-2 Part B)",
-      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/3af6d5b241df29dc1e7e92799980c68ab219f576",
-      "project_slug": "emergo",
-      "project_title": "Emergo"
-    },
-    {
-      "sha": "12c9bbde206c957a96d7dabc675bd994ee6e1263",
-      "short_sha": "12c9bbd",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-04-16T12:40:29Z",
-      "message": "Reweight scoring: 6-dim composite, breadth gate, depth-critic ratings",
-      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/12c9bbde206c957a96d7dabc675bd994ee6e1263",
-      "project_slug": "emergo",
-      "project_title": "Emergo"
-    },
-    {
-      "sha": "9d28994e9db01f85e11dcd0447905114ee74d71c",
-      "short_sha": "9d28994",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-04-16T12:16:43Z",
-      "message": "Fix server.py: score ceiling, free-slot starvation, resource leaks, index stability",
-      "url": "https://github.com/Clinico-AI-Lab/emergo/commit/9d28994e9db01f85e11dcd0447905114ee74d71c",
-      "project_slug": "emergo",
-      "project_title": "Emergo"
     }
   ]
 }
