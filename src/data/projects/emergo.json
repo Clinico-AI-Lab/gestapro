@@ -31,24 +31,11 @@
         "html_url": "https://github.com/clinicoailab"
       }
     ],
-    "size_kb": 0,
+    "size_kb": 2569,
     "is_empty": false
   },
   "activity": {
     "weeks": [
-      {
-        "week": 1747526400,
-        "total": 0,
-        "days": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
       {
         "week": 1748131200,
         "total": 0,
@@ -711,6 +698,19 @@
           0,
           0
         ]
+      },
+      {
+        "week": 1778976000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     ]
   },
@@ -812,7 +812,7 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-11T12:44:32.051Z",
+    "since": "2025-05-19T11:00:09.353Z",
     "totals": {
       "files": 72,
       "commits": 10,
@@ -1504,6 +1504,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-11T12:44:32.052Z",
+  "_generated_at": "2026-05-19T11:00:09.353Z",
   "_warnings": []
 }

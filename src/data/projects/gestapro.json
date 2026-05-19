@@ -30,7 +30,7 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-05-19T02:40:35Z",
+    "pushed_at": "2026-05-19T10:55:04Z",
     "languages": {
       "TypeScript": 43953,
       "Astro": 22186,
@@ -45,9 +45,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
         "contributions": 3,
         "html_url": "https://github.com/clinicoailab"
+      },
+      {
+        "login": "BlancaNietoPetinal",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+        "contributions": 1,
+        "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 170,
+    "size_kb": 172,
     "is_empty": false
   },
   "activity": {
@@ -717,11 +723,11 @@
       },
       {
         "week": 1778976000,
-        "total": 9,
+        "total": 11,
         "days": [
           4,
           4,
-          1,
+          3,
           0,
           0,
           0,
@@ -731,6 +737,24 @@
     ]
   },
   "commits": [
+    {
+      "sha": "a133fd350722dac20d241f6cc3807a690d5d9c42",
+      "short_sha": "a133fd3",
+      "author": "BlancaNietoPetinal",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-19T10:55:03Z",
+      "message": "Update refresh.yml",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/a133fd350722dac20d241f6cc3807a690d5d9c42"
+    },
+    {
+      "sha": "7717acac27e6910715b5d12a5c32cc9159ba5d79",
+      "short_sha": "7717aca",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-19T09:32:18Z",
+      "message": "data: refresh 2026-05-19T09:32:18Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/7717acac27e6910715b5d12a5c32cc9159ba5d79"
+    },
     {
       "sha": "e753d174b17964d1c9e3381c3c2d9d030f448926",
       "short_sha": "e753d17",
@@ -982,24 +1006,6 @@
       "date": "2026-05-12T08:31:15Z",
       "message": "data: refresh 2026-05-12T08:31:15Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/396b101350a79acb15d3bd6389250c66ea1ed085"
-    },
-    {
-      "sha": "72bf9b6b33be4a297a3e0643d35e9a108115e20b",
-      "short_sha": "72bf9b6",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-12T02:27:45Z",
-      "message": "data: refresh 2026-05-12T02:27:45Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/72bf9b6b33be4a297a3e0643d35e9a108115e20b"
-    },
-    {
-      "sha": "aa3397495d62808426ffd641d8812c6fe98d50ef",
-      "short_sha": "aa33974",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-11T19:40:26Z",
-      "message": "data: refresh 2026-05-11T19:40:26Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/aa3397495d62808426ffd641d8812c6fe98d50ef"
     }
   ],
   "todos": {
@@ -1008,19 +1014,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-19T09:32:18.908Z",
+    "since": "2025-05-19T11:00:09.487Z",
     "totals": {
       "files": 47,
-      "commits": 35,
-      "adds": 2685,
-      "dels": 42
+      "commits": 37,
+      "adds": 2693,
+      "dels": 59
     },
     "tree": {
       "name": "<root>",
-      "churn": 2727,
-      "adds": 2685,
-      "dels": 42,
-      "commits": 60,
+      "churn": 2752,
+      "adds": 2693,
+      "dels": 59,
+      "commits": 61,
       "children": [
         {
           "name": "src",
@@ -1429,26 +1435,26 @@
         },
         {
           "name": ".github",
-          "churn": 96,
-          "adds": 96,
-          "dels": 0,
-          "commits": 1,
+          "churn": 121,
+          "adds": 104,
+          "dels": 17,
+          "commits": 2,
           "children": [
             {
               "name": "workflows",
-              "churn": 96,
-              "adds": 96,
-              "dels": 0,
-              "commits": 1,
+              "churn": 121,
+              "adds": 104,
+              "dels": 17,
+              "commits": 2,
               "children": [
                 {
                   "name": "refresh.yml",
                   "path": ".github/workflows/refresh.yml",
-                  "churn": 96,
-                  "adds": 96,
-                  "dels": 0,
-                  "commits": 1,
-                  "last_touched": "2026-05-11T11:28:16.000Z"
+                  "churn": 121,
+                  "adds": 104,
+                  "dels": 17,
+                  "commits": 2,
+                  "last_touched": "2026-05-19T10:55:03.000Z"
                 }
               ]
             }
@@ -1574,6 +1580,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-19T09:32:18.909Z",
+  "_generated_at": "2026-05-19T11:00:09.487Z",
   "_warnings": []
 }
