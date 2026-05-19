@@ -1,0 +1,37 @@
+slug: autorot
+repo: Clinico-AI-Lab/autorot
+title: AutoRot
+description: >
+  AutoRot is a dashboard for managing and auto-scheduling cardiology
+  MIR resident rotations.
+owner: Clinico-AI-Lab
+status: active
+tags: [python, agent, benchmark]
+headline_metric:
+  label: Open issues
+  source: issues_count
+created_at: 2026-05-03
+links: []
+todos:
+  enabled: false        # flip to true once labels exist in the repo
+  label_map:
+    todo:        [todo, backlog]
+    in_progress: [in-progress, "in progress", wip]
+    done:        [done]
+  ignore_labels: [duplicate, invalid, wontfix]
+churn:
+  enabled: true
+  since_days: 365
+  exclude_paths:
+    - "**/node_modules/**"
+    - "**/.venv/**"
+    - "**/venv/**"
+    - "**/__pycache__/**"
+    - "**/.mypy_cache/**"
+    - "**/dist/**"
+    - "**/build/**"
+    - "**/*.lock"
+    - "**/*.min.js"
+    - "package-lock.json"
+    - "uv.lock"
+    - "poetry.lock"
