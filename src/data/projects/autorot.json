@@ -20,9 +20,9 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-05-19T09:14:15Z",
+    "pushed_at": "2026-05-19T11:31:35Z",
     "languages": {
-      "Python": 213703
+      "Python": 212617
     },
     "open_issues": 0,
     "open_prs": 0,
@@ -30,11 +30,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 61,
+        "contributions": 63,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 785,
+    "size_kb": 803,
     "is_empty": false
   },
   "activity": {
@@ -704,11 +704,11 @@
       },
       {
         "week": 1778976000,
-        "total": 13,
+        "total": 15,
         "days": [
           3,
           10,
-          0,
+          2,
           0,
           0,
           0,
@@ -718,6 +718,24 @@
     ]
   },
   "commits": [
+    {
+      "sha": "28796f492ef8a71829fd2c712f7715d58727f5b2",
+      "short_sha": "28796f4",
+      "author": "BlancaNietoPetinal",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-19T11:31:35Z",
+      "message": "Added Dev Container Folder",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/28796f492ef8a71829fd2c712f7715d58727f5b2"
+    },
+    {
+      "sha": "fc37444bdbb820a4d3b9c179430edf19864fa519",
+      "short_sha": "fc37444",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-19T11:18:40Z",
+      "message": "migrate data to supabase",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/fc37444bdbb820a4d3b9c179430edf19864fa519"
+    },
     {
       "sha": "a3b4aea06cab89c67c19dd443b1401e29b2f8666",
       "short_sha": "a3b4aea",
@@ -969,24 +987,6 @@
       "date": "2026-05-14T12:15:02Z",
       "message": "Allow planta and libre rotations to be divided",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/6deaf1e086a9a417f660137debc74300481003ef"
-    },
-    {
-      "sha": "ec1580424f8e28837df4c8a23ef104fa46ed66e1",
-      "short_sha": "ec15804",
-      "author": "BlancaNietoPetinal",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-14T10:41:16Z",
-      "message": "Merge pull request #4 from Clinico-AI-Lab/refactor/remove-unused-features",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/ec1580424f8e28837df4c8a23ef104fa46ed66e1"
-    },
-    {
-      "sha": "65019a5b9505dfcb657488cec0c7196a3aac8f0a",
-      "short_sha": "65019a5",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-14T10:40:33Z",
-      "message": "Remove unused features in Programar",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/65019a5b9505dfcb657488cec0c7196a3aac8f0a"
     }
   ],
   "todos": {
@@ -995,19 +995,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-19T11:12:18.360Z",
+    "since": "2025-05-19T14:46:13.909Z",
     "totals": {
-      "files": 50,
-      "commits": 49,
-      "adds": 17880,
-      "dels": 12027
+      "files": 52,
+      "commits": 51,
+      "adds": 18351,
+      "dels": 12492
     },
     "tree": {
       "name": "<root>",
-      "churn": 29907,
-      "adds": 17880,
-      "dels": 12027,
-      "commits": 181,
+      "churn": 30843,
+      "adds": 18351,
+      "dels": 12492,
+      "commits": 191,
       "children": [
         {
           "name": "data",
@@ -1038,10 +1038,10 @@
         },
         {
           "name": "autorot",
-          "churn": 10140,
-          "adds": 6983,
-          "dels": 3157,
-          "commits": 128,
+          "churn": 10986,
+          "adds": 7394,
+          "dels": 3592,
+          "commits": 132,
           "children": [
             {
               "name": "scheduler",
@@ -1234,10 +1234,10 @@
             },
             {
               "name": "views",
-              "churn": 2290,
-              "adds": 1852,
-              "dels": 438,
-              "commits": 42,
+              "churn": 2295,
+              "adds": 1853,
+              "dels": 442,
+              "commits": 43,
               "children": [
                 {
                   "name": "scheduler_panel.py",
@@ -1251,11 +1251,11 @@
                 {
                   "name": "management.py",
                   "path": "autorot/views/management.py",
-                  "churn": 748,
-                  "adds": 620,
-                  "dels": 128,
-                  "commits": 8,
-                  "last_touched": "2026-05-18T17:42:29.000Z"
+                  "churn": 753,
+                  "adds": 621,
+                  "dels": 132,
+                  "commits": 9,
+                  "last_touched": "2026-05-19T11:18:40.000Z"
                 },
                 {
                   "name": "overview.py",
@@ -1296,13 +1296,22 @@
               ]
             },
             {
+              "name": "store.py",
+              "path": "autorot/store.py",
+              "churn": 628,
+              "adds": 410,
+              "dels": 218,
+              "commits": 4,
+              "last_touched": "2026-05-19T11:18:40.000Z"
+            },
+            {
               "name": "loader.py",
               "path": "autorot/loader.py",
-              "churn": 212,
-              "adds": 27,
-              "dels": 185,
-              "commits": 3,
-              "last_touched": "2026-05-18T12:49:03.000Z"
+              "churn": 461,
+              "adds": 56,
+              "dels": 405,
+              "commits": 4,
+              "last_touched": "2026-05-19T11:18:40.000Z"
             },
             {
               "name": "analytics.py",
@@ -1323,13 +1332,13 @@
               "last_touched": "2026-05-18T12:49:03.000Z"
             },
             {
-              "name": "store.py",
-              "path": "autorot/store.py",
-              "churn": 122,
-              "adds": 115,
-              "dels": 7,
-              "commits": 3,
-              "last_touched": "2026-05-18T12:49:03.000Z"
+              "name": "supabase_client.py",
+              "path": "autorot/supabase_client.py",
+              "churn": 86,
+              "adds": 86,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-19T11:18:40.000Z"
             },
             {
               "name": "rotations.py",
@@ -1372,11 +1381,11 @@
         {
           "name": "app.py",
           "path": "app.py",
-          "churn": 1490,
-          "adds": 801,
-          "dels": 689,
-          "commits": 9,
-          "last_touched": "2026-05-18T17:42:29.000Z"
+          "churn": 1498,
+          "adds": 805,
+          "dels": 693,
+          "commits": 10,
+          "last_touched": "2026-05-19T11:18:40.000Z"
         },
         {
           "name": "scheduler.py",
@@ -1470,48 +1479,66 @@
         },
         {
           "name": "scripts",
-          "churn": 124,
-          "adds": 124,
-          "dels": 0,
-          "commits": 2,
+          "churn": 164,
+          "adds": 140,
+          "dels": 24,
+          "commits": 4,
           "children": [
             {
               "name": "rename_legacy_residents.py",
               "path": "scripts/rename_legacy_residents.py",
-              "churn": 75,
-              "adds": 75,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-11T07:44:47.000Z"
+              "churn": 111,
+              "adds": 89,
+              "dels": 22,
+              "commits": 2,
+              "last_touched": "2026-05-19T11:18:40.000Z"
             },
             {
               "name": "add_legacy_cohorts.py",
               "path": "scripts/add_legacy_cohorts.py",
-              "churn": 49,
-              "adds": 49,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-11T07:44:47.000Z"
+              "churn": 53,
+              "adds": 51,
+              "dels": 2,
+              "commits": 2,
+              "last_touched": "2026-05-19T11:18:40.000Z"
             }
           ]
         },
         {
           "name": ".gitignore",
           "path": ".gitignore",
-          "churn": 41,
-          "adds": 27,
-          "dels": 14,
-          "commits": 6,
-          "last_touched": "2026-05-13T06:57:43.000Z"
+          "churn": 48,
+          "adds": 33,
+          "dels": 15,
+          "commits": 7,
+          "last_touched": "2026-05-19T11:18:40.000Z"
+        },
+        {
+          "name": ".devcontainer",
+          "churn": 33,
+          "adds": 33,
+          "dels": 0,
+          "commits": 1,
+          "children": [
+            {
+              "name": "devcontainer.json",
+              "path": ".devcontainer/devcontainer.json",
+              "churn": 33,
+              "adds": 33,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-19T11:31:35.000Z"
+            }
+          ]
         },
         {
           "name": "requirements.txt",
           "path": "requirements.txt",
-          "churn": 7,
-          "adds": 6,
-          "dels": 1,
-          "commits": 2,
-          "last_touched": "2026-05-11T07:44:47.000Z"
+          "churn": 9,
+          "adds": 7,
+          "dels": 2,
+          "commits": 3,
+          "last_touched": "2026-05-19T11:18:40.000Z"
         },
         {
           "name": ".CLAUDE.md.swp",
@@ -1525,6 +1552,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-19T11:12:18.360Z",
+  "_generated_at": "2026-05-19T14:46:13.909Z",
   "_warnings": []
 }
