@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T14:50:14.232Z",
+  "generated_at": "2026-05-20T20:06:29.732Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-05-19T11:31:35Z",
+      "pushed_at": "2026-05-20T16:30:35Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "Python",
@@ -65,7 +65,7 @@
         0,
         18,
         18,
-        15
+        21
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -109,7 +109,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-20T08:57:52Z",
+      "pushed_at": "2026-05-20T14:50:15Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -130,17 +130,17 @@
         0,
         0,
         26,
-        18
+        19
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 4,
-    "commits_52w": 119,
+    "commits_52w": 126,
     "open_todos": 0,
     "languages": {
-      "Python": 1013981,
+      "Python": 1047731,
       "TeX": 42874,
       "HTML": 33701,
       "TypeScript": 43953,
@@ -264,14 +264,80 @@
       "week": 1778976000,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 15,
+        "autorot": 21,
         "emergo": 0,
-        "gestapro": 18
+        "gestapro": 19
       },
-      "total": 33
+      "total": 40
     }
   ],
   "recent_activity": [
+    {
+      "sha": "be7860a734c1bbf0c57d7e778f1346f95fa22c1f",
+      "short_sha": "be7860a",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-20T16:30:27Z",
+      "message": "Relax curriculum hard sums for legacy 2022 cohort",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/be7860a734c1bbf0c57d7e778f1346f95fa22c1f",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "cf5cc6a50a8c44baa6e67d17f2bce7de191dfa00",
+      "short_sha": "cf5cc6a",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-20T16:04:49Z",
+      "message": "Soften min residents constraint for Arritmias",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/cf5cc6a50a8c44baa6e67d17f2bce7de191dfa00",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "a14550c0d76f8707cbbc6eee205bbeecc5fc790b",
+      "short_sha": "a14550c",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-20T16:00:26Z",
+      "message": "Soften ECO/UCO max 2 residents constraint",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a14550c0d76f8707cbbc6eee205bbeecc5fc790b",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "59836e474f43161769cf6c534830c832f07fa2ff",
+      "short_sha": "59836e4",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-20T14:50:14Z",
+      "message": "data: refresh 2026-05-20T14:50:14Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/59836e474f43161769cf6c534830c832f07fa2ff",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
+    {
+      "sha": "405a1128a63879d7a22b68a8413792e7a3f31f64",
+      "short_sha": "405a112",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-20T12:02:30Z",
+      "message": "Allow MEDICINA_INTERNA 7th month as a soft preference and let UNIDAD_IC be scheduled from R3 so legacy pre-Nefrología cohorts replanifican without going INFEASIBLE.",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/405a1128a63879d7a22b68a8413792e7a3f31f64",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "815e95d56eeab650c35f6c5b0fc6558dd1f3c642",
+      "short_sha": "815e95d",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-20T10:23:49Z",
+      "message": "allow arritmias to divide if necessary",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/815e95d56eeab650c35f6c5b0fc6558dd1f3c642",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
     {
       "sha": "607161ec59eb514231ad4a0afed473926940a9a7",
       "short_sha": "607161e",
@@ -282,6 +348,17 @@
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/607161ec59eb514231ad4a0afed473926940a9a7",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
+    },
+    {
+      "sha": "e5a88a8dc1e340652565979fac4178df30e0b2fd",
+      "short_sha": "e5a88a8",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-20T08:45:07Z",
+      "message": "Support standalone cohorts and unify scheduler warnings",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/e5a88a8dc1e340652565979fac4178df30e0b2fd",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
     },
     {
       "sha": "8a90a539de8b654f263acde34aac7928d343ba37",
@@ -405,17 +482,6 @@
       "project_title": "AutoRot"
     },
     {
-      "sha": "e753d174b17964d1c9e3381c3c2d9d030f448926",
-      "short_sha": "e753d17",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-19T02:40:34Z",
-      "message": "data: refresh 2026-05-19T02:40:34Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/e753d174b17964d1c9e3381c3c2d9d030f448926",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
       "sha": "b043f177c411dd4428a9dfd650806088bbf993bb",
       "short_sha": "b043f17",
       "author": "Blanca",
@@ -423,72 +489,6 @@
       "date": "2026-05-18T17:42:29Z",
       "message": "Rename side bar buttons",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b043f177c411dd4428a9dfd650806088bbf993bb",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "1584b4aac98850104c7818b6ca8b6ff21983fc36",
-      "short_sha": "1584b4a",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-18T17:28:59Z",
-      "message": "turn gestion tabs to sidebar buttons",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/1584b4aac98850104c7818b6ca8b6ff21983fc36",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "477f171749b42c5b8c6a7e499a61d34eb773b981",
-      "short_sha": "477f171",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-18T17:16:06Z",
-      "message": "Remove Eco/Uco table",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/477f171749b42c5b8c6a7e499a61d34eb773b981",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "2599d3d028d98f576b8dd3deda066f419a60f072",
-      "short_sha": "2599d3d",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-18T17:13:15Z",
-      "message": "Place residents and year filters side by side",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2599d3d028d98f576b8dd3deda066f419a60f072",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "09b0dd160873b35dd6e33275c27de38ce26fb951",
-      "short_sha": "09b0dd1",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-18T17:10:28Z",
-      "message": "Remove management view KPIs",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/09b0dd160873b35dd6e33275c27de38ce26fb951",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "4bc4d6645dcef8254444c98aacce54d23dd00ae5",
-      "short_sha": "4bc4d66",
-      "author": "BlancaNietoPetinal",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-18T12:49:53Z",
-      "message": "Merge pull request #11 from Clinico-AI-Lab/feature/add-leave-functionality",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/4bc4d6645dcef8254444c98aacce54d23dd00ae5",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "f45793e283fbdd54f6b0d6f66838e8b8f389f635",
-      "short_sha": "f45793e",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-18T12:38:36Z",
-      "message": "Fix Infeasible when Arritmias or Hemo are uncovered",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/f45793e283fbdd54f6b0d6f66838e8b8f389f635",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     }
