@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T02:43:19.044Z",
+  "generated_at": "2026-05-21T09:27:37.876Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -109,7 +109,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-20T20:06:30Z",
+      "pushed_at": "2026-05-21T06:52:44Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -130,14 +130,14 @@
         0,
         0,
         26,
-        20
+        22
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 4,
-    "commits_52w": 127,
+    "commits_52w": 129,
     "open_todos": 0,
     "languages": {
       "Python": 1047731,
@@ -266,12 +266,34 @@
         "activa-ldl-heavy": 0,
         "autorot": 21,
         "emergo": 0,
-        "gestapro": 20
+        "gestapro": 22
       },
-      "total": 41
+      "total": 43
     }
   ],
   "recent_activity": [
+    {
+      "sha": "b383dd4f089bf5cf0e0cb24b582693ba14da78f8",
+      "short_sha": "b383dd4",
+      "author": "BlancaNietoPetinal",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-21T06:52:44Z",
+      "message": "Rename autorot.yaml to autorot.yml",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/b383dd4f089bf5cf0e0cb24b582693ba14da78f8",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
+    {
+      "sha": "4ece5ef55fb1eec7ad02dc06a62a38b0dabf00c9",
+      "short_sha": "4ece5ef",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-21T02:43:19Z",
+      "message": "data: refresh 2026-05-21T02:43:19Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/4ece5ef55fb1eec7ad02dc06a62a38b0dabf00c9",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "f2998ca8255a78cbc12328cf473f8686de5693e6",
       "short_sha": "f2998ca",
@@ -445,28 +467,6 @@
       "date": "2026-05-19T11:10:42Z",
       "message": "Create autorot.yaml",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/0c2b97e5dd692e63a34a5c5ba928d1782af1b95c",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "6cdd6e5f04dcd40e062c2b65ffd159aebd65b217",
-      "short_sha": "6cdd6e5",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-19T11:00:09Z",
-      "message": "data: refresh 2026-05-19T11:00:09Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/6cdd6e5f04dcd40e062c2b65ffd159aebd65b217",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "a133fd350722dac20d241f6cc3807a690d5d9c42",
-      "short_sha": "a133fd3",
-      "author": "BlancaNietoPetinal",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-19T10:55:03Z",
-      "message": "Update refresh.yml",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/a133fd350722dac20d241f6cc3807a690d5d9c42",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
     },

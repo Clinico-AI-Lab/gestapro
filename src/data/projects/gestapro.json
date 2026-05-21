@@ -30,7 +30,7 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-05-20T20:06:30Z",
+    "pushed_at": "2026-05-21T06:52:44Z",
     "languages": {
       "TypeScript": 43953,
       "Astro": 22186,
@@ -41,19 +41,19 @@
     "open_prs": 0,
     "contributors": [
       {
+        "login": "BlancaNietoPetinal",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+        "contributions": 3,
+        "html_url": "https://github.com/BlancaNietoPetinal"
+      },
+      {
         "login": "clinicoailab",
         "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
         "contributions": 3,
         "html_url": "https://github.com/clinicoailab"
-      },
-      {
-        "login": "BlancaNietoPetinal",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 2,
-        "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 212,
+    "size_kb": 216,
     "is_empty": false
   },
   "activity": {
@@ -723,13 +723,13 @@
       },
       {
         "week": 1778976000,
-        "total": 20,
+        "total": 22,
         "days": [
           4,
           4,
           8,
           4,
-          0,
+          2,
           0,
           0
         ]
@@ -737,6 +737,24 @@
     ]
   },
   "commits": [
+    {
+      "sha": "b383dd4f089bf5cf0e0cb24b582693ba14da78f8",
+      "short_sha": "b383dd4",
+      "author": "BlancaNietoPetinal",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-21T06:52:44Z",
+      "message": "Rename autorot.yaml to autorot.yml",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/b383dd4f089bf5cf0e0cb24b582693ba14da78f8"
+    },
+    {
+      "sha": "4ece5ef55fb1eec7ad02dc06a62a38b0dabf00c9",
+      "short_sha": "4ece5ef",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-21T02:43:19Z",
+      "message": "data: refresh 2026-05-21T02:43:19Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/4ece5ef55fb1eec7ad02dc06a62a38b0dabf00c9"
+    },
     {
       "sha": "f2998ca8255a78cbc12328cf473f8686de5693e6",
       "short_sha": "f2998ca",
@@ -988,24 +1006,6 @@
       "date": "2026-05-15T02:35:15Z",
       "message": "data: refresh 2026-05-15T02:35:15Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/9d1636dc617bc0ff0debe358f6847338ead0d2b4"
-    },
-    {
-      "sha": "41d962600ab622a1587a90b245853ff39673cad0",
-      "short_sha": "41d9626",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-14T19:39:35Z",
-      "message": "data: refresh 2026-05-14T19:39:35Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/41d962600ab622a1587a90b245853ff39673cad0"
-    },
-    {
-      "sha": "bf87090898030c2638c2231bb7d02d679eab685a",
-      "short_sha": "bf87090",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-14T13:54:03Z",
-      "message": "data: refresh 2026-05-14T13:54:03Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/bf87090898030c2638c2231bb7d02d679eab685a"
     }
   ],
   "todos": {
@@ -1014,10 +1014,10 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-21T02:43:10.715Z",
+    "since": "2025-05-21T09:27:27.496Z",
     "totals": {
-      "files": 48,
-      "commits": 46,
+      "files": 49,
+      "commits": 48,
       "adds": 2730,
       "dels": 59
     },
@@ -1026,7 +1026,7 @@
       "churn": 2789,
       "adds": 2730,
       "dels": 59,
-      "commits": 62,
+      "commits": 63,
       "children": [
         {
           "name": "src",
@@ -1465,7 +1465,7 @@
           "churn": 175,
           "adds": 159,
           "dels": 16,
-          "commits": 7,
+          "commits": 8,
           "children": [
             {
               "name": "emergo.yml",
@@ -1502,6 +1502,15 @@
               "dels": 0,
               "commits": 1,
               "last_touched": "2026-05-19T11:10:42.000Z"
+            },
+            {
+              "name": "autorot.yml",
+              "path": "projects/autorot.yml",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T06:52:44.000Z"
             }
           ]
         },
@@ -1589,6 +1598,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-21T02:43:10.716Z",
+  "_generated_at": "2026-05-21T09:27:27.496Z",
   "_warnings": []
 }
