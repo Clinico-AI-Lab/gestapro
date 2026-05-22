@@ -30,7 +30,7 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-05-22T02:44:30Z",
+    "pushed_at": "2026-05-22T11:26:23Z",
     "languages": {
       "TypeScript": 43953,
       "Astro": 22186,
@@ -41,19 +41,19 @@
     "open_prs": 0,
     "contributors": [
       {
+        "login": "clinicoailab",
+        "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+        "contributions": 5,
+        "html_url": "https://github.com/clinicoailab"
+      },
+      {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
         "contributions": 3,
         "html_url": "https://github.com/BlancaNietoPetinal"
-      },
-      {
-        "login": "clinicoailab",
-        "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-        "contributions": 3,
-        "html_url": "https://github.com/clinicoailab"
       }
     ],
-    "size_kb": 184,
+    "size_kb": 187,
     "is_empty": false
   },
   "activity": {
@@ -723,20 +723,47 @@
       },
       {
         "week": 1778976000,
-        "total": 26,
+        "total": 29,
         "days": [
           4,
           4,
           8,
           4,
           5,
-          1,
+          4,
           0
         ]
       }
     ]
   },
   "commits": [
+    {
+      "sha": "82c24a7552423592caa19fd47e28df7c0f43422c",
+      "short_sha": "82c24a7",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-22T11:26:23Z",
+      "message": "projects/ci.yml: populate from template (REINF Madrid feeder)",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/82c24a7552423592caa19fd47e28df7c0f43422c"
+    },
+    {
+      "sha": "81698793b7628da7a08e1013834097f97a4a785b",
+      "short_sha": "8169879",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-22T11:15:26Z",
+      "message": "Create ci.yml",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/81698793b7628da7a08e1013834097f97a4a785b"
+    },
+    {
+      "sha": "c25d0e68a048a3f7007e048a1e617141101aa195",
+      "short_sha": "c25d0e6",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-22T08:53:15Z",
+      "message": "data: refresh 2026-05-22T08:53:15Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/c25d0e68a048a3f7007e048a1e617141101aa195"
+    },
     {
       "sha": "a47d5a926412e52693898508a2146cefebada131",
       "short_sha": "a47d5a9",
@@ -979,33 +1006,6 @@
       "date": "2026-05-16T18:55:21Z",
       "message": "data: refresh 2026-05-16T18:55:21Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/2b5ea71c0025f4e7e6cdc4fe1b7f86c28bce4c6d"
-    },
-    {
-      "sha": "395ad4ae81fab91624ba0374e40d383412f94135",
-      "short_sha": "395ad4a",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-16T13:07:54Z",
-      "message": "data: refresh 2026-05-16T13:07:54Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/395ad4ae81fab91624ba0374e40d383412f94135"
-    },
-    {
-      "sha": "ea9e415ad7cd317694f570abe4636b0c569b2ab1",
-      "short_sha": "ea9e415",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-16T07:54:45Z",
-      "message": "data: refresh 2026-05-16T07:54:45Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/ea9e415ad7cd317694f570abe4636b0c569b2ab1"
-    },
-    {
-      "sha": "edc63aaa1c0ab597aff4519b64dd6fa823fb0a08",
-      "short_sha": "edc63aa",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-16T02:25:23Z",
-      "message": "data: refresh 2026-05-16T02:25:23Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/edc63aaa1c0ab597aff4519b64dd6fa823fb0a08"
     }
   ],
   "todos": {
@@ -1014,19 +1014,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-22T08:53:03.947Z",
+    "since": "2025-05-22T11:32:10.162Z",
     "totals": {
-      "files": 49,
-      "commits": 52,
-      "adds": 2730,
-      "dels": 59
+      "files": 50,
+      "commits": 55,
+      "adds": 2771,
+      "dels": 60
     },
     "tree": {
       "name": "<root>",
-      "churn": 2789,
-      "adds": 2730,
-      "dels": 59,
-      "commits": 63,
+      "churn": 2831,
+      "adds": 2771,
+      "dels": 60,
+      "commits": 65,
       "children": [
         {
           "name": "src",
@@ -1462,10 +1462,10 @@
         },
         {
           "name": "projects",
-          "churn": 175,
-          "adds": 159,
-          "dels": 16,
-          "commits": 8,
+          "churn": 217,
+          "adds": 200,
+          "dels": 17,
+          "commits": 10,
           "children": [
             {
               "name": "emergo.yml",
@@ -1484,6 +1484,15 @@
               "dels": 5,
               "commits": 2,
               "last_touched": "2026-05-11T12:52:21.000Z"
+            },
+            {
+              "name": "ci.yml",
+              "path": "projects/ci.yml",
+              "churn": 42,
+              "adds": 41,
+              "dels": 1,
+              "commits": 2,
+              "last_touched": "2026-05-22T11:26:23.000Z"
             },
             {
               "name": "activa-ldl-heavy.yml",
@@ -1598,6 +1607,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-22T08:53:03.947Z",
+  "_generated_at": "2026-05-22T11:32:10.163Z",
   "_warnings": []
 }

@@ -1,0 +1,1190 @@
+{
+  "slug": "ci",
+  "title": "REINF Madrid Feeder",
+  "description": "Excel-to-REINF feeder bot. Reads patient rows from an Excel sheet and fills the Registro de Infarto de Madrid web form via Playwright, with Basic/NTLM auth against the institutional SALUD network. Modify-only policy: never creates new records, only updates existing ones.\n",
+  "status": "active",
+  "tags": [
+    "python",
+    "playwright",
+    "automation",
+    "healthcare"
+  ],
+  "links": [],
+  "headline_metric": {
+    "label": "Open issues",
+    "source": "issues_count",
+    "value": 7
+  },
+  "status_data": "ok",
+  "repo": {
+    "owner": "Clinico-AI-Lab",
+    "name": "ci",
+    "url": "https://github.com/Clinico-AI-Lab/ci",
+    "default_branch": "main",
+    "pushed_at": "2026-05-22T11:22:51Z",
+    "languages": {
+      "Python": 99384,
+      "PowerShell": 2689
+    },
+    "open_issues": 7,
+    "open_prs": 0,
+    "contributors": [
+      {
+        "login": "clinicoailab",
+        "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+        "contributions": 5,
+        "html_url": "https://github.com/clinicoailab"
+      }
+    ],
+    "size_kb": 63,
+    "is_empty": false
+  },
+  "activity": {
+    "weeks": [
+      {
+        "week": 1748131200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1748736000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1749340800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1749945600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1750550400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1751155200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1751760000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1752364800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1752969600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1753574400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1754179200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1754784000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1755388800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1755993600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1756598400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1757203200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1757808000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1758412800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1759017600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1759622400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1760227200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1760832000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1761436800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1762041600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1762646400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1763251200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1763856000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1764460800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1765065600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1765670400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1766275200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1766880000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1767484800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1768089600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1768694400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1769299200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1769904000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1770508800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1771113600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1771718400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1772323200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1772928000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1773532800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1774137600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1774742400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1775347200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1775952000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1776556800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1777161600,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1777766400,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1778371200,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1778976000,
+        "total": 5,
+        "days": [
+          0,
+          0,
+          0,
+          1,
+          3,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  "commits": [
+    {
+      "sha": "10598bcb96c283700b55249f5bde18a881226541",
+      "short_sha": "10598bc",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-22T11:22:29Z",
+      "message": "Phase 2C iter 2: cablear bot para consumir dry_run_2.xlsx (must1 + must2)",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/10598bcb96c283700b55249f5bde18a881226541"
+    },
+    {
+      "sha": "0b542c6915e1e996ea93b3dd22a6f47e5be91b90",
+      "short_sha": "0b542c6",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-21T13:03:33Z",
+      "message": "Phase 2C: flujo modify-only — find_and_open + fill con politica overwrite_if_diff",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/0b542c6915e1e996ea93b3dd22a6f47e5be91b90"
+    },
+    {
+      "sha": "357771109119e05db3199973b89048a307f81ba2",
+      "short_sha": "3577711",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-21T12:50:02Z",
+      "message": "Phase 2A: selectors.yaml poblado, run_bot.ps1 wrapper NTLM, refactor login",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/357771109119e05db3199973b89048a307f81ba2"
+    },
+    {
+      "sha": "6a6bfa8dccdf2698257009a26ef8d83eea80f53a",
+      "short_sha": "6a6bfa8",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-21T12:38:56Z",
+      "message": "Phase 1: capturas HTML, inventario de campos, auth NTLM confirmada, tests offline",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/6a6bfa8dccdf2698257009a26ef8d83eea80f53a"
+    },
+    {
+      "sha": "93ff68d13b5e022ac5c8380c3e6965fd38b0182b",
+      "short_sha": "93ff68d",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-20T12:43:05Z",
+      "message": "Scaffolding inicial: alimentador REINF Madrid desde Excel",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/93ff68d13b5e022ac5c8380c3e6965fd38b0182b"
+    }
+  ],
+  "todos": {
+    "todo": [],
+    "in_progress": [],
+    "done": []
+  },
+  "churn": {
+    "since": "2025-05-22T11:32:08.661Z",
+    "totals": {
+      "files": 39,
+      "commits": 5,
+      "adds": 4589,
+      "dels": 145
+    },
+    "tree": {
+      "name": "<root>",
+      "churn": 4734,
+      "adds": 4589,
+      "dels": 145,
+      "commits": 56,
+      "children": [
+        {
+          "name": "config",
+          "churn": 780,
+          "adds": 719,
+          "dels": 61,
+          "commits": 8,
+          "children": [
+            {
+              "name": "selectors.yaml",
+              "path": "config/selectors.yaml",
+              "churn": 573,
+              "adds": 537,
+              "dels": 36,
+              "commits": 2,
+              "last_touched": "2026-05-21T12:50:02.000Z"
+            },
+            {
+              "name": "form_flow.yaml",
+              "path": "config/form_flow.yaml",
+              "churn": 153,
+              "adds": 136,
+              "dels": 17,
+              "commits": 3,
+              "last_touched": "2026-05-22T11:22:29.000Z"
+            },
+            {
+              "name": "settings.yaml",
+              "path": "config/settings.yaml",
+              "churn": 54,
+              "adds": 46,
+              "dels": 8,
+              "commits": 3,
+              "last_touched": "2026-05-22T11:22:29.000Z"
+            }
+          ]
+        },
+        {
+          "name": "src",
+          "churn": 1270,
+          "adds": 1190,
+          "dels": 80,
+          "commits": 17,
+          "children": [
+            {
+              "name": "form_filler.py",
+              "path": "src/form_filler.py",
+              "churn": 337,
+              "adds": 308,
+              "dels": 29,
+              "commits": 2,
+              "last_touched": "2026-05-21T13:03:33.000Z"
+            },
+            {
+              "name": "main.py",
+              "path": "src/main.py",
+              "churn": 287,
+              "adds": 263,
+              "dels": 24,
+              "commits": 3,
+              "last_touched": "2026-05-21T13:03:33.000Z"
+            },
+            {
+              "name": "excel_to_reinf.py",
+              "path": "src/excel_to_reinf.py",
+              "churn": 188,
+              "adds": 185,
+              "dels": 3,
+              "commits": 2,
+              "last_touched": "2026-05-22T11:22:29.000Z"
+            },
+            {
+              "name": "login.py",
+              "path": "src/login.py",
+              "churn": 125,
+              "adds": 101,
+              "dels": 24,
+              "commits": 2,
+              "last_touched": "2026-05-21T12:50:02.000Z"
+            },
+            {
+              "name": "excel_reader.py",
+              "path": "src/excel_reader.py",
+              "churn": 99,
+              "adds": 99,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T12:43:05.000Z"
+            },
+            {
+              "name": "selector_loader.py",
+              "path": "src/selector_loader.py",
+              "churn": 61,
+              "adds": 61,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T12:43:05.000Z"
+            },
+            {
+              "name": "browser.py",
+              "path": "src/browser.py",
+              "churn": 58,
+              "adds": 58,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T12:43:05.000Z"
+            },
+            {
+              "name": "postback_utils.py",
+              "path": "src/postback_utils.py",
+              "churn": 40,
+              "adds": 40,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T12:43:05.000Z"
+            },
+            {
+              "name": "logger.py",
+              "path": "src/logger.py",
+              "churn": 39,
+              "adds": 39,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T12:43:05.000Z"
+            },
+            {
+              "name": "exceptions.py",
+              "path": "src/exceptions.py",
+              "churn": 36,
+              "adds": 36,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-05-21T13:03:33.000Z"
+            },
+            {
+              "name": "__init__.py",
+              "path": "src/__init__.py",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T12:43:05.000Z"
+            }
+          ]
+        },
+        {
+          "name": "docs",
+          "churn": 646,
+          "adds": 646,
+          "dels": 0,
+          "commits": 5,
+          "children": [
+            {
+              "name": "field_inventory.md",
+              "path": "docs/field_inventory.md",
+              "churn": 265,
+              "adds": 265,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "ethernet_test_checklist.md",
+              "path": "docs/ethernet_test_checklist.md",
+              "churn": 111,
+              "adds": 111,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "excel_sources.md",
+              "path": "docs/excel_sources.md",
+              "churn": 107,
+              "adds": 107,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "auth_requirements.md",
+              "path": "docs/auth_requirements.md",
+              "churn": 97,
+              "adds": 97,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "policy_modify_only.md",
+              "path": "docs/policy_modify_only.md",
+              "churn": 66,
+              "adds": 66,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            }
+          ]
+        },
+        {
+          "name": "scripts",
+          "churn": 736,
+          "adds": 736,
+          "dels": 0,
+          "commits": 5,
+          "children": [
+            {
+              "name": "build_dry_run_2.py",
+              "path": "scripts/build_dry_run_2.py",
+              "churn": 262,
+              "adds": 262,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-22T11:22:29.000Z"
+            },
+            {
+              "name": "build_dry_run_excel.py",
+              "path": "scripts/build_dry_run_excel.py",
+              "churn": 148,
+              "adds": 148,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T13:03:33.000Z"
+            },
+            {
+              "name": "verify_credentials.py",
+              "path": "scripts/verify_credentials.py",
+              "churn": 128,
+              "adds": 128,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "verify_cookie_transfer.py",
+              "path": "scripts/verify_cookie_transfer.py",
+              "churn": 123,
+              "adds": 123,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "run_bot.ps1",
+              "path": "scripts/run_bot.ps1",
+              "churn": 75,
+              "adds": 75,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:50:02.000Z"
+            }
+          ]
+        },
+        {
+          "name": "tests",
+          "churn": 1084,
+          "adds": 1081,
+          "dels": 3,
+          "commits": 14,
+          "children": [
+            {
+              "name": "test_excel_to_reinf.py",
+              "path": "tests/test_excel_to_reinf.py",
+              "churn": 256,
+              "adds": 253,
+              "dels": 3,
+              "commits": 2,
+              "last_touched": "2026-05-22T11:22:29.000Z"
+            },
+            {
+              "name": "test_inventory_selectors.py",
+              "path": "tests/test_inventory_selectors.py",
+              "churn": 164,
+              "adds": 164,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "test_phase1_artifacts.py",
+              "path": "tests/test_phase1_artifacts.py",
+              "churn": 147,
+              "adds": 147,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "test_reinf_connectivity.py",
+              "path": "tests/test_reinf_connectivity.py",
+              "churn": 144,
+              "adds": 144,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "test_phase2_config.py",
+              "path": "tests/test_phase2_config.py",
+              "churn": 105,
+              "adds": 105,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-05-22T11:22:29.000Z"
+            },
+            {
+              "name": "test_excel_reader.py",
+              "path": "tests/test_excel_reader.py",
+              "churn": 92,
+              "adds": 92,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T12:43:05.000Z"
+            },
+            {
+              "name": "test_selectors.py",
+              "path": "tests/test_selectors.py",
+              "churn": 88,
+              "adds": 88,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-05-21T12:50:02.000Z"
+            },
+            {
+              "name": "test_mocks_render.py",
+              "path": "tests/test_mocks_render.py",
+              "churn": 66,
+              "adds": 66,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "test_form_filler_offline.py",
+              "path": "tests/test_form_filler_offline.py",
+              "churn": 18,
+              "adds": 18,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T12:43:05.000Z"
+            },
+            {
+              "name": "conftest.py",
+              "path": "tests/conftest.py",
+              "churn": 4,
+              "adds": 4,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T12:43:05.000Z"
+            },
+            {
+              "name": "__init__.py",
+              "path": "tests/__init__.py",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T12:43:05.000Z"
+            }
+          ]
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "churn": 140,
+          "adds": 140,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-20T12:43:05.000Z"
+        },
+        {
+          "name": ".gitignore",
+          "path": ".gitignore",
+          "churn": 52,
+          "adds": 52,
+          "dels": 0,
+          "commits": 2,
+          "last_touched": "2026-05-21T12:38:56.000Z"
+        },
+        {
+          "name": ".env.example",
+          "path": ".env.example",
+          "churn": 19,
+          "adds": 18,
+          "dels": 1,
+          "commits": 2,
+          "last_touched": "2026-05-21T12:38:56.000Z"
+        },
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "churn": 7,
+          "adds": 7,
+          "dels": 0,
+          "commits": 2,
+          "last_touched": "2026-05-21T12:38:56.000Z"
+        }
+      ]
+    }
+  },
+  "_generated_at": "2026-05-22T11:32:08.661Z",
+  "_warnings": []
+}

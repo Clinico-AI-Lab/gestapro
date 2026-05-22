@@ -20,9 +20,9 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-05-22T08:52:52Z",
+    "pushed_at": "2026-05-22T11:13:23Z",
     "languages": {
-      "Python": 215710
+      "Python": 228056
     },
     "open_issues": 0,
     "open_prs": 0,
@@ -30,11 +30,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 74,
+        "contributions": 77,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 937,
+    "size_kb": 957,
     "is_empty": false
   },
   "activity": {
@@ -704,20 +704,47 @@
       },
       {
         "week": 1778976000,
-        "total": 26,
+        "total": 29,
         "days": [
           3,
           10,
           2,
           7,
           2,
-          2,
+          5,
           0
         ]
       }
     ]
   },
   "commits": [
+    {
+      "sha": "6383b1f905385c24b6ec4879c66e34c36a42a254",
+      "short_sha": "6383b1f",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-22T11:13:17Z",
+      "message": "add pdf and excel exports",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/6383b1f905385c24b6ec4879c66e34c36a42a254"
+    },
+    {
+      "sha": "5499c7f83083971c5121f67ddbc363d12f0a41e1",
+      "short_sha": "5499c7f",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-22T09:09:44Z",
+      "message": "increase quitar button siz",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/5499c7f83083971c5121f67ddbc363d12f0a41e1"
+    },
+    {
+      "sha": "79bb132148ea2174d632950907541c0232cf12f8",
+      "short_sha": "79bb132",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-22T08:57:10Z",
+      "message": "hide fix libre rotations dropdown",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/79bb132148ea2174d632950907541c0232cf12f8"
+    },
     {
       "sha": "60c5c307c5f8f1bf4af79e8dfc77e84412634eea",
       "short_sha": "60c5c30",
@@ -960,33 +987,6 @@
       "date": "2026-05-17T15:13:40Z",
       "message": "Merge pull request #9 from Clinico-AI-Lab/refactor/model-review",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/06f5e3bf72357ac063521c9a68faf4142b704370"
-    },
-    {
-      "sha": "0c3e5036435b596b38178adaec5d36eb43d1c93e",
-      "short_sha": "0c3e503",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-17T15:09:45Z",
-      "message": "Decompose schedule_residents into phase helpers",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/0c3e5036435b596b38178adaec5d36eb43d1c93e"
-    },
-    {
-      "sha": "d8e0bb9e6a6366b14492fabf05139ae9c9f5267c",
-      "short_sha": "d8e0bb9",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-17T14:37:08Z",
-      "message": "Remove iterations comments",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/d8e0bb9e6a6366b14492fabf05139ae9c9f5267c"
-    },
-    {
-      "sha": "1524a2bfe370d87b7bf75f6b2188854f7270f9ad",
-      "short_sha": "1524a2b",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-17T14:34:32Z",
-      "message": "Refactor initial comment",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/1524a2bfe370d87b7bf75f6b2188854f7270f9ad"
     }
   ],
   "todos": {
@@ -995,19 +995,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-22T08:53:14.951Z",
+    "since": "2025-05-22T11:32:20.854Z",
     "totals": {
-      "files": 56,
-      "commits": 62,
-      "adds": 20653,
-      "dels": 14238
+      "files": 57,
+      "commits": 65,
+      "adds": 21024,
+      "dels": 14241
     },
     "tree": {
       "name": "<root>",
-      "churn": 34891,
-      "adds": 20653,
-      "dels": 14238,
-      "commits": 281,
+      "churn": 35265,
+      "adds": 21024,
+      "dels": 14241,
+      "commits": 286,
       "children": [
         {
           "name": "data",
@@ -1038,10 +1038,10 @@
         },
         {
           "name": "autorot",
-          "churn": 14498,
-          "adds": 9201,
-          "dels": 5297,
-          "commits": 216,
+          "churn": 14868,
+          "adds": 9569,
+          "dels": 5299,
+          "commits": 220,
           "children": [
             {
               "name": "scheduler",
@@ -1243,28 +1243,28 @@
             },
             {
               "name": "views",
-              "churn": 2834,
-              "adds": 2212,
-              "dels": 622,
-              "commits": 56,
+              "churn": 3204,
+              "adds": 2580,
+              "dels": 624,
+              "commits": 60,
               "children": [
                 {
                   "name": "scheduler_panel.py",
                   "path": "autorot/views/scheduler_panel.py",
-                  "churn": 1137,
-                  "adds": 893,
-                  "dels": 244,
-                  "commits": 18,
-                  "last_touched": "2026-05-21T10:24:45.000Z"
+                  "churn": 1141,
+                  "adds": 896,
+                  "dels": 245,
+                  "commits": 19,
+                  "last_touched": "2026-05-22T08:57:10.000Z"
                 },
                 {
                   "name": "management.py",
                   "path": "autorot/views/management.py",
-                  "churn": 892,
-                  "adds": 709,
-                  "dels": 183,
-                  "commits": 13,
-                  "last_touched": "2026-05-22T07:19:42.000Z"
+                  "churn": 898,
+                  "adds": 714,
+                  "dels": 184,
+                  "commits": 15,
+                  "last_touched": "2026-05-22T11:13:17.000Z"
                 },
                 {
                   "name": "overview.py",
@@ -1274,6 +1274,15 @@
                   "dels": 153,
                   "commits": 12,
                   "last_touched": "2026-05-21T09:19:37.000Z"
+                },
+                {
+                  "name": "export.py",
+                  "path": "autorot/views/export.py",
+                  "churn": 360,
+                  "adds": 360,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-22T11:13:17.000Z"
                 },
                 {
                   "name": "detail.py",
@@ -1570,11 +1579,11 @@
         {
           "name": "requirements.txt",
           "path": "requirements.txt",
-          "churn": 9,
-          "adds": 7,
-          "dels": 2,
-          "commits": 3,
-          "last_touched": "2026-05-19T11:18:40.000Z"
+          "churn": 13,
+          "adds": 10,
+          "dels": 3,
+          "commits": 4,
+          "last_touched": "2026-05-22T11:13:17.000Z"
         },
         {
           "name": ".CLAUDE.md.swp",
@@ -1588,6 +1597,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-22T08:53:14.952Z",
+  "_generated_at": "2026-05-22T11:32:20.854Z",
   "_warnings": []
 }

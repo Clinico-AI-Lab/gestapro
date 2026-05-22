@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T08:53:14.955Z",
+  "generated_at": "2026-05-22T11:32:20.858Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-05-22T08:52:52Z",
+      "pushed_at": "2026-05-22T11:13:23Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "Python",
@@ -65,9 +65,44 @@
         0,
         18,
         18,
-        26
+        29
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
+    },
+    {
+      "slug": "ci",
+      "title": "REINF Madrid Feeder",
+      "status": "active",
+      "tags": [
+        "python",
+        "playwright",
+        "automation",
+        "healthcare"
+      ],
+      "pushed_at": "2026-05-22T11:22:51Z",
+      "open_issues": 7,
+      "open_prs": 0,
+      "languages_top": "Python",
+      "headline_metric": {
+        "label": "Open issues",
+        "source": "issues_count",
+        "value": 7
+      },
+      "sparkline_12w": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ],
+      "description": "Excel-to-REINF feeder bot. Reads patient rows from an Excel sheet and fills the Registro de Infarto de Madrid web form via Playwright, with Basic/NTLM auth against the institutional SALUD network. Modify-only policy: never creates new records, only updates existing ones.\n"
     },
     {
       "slug": "emergo",
@@ -109,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-22T02:44:30Z",
+      "pushed_at": "2026-05-22T11:26:23Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -130,18 +165,19 @@
         0,
         0,
         26,
-        26
+        29
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
-    "repo_count": 4,
-    "commits_52w": 138,
+    "repo_count": 5,
+    "commits_52w": 149,
     "open_todos": 0,
     "languages": {
-      "Python": 1017074,
+      "Python": 1128804,
       "TeX": 42874,
+      "PowerShell": 2689,
       "HTML": 33701,
       "TypeScript": 43953,
       "Astro": 22186,
@@ -155,6 +191,7 @@
       "per_project": {
         "activa-ldl-heavy": 0,
         "autorot": 0,
+        "ci": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -165,6 +202,7 @@
       "per_project": {
         "activa-ldl-heavy": 0,
         "autorot": 0,
+        "ci": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -175,6 +213,7 @@
       "per_project": {
         "activa-ldl-heavy": 0,
         "autorot": 0,
+        "ci": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -185,6 +224,7 @@
       "per_project": {
         "activa-ldl-heavy": 9,
         "autorot": 0,
+        "ci": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -195,6 +235,7 @@
       "per_project": {
         "activa-ldl-heavy": 1,
         "autorot": 0,
+        "ci": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -205,6 +246,7 @@
       "per_project": {
         "activa-ldl-heavy": 0,
         "autorot": 0,
+        "ci": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -215,6 +257,7 @@
       "per_project": {
         "activa-ldl-heavy": 0,
         "autorot": 0,
+        "ci": 0,
         "emergo": 6,
         "gestapro": 0
       },
@@ -225,6 +268,7 @@
       "per_project": {
         "activa-ldl-heavy": 1,
         "autorot": 0,
+        "ci": 0,
         "emergo": 3,
         "gestapro": 0
       },
@@ -235,6 +279,7 @@
       "per_project": {
         "activa-ldl-heavy": 3,
         "autorot": 0,
+        "ci": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -245,6 +290,7 @@
       "per_project": {
         "activa-ldl-heavy": 0,
         "autorot": 18,
+        "ci": 0,
         "emergo": 0,
         "gestapro": 0
       },
@@ -255,6 +301,7 @@
       "per_project": {
         "activa-ldl-heavy": 0,
         "autorot": 18,
+        "ci": 0,
         "emergo": 1,
         "gestapro": 26
       },
@@ -264,14 +311,92 @@
       "week": 1778976000,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 26,
+        "autorot": 29,
+        "ci": 5,
         "emergo": 0,
-        "gestapro": 26
+        "gestapro": 29
       },
-      "total": 52
+      "total": 63
     }
   ],
   "recent_activity": [
+    {
+      "sha": "82c24a7552423592caa19fd47e28df7c0f43422c",
+      "short_sha": "82c24a7",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-22T11:26:23Z",
+      "message": "projects/ci.yml: populate from template (REINF Madrid feeder)",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/82c24a7552423592caa19fd47e28df7c0f43422c",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
+    {
+      "sha": "10598bcb96c283700b55249f5bde18a881226541",
+      "short_sha": "10598bc",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-22T11:22:29Z",
+      "message": "Phase 2C iter 2: cablear bot para consumir dry_run_2.xlsx (must1 + must2)",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/10598bcb96c283700b55249f5bde18a881226541",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "81698793b7628da7a08e1013834097f97a4a785b",
+      "short_sha": "8169879",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-22T11:15:26Z",
+      "message": "Create ci.yml",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/81698793b7628da7a08e1013834097f97a4a785b",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
+    {
+      "sha": "6383b1f905385c24b6ec4879c66e34c36a42a254",
+      "short_sha": "6383b1f",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-22T11:13:17Z",
+      "message": "add pdf and excel exports",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/6383b1f905385c24b6ec4879c66e34c36a42a254",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "5499c7f83083971c5121f67ddbc363d12f0a41e1",
+      "short_sha": "5499c7f",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-22T09:09:44Z",
+      "message": "increase quitar button siz",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/5499c7f83083971c5121f67ddbc363d12f0a41e1",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "79bb132148ea2174d632950907541c0232cf12f8",
+      "short_sha": "79bb132",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-22T08:57:10Z",
+      "message": "hide fix libre rotations dropdown",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/79bb132148ea2174d632950907541c0232cf12f8",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "c25d0e68a048a3f7007e048a1e617141101aa195",
+      "short_sha": "c25d0e6",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-22T08:53:15Z",
+      "message": "data: refresh 2026-05-22T08:53:15Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/c25d0e68a048a3f7007e048a1e617141101aa195",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "60c5c307c5f8f1bf4af79e8dfc77e84412634eea",
       "short_sha": "60c5c30",
@@ -328,6 +453,39 @@
       "project_title": "Gestapro Dashboard"
     },
     {
+      "sha": "0b542c6915e1e996ea93b3dd22a6f47e5be91b90",
+      "short_sha": "0b542c6",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-21T13:03:33Z",
+      "message": "Phase 2C: flujo modify-only — find_and_open + fill con politica overwrite_if_diff",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/0b542c6915e1e996ea93b3dd22a6f47e5be91b90",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "357771109119e05db3199973b89048a307f81ba2",
+      "short_sha": "3577711",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-21T12:50:02Z",
+      "message": "Phase 2A: selectors.yaml poblado, run_bot.ps1 wrapper NTLM, refactor login",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/357771109119e05db3199973b89048a307f81ba2",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "6a6bfa8dccdf2698257009a26ef8d83eea80f53a",
+      "short_sha": "6a6bfa8",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-21T12:38:56Z",
+      "message": "Phase 1: capturas HTML, inventario de campos, auth NTLM confirmada, tests offline",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/6a6bfa8dccdf2698257009a26ef8d83eea80f53a",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
       "sha": "fcdbf957a7f3a266527a0a1aa4589d51fdea3051",
       "short_sha": "fcdbf95",
       "author": "Blanca",
@@ -379,116 +537,6 @@
       "date": "2026-05-21T02:43:19Z",
       "message": "data: refresh 2026-05-21T02:43:19Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/4ece5ef55fb1eec7ad02dc06a62a38b0dabf00c9",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "f2998ca8255a78cbc12328cf473f8686de5693e6",
-      "short_sha": "f2998ca",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-20T20:06:29Z",
-      "message": "data: refresh 2026-05-20T20:06:29Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/f2998ca8255a78cbc12328cf473f8686de5693e6",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "d139896eab4cefbc23ef22372436958b5eb747f4",
-      "short_sha": "d139896",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T17:20:45Z",
-      "message": "trim comments",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/d139896eab4cefbc23ef22372436958b5eb747f4",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "be7860a734c1bbf0c57d7e778f1346f95fa22c1f",
-      "short_sha": "be7860a",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T16:30:27Z",
-      "message": "Relax curriculum hard sums for legacy 2022 cohort",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/be7860a734c1bbf0c57d7e778f1346f95fa22c1f",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "cf5cc6a50a8c44baa6e67d17f2bce7de191dfa00",
-      "short_sha": "cf5cc6a",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T16:04:49Z",
-      "message": "Soften min residents constraint for Arritmias",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/cf5cc6a50a8c44baa6e67d17f2bce7de191dfa00",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "a14550c0d76f8707cbbc6eee205bbeecc5fc790b",
-      "short_sha": "a14550c",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T16:00:26Z",
-      "message": "Soften ECO/UCO max 2 residents constraint",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a14550c0d76f8707cbbc6eee205bbeecc5fc790b",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "59836e474f43161769cf6c534830c832f07fa2ff",
-      "short_sha": "59836e4",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-20T14:50:14Z",
-      "message": "data: refresh 2026-05-20T14:50:14Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/59836e474f43161769cf6c534830c832f07fa2ff",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "405a1128a63879d7a22b68a8413792e7a3f31f64",
-      "short_sha": "405a112",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T12:02:30Z",
-      "message": "Allow MEDICINA_INTERNA 7th month as a soft preference and let UNIDAD_IC be scheduled from R3 so legacy pre-Nefrología cohorts replanifican without going INFEASIBLE.",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/405a1128a63879d7a22b68a8413792e7a3f31f64",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "815e95d56eeab650c35f6c5b0fc6558dd1f3c642",
-      "short_sha": "815e95d",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T10:23:49Z",
-      "message": "allow arritmias to divide if necessary",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/815e95d56eeab650c35f6c5b0fc6558dd1f3c642",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "607161ec59eb514231ad4a0afed473926940a9a7",
-      "short_sha": "607161e",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-20T08:57:51Z",
-      "message": "data: refresh 2026-05-20T08:57:51Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/607161ec59eb514231ad4a0afed473926940a9a7",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "8a90a539de8b654f263acde34aac7928d343ba37",
-      "short_sha": "8a90a53",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-20T02:41:05Z",
-      "message": "data: refresh 2026-05-20T02:41:05Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/8a90a539de8b654f263acde34aac7928d343ba37",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
     }
