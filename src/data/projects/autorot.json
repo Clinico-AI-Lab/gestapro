@@ -20,9 +20,9 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-05-22T11:13:23Z",
+    "pushed_at": "2026-05-22T12:25:20Z",
     "languages": {
-      "Python": 228056
+      "Python": 228773
     },
     "open_issues": 0,
     "open_prs": 0,
@@ -30,11 +30,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 77,
+        "contributions": 78,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 957,
+    "size_kb": 970,
     "is_empty": false
   },
   "activity": {
@@ -704,20 +704,29 @@
       },
       {
         "week": 1778976000,
-        "total": 29,
+        "total": 30,
         "days": [
           3,
           10,
           2,
           7,
           2,
-          5,
+          6,
           0
         ]
       }
     ]
   },
   "commits": [
+    {
+      "sha": "c688c9b1068c22f9d99d4f276a35c21cae77a977",
+      "short_sha": "c688c9b",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-22T12:25:14Z",
+      "message": "improve gantt chart phone responsiveness",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c688c9b1068c22f9d99d4f276a35c21cae77a977"
+    },
     {
       "sha": "6383b1f905385c24b6ec4879c66e34c36a42a254",
       "short_sha": "6383b1f",
@@ -978,15 +987,6 @@
       "date": "2026-05-18T06:48:26Z",
       "message": "Add user-communicated fixed LIBRE pin with pre-flight checks",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/88187d967669dcf0b7edc249613bb4443c2f0a91"
-    },
-    {
-      "sha": "06f5e3bf72357ac063521c9a68faf4142b704370",
-      "short_sha": "06f5e3b",
-      "author": "BlancaNietoPetinal",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-17T15:13:40Z",
-      "message": "Merge pull request #9 from Clinico-AI-Lab/refactor/model-review",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/06f5e3bf72357ac063521c9a68faf4142b704370"
     }
   ],
   "todos": {
@@ -995,19 +995,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-22T11:32:20.854Z",
+    "since": "2025-05-22T14:25:58.800Z",
     "totals": {
       "files": 57,
-      "commits": 65,
-      "adds": 21024,
-      "dels": 14241
+      "commits": 66,
+      "adds": 21044,
+      "dels": 14250
     },
     "tree": {
       "name": "<root>",
-      "churn": 35265,
-      "adds": 21024,
-      "dels": 14241,
-      "commits": 286,
+      "churn": 35294,
+      "adds": 21044,
+      "dels": 14250,
+      "commits": 288,
       "children": [
         {
           "name": "data",
@@ -1038,10 +1038,10 @@
         },
         {
           "name": "autorot",
-          "churn": 14868,
-          "adds": 9569,
-          "dels": 5299,
-          "commits": 220,
+          "churn": 14897,
+          "adds": 9589,
+          "dels": 5308,
+          "commits": 222,
           "children": [
             {
               "name": "scheduler",
@@ -1243,10 +1243,10 @@
             },
             {
               "name": "views",
-              "churn": 3204,
-              "adds": 2580,
-              "dels": 624,
-              "commits": 60,
+              "churn": 3233,
+              "adds": 2600,
+              "dels": 633,
+              "commits": 62,
               "children": [
                 {
                   "name": "scheduler_panel.py",
@@ -1287,20 +1287,20 @@
                 {
                   "name": "detail.py",
                   "path": "autorot/views/detail.py",
-                  "churn": 181,
-                  "adds": 163,
-                  "dels": 18,
-                  "commits": 7,
-                  "last_touched": "2026-05-20T17:20:45.000Z"
+                  "churn": 194,
+                  "adds": 171,
+                  "dels": 23,
+                  "commits": 8,
+                  "last_touched": "2026-05-22T12:25:14.000Z"
                 },
                 {
                   "name": "_gantt.py",
                   "path": "autorot/views/_gantt.py",
-                  "churn": 160,
-                  "adds": 136,
-                  "dels": 24,
-                  "commits": 5,
-                  "last_touched": "2026-05-21T10:24:45.000Z"
+                  "churn": 176,
+                  "adds": 148,
+                  "dels": 28,
+                  "commits": 6,
+                  "last_touched": "2026-05-22T12:25:14.000Z"
                 },
                 {
                   "name": "__init__.py",
@@ -1597,6 +1597,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-22T11:32:20.854Z",
+  "_generated_at": "2026-05-22T14:25:58.800Z",
   "_warnings": []
 }

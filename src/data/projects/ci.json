@@ -13,7 +13,7 @@
   "headline_metric": {
     "label": "Open issues",
     "source": "issues_count",
-    "value": 7
+    "value": 6
   },
   "status_data": "ok",
   "repo": {
@@ -21,22 +21,22 @@
     "name": "ci",
     "url": "https://github.com/Clinico-AI-Lab/ci",
     "default_branch": "main",
-    "pushed_at": "2026-05-22T11:22:51Z",
+    "pushed_at": "2026-05-22T13:42:29Z",
     "languages": {
-      "Python": 99384,
-      "PowerShell": 2689
+      "Python": 104890,
+      "PowerShell": 2688
     },
-    "open_issues": 7,
+    "open_issues": 6,
     "open_prs": 0,
     "contributors": [
       {
         "login": "clinicoailab",
         "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-        "contributions": 5,
+        "contributions": 6,
         "html_url": "https://github.com/clinicoailab"
       }
     ],
-    "size_kb": 63,
+    "size_kb": 72,
     "is_empty": false
   },
   "activity": {
@@ -706,20 +706,29 @@
       },
       {
         "week": 1778976000,
-        "total": 5,
+        "total": 6,
         "days": [
           0,
           0,
           0,
           1,
           3,
-          1,
+          2,
           0
         ]
       }
     ]
   },
   "commits": [
+    {
+      "sha": "8a35e2f970398641b47db77cc0121ad0ded9a6d1",
+      "short_sha": "8a35e2f",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-22T13:42:20Z",
+      "message": "Phase 2C iter 3: auth NTLM operativa + CLI overrides para dry-runs visuales",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/8a35e2f970398641b47db77cc0121ad0ded9a6d1"
+    },
     {
       "sha": "10598bcb96c283700b55249f5bde18a881226541",
       "short_sha": "10598bc",
@@ -772,26 +781,26 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-22T11:32:08.661Z",
+    "since": "2025-05-22T14:25:31.519Z",
     "totals": {
       "files": 39,
-      "commits": 5,
-      "adds": 4589,
-      "dels": 145
+      "commits": 6,
+      "adds": 4730,
+      "dels": 157
     },
     "tree": {
       "name": "<root>",
-      "churn": 4734,
-      "adds": 4589,
-      "dels": 145,
-      "commits": 56,
+      "churn": 4887,
+      "adds": 4730,
+      "dels": 157,
+      "commits": 61,
       "children": [
         {
           "name": "config",
-          "churn": 780,
-          "adds": 719,
+          "churn": 785,
+          "adds": 724,
           "dels": 61,
-          "commits": 8,
+          "commits": 9,
           "children": [
             {
               "name": "selectors.yaml",
@@ -814,20 +823,20 @@
             {
               "name": "settings.yaml",
               "path": "config/settings.yaml",
-              "churn": 54,
-              "adds": 46,
+              "churn": 59,
+              "adds": 51,
               "dels": 8,
-              "commits": 3,
-              "last_touched": "2026-05-22T11:22:29.000Z"
+              "commits": 4,
+              "last_touched": "2026-05-22T13:42:20.000Z"
             }
           ]
         },
         {
           "name": "src",
-          "churn": 1270,
-          "adds": 1190,
-          "dels": 80,
-          "commits": 17,
+          "churn": 1416,
+          "adds": 1325,
+          "dels": 91,
+          "commits": 20,
           "children": [
             {
               "name": "form_filler.py",
@@ -841,11 +850,20 @@
             {
               "name": "main.py",
               "path": "src/main.py",
-              "churn": 287,
-              "adds": 263,
-              "dels": 24,
+              "churn": 325,
+              "adds": 298,
+              "dels": 27,
+              "commits": 4,
+              "last_touched": "2026-05-22T13:42:20.000Z"
+            },
+            {
+              "name": "login.py",
+              "path": "src/login.py",
+              "churn": 213,
+              "adds": 181,
+              "dels": 32,
               "commits": 3,
-              "last_touched": "2026-05-21T13:03:33.000Z"
+              "last_touched": "2026-05-22T13:42:20.000Z"
             },
             {
               "name": "excel_to_reinf.py",
@@ -857,15 +875,6 @@
               "last_touched": "2026-05-22T11:22:29.000Z"
             },
             {
-              "name": "login.py",
-              "path": "src/login.py",
-              "churn": 125,
-              "adds": 101,
-              "dels": 24,
-              "commits": 2,
-              "last_touched": "2026-05-21T12:50:02.000Z"
-            },
-            {
               "name": "excel_reader.py",
               "path": "src/excel_reader.py",
               "churn": 99,
@@ -875,19 +884,19 @@
               "last_touched": "2026-05-20T12:43:05.000Z"
             },
             {
+              "name": "browser.py",
+              "path": "src/browser.py",
+              "churn": 78,
+              "adds": 78,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-05-22T13:42:20.000Z"
+            },
+            {
               "name": "selector_loader.py",
               "path": "src/selector_loader.py",
               "churn": 61,
               "adds": 61,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-20T12:43:05.000Z"
-            },
-            {
-              "name": "browser.py",
-              "path": "src/browser.py",
-              "churn": 58,
-              "adds": 58,
               "dels": 0,
               "commits": 1,
               "last_touched": "2026-05-20T12:43:05.000Z"
@@ -986,10 +995,10 @@
         },
         {
           "name": "scripts",
-          "churn": 736,
-          "adds": 736,
-          "dels": 0,
-          "commits": 5,
+          "churn": 738,
+          "adds": 737,
+          "dels": 1,
+          "commits": 6,
           "children": [
             {
               "name": "build_dry_run_2.py",
@@ -1030,11 +1039,11 @@
             {
               "name": "run_bot.ps1",
               "path": "scripts/run_bot.ps1",
-              "churn": 75,
-              "adds": 75,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-21T12:50:02.000Z"
+              "churn": 77,
+              "adds": 76,
+              "dels": 1,
+              "commits": 2,
+              "last_touched": "2026-05-22T13:42:20.000Z"
             }
           ]
         },
@@ -1185,6 +1194,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-22T11:32:08.661Z",
+  "_generated_at": "2026-05-22T14:25:31.520Z",
   "_warnings": []
 }

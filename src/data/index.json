@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T11:32:20.858Z",
+  "generated_at": "2026-05-22T14:25:58.805Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-05-22T11:13:23Z",
+      "pushed_at": "2026-05-22T12:25:20Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "Python",
@@ -65,7 +65,7 @@
         0,
         18,
         18,
-        29
+        30
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -79,14 +79,14 @@
         "automation",
         "healthcare"
       ],
-      "pushed_at": "2026-05-22T11:22:51Z",
-      "open_issues": 7,
+      "pushed_at": "2026-05-22T13:42:29Z",
+      "open_issues": 6,
       "open_prs": 0,
       "languages_top": "Python",
       "headline_metric": {
         "label": "Open issues",
         "source": "issues_count",
-        "value": 7
+        "value": 6
       },
       "sparkline_12w": [
         0,
@@ -100,7 +100,7 @@
         0,
         0,
         0,
-        5
+        6
       ],
       "description": "Excel-to-REINF feeder bot. Reads patient rows from an Excel sheet and fills the Registro de Infarto de Madrid web form via Playwright, with Basic/NTLM auth against the institutional SALUD network. Modify-only policy: never creates new records, only updates existing ones.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-22T11:26:23Z",
+      "pushed_at": "2026-05-22T11:32:21Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,19 +165,19 @@
         0,
         0,
         26,
-        29
+        30
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 149,
+    "commits_52w": 152,
     "open_todos": 0,
     "languages": {
-      "Python": 1128804,
+      "Python": 1135027,
       "TeX": 42874,
-      "PowerShell": 2689,
+      "PowerShell": 2688,
       "HTML": 33701,
       "TypeScript": 43953,
       "Astro": 22186,
@@ -311,15 +311,48 @@
       "week": 1778976000,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 29,
-        "ci": 5,
+        "autorot": 30,
+        "ci": 6,
         "emergo": 0,
-        "gestapro": 29
+        "gestapro": 30
       },
-      "total": 63
+      "total": 66
     }
   ],
   "recent_activity": [
+    {
+      "sha": "8a35e2f970398641b47db77cc0121ad0ded9a6d1",
+      "short_sha": "8a35e2f",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-22T13:42:20Z",
+      "message": "Phase 2C iter 3: auth NTLM operativa + CLI overrides para dry-runs visuales",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/8a35e2f970398641b47db77cc0121ad0ded9a6d1",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "c688c9b1068c22f9d99d4f276a35c21cae77a977",
+      "short_sha": "c688c9b",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-22T12:25:14Z",
+      "message": "improve gantt chart phone responsiveness",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c688c9b1068c22f9d99d4f276a35c21cae77a977",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "da48583aac3b1cc5ccf0e65a261d97127ed7d1fe",
+      "short_sha": "da48583",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-22T11:32:20Z",
+      "message": "data: refresh 2026-05-22T11:32:20Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/da48583aac3b1cc5ccf0e65a261d97127ed7d1fe",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "82c24a7552423592caa19fd47e28df7c0f43422c",
       "short_sha": "82c24a7",
@@ -504,39 +537,6 @@
       "date": "2026-05-21T09:27:37Z",
       "message": "data: refresh 2026-05-21T09:27:37Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/bccc0cb1d9ddf1f34970b28a7291674de5b43630",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "a9edfb33c75536ddff961e1250d18d35458f7bd2",
-      "short_sha": "a9edfb3",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-21T09:19:37Z",
-      "message": "treat not-yet-started residents as R0 to unmix them from current R1s",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a9edfb33c75536ddff961e1250d18d35458f7bd2",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "b383dd4f089bf5cf0e0cb24b582693ba14da78f8",
-      "short_sha": "b383dd4",
-      "author": "BlancaNietoPetinal",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-21T06:52:44Z",
-      "message": "Rename autorot.yaml to autorot.yml",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/b383dd4f089bf5cf0e0cb24b582693ba14da78f8",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "4ece5ef55fb1eec7ad02dc06a62a38b0dabf00c9",
-      "short_sha": "4ece5ef",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-21T02:43:19Z",
-      "message": "data: refresh 2026-05-21T02:43:19Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/4ece5ef55fb1eec7ad02dc06a62a38b0dabf00c9",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
     }
