@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T19:27:05.001Z",
+  "generated_at": "2026-05-23T02:30:06.883Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-22T14:25:59Z",
+      "pushed_at": "2026-05-22T19:27:05Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,14 +165,14 @@
         0,
         0,
         26,
-        31
+        32
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 153,
+    "commits_52w": 154,
     "open_todos": 0,
     "languages": {
       "Python": 1135027,
@@ -314,12 +314,23 @@
         "autorot": 30,
         "ci": 6,
         "emergo": 0,
-        "gestapro": 31
+        "gestapro": 32
       },
-      "total": 67
+      "total": 68
     }
   ],
   "recent_activity": [
+    {
+      "sha": "0a47cfbe9a83cf0d2766856d457f0e8ca4cdc318",
+      "short_sha": "0a47cfb",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-22T19:27:05Z",
+      "message": "data: refresh 2026-05-22T19:27:05Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/0a47cfbe9a83cf0d2766856d457f0e8ca4cdc318",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "0e18158f61c4b1b44fec0bccc4474eb3aca73631",
       "short_sha": "0e18158",
@@ -528,17 +539,6 @@
       "url": "https://github.com/Clinico-AI-Lab/ci/commit/6a6bfa8dccdf2698257009a26ef8d83eea80f53a",
       "project_slug": "ci",
       "project_title": "REINF Madrid Feeder"
-    },
-    {
-      "sha": "fcdbf957a7f3a266527a0a1aa4589d51fdea3051",
-      "short_sha": "fcdbf95",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-21T10:24:45Z",
-      "message": "Add per-segment pin so users can fix rotations across replans",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/fcdbf957a7f3a266527a0a1aa4589d51fdea3051",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
     }
   ]
 }
