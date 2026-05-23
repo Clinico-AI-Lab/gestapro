@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T02:30:06.883Z",
+  "generated_at": "2026-05-23T08:10:01.434Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-22T19:27:05Z",
+      "pushed_at": "2026-05-23T02:30:07Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,14 +165,14 @@
         0,
         0,
         26,
-        32
+        33
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 154,
+    "commits_52w": 155,
     "open_todos": 0,
     "languages": {
       "Python": 1135027,
@@ -314,12 +314,23 @@
         "autorot": 30,
         "ci": 6,
         "emergo": 0,
-        "gestapro": 32
+        "gestapro": 33
       },
-      "total": 68
+      "total": 69
     }
   ],
   "recent_activity": [
+    {
+      "sha": "a287adce0bebb2a65d31f22c53c0337ec21d5219",
+      "short_sha": "a287adc",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-23T02:30:06Z",
+      "message": "data: refresh 2026-05-23T02:30:06Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/a287adce0bebb2a65d31f22c53c0337ec21d5219",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "0a47cfbe9a83cf0d2766856d457f0e8ca4cdc318",
       "short_sha": "0a47cfb",
@@ -526,17 +537,6 @@
       "date": "2026-05-21T12:50:02Z",
       "message": "Phase 2A: selectors.yaml poblado, run_bot.ps1 wrapper NTLM, refactor login",
       "url": "https://github.com/Clinico-AI-Lab/ci/commit/357771109119e05db3199973b89048a307f81ba2",
-      "project_slug": "ci",
-      "project_title": "REINF Madrid Feeder"
-    },
-    {
-      "sha": "6a6bfa8dccdf2698257009a26ef8d83eea80f53a",
-      "short_sha": "6a6bfa8",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-05-21T12:38:56Z",
-      "message": "Phase 1: capturas HTML, inventario de campos, auth NTLM confirmada, tests offline",
-      "url": "https://github.com/Clinico-AI-Lab/ci/commit/6a6bfa8dccdf2698257009a26ef8d83eea80f53a",
       "project_slug": "ci",
       "project_title": "REINF Madrid Feeder"
     }
