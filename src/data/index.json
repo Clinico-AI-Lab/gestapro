@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T08:22:06.233Z",
+  "generated_at": "2026-05-24T13:10:13.185Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-24T02:39:55Z",
+      "pushed_at": "2026-05-24T08:22:07Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,14 +165,14 @@
         0,
         26,
         36,
-        1
+        2
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 159,
+    "commits_52w": 160,
     "open_todos": 0,
     "languages": {
       "Python": 1135027,
@@ -314,12 +314,23 @@
         "autorot": 0,
         "ci": 0,
         "emergo": 0,
-        "gestapro": 1
+        "gestapro": 2
       },
-      "total": 1
+      "total": 2
     }
   ],
   "recent_activity": [
+    {
+      "sha": "60283077591475bf4040472d141ba9547c88c80c",
+      "short_sha": "6028307",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-24T08:22:06Z",
+      "message": "data: refresh 2026-05-24T08:22:06Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/60283077591475bf4040472d141ba9547c88c80c",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "2227511bb3c80b9044a52d0362cf2dd17b95e686",
       "short_sha": "2227511",
@@ -451,17 +462,6 @@
       "url": "https://github.com/Clinico-AI-Lab/ci/commit/10598bcb96c283700b55249f5bde18a881226541",
       "project_slug": "ci",
       "project_title": "REINF Madrid Feeder"
-    },
-    {
-      "sha": "81698793b7628da7a08e1013834097f97a4a785b",
-      "short_sha": "8169879",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-05-22T11:15:26Z",
-      "message": "Create ci.yml",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/81698793b7628da7a08e1013834097f97a4a785b",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
     },
     {
       "sha": "6383b1f905385c24b6ec4879c66e34c36a42a254",
