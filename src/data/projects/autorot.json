@@ -20,9 +20,9 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-05-22T12:25:20Z",
+    "pushed_at": "2026-05-24T17:20:57Z",
     "languages": {
-      "Python": 228773
+      "Python": 229313
     },
     "open_issues": 0,
     "open_prs": 0,
@@ -30,11 +30,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 78,
+        "contributions": 80,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 970,
+    "size_kb": 980,
     "is_empty": false
   },
   "activity": {
@@ -704,9 +704,9 @@
       },
       {
         "week": 1779580800,
-        "total": 0,
+        "total": 2,
         "days": [
-          0,
+          2,
           0,
           0,
           0,
@@ -718,6 +718,24 @@
     ]
   },
   "commits": [
+    {
+      "sha": "ceecfeeaedf5c986f6d77fd689c0a6cd1bb8bcfc",
+      "short_sha": "ceecfee",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-24T17:20:51Z",
+      "message": "Add GitHub Action to keep Streamlit app awake",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/ceecfeeaedf5c986f6d77fd689c0a6cd1bb8bcfc"
+    },
+    {
+      "sha": "4ae8aa515d64c232f69b788bfaa6d3cff3b97390",
+      "short_sha": "4ae8aa5",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-24T16:58:21Z",
+      "message": "Show only recalculated residents by default in scheduler Gantt, with toggle for full cohort",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/4ae8aa515d64c232f69b788bfaa6d3cff3b97390"
+    },
     {
       "sha": "c688c9b1068c22f9d99d4f276a35c21cae77a977",
       "short_sha": "c688c9b",
@@ -969,24 +987,6 @@
       "date": "2026-05-18T10:46:35Z",
       "message": "Add temporal leave functionality",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c854bc4aca5f8fd592639ef3222f90d9bf7c003e"
-    },
-    {
-      "sha": "572e765799d76234c758293fead814420cccf23e",
-      "short_sha": "572e765",
-      "author": "BlancaNietoPetinal",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-18T06:51:34Z",
-      "message": "Merge pull request #10 from Clinico-AI-Lab/feature/fix-free-rotation-date",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/572e765799d76234c758293fead814420cccf23e"
-    },
-    {
-      "sha": "88187d967669dcf0b7edc249613bb4443c2f0a91",
-      "short_sha": "88187d9",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-18T06:48:26Z",
-      "message": "Add user-communicated fixed LIBRE pin with pre-flight checks",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/88187d967669dcf0b7edc249613bb4443c2f0a91"
     }
   ],
   "todos": {
@@ -995,19 +995,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-24T13:10:13.180Z",
+    "since": "2025-05-24T19:07:52.462Z",
     "totals": {
-      "files": 57,
-      "commits": 66,
-      "adds": 21044,
-      "dels": 14250
+      "files": 58,
+      "commits": 68,
+      "adds": 21089,
+      "dels": 14252
     },
     "tree": {
       "name": "<root>",
-      "churn": 35294,
-      "adds": 21044,
-      "dels": 14250,
-      "commits": 288,
+      "churn": 35341,
+      "adds": 21089,
+      "dels": 14252,
+      "commits": 290,
       "children": [
         {
           "name": "data",
@@ -1038,10 +1038,10 @@
         },
         {
           "name": "autorot",
-          "churn": 14897,
-          "adds": 9589,
-          "dels": 5308,
-          "commits": 222,
+          "churn": 14915,
+          "adds": 9605,
+          "dels": 5310,
+          "commits": 223,
           "children": [
             {
               "name": "scheduler",
@@ -1243,19 +1243,19 @@
             },
             {
               "name": "views",
-              "churn": 3233,
-              "adds": 2600,
-              "dels": 633,
-              "commits": 62,
+              "churn": 3251,
+              "adds": 2616,
+              "dels": 635,
+              "commits": 63,
               "children": [
                 {
                   "name": "scheduler_panel.py",
                   "path": "autorot/views/scheduler_panel.py",
-                  "churn": 1141,
-                  "adds": 896,
-                  "dels": 245,
-                  "commits": 19,
-                  "last_touched": "2026-05-22T08:57:10.000Z"
+                  "churn": 1159,
+                  "adds": 912,
+                  "dels": 247,
+                  "commits": 20,
+                  "last_touched": "2026-05-24T16:58:21.000Z"
                 },
                 {
                   "name": "management.py",
@@ -1577,6 +1577,33 @@
           ]
         },
         {
+          "name": ".github",
+          "churn": 29,
+          "adds": 29,
+          "dels": 0,
+          "commits": 1,
+          "children": [
+            {
+              "name": "workflows",
+              "churn": 29,
+              "adds": 29,
+              "dels": 0,
+              "commits": 1,
+              "children": [
+                {
+                  "name": "keep-awake.yml",
+                  "path": ".github/workflows/keep-awake.yml",
+                  "churn": 29,
+                  "adds": 29,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-24T17:20:51.000Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "requirements.txt",
           "path": "requirements.txt",
           "churn": 13,
@@ -1597,6 +1624,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-24T13:10:13.181Z",
+  "_generated_at": "2026-05-24T19:07:52.462Z",
   "_warnings": []
 }
