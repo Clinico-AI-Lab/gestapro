@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T02:49:19.111Z",
+  "generated_at": "2026-05-25T09:55:25.874Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,14 +44,14 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-05-24T17:20:57Z",
-      "open_issues": 0,
+      "pushed_at": "2026-05-25T08:44:27Z",
+      "open_issues": 7,
       "open_prs": 0,
       "languages_top": "Python",
       "headline_metric": {
         "label": "Open issues",
         "source": "issues_count",
-        "value": 0
+        "value": 7
       },
       "sparkline_12w": [
         0,
@@ -65,7 +65,7 @@
         18,
         18,
         30,
-        2
+        8
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-24T19:07:53Z",
+      "pushed_at": "2026-05-25T02:49:19Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,24 +165,24 @@
         0,
         26,
         36,
-        4
+        5
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 164,
+    "commits_52w": 171,
     "open_todos": 0,
     "languages": {
-      "Python": 1135567,
+      "Python": 1149943,
       "TeX": 42874,
+      "JavaScript": 25077,
+      "HTML": 39989,
       "PowerShell": 2688,
-      "HTML": 33701,
       "TypeScript": 43953,
       "Astro": 22186,
-      "CSS": 7356,
-      "JavaScript": 373
+      "CSS": 7356
     }
   },
   "weekly_stack": [
@@ -311,15 +311,92 @@
       "week": 1779580800,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 2,
+        "autorot": 8,
         "ci": 0,
         "emergo": 0,
-        "gestapro": 4
+        "gestapro": 5
       },
-      "total": 6
+      "total": 13
     }
   ],
   "recent_activity": [
+    {
+      "sha": "d1c0eb72a6b2680268e8c88d6ad2557999982bae",
+      "short_sha": "d1c0eb7",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-25T08:44:19Z",
+      "message": "resize name column and add name abbreviations",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/d1c0eb72a6b2680268e8c88d6ad2557999982bae",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "15026117c9b3c2d76552a233a251a66e9d98d366",
+      "short_sha": "1502611",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-25T08:37:10Z",
+      "message": "hide programar and editar segmentos view",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/15026117c9b3c2d76552a233a251a66e9d98d366",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "345ee17476241f2d54da53c1053b95f09d4225ee",
+      "short_sha": "345ee17",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-25T08:32:05Z",
+      "message": "remove outdated render_month_grid",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/345ee17476241f2d54da53c1053b95f09d4225ee",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "9c049a5c34af640e4069a2cc9418d68b813a9404",
+      "short_sha": "9c049a5",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-25T08:27:21Z",
+      "message": "add solver to the interactive table",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/9c049a5c34af640e4069a2cc9418d68b813a9404",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "c919b327492047f6e5adfe5ef883873e2d16e610",
+      "short_sha": "c919b32",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-25T08:20:34Z",
+      "message": "add interactive table",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c919b327492047f6e5adfe5ef883873e2d16e610",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "fe31e7375bb9b6c60de25668a3be793e0f29fd68",
+      "short_sha": "fe31e73",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-25T06:56:57Z",
+      "message": "remove presentacion folder",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/fe31e7375bb9b6c60de25668a3be793e0f29fd68",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "a3b5629fc1e89549f0107c823c97adc9c13427ef",
+      "short_sha": "a3b5629",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-25T02:49:19Z",
+      "message": "data: refresh 2026-05-25T02:49:19Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/a3b5629fc1e89549f0107c823c97adc9c13427ef",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "e2debd9c9626e0fc77bebc5cc1c2c2cac4abfea6",
       "short_sha": "e2debd9",
@@ -442,17 +519,6 @@
       "project_title": "Gestapro Dashboard"
     },
     {
-      "sha": "0e18158f61c4b1b44fec0bccc4474eb3aca73631",
-      "short_sha": "0e18158",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-22T14:25:58Z",
-      "message": "data: refresh 2026-05-22T14:25:58Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/0e18158f61c4b1b44fec0bccc4474eb3aca73631",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
       "sha": "8a35e2f970398641b47db77cc0121ad0ded9a6d1",
       "short_sha": "8a35e2f",
       "author": "clinicoailab",
@@ -471,72 +537,6 @@
       "date": "2026-05-22T12:25:14Z",
       "message": "improve gantt chart phone responsiveness",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c688c9b1068c22f9d99d4f276a35c21cae77a977",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "10598bcb96c283700b55249f5bde18a881226541",
-      "short_sha": "10598bc",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-05-22T11:22:29Z",
-      "message": "Phase 2C iter 2: cablear bot para consumir dry_run_2.xlsx (must1 + must2)",
-      "url": "https://github.com/Clinico-AI-Lab/ci/commit/10598bcb96c283700b55249f5bde18a881226541",
-      "project_slug": "ci",
-      "project_title": "REINF Madrid Feeder"
-    },
-    {
-      "sha": "6383b1f905385c24b6ec4879c66e34c36a42a254",
-      "short_sha": "6383b1f",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-22T11:13:17Z",
-      "message": "add pdf and excel exports",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/6383b1f905385c24b6ec4879c66e34c36a42a254",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "5499c7f83083971c5121f67ddbc363d12f0a41e1",
-      "short_sha": "5499c7f",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-22T09:09:44Z",
-      "message": "increase quitar button siz",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/5499c7f83083971c5121f67ddbc363d12f0a41e1",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "79bb132148ea2174d632950907541c0232cf12f8",
-      "short_sha": "79bb132",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-22T08:57:10Z",
-      "message": "hide fix libre rotations dropdown",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/79bb132148ea2174d632950907541c0232cf12f8",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "60c5c307c5f8f1bf4af79e8dfc77e84412634eea",
-      "short_sha": "60c5c30",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-22T07:19:42Z",
-      "message": "add evaluation month input",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/60c5c307c5f8f1bf4af79e8dfc77e84412634eea",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "a3c947389f062777b905a0db3d002a4960bf2e09",
-      "short_sha": "a3c9473",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-22T06:36:47Z",
-      "message": "change baja segment color",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a3c947389f062777b905a0db3d002a4960bf2e09",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     }
