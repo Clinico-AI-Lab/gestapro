@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T19:07:52.466Z",
+  "generated_at": "2026-05-25T02:49:19.111Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-24T13:10:13Z",
+      "pushed_at": "2026-05-24T19:07:53Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,14 +165,14 @@
         0,
         26,
         36,
-        3
+        4
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 163,
+    "commits_52w": 164,
     "open_todos": 0,
     "languages": {
       "Python": 1135567,
@@ -314,12 +314,23 @@
         "autorot": 2,
         "ci": 0,
         "emergo": 0,
-        "gestapro": 3
+        "gestapro": 4
       },
-      "total": 5
+      "total": 6
     }
   ],
   "recent_activity": [
+    {
+      "sha": "e2debd9c9626e0fc77bebc5cc1c2c2cac4abfea6",
+      "short_sha": "e2debd9",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-24T19:07:52Z",
+      "message": "data: refresh 2026-05-24T19:07:52Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/e2debd9c9626e0fc77bebc5cc1c2c2cac4abfea6",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "ceecfeeaedf5c986f6d77fd689c0a6cd1bb8bcfc",
       "short_sha": "ceecfee",
@@ -462,17 +473,6 @@
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c688c9b1068c22f9d99d4f276a35c21cae77a977",
       "project_slug": "autorot",
       "project_title": "AutoRot"
-    },
-    {
-      "sha": "da48583aac3b1cc5ccf0e65a261d97127ed7d1fe",
-      "short_sha": "da48583",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-22T11:32:20Z",
-      "message": "data: refresh 2026-05-22T11:32:20Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/da48583aac3b1cc5ccf0e65a261d97127ed7d1fe",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
     },
     {
       "sha": "10598bcb96c283700b55249f5bde18a881226541",
