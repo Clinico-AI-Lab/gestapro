@@ -12,7 +12,7 @@
   "headline_metric": {
     "label": "Open issues",
     "source": "issues_count",
-    "value": 7
+    "value": 8
   },
   "status_data": "ok",
   "repo": {
@@ -20,23 +20,23 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-05-25T08:44:27Z",
+    "pushed_at": "2026-05-25T10:57:36Z",
     "languages": {
       "Python": 243689,
-      "JavaScript": 24704,
+      "JavaScript": 25997,
       "HTML": 6288
     },
-    "open_issues": 7,
+    "open_issues": 8,
     "open_prs": 0,
     "contributors": [
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 86,
+        "contributions": 87,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 1036,
+    "size_kb": 1037,
     "is_empty": false
   },
   "activity": {
@@ -706,10 +706,10 @@
       },
       {
         "week": 1779580800,
-        "total": 8,
+        "total": 9,
         "days": [
           2,
-          6,
+          7,
           0,
           0,
           0,
@@ -720,6 +720,15 @@
     ]
   },
   "commits": [
+    {
+      "sha": "31f1727309872177aabb4c5b1ed7b57fce5c0816",
+      "short_sha": "31f1727",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-25T10:57:28Z",
+      "message": "fix rotation grid context menu opening off-screen for blocks low in the grid",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/31f1727309872177aabb4c5b1ed7b57fce5c0816"
+    },
     {
       "sha": "d1c0eb72a6b2680268e8c88d6ad2557999982bae",
       "short_sha": "d1c0eb7",
@@ -980,15 +989,6 @@
       "date": "2026-05-18T17:16:06Z",
       "message": "Remove Eco/Uco table",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/477f171749b42c5b8c6a7e499a61d34eb773b981"
-    },
-    {
-      "sha": "2599d3d028d98f576b8dd3deda066f419a60f072",
-      "short_sha": "2599d3d",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-18T17:13:15Z",
-      "message": "Place residents and year filters side by side",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2599d3d028d98f576b8dd3deda066f419a60f072"
     }
   ],
   "todos": {
@@ -997,19 +997,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-25T09:55:25.869Z",
+    "since": "2025-05-25T14:43:03.057Z",
     "totals": {
       "files": 62,
-      "commits": 74,
-      "adds": 22553,
-      "dels": 14338
+      "commits": 75,
+      "adds": 22586,
+      "dels": 14341
     },
     "tree": {
       "name": "<root>",
-      "churn": 36891,
-      "adds": 22553,
-      "dels": 14338,
-      "commits": 305,
+      "churn": 36927,
+      "adds": 22586,
+      "dels": 14341,
+      "commits": 306,
       "children": [
         {
           "name": "data",
@@ -1040,10 +1040,10 @@
         },
         {
           "name": "autorot",
-          "churn": 16453,
-          "adds": 11058,
-          "dels": 5395,
-          "commits": 235,
+          "churn": 16489,
+          "adds": 11091,
+          "dels": 5398,
+          "commits": 236,
           "children": [
             {
               "name": "scheduler",
@@ -1326,33 +1326,33 @@
             },
             {
               "name": "components",
-              "churn": 1071,
-              "adds": 1048,
-              "dels": 23,
-              "commits": 8,
+              "churn": 1107,
+              "adds": 1081,
+              "dels": 26,
+              "commits": 9,
               "children": [
                 {
                   "name": "rotation_grid",
-                  "churn": 1070,
-                  "adds": 1047,
-                  "dels": 23,
-                  "commits": 7,
+                  "churn": 1106,
+                  "adds": 1080,
+                  "dels": 26,
+                  "commits": 8,
                   "children": [
                     {
                       "name": "frontend",
-                      "churn": 1006,
-                      "adds": 983,
-                      "dels": 23,
-                      "commits": 6,
+                      "churn": 1042,
+                      "adds": 1016,
+                      "dels": 26,
+                      "commits": 7,
                       "children": [
                         {
                           "name": "grid.js",
                           "path": "autorot/components/rotation_grid/frontend/grid.js",
-                          "churn": 759,
-                          "adds": 738,
-                          "dels": 21,
-                          "commits": 3,
-                          "last_touched": "2026-05-25T08:44:19.000Z"
+                          "churn": 795,
+                          "adds": 771,
+                          "dels": 24,
+                          "commits": 4,
+                          "last_touched": "2026-05-25T10:57:28.000Z"
                         },
                         {
                           "name": "index.html",
@@ -1689,6 +1689,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-25T09:55:25.869Z",
+  "_generated_at": "2026-05-25T14:43:03.057Z",
   "_warnings": []
 }

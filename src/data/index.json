@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T09:55:25.874Z",
+  "generated_at": "2026-05-25T14:43:03.062Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,14 +44,14 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-05-25T08:44:27Z",
-      "open_issues": 7,
+      "pushed_at": "2026-05-25T10:57:36Z",
+      "open_issues": 8,
       "open_prs": 0,
       "languages_top": "Python",
       "headline_metric": {
         "label": "Open issues",
         "source": "issues_count",
-        "value": 7
+        "value": 8
       },
       "sparkline_12w": [
         0,
@@ -65,7 +65,7 @@
         18,
         18,
         30,
-        8
+        9
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -79,14 +79,14 @@
         "automation",
         "healthcare"
       ],
-      "pushed_at": "2026-05-22T13:42:29Z",
-      "open_issues": 6,
+      "pushed_at": "2026-05-25T12:52:27Z",
+      "open_issues": 10,
       "open_prs": 0,
       "languages_top": "Python",
       "headline_metric": {
         "label": "Open issues",
         "source": "issues_count",
-        "value": 6
+        "value": 10
       },
       "sparkline_12w": [
         0,
@@ -100,7 +100,7 @@
         0,
         0,
         6,
-        0
+        1
       ],
       "description": "Excel-to-REINF feeder bot. Reads patient rows from an Excel sheet and fills the Registro de Infarto de Madrid web form via Playwright, with Basic/NTLM auth against the institutional SALUD network. Modify-only policy: never creates new records, only updates existing ones.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-25T02:49:19Z",
+      "pushed_at": "2026-05-25T09:55:26Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,19 +165,19 @@
         0,
         26,
         36,
-        5
+        6
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 171,
+    "commits_52w": 174,
     "open_todos": 0,
     "languages": {
-      "Python": 1149943,
+      "Python": 1167746,
       "TeX": 42874,
-      "JavaScript": 25077,
+      "JavaScript": 26370,
       "HTML": 39989,
       "PowerShell": 2688,
       "TypeScript": 43953,
@@ -311,15 +311,48 @@
       "week": 1779580800,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 8,
-        "ci": 0,
+        "autorot": 9,
+        "ci": 1,
         "emergo": 0,
-        "gestapro": 5
+        "gestapro": 6
       },
-      "total": 13
+      "total": 16
     }
   ],
   "recent_activity": [
+    {
+      "sha": "34de5618b8a795b0a0a82e2f4a665e1b0bd1ec25",
+      "short_sha": "34de561",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-25T12:37:46Z",
+      "message": "Phase 2C iter 4: flujo end-to-end real contra REINF Ethernet",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/34de5618b8a795b0a0a82e2f4a665e1b0bd1ec25",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "31f1727309872177aabb4c5b1ed7b57fce5c0816",
+      "short_sha": "31f1727",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-25T10:57:28Z",
+      "message": "fix rotation grid context menu opening off-screen for blocks low in the grid",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/31f1727309872177aabb4c5b1ed7b57fce5c0816",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "6fafafa4b4e0fff712b65c2a1aa572352af40ba5",
+      "short_sha": "6fafafa",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-25T09:55:25Z",
+      "message": "data: refresh 2026-05-25T09:55:25Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/6fafafa4b4e0fff712b65c2a1aa572352af40ba5",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "d1c0eb72a6b2680268e8c88d6ad2557999982bae",
       "short_sha": "d1c0eb7",
@@ -506,39 +539,6 @@
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/a287adce0bebb2a65d31f22c53c0337ec21d5219",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "0a47cfbe9a83cf0d2766856d457f0e8ca4cdc318",
-      "short_sha": "0a47cfb",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-22T19:27:05Z",
-      "message": "data: refresh 2026-05-22T19:27:05Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/0a47cfbe9a83cf0d2766856d457f0e8ca4cdc318",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "8a35e2f970398641b47db77cc0121ad0ded9a6d1",
-      "short_sha": "8a35e2f",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-05-22T13:42:20Z",
-      "message": "Phase 2C iter 3: auth NTLM operativa + CLI overrides para dry-runs visuales",
-      "url": "https://github.com/Clinico-AI-Lab/ci/commit/8a35e2f970398641b47db77cc0121ad0ded9a6d1",
-      "project_slug": "ci",
-      "project_title": "REINF Madrid Feeder"
-    },
-    {
-      "sha": "c688c9b1068c22f9d99d4f276a35c21cae77a977",
-      "short_sha": "c688c9b",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-22T12:25:14Z",
-      "message": "improve gantt chart phone responsiveness",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c688c9b1068c22f9d99d4f276a35c21cae77a977",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
     }
   ]
 }
