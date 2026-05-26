@@ -12,7 +12,7 @@
   "headline_metric": {
     "label": "Open issues",
     "source": "issues_count",
-    "value": 8
+    "value": 10
   },
   "status_data": "ok",
   "repo": {
@@ -26,7 +26,7 @@
       "JavaScript": 25997,
       "HTML": 6288
     },
-    "open_issues": 8,
+    "open_issues": 10,
     "open_prs": 0,
     "contributors": [
       {
@@ -997,7 +997,7 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-26T09:41:45.131Z",
+    "since": "2025-05-26T14:54:51.097Z",
     "totals": {
       "files": 62,
       "commits": 75,
@@ -1689,6 +1689,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-26T09:41:45.131Z",
+  "_generated_at": "2026-05-26T14:54:51.097Z",
   "_warnings": []
 }
