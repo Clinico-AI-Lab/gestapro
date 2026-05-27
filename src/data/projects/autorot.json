@@ -12,7 +12,7 @@
   "headline_metric": {
     "label": "Open issues",
     "source": "issues_count",
-    "value": 10
+    "value": 9
   },
   "status_data": "ok",
   "repo": {
@@ -20,23 +20,23 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-05-25T10:57:36Z",
+    "pushed_at": "2026-05-27T10:48:28Z",
     "languages": {
-      "Python": 243689,
-      "JavaScript": 25997,
-      "HTML": 6288
+      "Python": 340659,
+      "HTML": 48445,
+      "JavaScript": 25997
     },
-    "open_issues": 10,
+    "open_issues": 9,
     "open_prs": 0,
     "contributors": [
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 87,
+        "contributions": 108,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 1037,
+    "size_kb": 936,
     "is_empty": false
   },
   "activity": {
@@ -706,12 +706,12 @@
       },
       {
         "week": 1779580800,
-        "total": 9,
+        "total": 30,
         "days": [
           2,
-          7,
-          0,
-          0,
+          9,
+          16,
+          3,
           0,
           0,
           0
@@ -720,6 +720,195 @@
     ]
   },
   "commits": [
+    {
+      "sha": "5e7f90fba1b3096d922b855533eace7bbf04ff71",
+      "short_sha": "5e7f90f",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-27T10:36:03Z",
+      "message": "upload curricular restrictions of all the promotions",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/5e7f90fba1b3096d922b855533eace7bbf04ff71"
+    },
+    {
+      "sha": "846691b6f5818c2980857590581b4cfbb32a01b3",
+      "short_sha": "846691b",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-27T09:56:14Z",
+      "message": "add restricciones curriculares",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/846691b6f5818c2980857590581b4cfbb32a01b3"
+    },
+    {
+      "sha": "a32c02a7f8d0d0029e2410abbe5b07c7eddfdeaf",
+      "short_sha": "a32c02a",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-27T07:25:31Z",
+      "message": "add soft constraints view and allow to modify them",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a32c02a7f8d0d0029e2410abbe5b07c7eddfdeaf"
+    },
+    {
+      "sha": "707cd8254b1e1d8325e3ed3fd0ebcc1f8632e194",
+      "short_sha": "707cd82",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T18:14:43Z",
+      "message": "keep baja residents rotations in their year and count hard LIBRE concurrency cap",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/707cd8254b1e1d8325e3ed3fd0ebcc1f8632e194"
+    },
+    {
+      "sha": "73fd34d71c603e2fca689c3761d9fbcf3dee0f4b",
+      "short_sha": "73fd34d",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T15:16:26Z",
+      "message": "harden bajas rules",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/73fd34d71c603e2fca689c3761d9fbcf3dee0f4b"
+    },
+    {
+      "sha": "0ee58780bb75e7da533deda4a3f5571815d5c3c4",
+      "short_sha": "0ee5878",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T11:11:32Z",
+      "message": "separate planta R1-R2 and R5 rotations",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/0ee58780bb75e7da533deda4a3f5571815d5c3c4"
+    },
+    {
+      "sha": "a9bee8da13608fa9fdacee2ee5ab74744438fe4a",
+      "short_sha": "a9bee8d",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T10:37:23Z",
+      "message": "refactor ECO/UCO as vertical constraints and pairing constraint",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a9bee8da13608fa9fdacee2ee5ab74744438fe4a"
+    },
+    {
+      "sha": "8dfb3750e4a264c6b502e7bb599d3afdcf2f05b3",
+      "short_sha": "8dfb375",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T10:28:49Z",
+      "message": "remove unused constants",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/8dfb3750e4a264c6b502e7bb599d3afdcf2f05b3"
+    },
+    {
+      "sha": "7ffc98ab6225712767b5c0c59a4416d4876e99a8",
+      "short_sha": "7ffc98a",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T10:23:04Z",
+      "message": "refactor LIBRE as vertical constraints",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/7ffc98ab6225712767b5c0c59a4416d4876e99a8"
+    },
+    {
+      "sha": "54de03d596581447238a64868668ee3e3f2bdd04",
+      "short_sha": "54de03d",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T10:12:15Z",
+      "message": "relocate structural constraints",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/54de03d596581447238a64868668ee3e3f2bdd04"
+    },
+    {
+      "sha": "c827381faf2f47e355d73fb30f0d0fb4d9c56274",
+      "short_sha": "c827381",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T10:07:02Z",
+      "message": "create function to apply constraints",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c827381faf2f47e355d73fb30f0d0fb4d9c56274"
+    },
+    {
+      "sha": "4738c4163ef2e2f0f6df8f011ac968b70f3524d5",
+      "short_sha": "4738c41",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T09:50:18Z",
+      "message": "refactor CNIC/INTERNA as vertical constraints",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/4738c4163ef2e2f0f6df8f011ac968b70f3524d5"
+    },
+    {
+      "sha": "339553ae63f51e6866e3d52527b46bfc6815ef9e",
+      "short_sha": "339553a",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T09:38:23Z",
+      "message": "refactor REHAB as vertical constraints",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/339553ae63f51e6866e3d52527b46bfc6815ef9e"
+    },
+    {
+      "sha": "091f1579db26cb949bc38c98e90d27e80684c819",
+      "short_sha": "091f157",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T09:28:14Z",
+      "message": "refactor REHAB as vertical constraints",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/091f1579db26cb949bc38c98e90d27e80684c819"
+    },
+    {
+      "sha": "75794445c57acb7f67f4690165d0eea896c6bd24",
+      "short_sha": "7579444",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T09:19:41Z",
+      "message": "refactor HEMO/ARR as vertical constraints",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/75794445c57acb7f67f4690165d0eea896c6bd24"
+    },
+    {
+      "sha": "eddeccfa32ac1c46fd7ac4d2633d29800fc45e96",
+      "short_sha": "eddeccf",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T09:11:59Z",
+      "message": "refactor TC_RMN as vertical constraints",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/eddeccfa32ac1c46fd7ac4d2633d29800fc45e96"
+    },
+    {
+      "sha": "7d5696470c256d27cd2b0b9c9355a32018668a07",
+      "short_sha": "7d56964",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T08:56:33Z",
+      "message": "relocate constraints to new folder structure",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/7d5696470c256d27cd2b0b9c9355a32018668a07"
+    },
+    {
+      "sha": "2a9e2f70ecece4ea34c896e44bcf23817091baaa",
+      "short_sha": "2a9e2f7",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T08:37:22Z",
+      "message": "create tests",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2a9e2f70ecece4ea34c896e44bcf23817091baaa"
+    },
+    {
+      "sha": "79a5e3d8b3449e68c5ef622e0b588460adb05fb8",
+      "short_sha": "79a5e3d",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-26T08:05:31Z",
+      "message": "remove dev files",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/79a5e3d8b3449e68c5ef622e0b588460adb05fb8"
+    },
+    {
+      "sha": "58d21c0a57d2164f0ad395bdf7fefbf825f4433d",
+      "short_sha": "58d21c0",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-25T12:22:47Z",
+      "message": "remove rules folder",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/58d21c0a57d2164f0ad395bdf7fefbf825f4433d"
+    },
+    {
+      "sha": "e4b7938240817ffddb2f5617c8648c7104c7ff1f",
+      "short_sha": "e4b7938",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-25T11:27:43Z",
+      "message": "rename docs as rules",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/e4b7938240817ffddb2f5617c8648c7104c7ff1f"
+    },
     {
       "sha": "31f1727309872177aabb4c5b1ed7b57fce5c0816",
       "short_sha": "31f1727",
@@ -800,195 +989,6 @@
       "date": "2026-05-24T16:58:21Z",
       "message": "Show only recalculated residents by default in scheduler Gantt, with toggle for full cohort",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/4ae8aa515d64c232f69b788bfaa6d3cff3b97390"
-    },
-    {
-      "sha": "c688c9b1068c22f9d99d4f276a35c21cae77a977",
-      "short_sha": "c688c9b",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-22T12:25:14Z",
-      "message": "improve gantt chart phone responsiveness",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c688c9b1068c22f9d99d4f276a35c21cae77a977"
-    },
-    {
-      "sha": "6383b1f905385c24b6ec4879c66e34c36a42a254",
-      "short_sha": "6383b1f",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-22T11:13:17Z",
-      "message": "add pdf and excel exports",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/6383b1f905385c24b6ec4879c66e34c36a42a254"
-    },
-    {
-      "sha": "5499c7f83083971c5121f67ddbc363d12f0a41e1",
-      "short_sha": "5499c7f",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-22T09:09:44Z",
-      "message": "increase quitar button siz",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/5499c7f83083971c5121f67ddbc363d12f0a41e1"
-    },
-    {
-      "sha": "79bb132148ea2174d632950907541c0232cf12f8",
-      "short_sha": "79bb132",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-22T08:57:10Z",
-      "message": "hide fix libre rotations dropdown",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/79bb132148ea2174d632950907541c0232cf12f8"
-    },
-    {
-      "sha": "60c5c307c5f8f1bf4af79e8dfc77e84412634eea",
-      "short_sha": "60c5c30",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-22T07:19:42Z",
-      "message": "add evaluation month input",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/60c5c307c5f8f1bf4af79e8dfc77e84412634eea"
-    },
-    {
-      "sha": "a3c947389f062777b905a0db3d002a4960bf2e09",
-      "short_sha": "a3c9473",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-22T06:36:47Z",
-      "message": "change baja segment color",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a3c947389f062777b905a0db3d002a4960bf2e09"
-    },
-    {
-      "sha": "fcdbf957a7f3a266527a0a1aa4589d51fdea3051",
-      "short_sha": "fcdbf95",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-21T10:24:45Z",
-      "message": "Add per-segment pin so users can fix rotations across replans",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/fcdbf957a7f3a266527a0a1aa4589d51fdea3051"
-    },
-    {
-      "sha": "a9edfb33c75536ddff961e1250d18d35458f7bd2",
-      "short_sha": "a9edfb3",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-21T09:19:37Z",
-      "message": "treat not-yet-started residents as R0 to unmix them from current R1s",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a9edfb33c75536ddff961e1250d18d35458f7bd2"
-    },
-    {
-      "sha": "d139896eab4cefbc23ef22372436958b5eb747f4",
-      "short_sha": "d139896",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T17:20:45Z",
-      "message": "trim comments",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/d139896eab4cefbc23ef22372436958b5eb747f4"
-    },
-    {
-      "sha": "be7860a734c1bbf0c57d7e778f1346f95fa22c1f",
-      "short_sha": "be7860a",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T16:30:27Z",
-      "message": "Relax curriculum hard sums for legacy 2022 cohort",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/be7860a734c1bbf0c57d7e778f1346f95fa22c1f"
-    },
-    {
-      "sha": "cf5cc6a50a8c44baa6e67d17f2bce7de191dfa00",
-      "short_sha": "cf5cc6a",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T16:04:49Z",
-      "message": "Soften min residents constraint for Arritmias",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/cf5cc6a50a8c44baa6e67d17f2bce7de191dfa00"
-    },
-    {
-      "sha": "a14550c0d76f8707cbbc6eee205bbeecc5fc790b",
-      "short_sha": "a14550c",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T16:00:26Z",
-      "message": "Soften ECO/UCO max 2 residents constraint",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a14550c0d76f8707cbbc6eee205bbeecc5fc790b"
-    },
-    {
-      "sha": "405a1128a63879d7a22b68a8413792e7a3f31f64",
-      "short_sha": "405a112",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T12:02:30Z",
-      "message": "Allow MEDICINA_INTERNA 7th month as a soft preference and let UNIDAD_IC be scheduled from R3 so legacy pre-Nefrología cohorts replanifican without going INFEASIBLE.",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/405a1128a63879d7a22b68a8413792e7a3f31f64"
-    },
-    {
-      "sha": "815e95d56eeab650c35f6c5b0fc6558dd1f3c642",
-      "short_sha": "815e95d",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T10:23:49Z",
-      "message": "allow arritmias to divide if necessary",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/815e95d56eeab650c35f6c5b0fc6558dd1f3c642"
-    },
-    {
-      "sha": "e5a88a8dc1e340652565979fac4178df30e0b2fd",
-      "short_sha": "e5a88a8",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-20T08:45:07Z",
-      "message": "Support standalone cohorts and unify scheduler warnings",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/e5a88a8dc1e340652565979fac4178df30e0b2fd"
-    },
-    {
-      "sha": "28796f492ef8a71829fd2c712f7715d58727f5b2",
-      "short_sha": "28796f4",
-      "author": "BlancaNietoPetinal",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-19T11:31:35Z",
-      "message": "Added Dev Container Folder",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/28796f492ef8a71829fd2c712f7715d58727f5b2"
-    },
-    {
-      "sha": "fc37444bdbb820a4d3b9c179430edf19864fa519",
-      "short_sha": "fc37444",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-19T11:18:40Z",
-      "message": "migrate data to supabase",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/fc37444bdbb820a4d3b9c179430edf19864fa519"
-    },
-    {
-      "sha": "a3b4aea06cab89c67c19dd443b1401e29b2f8666",
-      "short_sha": "a3b4aea",
-      "author": "BlancaNietoPetinal",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-19T09:14:15Z",
-      "message": "Merge pull request #12 from Clinico-AI-Lab/design/improve-management-view",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a3b4aea06cab89c67c19dd443b1401e29b2f8666"
-    },
-    {
-      "sha": "b043f177c411dd4428a9dfd650806088bbf993bb",
-      "short_sha": "b043f17",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-18T17:42:29Z",
-      "message": "Rename side bar buttons",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b043f177c411dd4428a9dfd650806088bbf993bb"
-    },
-    {
-      "sha": "1584b4aac98850104c7818b6ca8b6ff21983fc36",
-      "short_sha": "1584b4a",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-18T17:28:59Z",
-      "message": "turn gestion tabs to sidebar buttons",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/1584b4aac98850104c7818b6ca8b6ff21983fc36"
-    },
-    {
-      "sha": "477f171749b42c5b8c6a7e499a61d34eb773b981",
-      "short_sha": "477f171",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-18T17:16:06Z",
-      "message": "Remove Eco/Uco table",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/477f171749b42c5b8c6a7e499a61d34eb773b981"
     }
   ],
   "todos": {
@@ -997,19 +997,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-27T09:35:47.913Z",
+    "since": "2025-05-27T15:23:40.546Z",
     "totals": {
-      "files": 62,
-      "commits": 75,
-      "adds": 22586,
-      "dels": 14341
+      "files": 82,
+      "commits": 96,
+      "adds": 32666,
+      "dels": 18577
     },
     "tree": {
       "name": "<root>",
-      "churn": 36927,
-      "adds": 22586,
-      "dels": 14341,
-      "commits": 306,
+      "churn": 51243,
+      "adds": 32666,
+      "dels": 18577,
+      "commits": 429,
       "children": [
         {
           "name": "data",
@@ -1039,34 +1039,115 @@
           ]
         },
         {
+          "name": "tests",
+          "churn": 8710,
+          "adds": 6078,
+          "dels": 2632,
+          "commits": 20,
+          "children": [
+            {
+              "name": "fixtures",
+              "churn": 7637,
+              "adds": 5092,
+              "dels": 2545,
+              "commits": 2,
+              "children": [
+                {
+                  "name": "cohort_snapshot.json",
+                  "path": "tests/fixtures/cohort_snapshot.json",
+                  "churn": 7637,
+                  "adds": 5092,
+                  "dels": 2545,
+                  "commits": 2,
+                  "last_touched": "2026-05-26T11:11:32.000Z"
+                }
+              ]
+            },
+            {
+              "name": "test_constraints",
+              "churn": 612,
+              "adds": 534,
+              "dels": 78,
+              "commits": 11,
+              "children": [
+                {
+                  "name": "test_units.py",
+                  "path": "tests/test_constraints/test_units.py",
+                  "churn": 612,
+                  "adds": 534,
+                  "dels": 78,
+                  "commits": 11,
+                  "last_touched": "2026-05-26T18:14:43.000Z"
+                }
+              ]
+            },
+            {
+              "name": "factories.py",
+              "path": "tests/factories.py",
+              "churn": 189,
+              "adds": 189,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-26T08:37:22.000Z"
+            },
+            {
+              "name": "test_e2e.py",
+              "path": "tests/test_e2e.py",
+              "churn": 142,
+              "adds": 133,
+              "dels": 9,
+              "commits": 4,
+              "last_touched": "2026-05-26T18:14:43.000Z"
+            },
+            {
+              "name": "test_invariants.py",
+              "path": "tests/test_invariants.py",
+              "churn": 123,
+              "adds": 123,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-26T08:37:22.000Z"
+            },
+            {
+              "name": "conftest.py",
+              "path": "tests/conftest.py",
+              "churn": 7,
+              "adds": 7,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-26T08:37:22.000Z"
+            }
+          ]
+        },
+        {
           "name": "autorot",
-          "churn": 16489,
-          "adds": 11091,
-          "dels": 5398,
-          "commits": 236,
+          "churn": 20542,
+          "adds": 13551,
+          "dels": 6991,
+          "commits": 326,
           "children": [
             {
               "name": "scheduler",
-              "churn": 9752,
-              "adds": 5940,
-              "dels": 3812,
-              "commits": 119,
+              "churn": 13025,
+              "adds": 7660,
+              "dels": 5365,
+              "commits": 189,
               "children": [
                 {
                   "name": "model.py",
                   "path": "autorot/scheduler/model.py",
-                  "churn": 5286,
-                  "adds": 2639,
-                  "dels": 2647,
-                  "commits": 34,
-                  "last_touched": "2026-05-22T07:19:42.000Z"
+                  "churn": 5800,
+                  "adds": 2831,
+                  "dels": 2969,
+                  "commits": 46,
+                  "last_touched": "2026-05-27T09:56:14.000Z"
                 },
                 {
                   "name": "constraints",
-                  "churn": 2915,
-                  "adds": 2092,
-                  "dels": 823,
-                  "commits": 49,
+                  "churn": 5516,
+                  "adds": 3512,
+                  "dels": 2004,
+                  "commits": 97,
                   "children": [
                     {
                       "name": "coverage.py",
@@ -1078,6 +1159,42 @@
                       "last_touched": "2026-05-20T17:20:45.000Z"
                     },
                     {
+                      "name": "rotation.py",
+                      "path": "autorot/scheduler/constraints/rotation.py",
+                      "churn": 606,
+                      "adds": 455,
+                      "dels": 151,
+                      "commits": 10,
+                      "last_touched": "2026-05-27T09:56:14.000Z"
+                    },
+                    {
+                      "name": "__init__.py",
+                      "path": "autorot/scheduler/constraints/__init__.py",
+                      "churn": 464,
+                      "adds": 363,
+                      "dels": 101,
+                      "commits": 19,
+                      "last_touched": "2026-05-27T09:56:14.000Z"
+                    },
+                    {
+                      "name": "eco_uco.py",
+                      "path": "autorot/scheduler/constraints/eco_uco.py",
+                      "churn": 460,
+                      "adds": 230,
+                      "dels": 230,
+                      "commits": 5,
+                      "last_touched": "2026-05-26T10:37:23.000Z"
+                    },
+                    {
+                      "name": "global_rules.py",
+                      "path": "autorot/scheduler/constraints/global_rules.py",
+                      "churn": 396,
+                      "adds": 313,
+                      "dels": 83,
+                      "commits": 4,
+                      "last_touched": "2026-05-27T09:56:14.000Z"
+                    },
+                    {
                       "name": "baja.py",
                       "path": "autorot/scheduler/constraints/baja.py",
                       "churn": 362,
@@ -1087,186 +1204,186 @@
                       "last_touched": "2026-05-20T17:20:45.000Z"
                     },
                     {
-                      "name": "eco_uco.py",
-                      "path": "autorot/scheduler/constraints/eco_uco.py",
-                      "churn": 321,
-                      "adds": 230,
-                      "dels": 91,
-                      "commits": 4,
-                      "last_touched": "2026-05-20T17:20:45.000Z"
-                    },
-                    {
                       "name": "fixed_blocks.py",
                       "path": "autorot/scheduler/constraints/fixed_blocks.py",
-                      "churn": 247,
-                      "adds": 178,
-                      "dels": 69,
-                      "commits": 3,
-                      "last_touched": "2026-05-20T17:20:45.000Z"
+                      "churn": 358,
+                      "adds": 179,
+                      "dels": 179,
+                      "commits": 6,
+                      "last_touched": "2026-05-26T09:50:18.000Z"
+                    },
+                    {
+                      "name": "overrides.py",
+                      "path": "autorot/scheduler/constraints/overrides.py",
+                      "churn": 282,
+                      "adds": 222,
+                      "dels": 60,
+                      "commits": 5,
+                      "last_touched": "2026-05-27T09:56:14.000Z"
                     },
                     {
                       "name": "externals.py",
                       "path": "autorot/scheduler/constraints/externals.py",
-                      "churn": 196,
+                      "churn": 264,
                       "adds": 132,
-                      "dels": 64,
-                      "commits": 4,
-                      "last_touched": "2026-05-22T07:19:42.000Z"
-                    },
-                    {
-                      "name": "planta.py",
-                      "path": "autorot/scheduler/constraints/planta.py",
-                      "churn": 142,
-                      "adds": 107,
-                      "dels": 35,
-                      "commits": 2,
-                      "last_touched": "2026-05-20T17:20:45.000Z"
+                      "dels": 132,
+                      "commits": 5,
+                      "last_touched": "2026-05-26T08:56:33.000Z"
                     },
                     {
                       "name": "libre.py",
                       "path": "autorot/scheduler/constraints/libre.py",
-                      "churn": 141,
+                      "churn": 220,
                       "adds": 110,
-                      "dels": 31,
-                      "commits": 4,
-                      "last_touched": "2026-05-20T17:20:45.000Z"
+                      "dels": 110,
+                      "commits": 5,
+                      "last_touched": "2026-05-26T09:38:23.000Z"
                     },
                     {
-                      "name": "lock_history.py",
-                      "path": "autorot/scheduler/constraints/lock_history.py",
-                      "churn": 127,
-                      "adds": 92,
-                      "dels": 35,
+                      "name": "planta.py",
+                      "path": "autorot/scheduler/constraints/planta.py",
+                      "churn": 214,
+                      "adds": 107,
+                      "dels": 107,
                       "commits": 3,
-                      "last_touched": "2026-05-20T17:20:45.000Z"
+                      "last_touched": "2026-05-26T11:11:32.000Z"
                     },
                     {
                       "name": "wildcards.py",
                       "path": "autorot/scheduler/constraints/wildcards.py",
-                      "churn": 122,
+                      "churn": 190,
                       "adds": 95,
-                      "dels": 27,
-                      "commits": 3,
-                      "last_touched": "2026-05-20T17:20:45.000Z"
+                      "dels": 95,
+                      "commits": 4,
+                      "last_touched": "2026-05-26T08:56:33.000Z"
                     },
                     {
-                      "name": "six_month.py",
-                      "path": "autorot/scheduler/constraints/six_month.py",
-                      "churn": 121,
-                      "adds": 80,
-                      "dels": 41,
-                      "commits": 3,
-                      "last_touched": "2026-05-20T17:20:45.000Z"
+                      "name": "lock_history.py",
+                      "path": "autorot/scheduler/constraints/lock_history.py",
+                      "churn": 184,
+                      "adds": 92,
+                      "dels": 92,
+                      "commits": 4,
+                      "last_touched": "2026-05-26T08:56:33.000Z"
                     },
                     {
                       "name": "rehab.py",
                       "path": "autorot/scheduler/constraints/rehab.py",
-                      "churn": 101,
+                      "churn": 168,
                       "adds": 84,
-                      "dels": 17,
-                      "commits": 3,
-                      "last_touched": "2026-05-20T17:20:45.000Z"
+                      "dels": 84,
+                      "commits": 4,
+                      "last_touched": "2026-05-26T09:28:14.000Z"
                     },
                     {
-                      "name": "__init__.py",
-                      "path": "autorot/scheduler/constraints/__init__.py",
-                      "churn": 58,
-                      "adds": 58,
-                      "dels": 0,
-                      "commits": 6,
-                      "last_touched": "2026-05-21T10:24:45.000Z"
+                      "name": "six_month.py",
+                      "path": "autorot/scheduler/constraints/six_month.py",
+                      "churn": 160,
+                      "adds": 80,
+                      "dels": 80,
+                      "commits": 4,
+                      "last_touched": "2026-05-26T09:19:41.000Z"
+                    },
+                    {
+                      "name": "structural.py",
+                      "path": "autorot/scheduler/constraints/structural.py",
+                      "churn": 131,
+                      "adds": 124,
+                      "dels": 7,
+                      "commits": 3,
+                      "last_touched": "2026-05-27T09:56:14.000Z"
                     },
                     {
                       "name": "pinned_segments.py",
                       "path": "autorot/scheduler/constraints/pinned_segments.py",
-                      "churn": 55,
+                      "churn": 110,
                       "adds": 55,
-                      "dels": 0,
-                      "commits": 1,
-                      "last_touched": "2026-05-21T10:24:45.000Z"
+                      "dels": 55,
+                      "commits": 2,
+                      "last_touched": "2026-05-26T08:56:33.000Z"
                     },
                     {
                       "name": "libre_fixed.py",
                       "path": "autorot/scheduler/constraints/libre_fixed.py",
-                      "churn": 53,
+                      "churn": 78,
                       "adds": 39,
-                      "dels": 14,
-                      "commits": 2,
-                      "last_touched": "2026-05-20T17:20:45.000Z"
+                      "dels": 39,
+                      "commits": 3,
+                      "last_touched": "2026-05-26T08:56:33.000Z"
                     }
                   ]
                 },
                 {
                   "name": "preflight.py",
                   "path": "autorot/scheduler/preflight.py",
-                  "churn": 672,
-                  "adds": 600,
-                  "dels": 72,
-                  "commits": 7,
-                  "last_touched": "2026-05-25T08:20:34.000Z"
+                  "churn": 684,
+                  "adds": 609,
+                  "dels": 75,
+                  "commits": 8,
+                  "last_touched": "2026-05-27T09:56:14.000Z"
                 },
                 {
                   "name": "constants.py",
                   "path": "autorot/scheduler/constants.py",
-                  "churn": 369,
-                  "adds": 248,
-                  "dels": 121,
-                  "commits": 11,
-                  "last_touched": "2026-05-22T07:19:42.000Z"
+                  "churn": 472,
+                  "adds": 316,
+                  "dels": 156,
+                  "commits": 15,
+                  "last_touched": "2026-05-26T18:14:43.000Z"
                 },
                 {
                   "name": "shape.py",
                   "path": "autorot/scheduler/shape.py",
-                  "churn": 316,
+                  "churn": 322,
                   "adds": 230,
-                  "dels": 86,
-                  "commits": 6,
-                  "last_touched": "2026-05-21T10:24:45.000Z"
+                  "dels": 92,
+                  "commits": 7,
+                  "last_touched": "2026-05-26T15:16:26.000Z"
                 },
                 {
                   "name": "helpers.py",
                   "path": "autorot/scheduler/helpers.py",
-                  "churn": 185,
-                  "adds": 124,
-                  "dels": 61,
-                  "commits": 10,
-                  "last_touched": "2026-05-22T07:19:42.000Z"
+                  "churn": 218,
+                  "adds": 153,
+                  "dels": 65,
+                  "commits": 13,
+                  "last_touched": "2026-05-27T09:56:14.000Z"
                 },
                 {
                   "name": "__init__.py",
                   "path": "autorot/scheduler/__init__.py",
-                  "churn": 9,
-                  "adds": 7,
-                  "dels": 2,
-                  "commits": 2,
-                  "last_touched": "2026-05-05T15:57:23.000Z"
+                  "churn": 13,
+                  "adds": 9,
+                  "dels": 4,
+                  "commits": 3,
+                  "last_touched": "2026-05-26T08:37:22.000Z"
                 }
               ]
             },
             {
               "name": "views",
-              "churn": 3685,
-              "adds": 2988,
-              "dels": 697,
-              "commits": 66,
+              "churn": 4108,
+              "adds": 3396,
+              "dels": 712,
+              "commits": 72,
               "children": [
                 {
                   "name": "scheduler_panel.py",
                   "path": "autorot/views/scheduler_panel.py",
-                  "churn": 1159,
-                  "adds": 912,
-                  "dels": 247,
-                  "commits": 20,
-                  "last_touched": "2026-05-24T16:58:21.000Z"
+                  "churn": 1202,
+                  "adds": 947,
+                  "dels": 255,
+                  "commits": 21,
+                  "last_touched": "2026-05-26T15:16:26.000Z"
                 },
                 {
                   "name": "management.py",
                   "path": "autorot/views/management.py",
-                  "churn": 898,
-                  "adds": 714,
-                  "dels": 184,
-                  "commits": 15,
-                  "last_touched": "2026-05-22T11:13:17.000Z"
+                  "churn": 904,
+                  "adds": 719,
+                  "dels": 185,
+                  "commits": 17,
+                  "last_touched": "2026-05-27T09:56:14.000Z"
                 },
                 {
                   "name": "overview.py",
@@ -1287,6 +1404,15 @@
                   "last_touched": "2026-05-22T11:13:17.000Z"
                 },
                 {
+                  "name": "constraints.py",
+                  "path": "autorot/views/constraints.py",
+                  "churn": 223,
+                  "adds": 217,
+                  "dels": 6,
+                  "commits": 2,
+                  "last_touched": "2026-05-27T09:56:14.000Z"
+                },
+                {
                   "name": "detail.py",
                   "path": "autorot/views/detail.py",
                   "churn": 194,
@@ -1305,6 +1431,15 @@
                   "last_touched": "2026-05-22T12:25:14.000Z"
                 },
                 {
+                  "name": "cohort_rules.py",
+                  "path": "autorot/views/cohort_rules.py",
+                  "churn": 151,
+                  "adds": 151,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-27T09:56:14.000Z"
+                },
+                {
                   "name": "__init__.py",
                   "path": "autorot/views/__init__.py",
                   "churn": 1,
@@ -1318,11 +1453,11 @@
             {
               "name": "store.py",
               "path": "autorot/store.py",
-              "churn": 817,
-              "adds": 504,
+              "churn": 886,
+              "adds": 573,
               "dels": 313,
-              "commits": 8,
-              "last_touched": "2026-05-22T07:19:42.000Z"
+              "commits": 10,
+              "last_touched": "2026-05-27T09:56:14.000Z"
             },
             {
               "name": "components",
@@ -1390,20 +1525,29 @@
             {
               "name": "loader.py",
               "path": "autorot/loader.py",
-              "churn": 516,
-              "adds": 78,
+              "churn": 576,
+              "adds": 138,
               "dels": 438,
-              "commits": 9,
-              "last_touched": "2026-05-22T07:19:42.000Z"
+              "commits": 11,
+              "last_touched": "2026-05-27T09:56:14.000Z"
+            },
+            {
+              "name": "rotations.py",
+              "path": "autorot/rotations.py",
+              "churn": 319,
+              "adds": 258,
+              "dels": 61,
+              "commits": 16,
+              "last_touched": "2026-05-27T09:56:14.000Z"
             },
             {
               "name": "analytics.py",
               "path": "autorot/analytics.py",
-              "churn": 171,
-              "adds": 146,
-              "dels": 25,
-              "commits": 5,
-              "last_touched": "2026-05-22T07:19:42.000Z"
+              "churn": 176,
+              "adds": 150,
+              "dels": 26,
+              "commits": 6,
+              "last_touched": "2026-05-27T09:56:14.000Z"
             },
             {
               "name": "models.py",
@@ -1422,15 +1566,6 @@
               "dels": 20,
               "commits": 3,
               "last_touched": "2026-05-20T17:20:45.000Z"
-            },
-            {
-              "name": "rotations.py",
-              "path": "autorot/rotations.py",
-              "churn": 96,
-              "adds": 59,
-              "dels": 37,
-              "commits": 7,
-              "last_touched": "2026-05-22T07:19:42.000Z"
             },
             {
               "name": "dateutils.py",
@@ -1464,11 +1599,47 @@
         {
           "name": "app.py",
           "path": "app.py",
-          "churn": 1520,
-          "adds": 812,
-          "dels": 708,
-          "commits": 13,
-          "last_touched": "2026-05-25T08:37:10.000Z"
+          "churn": 1552,
+          "adds": 841,
+          "dels": 711,
+          "commits": 15,
+          "last_touched": "2026-05-27T09:56:14.000Z"
+        },
+        {
+          "name": "rules",
+          "churn": 1088,
+          "adds": 1088,
+          "dels": 0,
+          "commits": 3,
+          "children": [
+            {
+              "name": "Reglas-Rotaciones-Residentes.html",
+              "path": "rules/Reglas-Rotaciones-Residentes.html",
+              "churn": 706,
+              "adds": 706,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-25T11:27:43.000Z"
+            },
+            {
+              "name": "Ranking_Restricciones.html",
+              "path": "rules/Ranking_Restricciones.html",
+              "churn": 382,
+              "adds": 382,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-25T11:27:43.000Z"
+            },
+            {
+              "name": "Reglas-Rotacion-Cardiologia_v2.docx",
+              "path": "rules/Reglas-Rotacion-Cardiologia_v2.docx",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-25T11:27:43.000Z"
+            }
+          ]
         },
         {
           "name": "scheduler.py",
@@ -1544,10 +1715,10 @@
         },
         {
           "name": "scripts",
-          "churn": 643,
-          "adds": 619,
+          "churn": 1049,
+          "adds": 1025,
           "dels": 24,
-          "commits": 7,
+          "commits": 10,
           "children": [
             {
               "name": "probe_all_cohorts.py",
@@ -1568,6 +1739,15 @@
               "last_touched": "2026-05-20T10:23:49.000Z"
             },
             {
+              "name": "migrate_planta_split.py",
+              "path": "scripts/migrate_planta_split.py",
+              "churn": 151,
+              "adds": 151,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-26T11:11:32.000Z"
+            },
+            {
               "name": "probe_standalone_cohort.py",
               "path": "scripts/probe_standalone_cohort.py",
               "churn": 142,
@@ -1575,6 +1755,24 @@
               "dels": 0,
               "commits": 1,
               "last_touched": "2026-05-20T08:45:07.000Z"
+            },
+            {
+              "name": "edit_cohort_curriculum.py",
+              "path": "scripts/edit_cohort_curriculum.py",
+              "churn": 141,
+              "adds": 141,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-27T09:56:14.000Z"
+            },
+            {
+              "name": "backfill_cohort_curricula.py",
+              "path": "scripts/backfill_cohort_curricula.py",
+              "churn": 114,
+              "adds": 114,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-27T10:36:03.000Z"
             },
             {
               "name": "rename_legacy_residents.py",
@@ -1617,11 +1815,11 @@
         {
           "name": ".gitignore",
           "path": ".gitignore",
-          "churn": 56,
-          "adds": 38,
-          "dels": 18,
-          "commits": 9,
-          "last_touched": "2026-05-25T06:56:57.000Z"
+          "churn": 74,
+          "adds": 48,
+          "dels": 26,
+          "commits": 12,
+          "last_touched": "2026-05-26T08:37:22.000Z"
         },
         {
           "name": ".devcontainer",
@@ -1678,6 +1876,24 @@
           "last_touched": "2026-05-22T11:13:17.000Z"
         },
         {
+          "name": "pyproject.toml",
+          "path": "pyproject.toml",
+          "churn": 8,
+          "adds": 8,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-26T08:37:22.000Z"
+        },
+        {
+          "name": "requirements-dev.txt",
+          "path": "requirements-dev.txt",
+          "churn": 1,
+          "adds": 1,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-26T08:37:22.000Z"
+        },
+        {
           "name": ".CLAUDE.md.swp",
           "path": ".CLAUDE.md.swp",
           "churn": 0,
@@ -1689,6 +1905,6 @@
       ]
     }
   },
-  "_generated_at": "2026-05-27T09:35:47.913Z",
+  "_generated_at": "2026-05-27T15:23:40.546Z",
   "_warnings": []
 }
