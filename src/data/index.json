@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T20:07:14.028Z",
+  "generated_at": "2026-05-28T02:35:17.264Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-27T15:23:41Z",
+      "pushed_at": "2026-05-27T20:07:14Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,14 +165,14 @@
         0,
         26,
         36,
-        15
+        16
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 204,
+    "commits_52w": 205,
     "open_todos": 0,
     "languages": {
       "Python": 1264716,
@@ -314,12 +314,23 @@
         "autorot": 30,
         "ci": 1,
         "emergo": 0,
-        "gestapro": 15
+        "gestapro": 16
       },
-      "total": 46
+      "total": 47
     }
   ],
   "recent_activity": [
+    {
+      "sha": "08ee48255fbe267147a4e3f16c31938874478647",
+      "short_sha": "08ee482",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-27T20:07:14Z",
+      "message": "data: refresh 2026-05-27T20:07:14Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/08ee48255fbe267147a4e3f16c31938874478647",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "fd1eb4e1bf79a78493ac59c3f9bed7b3048dd110",
       "short_sha": "fd1eb4e",
@@ -528,17 +539,6 @@
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/3d219d845c090de2736fefeaca6a72742b80e38d",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "34de5618b8a795b0a0a82e2f4a665e1b0bd1ec25",
-      "short_sha": "34de561",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-05-25T12:37:46Z",
-      "message": "Phase 2C iter 4: flujo end-to-end real contra REINF Ethernet",
-      "url": "https://github.com/Clinico-AI-Lab/ci/commit/34de5618b8a795b0a0a82e2f4a665e1b0bd1ec25",
-      "project_slug": "ci",
-      "project_title": "REINF Madrid Feeder"
     }
   ]
 }
