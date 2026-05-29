@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T02:39:28.724Z",
+  "generated_at": "2026-05-29T09:42:29.611Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-05-27T10:48:28Z",
+      "pushed_at": "2026-05-29T07:48:58Z",
       "open_issues": 9,
       "open_prs": 0,
       "languages_top": "Python",
@@ -65,7 +65,7 @@
         18,
         18,
         30,
-        30
+        13
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -79,7 +79,7 @@
         "automation",
         "healthcare"
       ],
-      "pushed_at": "2026-05-25T12:52:27Z",
+      "pushed_at": "2026-05-29T09:20:40Z",
       "open_issues": 10,
       "open_prs": 0,
       "languages_top": "Python",
@@ -100,7 +100,7 @@
         0,
         0,
         6,
-        1
+        2
       ],
       "description": "Excel-to-REINF feeder bot. Reads patient rows from an Excel sheet and fills the Registro de Infarto de Madrid web form via Playwright, with Basic/NTLM auth against the institutional SALUD network. Modify-only policy: never creates new records, only updates existing ones.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-28T20:12:06Z",
+      "pushed_at": "2026-05-29T02:39:29Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,17 +165,17 @@
         0,
         26,
         36,
-        20
+        21
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 209,
+    "commits_52w": 194,
     "open_todos": 0,
     "languages": {
-      "Python": 1264716,
+      "Python": 1211566,
       "TeX": 42874,
       "HTML": 82146,
       "JavaScript": 26370,
@@ -311,15 +311,37 @@
       "week": 1779580800,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 30,
-        "ci": 1,
+        "autorot": 13,
+        "ci": 2,
         "emergo": 0,
-        "gestapro": 20
+        "gestapro": 21
       },
-      "total": 51
+      "total": 36
     }
   ],
   "recent_activity": [
+    {
+      "sha": "8f0f8b555e59b7d3d471f765daad6fbcb866dd86",
+      "short_sha": "8f0f8b5",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-29T09:20:19Z",
+      "message": "Phase 2C iter 5: excluir filas sin FechaAlta ni FechaExitus + log de coste por run",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/8f0f8b555e59b7d3d471f765daad6fbcb866dd86",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "1134aa4c879bd631ce668ec6e0ce8fc638ae4153",
+      "short_sha": "1134aa4",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-29T02:39:28Z",
+      "message": "data: refresh 2026-05-29T02:39:28Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/1134aa4c879bd631ce668ec6e0ce8fc638ae4153",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "52c92aa66e3c97ef2a0384496f50a4f766111b21",
       "short_sha": "52c92aa",
@@ -387,28 +409,6 @@
       "project_title": "Gestapro Dashboard"
     },
     {
-      "sha": "5e7f90fba1b3096d922b855533eace7bbf04ff71",
-      "short_sha": "5e7f90f",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-27T10:36:03Z",
-      "message": "upload curricular restrictions of all the promotions",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/5e7f90fba1b3096d922b855533eace7bbf04ff71",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "846691b6f5818c2980857590581b4cfbb32a01b3",
-      "short_sha": "846691b",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-27T09:56:14Z",
-      "message": "add restricciones curriculares",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/846691b6f5818c2980857590581b4cfbb32a01b3",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
       "sha": "0441918f7d4ccb1f9bfca273ba6bb9ceadc0eb6c",
       "short_sha": "0441918",
       "author": "gestapro-bot",
@@ -418,17 +418,6 @@
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/0441918f7d4ccb1f9bfca273ba6bb9ceadc0eb6c",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "a32c02a7f8d0d0029e2410abbe5b07c7eddfdeaf",
-      "short_sha": "a32c02a",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-27T07:25:31Z",
-      "message": "add soft constraints view and allow to modify them",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a32c02a7f8d0d0029e2410abbe5b07c7eddfdeaf",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
     },
     {
       "sha": "5faf8f167853de7d2ac8b7049b7b53617a450a40",
@@ -453,90 +442,101 @@
       "project_title": "Gestapro Dashboard"
     },
     {
-      "sha": "707cd8254b1e1d8325e3ed3fd0ebcc1f8632e194",
-      "short_sha": "707cd82",
+      "sha": "2a9e2f70ecece4ea34c896e44bcf23817091baaa",
+      "short_sha": "2a9e2f7",
       "author": "Blanca",
       "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-26T18:14:43Z",
-      "message": "keep baja residents rotations in their year and count hard LIBRE concurrency cap",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/707cd8254b1e1d8325e3ed3fd0ebcc1f8632e194",
+      "date": "2026-05-26T08:37:22Z",
+      "message": "create tests",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2a9e2f70ecece4ea34c896e44bcf23817091baaa",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     },
     {
-      "sha": "73fd34d71c603e2fca689c3761d9fbcf3dee0f4b",
-      "short_sha": "73fd34d",
+      "sha": "79a5e3d8b3449e68c5ef622e0b588460adb05fb8",
+      "short_sha": "79a5e3d",
       "author": "Blanca",
       "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-26T15:16:26Z",
-      "message": "harden bajas rules",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/73fd34d71c603e2fca689c3761d9fbcf3dee0f4b",
+      "date": "2026-05-26T08:05:31Z",
+      "message": "remove dev files",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/79a5e3d8b3449e68c5ef622e0b588460adb05fb8",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     },
     {
-      "sha": "7630f64c9259d37fdb719c9a188c2227acc434e8",
-      "short_sha": "7630f64",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-26T14:54:51Z",
-      "message": "data: refresh 2026-05-26T14:54:51Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/7630f64c9259d37fdb719c9a188c2227acc434e8",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
+      "sha": "34de5618b8a795b0a0a82e2f4a665e1b0bd1ec25",
+      "short_sha": "34de561",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-25T12:37:46Z",
+      "message": "Phase 2C iter 4: flujo end-to-end real contra REINF Ethernet",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/34de5618b8a795b0a0a82e2f4a665e1b0bd1ec25",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
     },
     {
-      "sha": "0ee58780bb75e7da533deda4a3f5571815d5c3c4",
-      "short_sha": "0ee5878",
+      "sha": "58d21c0a57d2164f0ad395bdf7fefbf825f4433d",
+      "short_sha": "58d21c0",
       "author": "Blanca",
       "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-26T11:11:32Z",
-      "message": "separate planta R1-R2 and R5 rotations",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/0ee58780bb75e7da533deda4a3f5571815d5c3c4",
+      "date": "2026-05-25T12:22:47Z",
+      "message": "remove rules folder",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/58d21c0a57d2164f0ad395bdf7fefbf825f4433d",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     },
     {
-      "sha": "a9bee8da13608fa9fdacee2ee5ab74744438fe4a",
-      "short_sha": "a9bee8d",
+      "sha": "e4b7938240817ffddb2f5617c8648c7104c7ff1f",
+      "short_sha": "e4b7938",
       "author": "Blanca",
       "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-26T10:37:23Z",
-      "message": "refactor ECO/UCO as vertical constraints and pairing constraint",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a9bee8da13608fa9fdacee2ee5ab74744438fe4a",
+      "date": "2026-05-25T11:27:43Z",
+      "message": "rename docs as rules",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/e4b7938240817ffddb2f5617c8648c7104c7ff1f",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     },
     {
-      "sha": "8dfb3750e4a264c6b502e7bb599d3afdcf2f05b3",
-      "short_sha": "8dfb375",
+      "sha": "31f1727309872177aabb4c5b1ed7b57fce5c0816",
+      "short_sha": "31f1727",
       "author": "Blanca",
       "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-26T10:28:49Z",
-      "message": "remove unused constants",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/8dfb3750e4a264c6b502e7bb599d3afdcf2f05b3",
+      "date": "2026-05-25T10:57:28Z",
+      "message": "fix rotation grid context menu opening off-screen for blocks low in the grid",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/31f1727309872177aabb4c5b1ed7b57fce5c0816",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     },
     {
-      "sha": "7ffc98ab6225712767b5c0c59a4416d4876e99a8",
-      "short_sha": "7ffc98a",
+      "sha": "d1c0eb72a6b2680268e8c88d6ad2557999982bae",
+      "short_sha": "d1c0eb7",
       "author": "Blanca",
       "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-26T10:23:04Z",
-      "message": "refactor LIBRE as vertical constraints",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/7ffc98ab6225712767b5c0c59a4416d4876e99a8",
+      "date": "2026-05-25T08:44:19Z",
+      "message": "resize name column and add name abbreviations",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/d1c0eb72a6b2680268e8c88d6ad2557999982bae",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     },
     {
-      "sha": "54de03d596581447238a64868668ee3e3f2bdd04",
-      "short_sha": "54de03d",
+      "sha": "15026117c9b3c2d76552a233a251a66e9d98d366",
+      "short_sha": "1502611",
       "author": "Blanca",
       "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-26T10:12:15Z",
-      "message": "relocate structural constraints",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/54de03d596581447238a64868668ee3e3f2bdd04",
+      "date": "2026-05-25T08:37:10Z",
+      "message": "hide programar and editar segmentos view",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/15026117c9b3c2d76552a233a251a66e9d98d366",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "345ee17476241f2d54da53c1053b95f09d4225ee",
+      "short_sha": "345ee17",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-25T08:32:05Z",
+      "message": "remove outdated render_month_grid",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/345ee17476241f2d54da53c1053b95f09d4225ee",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     }

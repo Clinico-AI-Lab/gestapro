@@ -21,9 +21,9 @@
     "name": "ci",
     "url": "https://github.com/Clinico-AI-Lab/ci",
     "default_branch": "main",
-    "pushed_at": "2026-05-25T12:52:27Z",
+    "pushed_at": "2026-05-29T09:20:40Z",
     "languages": {
-      "Python": 122693,
+      "Python": 136582,
       "PowerShell": 2688
     },
     "open_issues": 10,
@@ -32,7 +32,7 @@
       {
         "login": "clinicoailab",
         "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-        "contributions": 7,
+        "contributions": 8,
         "html_url": "https://github.com/clinicoailab"
       }
     ],
@@ -706,20 +706,29 @@
       },
       {
         "week": 1779580800,
-        "total": 1,
+        "total": 2,
         "days": [
           0,
           1,
           0,
           0,
           0,
-          0,
+          1,
           0
         ]
       }
     ]
   },
   "commits": [
+    {
+      "sha": "8f0f8b555e59b7d3d471f765daad6fbcb866dd86",
+      "short_sha": "8f0f8b5",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-29T09:20:19Z",
+      "message": "Phase 2C iter 5: excluir filas sin FechaAlta ni FechaExitus + log de coste por run",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/8f0f8b555e59b7d3d471f765daad6fbcb866dd86"
+    },
     {
       "sha": "34de5618b8a795b0a0a82e2f4a665e1b0bd1ec25",
       "short_sha": "34de561",
@@ -790,26 +799,26 @@
     "done": []
   },
   "churn": {
-    "since": "2025-05-29T02:38:53.354Z",
+    "since": "2025-05-29T09:42:07.643Z",
     "totals": {
-      "files": 39,
-      "commits": 7,
-      "adds": 5224,
-      "dels": 234
+      "files": 41,
+      "commits": 8,
+      "adds": 5611,
+      "dels": 238
     },
     "tree": {
       "name": "<root>",
-      "churn": 5458,
-      "adds": 5224,
-      "dels": 234,
-      "commits": 69,
+      "churn": 5849,
+      "adds": 5611,
+      "dels": 238,
+      "commits": 75,
       "children": [
         {
           "name": "src",
-          "churn": 1819,
-          "adds": 1685,
-          "dels": 134,
-          "commits": 24,
+          "churn": 2020,
+          "adds": 1883,
+          "dels": 137,
+          "commits": 27,
           "children": [
             {
               "name": "form_filler.py",
@@ -823,11 +832,11 @@
             {
               "name": "main.py",
               "path": "src/main.py",
-              "churn": 334,
-              "adds": 301,
-              "dels": 33,
-              "commits": 5,
-              "last_touched": "2026-05-25T12:52:30.000Z"
+              "churn": 379,
+              "adds": 343,
+              "dels": 36,
+              "commits": 6,
+              "last_touched": "2026-05-29T09:20:19.000Z"
             },
             {
               "name": "login.py",
@@ -841,11 +850,20 @@
             {
               "name": "excel_to_reinf.py",
               "path": "src/excel_to_reinf.py",
-              "churn": 194,
-              "adds": 191,
+              "churn": 199,
+              "adds": 196,
               "dels": 3,
-              "commits": 3,
-              "last_touched": "2026-05-25T12:52:30.000Z"
+              "commits": 4,
+              "last_touched": "2026-05-29T09:20:19.000Z"
+            },
+            {
+              "name": "metrics.py",
+              "path": "src/metrics.py",
+              "churn": 151,
+              "adds": 151,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-29T09:20:19.000Z"
             },
             {
               "name": "excel_reader.py",
@@ -950,19 +968,19 @@
         },
         {
           "name": "tests",
-          "churn": 1146,
-          "adds": 1138,
-          "dels": 8,
-          "commits": 16,
+          "churn": 1178,
+          "adds": 1169,
+          "dels": 9,
+          "commits": 17,
           "children": [
             {
               "name": "test_excel_to_reinf.py",
               "path": "tests/test_excel_to_reinf.py",
-              "churn": 278,
-              "adds": 273,
-              "dels": 5,
-              "commits": 3,
-              "last_touched": "2026-05-25T12:52:30.000Z"
+              "churn": 310,
+              "adds": 304,
+              "dels": 6,
+              "commits": 4,
+              "last_touched": "2026-05-29T09:20:19.000Z"
             },
             {
               "name": "test_inventory_selectors.py",
@@ -1112,10 +1130,10 @@
         },
         {
           "name": "scripts",
-          "churn": 738,
-          "adds": 737,
+          "churn": 895,
+          "adds": 894,
           "dels": 1,
-          "commits": 6,
+          "commits": 7,
           "children": [
             {
               "name": "build_dry_run_2.py",
@@ -1125,6 +1143,15 @@
               "dels": 0,
               "commits": 1,
               "last_touched": "2026-05-22T11:22:29.000Z"
+            },
+            {
+              "name": "merge_fechas_alta.py",
+              "path": "scripts/merge_fechas_alta.py",
+              "churn": 157,
+              "adds": 157,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-29T09:20:19.000Z"
             },
             {
               "name": "build_dry_run_excel.py",
@@ -1194,15 +1221,15 @@
         {
           "name": "requirements.txt",
           "path": "requirements.txt",
-          "churn": 7,
-          "adds": 7,
+          "churn": 8,
+          "adds": 8,
           "dels": 0,
-          "commits": 2,
-          "last_touched": "2026-05-21T12:38:56.000Z"
+          "commits": 3,
+          "last_touched": "2026-05-29T09:20:19.000Z"
         }
       ]
     }
   },
-  "_generated_at": "2026-05-29T02:38:53.354Z",
+  "_generated_at": "2026-05-29T09:42:07.644Z",
   "_warnings": []
 }
