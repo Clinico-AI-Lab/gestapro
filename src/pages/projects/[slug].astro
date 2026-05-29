@@ -8,6 +8,7 @@ import Contributors from "~/components/Contributors.astro";
 import ActivityHeatmap from "~/components/ActivityHeatmap.astro";
 import ChurnTreemap from "~/components/ChurnTreemap.astro";
 import LanguagesChart from "~/components/LanguagesChart.astro";
+import CodeFlowChart from "~/components/islands/CodeFlowChart.tsx";
 import { relativeTime, formatNumber } from "~/lib/format";
 
 type ProjectSnapshot = {
@@ -26,7 +27,7 @@ type ProjectSnapshot = {
     contributors: Array<{ login: string; avatar_url: string; contributions: number; html_url: string }>;
     size_kb: number; is_empty: boolean;
   };
-  activity: { weeks: Array<{ week: number; total: number; days: number[] }> };
+  activity: { weeks: Array<{ week: number; total: number; days: number[]; adds: number; dels: number }> };
   commits: Array<{ sha: string; short_sha: string; author: string; author_avatar_url: string | null; date: string; message: string; url: string }>;
   todos: { todo: any[]; in_progress: any[]; done: any[] };
   churn: { since: string; totals: { files: number; commits: number; adds: number; dels: number }; tree: any } | null;
@@ -48,6 +49,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 // Per-project todos config flag (we infer from snapshot — if buckets exist treat enabled)
 const todosEnabled = (snapshot.todos.todo.length + snapshot.todos.in_progress.length + snapshot.todos.done.length) > 0;
+
+const flowAdds = snapshot.activity.weeks.reduce((a, w) => a + (w.adds ?? 0), 0);
+const flowDels = snapshot.activity.weeks.reduce((a, w) => a + (w.dels ?? 0), 0);
 ---
 <Base title={snapshot.title} description={snapshot.description}>
   <div class="row row-between" style="margin-bottom: 0.75rem;">
@@ -96,6 +100,14 @@ const todosEnabled = (snapshot.todos.todo.length + snapshot.todos.in_progress.le
           <div class="stat-tile-label">{snapshot.headline_metric.label}</div>
           <div class="stat-tile-value">{snapshot.headline_metric.value ?? "—"}</div>
         </div>
+      </div>
+
+      <div class="card">
+        <h2>Code flow — last 12 months</h2>
+        <div class="tiny dim" style="margin-bottom: 0.5rem;">
+          +{formatNumber(flowAdds)} / -{formatNumber(flowDels)} lines · net {flowAdds - flowDels >= 0 ? "+" : ""}{formatNumber(flowAdds - flowDels)}
+        </div>
+        <CodeFlowChart weeks={snapshot.activity.weeks} client:visible />
       </div>
 
       <div class="card">

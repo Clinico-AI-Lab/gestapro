@@ -2,6 +2,7 @@
 import Base from "~/layouts/Base.astro";
 import ProjectCard from "~/components/ProjectCard.astro";
 import WeeklyStack from "~/components/islands/WeeklyStack.tsx";
+import CodeFlowChart from "~/components/islands/CodeFlowChart.tsx";
 import { relativeTime, formatNumber } from "~/lib/format";
 
 type IndexSnapshot = {
@@ -15,8 +16,9 @@ type IndexSnapshot = {
     sparkline_12w: number[];
     description: string;
   }>;
-  totals: { repo_count: number; commits_52w: number; open_todos: number; languages: Record<string, number> };
+  totals: { repo_count: number; commits_52w: number; open_todos: number; languages: Record<string, number>; adds_52w: number; dels_52w: number };
   weekly_stack: Array<{ week: number; per_project: Record<string, number>; total: number }>;
+  code_flow: Array<{ week: number; adds: number; dels: number }>;
   recent_activity: Array<{
     sha: string; short_sha: string; author: string; author_avatar_url: string | null;
     date: string; message: string; url: string;
@@ -64,6 +66,14 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
       <div class="card">
         <h2>Commits per week — last 12 weeks</h2>
         <WeeklyStack rows={data.weekly_stack} client:visible />
+      </div>
+
+      <div class="card">
+        <h2>Code flow — last 12 months</h2>
+        <div class="tiny dim" style="margin-bottom: 0.5rem;">
+          +{formatNumber(data.totals.adds_52w)} / -{formatNumber(data.totals.dels_52w)} lines across all projects (52w)
+        </div>
+        <CodeFlowChart weeks={data.code_flow} client:visible />
       </div>
 
       <h2 style="margin-top: 1.5rem;">All projects</h2>

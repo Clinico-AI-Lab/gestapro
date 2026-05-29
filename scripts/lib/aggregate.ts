@@ -9,6 +9,8 @@ export function aggregate(snapshots: ProjectSnapshot[]): IndexSnapshot {
 
   const totalsLanguages: Record<string, number> = {};
   let totalCommits52w = 0;
+  let totalAdds52w = 0;
+  let totalDels52w = 0;
   let openTodos = 0;
   const recent: CommitRef_WithSlug[] = [];
 
@@ -17,12 +19,29 @@ export function aggregate(snapshots: ProjectSnapshot[]): IndexSnapshot {
       totalsLanguages[lang] = (totalsLanguages[lang] ?? 0) + bytes;
     }
     totalCommits52w += s.activity.weeks.reduce((a, w) => a + w.total, 0);
+    totalAdds52w += s.activity.weeks.reduce((a, w) => a + (w.adds ?? 0), 0);
+    totalDels52w += s.activity.weeks.reduce((a, w) => a + (w.dels ?? 0), 0);
     openTodos += s.todos.todo.length + s.todos.in_progress.length;
     for (const c of s.commits.slice(0, 10)) {
       recent.push({ ...c, project_slug: s.slug, project_title: s.title });
     }
   }
   recent.sort((a, b) => (b.date > a.date ? 1 : b.date < a.date ? -1 : 0));
+
+  // Lab-wide code-flow: sum adds/dels per week across projects, last 52 weeks.
+  const flowSet = new Map<number, { adds: number; dels: number }>();
+  for (const s of snapshots) {
+    for (const w of s.activity.weeks) {
+      const row = flowSet.get(w.week) ?? { adds: 0, dels: 0 };
+      row.adds += w.adds ?? 0;
+      row.dels += w.dels ?? 0;
+      flowSet.set(w.week, row);
+    }
+  }
+  const codeFlow = Array.from(flowSet.entries())
+    .sort((a, b) => a[0] - b[0])
+    .slice(-52)
+    .map(([week, v]) => ({ week, adds: v.adds, dels: v.dels }));
 
   // Cross-project weekly stack: last 12 weeks aligned by week.week timestamp.
   // Collect every unique week ts from any project, sort desc, take last 12.
@@ -68,8 +87,11 @@ export function aggregate(snapshots: ProjectSnapshot[]): IndexSnapshot {
       commits_52w: totalCommits52w,
       open_todos: openTodos,
       languages: totalsLanguages,
+      adds_52w: totalAdds52w,
+      dels_52w: totalDels52w,
     },
     weekly_stack: weeklyStack,
+    code_flow: codeFlow,
     recent_activity: recent.slice(0, 20),
   };
 }

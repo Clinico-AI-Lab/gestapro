@@ -69,8 +69,10 @@ export interface RepoMeta {
 
 export interface ActivityWeek {
   week: number;             // unix timestamp (seconds) for Sunday of that week
-  total: number;
+  total: number;            // commit count
   days: number[];           // length 7, Sun..Sat
+  adds: number;             // lines added that week (0 when no churn data)
+  dels: number;             // lines removed that week
 }
 
 export interface CommitRef {
@@ -153,11 +155,18 @@ export interface IndexSnapshot {
     commits_52w: number;
     open_todos: number;
     languages: Record<string, number>;
+    adds_52w: number;
+    dels_52w: number;
   };
   weekly_stack: Array<{
     week: number;             // unix sec
     per_project: Record<string, number>;
     total: number;
+  }>;
+  code_flow: Array<{
+    week: number;             // unix sec
+    adds: number;
+    dels: number;
   }>;
   recent_activity: CommitRef_WithSlug[];
 }

@@ -32,7 +32,7 @@ export async function fetchCommitActivity(
         continue;
       }
       const weeks: ActivityWeek[] = (resp.data as Array<{ week: number; total: number; days: number[] }>)
-        .map((w) => ({ week: w.week, total: w.total, days: w.days }));
+        .map((w) => ({ week: w.week, total: w.total, days: w.days, adds: 0, dels: 0 }));
       return { weeks };
     } catch (e) {
       const status = (e as { status?: number }).status;

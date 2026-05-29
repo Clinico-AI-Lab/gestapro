@@ -29,13 +29,16 @@ function weekStartSec(unixSec: number): number {
 }
 
 /** Build a continuous 52-week zero-filled series ending at the current week's Sunday. */
-function buildWeekSeries(commitTimestamps: number[]): ActivityWeek[] {
+function buildWeekSeries(
+  commitTimestamps: number[],
+  weekChurn: Map<number, { adds: number; dels: number }>,
+): ActivityWeek[] {
   const buckets = new Map<number, ActivityWeek>();
   const nowWeekStart = weekStartSec(Math.floor(Date.now() / 1000));
 
   for (let i = 51; i >= 0; i--) {
     const w = nowWeekStart - i * 7 * 86400;
-    buckets.set(w, { week: w, total: 0, days: [0, 0, 0, 0, 0, 0, 0] });
+    buckets.set(w, { week: w, total: 0, days: [0, 0, 0, 0, 0, 0, 0], adds: 0, dels: 0 });
   }
 
   for (const ct of commitTimestamps) {
@@ -45,6 +48,13 @@ function buildWeekSeries(commitTimestamps: number[]): ActivityWeek[] {
     const dayIdx = new Date(ct * 1000).getUTCDay();
     bucket.days[dayIdx] += 1;
     bucket.total += 1;
+  }
+
+  for (const [wk, wc] of weekChurn) {
+    const bucket = buckets.get(wk);
+    if (!bucket) continue;          // outside the 52-week window — drop
+    bucket.adds += wc.adds;
+    bucket.dels += wc.dels;
   }
 
   return Array.from(buckets.values()).sort((a, b) => a.week - b.week);
@@ -115,6 +125,7 @@ export async function fetchChurn(
   const churnCutoffSec = Math.floor((Date.now() - config.since_days * 24 * 60 * 60 * 1000) / 1000);
 
   const fileMap = new Map<string, FileChurn>();
+  const weekChurn = new Map<number, { adds: number; dels: number }>();
   const commitTimestamps: number[] = [];
   let totalCommits = 0;
   let currentCommitTs = 0;
@@ -131,7 +142,6 @@ export async function fetchChurn(
       if (currentCommitTs > 0) commitTimestamps.push(currentCommitTs);
       continue;
     }
-    if (!currentInChurnWindow) continue;     // numstat lines belong to current commit
     // numstat: adds<TAB>dels<TAB>path  (path may contain " => " for renames)
     const m = line.match(/^(\d+|-)\t(\d+|-)\t(.+)$/);
     if (!m) continue;
@@ -148,6 +158,18 @@ export async function fetchChurn(
       }
     }
     if (isExcluded(path)) continue;
+
+    // weekly code-flow series: every commit in the git-log window (~52w),
+    // independent of the narrower per-file churn window below.
+    if (currentCommitTs > 0) {
+      const wk = weekStartSec(currentCommitTs);
+      const wc = weekChurn.get(wk) ?? { adds: 0, dels: 0 };
+      wc.adds += adds;
+      wc.dels += dels;
+      weekChurn.set(wk, wc);
+    }
+
+    if (!currentInChurnWindow) continue;     // per-file aggregate is churn-window only
 
     const existing = fileMap.get(path);
     const isoDate = currentCommitTs ? new Date(currentCommitTs * 1000).toISOString() : "";
@@ -186,7 +208,7 @@ export async function fetchChurn(
     tree: buildTree(top),
   };
 
-  const activity = buildWeekSeries(commitTimestamps);
+  const activity = buildWeekSeries(commitTimestamps, weekChurn);
 
   return { snapshot, activity };
 }

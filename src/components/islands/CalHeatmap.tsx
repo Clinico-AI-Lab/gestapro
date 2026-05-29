@@ -31,7 +31,12 @@ export default function CalHeatmap({ weeks }: Props) {
       return;
     }
 
-    const start = weeks[0]?.week ? new Date(weeks[0].week * 1000) : new Date();
+    // Anchor the 12-month window to END at the current month, so the most
+    // recent (and often only non-zero) week is always inside the range.
+    const start = new Date();
+    start.setUTCHours(0, 0, 0, 0);
+    start.setUTCDate(1);
+    start.setUTCMonth(start.getUTCMonth() - 11);
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const cal: any = new (CalHeatmapLib as any)();
