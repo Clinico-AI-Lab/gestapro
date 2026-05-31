@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T13:23:45.380Z",
+  "generated_at": "2026-05-31T19:07:14.704Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-31T08:38:18Z",
+      "pushed_at": "2026-05-31T13:23:46Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,14 +165,14 @@
         26,
         36,
         30,
-        2
+        3
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 207,
+    "commits_52w": 208,
     "open_todos": 0,
     "languages": {
       "Python": 1230694,
@@ -316,9 +316,9 @@
         "autorot": 0,
         "ci": 0,
         "emergo": 0,
-        "gestapro": 2
+        "gestapro": 3
       },
-      "total": 2
+      "total": 3
     }
   ],
   "code_flow": [
@@ -585,6 +585,17 @@
   ],
   "recent_activity": [
     {
+      "sha": "a978de5ce52e08d5e6ea7df668cd942d6df2c43e",
+      "short_sha": "a978de5",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-05-31T13:23:45Z",
+      "message": "data: refresh 2026-05-31T13:23:45Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/a978de5ce52e08d5e6ea7df668cd942d6df2c43e",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
+    {
       "sha": "4a8a0b2ea63f96d587868132004407f50cf57873",
       "short_sha": "4a8a0b2",
       "author": "gestapro-bot",
@@ -680,17 +691,6 @@
       "date": "2026-05-29T10:08:52Z",
       "message": "data: regenerate all projects with code-flow fields",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/28eb6dfe7b2cd7a8db3e3fbd7f23d7ec8c883197",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "db2d74df23e1728a0ccf396e80e316b9ba4a79d4",
-      "short_sha": "db2d74d",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-05-29T10:03:48Z",
-      "message": "feat: weekly code-flow (adds/dels) stats + fix activity heatmap window",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/db2d74df23e1728a0ccf396e80e316b9ba4a79d4",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
     },
