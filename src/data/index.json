@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T02:58:06.038Z",
+  "generated_at": "2026-06-01T11:20:17.084Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-05-29T09:42:23Z",
+      "pushed_at": "2026-06-01T10:11:51Z",
       "open_issues": 9,
       "open_prs": 0,
       "languages_top": "Python",
@@ -64,8 +64,8 @@
         18,
         18,
         30,
-        15,
-        0
+        16,
+        6
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -79,14 +79,14 @@
         "automation",
         "healthcare"
       ],
-      "pushed_at": "2026-05-29T09:20:40Z",
-      "open_issues": 10,
+      "pushed_at": "2026-06-01T09:01:40Z",
+      "open_issues": 8,
       "open_prs": 0,
       "languages_top": "Python",
       "headline_metric": {
         "label": "Open issues",
         "source": "issues_count",
-        "value": 10
+        "value": 8
       },
       "sparkline_12w": [
         0,
@@ -100,7 +100,7 @@
         0,
         6,
         2,
-        0
+        1
       ],
       "description": "Excel-to-REINF feeder bot. Reads patient rows from an Excel sheet and fills the Registro de Infarto de Madrid web form via Playwright, with Basic/NTLM auth against the institutional SALUD network. Modify-only policy: never creates new records, only updates existing ones.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-05-31T19:07:15Z",
+      "pushed_at": "2026-06-01T02:58:06Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,27 +165,27 @@
         26,
         36,
         30,
-        4
+        5
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 209,
+    "commits_52w": 218,
     "open_todos": 0,
     "languages": {
-      "Python": 1230694,
+      "Python": 1249342,
       "TeX": 42874,
-      "HTML": 82146,
-      "JavaScript": 26370,
+      "HTML": 84236,
+      "JavaScript": 31753,
       "PowerShell": 2688,
       "TypeScript": 48218,
       "Astro": 23346,
       "CSS": 7356
     },
-    "adds_52w": 80370,
-    "dels_52w": 28332
+    "adds_52w": 81242,
+    "dels_52w": 28516
   },
   "weekly_stack": [
     {
@@ -302,23 +302,23 @@
       "week": 1779580800,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 15,
+        "autorot": 16,
         "ci": 2,
         "emergo": 0,
         "gestapro": 30
       },
-      "total": 47
+      "total": 48
     },
     {
       "week": 1780185600,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 0,
-        "ci": 0,
+        "autorot": 6,
+        "ci": 1,
         "emergo": 0,
-        "gestapro": 4
+        "gestapro": 5
       },
-      "total": 4
+      "total": 12
     }
   ],
   "code_flow": [
@@ -574,16 +574,104 @@
     },
     {
       "week": 1779580800,
-      "adds": 7759,
-      "dels": 469
+      "adds": 7856,
+      "dels": 504
     },
     {
       "week": 1780185600,
-      "adds": 0,
-      "dels": 0
+      "adds": 775,
+      "dels": 149
     }
   ],
   "recent_activity": [
+    {
+      "sha": "bbe4235cd751894fba07ad7105e084ef088c7f2e",
+      "short_sha": "bbe4235",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-01T10:11:44Z",
+      "message": "add vertical resident year filtering",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/bbe4235cd751894fba07ad7105e084ef088c7f2e",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "099c997410c42c55473c0a08bb3e093f7c962ac4",
+      "short_sha": "099c997",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-01T09:57:28Z",
+      "message": "add evaluation month highlights",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/099c997410c42c55473c0a08bb3e093f7c962ac4",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "91ce27215476aa0c0f315ffc57eb129439c52ad6",
+      "short_sha": "91ce272",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-01T09:23:55Z",
+      "message": "merge contiguous same rotation block",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/91ce27215476aa0c0f315ffc57eb129439c52ad6",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "1b755bbca6f6b0655e1a78d5504d5f35167c3af3",
+      "short_sha": "1b755bb",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-06-01T09:01:37Z",
+      "message": "Phase 2C iter 6: matching por NHC + NO_REGISTRADO + saneo PII + fix timeouts panel disabled",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/1b755bbca6f6b0655e1a78d5504d5f35167c3af3",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "fc424c233fa870acb8ab48b9e2877d6cd0c7d536",
+      "short_sha": "fc424c2",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-01T08:59:33Z",
+      "message": "fix timestamp lag",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/fc424c233fa870acb8ab48b9e2877d6cd0c7d536",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "adffa91ec91f77212f5a86fd89766092c223ade4",
+      "short_sha": "adffa91",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-01T07:15:27Z",
+      "message": "add visual Gannt Chart to restaurar rotaciones",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/adffa91ec91f77212f5a86fd89766092c223ade4",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "b2b2dec9684e65ce3c049b1d6a8c3a8a19007211",
+      "short_sha": "b2b2dec",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-01T07:05:47Z",
+      "message": "add per-resident rotation restore to Historial from rotations_history temporal table",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b2b2dec9684e65ce3c049b1d6a8c3a8a19007211",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "6a371ea27eb8190af0fc0635cbb1df0244acebdc",
+      "short_sha": "6a371ea",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-06-01T02:58:06Z",
+      "message": "data: refresh 2026-06-01T02:58:06Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/6a371ea27eb8190af0fc0635cbb1df0244acebdc",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "2ed45d423e35682186e411a27abd34fe2472d393",
       "short_sha": "2ed45d4",
@@ -684,15 +772,15 @@
       "project_title": "Gestapro Dashboard"
     },
     {
-      "sha": "5de714ff5930c9fe0e3cfbdfb198369c26ad090c",
-      "short_sha": "5de714f",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-29T14:50:14Z",
-      "message": "data: refresh 2026-05-29T14:50:14Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/5de714ff5930c9fe0e3cfbdfb198369c26ad090c",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
+      "sha": "b6807b46d61903d58b1dc428f3d1c171405ef872",
+      "short_sha": "b6807b4",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-05-29T12:18:07Z",
+      "message": "add urgencias rotation",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b6807b46d61903d58b1dc428f3d1c171405ef872",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
     },
     {
       "sha": "24aa721a46f4740e652f99b1be861382ec585949",
@@ -713,94 +801,6 @@
       "date": "2026-05-29T09:23:27Z",
       "message": "add non-relaxed behaviour to bajas",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/74fc22ddd0ba1b039b477750a0cbded86376e7fc",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "8f0f8b555e59b7d3d471f765daad6fbcb866dd86",
-      "short_sha": "8f0f8b5",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-05-29T09:20:19Z",
-      "message": "Phase 2C iter 5: excluir filas sin FechaAlta ni FechaExitus + log de coste por run",
-      "url": "https://github.com/Clinico-AI-Lab/ci/commit/8f0f8b555e59b7d3d471f765daad6fbcb866dd86",
-      "project_slug": "ci",
-      "project_title": "REINF Madrid Feeder"
-    },
-    {
-      "sha": "2a9e2f70ecece4ea34c896e44bcf23817091baaa",
-      "short_sha": "2a9e2f7",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-26T08:37:22Z",
-      "message": "create tests",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2a9e2f70ecece4ea34c896e44bcf23817091baaa",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "79a5e3d8b3449e68c5ef622e0b588460adb05fb8",
-      "short_sha": "79a5e3d",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-26T08:05:31Z",
-      "message": "remove dev files",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/79a5e3d8b3449e68c5ef622e0b588460adb05fb8",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "34de5618b8a795b0a0a82e2f4a665e1b0bd1ec25",
-      "short_sha": "34de561",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-05-25T12:37:46Z",
-      "message": "Phase 2C iter 4: flujo end-to-end real contra REINF Ethernet",
-      "url": "https://github.com/Clinico-AI-Lab/ci/commit/34de5618b8a795b0a0a82e2f4a665e1b0bd1ec25",
-      "project_slug": "ci",
-      "project_title": "REINF Madrid Feeder"
-    },
-    {
-      "sha": "58d21c0a57d2164f0ad395bdf7fefbf825f4433d",
-      "short_sha": "58d21c0",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-25T12:22:47Z",
-      "message": "remove rules folder",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/58d21c0a57d2164f0ad395bdf7fefbf825f4433d",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "e4b7938240817ffddb2f5617c8648c7104c7ff1f",
-      "short_sha": "e4b7938",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-25T11:27:43Z",
-      "message": "rename docs as rules",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/e4b7938240817ffddb2f5617c8648c7104c7ff1f",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "31f1727309872177aabb4c5b1ed7b57fce5c0816",
-      "short_sha": "31f1727",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-25T10:57:28Z",
-      "message": "fix rotation grid context menu opening off-screen for blocks low in the grid",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/31f1727309872177aabb4c5b1ed7b57fce5c0816",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "d1c0eb72a6b2680268e8c88d6ad2557999982bae",
-      "short_sha": "d1c0eb7",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-25T08:44:19Z",
-      "message": "resize name column and add name abbreviations",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/d1c0eb72a6b2680268e8c88d6ad2557999982bae",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     }

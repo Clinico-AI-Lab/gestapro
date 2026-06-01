@@ -13,7 +13,7 @@
   "headline_metric": {
     "label": "Open issues",
     "source": "issues_count",
-    "value": 10
+    "value": 8
   },
   "status_data": "ok",
   "repo": {
@@ -21,22 +21,22 @@
     "name": "ci",
     "url": "https://github.com/Clinico-AI-Lab/ci",
     "default_branch": "main",
-    "pushed_at": "2026-05-29T09:20:40Z",
+    "pushed_at": "2026-06-01T09:01:40Z",
     "languages": {
-      "Python": 136582,
+      "Python": 141279,
       "PowerShell": 2688
     },
-    "open_issues": 10,
+    "open_issues": 8,
     "open_prs": 0,
     "contributors": [
       {
         "login": "clinicoailab",
         "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-        "contributions": 8,
+        "contributions": 9,
         "html_url": "https://github.com/clinicoailab"
       }
     ],
-    "size_kb": 112,
+    "size_kb": 124,
     "is_empty": false
   },
   "activity": {
@@ -808,22 +808,31 @@
       },
       {
         "week": 1780185600,
-        "total": 0,
+        "total": 1,
         "days": [
           0,
-          0,
+          1,
           0,
           0,
           0,
           0,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 178,
+        "dels": 57
       }
     ]
   },
   "commits": [
+    {
+      "sha": "1b755bbca6f6b0655e1a78d5504d5f35167c3af3",
+      "short_sha": "1b755bb",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-06-01T09:01:37Z",
+      "message": "Phase 2C iter 6: matching por NHC + NO_REGISTRADO + saneo PII + fix timeouts panel disabled",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/1b755bbca6f6b0655e1a78d5504d5f35167c3af3"
+    },
     {
       "sha": "8f0f8b555e59b7d3d471f765daad6fbcb866dd86",
       "short_sha": "8f0f8b5",
@@ -903,44 +912,44 @@
     "done": []
   },
   "churn": {
-    "since": "2025-06-01T02:57:55.416Z",
+    "since": "2025-06-01T11:19:41.356Z",
     "totals": {
-      "files": 41,
-      "commits": 8,
-      "adds": 5611,
-      "dels": 238
+      "files": 42,
+      "commits": 9,
+      "adds": 5789,
+      "dels": 295
     },
     "tree": {
       "name": "<root>",
-      "churn": 5849,
-      "adds": 5611,
-      "dels": 238,
-      "commits": 75,
+      "churn": 6084,
+      "adds": 5789,
+      "dels": 295,
+      "commits": 81,
       "children": [
         {
           "name": "src",
-          "churn": 2020,
-          "adds": 1883,
-          "dels": 137,
-          "commits": 27,
+          "churn": 2187,
+          "adds": 2000,
+          "dels": 187,
+          "commits": 29,
           "children": [
             {
               "name": "form_filler.py",
               "path": "src/form_filler.py",
-              "churn": 712,
-              "adds": 647,
-              "dels": 65,
-              "commits": 3,
-              "last_touched": "2026-05-25T12:52:30.000Z"
+              "churn": 839,
+              "adds": 738,
+              "dels": 101,
+              "commits": 4,
+              "last_touched": "2026-06-01T09:01:37.000Z"
             },
             {
               "name": "main.py",
               "path": "src/main.py",
-              "churn": 379,
-              "adds": 343,
-              "dels": 36,
-              "commits": 6,
-              "last_touched": "2026-05-29T09:20:19.000Z"
+              "churn": 419,
+              "adds": 369,
+              "dels": 50,
+              "commits": 7,
+              "last_touched": "2026-06-01T09:01:37.000Z"
             },
             {
               "name": "login.py",
@@ -1036,10 +1045,10 @@
         },
         {
           "name": "config",
-          "churn": 891,
-          "adds": 801,
-          "dels": 90,
-          "commits": 11,
+          "churn": 905,
+          "adds": 812,
+          "dels": 93,
+          "commits": 13,
           "children": [
             {
               "name": "selectors.yaml",
@@ -1053,29 +1062,29 @@
             {
               "name": "form_flow.yaml",
               "path": "config/form_flow.yaml",
-              "churn": 251,
-              "adds": 205,
-              "dels": 46,
-              "commits": 4,
-              "last_touched": "2026-05-25T12:52:30.000Z"
+              "churn": 260,
+              "adds": 211,
+              "dels": 49,
+              "commits": 5,
+              "last_touched": "2026-06-01T09:01:37.000Z"
             },
             {
               "name": "settings.yaml",
               "path": "config/settings.yaml",
-              "churn": 59,
-              "adds": 51,
+              "churn": 64,
+              "adds": 56,
               "dels": 8,
-              "commits": 4,
-              "last_touched": "2026-05-22T13:42:20.000Z"
+              "commits": 5,
+              "last_touched": "2026-06-01T09:01:37.000Z"
             }
           ]
         },
         {
           "name": "tests",
-          "churn": 1178,
-          "adds": 1169,
-          "dels": 9,
-          "commits": 17,
+          "churn": 1232,
+          "adds": 1219,
+          "dels": 13,
+          "commits": 19,
           "children": [
             {
               "name": "test_excel_to_reinf.py",
@@ -1096,6 +1105,15 @@
               "last_touched": "2026-05-21T12:38:56.000Z"
             },
             {
+              "name": "test_phase2_config.py",
+              "path": "tests/test_phase2_config.py",
+              "churn": 154,
+              "adds": 147,
+              "dels": 7,
+              "commits": 4,
+              "last_touched": "2026-06-01T09:01:37.000Z"
+            },
+            {
               "name": "test_phase1_artifacts.py",
               "path": "tests/test_phase1_artifacts.py",
               "churn": 147,
@@ -1103,15 +1121,6 @@
               "dels": 0,
               "commits": 1,
               "last_touched": "2026-05-21T12:38:56.000Z"
-            },
-            {
-              "name": "test_phase2_config.py",
-              "path": "tests/test_phase2_config.py",
-              "churn": 145,
-              "adds": 142,
-              "dels": 3,
-              "commits": 3,
-              "last_touched": "2026-05-25T12:52:30.000Z"
             },
             {
               "name": "test_reinf_connectivity.py",
@@ -1148,6 +1157,15 @@
               "dels": 0,
               "commits": 1,
               "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "test_search_fields.py",
+              "path": "tests/test_search_fields.py",
+              "churn": 45,
+              "adds": 45,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-06-01T09:01:37.000Z"
             },
             {
               "name": "test_form_filler_offline.py",
@@ -1334,6 +1352,6 @@
       ]
     }
   },
-  "_generated_at": "2026-06-01T02:57:55.417Z",
+  "_generated_at": "2026-06-01T11:19:41.356Z",
   "_warnings": []
 }
