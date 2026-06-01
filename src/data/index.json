@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T11:20:17.084Z",
+  "generated_at": "2026-06-01T17:25:27.620Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-06-01T10:11:51Z",
+      "pushed_at": "2026-06-01T11:50:18Z",
       "open_issues": 9,
       "open_prs": 0,
       "languages_top": "Python",
@@ -65,7 +65,7 @@
         18,
         30,
         16,
-        6
+        11
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-06-01T02:58:06Z",
+      "pushed_at": "2026-06-01T11:20:18Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,17 +165,17 @@
         26,
         36,
         30,
-        5
+        6
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 218,
+    "commits_52w": 224,
     "open_todos": 0,
     "languages": {
-      "Python": 1249342,
+      "Python": 1266484,
       "TeX": 42874,
       "HTML": 84236,
       "JavaScript": 31753,
@@ -184,8 +184,8 @@
       "Astro": 23346,
       "CSS": 7356
     },
-    "adds_52w": 81242,
-    "dels_52w": 28516
+    "adds_52w": 81769,
+    "dels_52w": 28601
   },
   "weekly_stack": [
     {
@@ -313,12 +313,12 @@
       "week": 1780185600,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 6,
+        "autorot": 11,
         "ci": 1,
         "emergo": 0,
-        "gestapro": 5
+        "gestapro": 6
       },
-      "total": 12
+      "total": 18
     }
   ],
   "code_flow": [
@@ -579,11 +579,77 @@
     },
     {
       "week": 1780185600,
-      "adds": 775,
-      "dels": 149
+      "adds": 1302,
+      "dels": 234
     }
   ],
   "recent_activity": [
+    {
+      "sha": "2725f897080bbefeca8c99601e1a724f7c689b7f",
+      "short_sha": "2725f89",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-01T11:50:12Z",
+      "message": "add short names on Gantt",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2725f897080bbefeca8c99601e1a724f7c689b7f",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "4333d524bc0630ddc2224477a5597451c883282a",
+      "short_sha": "4333d52",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-01T11:46:56Z",
+      "message": "fix: filter on interactive table does not affect gantt chart",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/4333d524bc0630ddc2224477a5597451c883282a",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "7376b7eebbf25a2b83a1e0dca402dcbbab97465d",
+      "short_sha": "7376b7e",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-01T11:41:51Z",
+      "message": "fix: extend editable grid axis to cover leave before recalc applied",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/7376b7eebbf25a2b83a1e0dca402dcbbab97465d",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "8f51d688851b4b380a4c699e724cc3eec88570d0",
+      "short_sha": "8f51d68",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-01T11:32:25Z",
+      "message": "fix: save button behaviour",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/8f51d688851b4b380a4c699e724cc3eec88570d0",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "232f18100975f87158107f37df97cfac9b0bdcca",
+      "short_sha": "232f181",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-06-01T11:20:17Z",
+      "message": "data: refresh 2026-06-01T11:20:17Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/232f18100975f87158107f37df97cfac9b0bdcca",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
+    {
+      "sha": "68623d2b78d27b538c44da13de1224be392219c4",
+      "short_sha": "68623d2",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-01T10:33:11Z",
+      "message": "add soft constraints editor",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/68623d2b78d27b538c44da13de1224be392219c4",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
     {
       "sha": "bbe4235cd751894fba07ad7105e084ef088c7f2e",
       "short_sha": "bbe4235",
@@ -647,17 +713,6 @@
       "date": "2026-06-01T07:15:27Z",
       "message": "add visual Gannt Chart to restaurar rotaciones",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/adffa91ec91f77212f5a86fd89766092c223ade4",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "b2b2dec9684e65ce3c049b1d6a8c3a8a19007211",
-      "short_sha": "b2b2dec",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-01T07:05:47Z",
-      "message": "add per-resident rotation restore to Historial from rotations_history temporal table",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b2b2dec9684e65ce3c049b1d6a8c3a8a19007211",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     },
@@ -748,61 +803,6 @@
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/f7b120944f66931af289074dd0eb8092d900cd18",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "122b0972023d7e7e75a046a6fe705229080eec0c",
-      "short_sha": "122b097",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-30T02:32:45Z",
-      "message": "data: refresh 2026-05-30T02:32:45Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/122b0972023d7e7e75a046a6fe705229080eec0c",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "04381795859d1fb916d4f96163fc2ce096781f68",
-      "short_sha": "0438179",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-29T20:12:11Z",
-      "message": "data: refresh 2026-05-29T20:12:11Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/04381795859d1fb916d4f96163fc2ce096781f68",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "b6807b46d61903d58b1dc428f3d1c171405ef872",
-      "short_sha": "b6807b4",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-29T12:18:07Z",
-      "message": "add urgencias rotation",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b6807b46d61903d58b1dc428f3d1c171405ef872",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "24aa721a46f4740e652f99b1be861382ec585949",
-      "short_sha": "24aa721",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-29T09:42:11Z",
-      "message": "fix: measure external-rotation tail from effective_end_date so prórroga residents aren't wrongly flagged",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/24aa721a46f4740e652f99b1be861382ec585949",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "74fc22ddd0ba1b039b477750a0cbded86376e7fc",
-      "short_sha": "74fc22d",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-29T09:23:27Z",
-      "message": "add non-relaxed behaviour to bajas",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/74fc22ddd0ba1b039b477750a0cbded86376e7fc",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
     }
   ]
 }
