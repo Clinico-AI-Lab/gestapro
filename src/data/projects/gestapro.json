@@ -30,7 +30,7 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-06-05T02:47:47Z",
+    "pushed_at": "2026-06-05T09:37:08Z",
     "languages": {
       "TypeScript": 48218,
       "Astro": 23346,
@@ -53,7 +53,7 @@
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 318,
+    "size_kb": 320,
     "is_empty": false
   },
   "activity": {
@@ -825,14 +825,14 @@
       },
       {
         "week": 1780185600,
-        "total": 21,
+        "total": 22,
         "days": [
           4,
           4,
           4,
           4,
           4,
-          1,
+          2,
           0
         ],
         "adds": 0,
@@ -841,6 +841,15 @@
     ]
   },
   "commits": [
+    {
+      "sha": "aa7f275c4a17b5447d143156cabc9ab63859f257",
+      "short_sha": "aa7f275",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-06-05T09:37:07Z",
+      "message": "data: refresh 2026-06-05T09:37:07Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/aa7f275c4a17b5447d143156cabc9ab63859f257"
+    },
     {
       "sha": "aa22fe59e957d45c227d5713b92cd0bc3ffe84fa",
       "short_sha": "aa22fe5",
@@ -1101,15 +1110,6 @@
       "date": "2026-05-29T10:03:48Z",
       "message": "feat: weekly code-flow (adds/dels) stats + fix activity heatmap window",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/db2d74df23e1728a0ccf396e80e316b9ba4a79d4"
-    },
-    {
-      "sha": "296a0a590bfd38e56b606f271e7a13af8759e507",
-      "short_sha": "296a0a5",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-05-29T09:42:29Z",
-      "message": "data: refresh 2026-05-29T09:42:29Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/296a0a590bfd38e56b606f271e7a13af8759e507"
     }
   ],
   "todos": {
@@ -1118,10 +1118,10 @@
     "done": []
   },
   "churn": {
-    "since": "2025-06-05T09:36:52.289Z",
+    "since": "2025-06-05T14:33:51.404Z",
     "totals": {
       "files": 51,
-      "commits": 113,
+      "commits": 114,
       "adds": 2930,
       "dels": 69
     },
@@ -1720,6 +1720,6 @@
       ]
     }
   },
-  "_generated_at": "2026-06-05T09:36:52.289Z",
+  "_generated_at": "2026-06-05T14:33:51.404Z",
   "_warnings": []
 }
