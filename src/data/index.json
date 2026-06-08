@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T02:56:09.992Z",
+  "generated_at": "2026-06-08T10:24:42.164Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-06-04T12:26:25Z",
+      "pushed_at": "2026-06-08T09:54:51Z",
       "open_issues": 9,
       "open_prs": 0,
       "languages_top": "Python",
@@ -65,7 +65,7 @@
         30,
         16,
         23,
-        0
+        3
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-06-07T19:12:02Z",
+      "pushed_at": "2026-06-08T02:56:10Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,17 +165,17 @@
         36,
         30,
         28,
-        4
+        5
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 262,
+    "commits_52w": 266,
     "open_todos": 0,
     "languages": {
-      "Python": 1281251,
+      "Python": 1290709,
       "TeX": 42874,
       "HTML": 84335,
       "JavaScript": 32912,
@@ -184,8 +184,8 @@
       "Astro": 23346,
       "CSS": 7356
     },
-    "adds_52w": 82508,
-    "dels_52w": 28885
+    "adds_52w": 82867,
+    "dels_52w": 28999
   },
   "weekly_stack": [
     {
@@ -313,12 +313,12 @@
       "week": 1780790400,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 0,
+        "autorot": 3,
         "ci": 0,
         "emergo": 0,
-        "gestapro": 4
+        "gestapro": 5
       },
-      "total": 4
+      "total": 8
     }
   ],
   "code_flow": [
@@ -579,11 +579,55 @@
     },
     {
       "week": 1780790400,
-      "adds": 0,
-      "dels": 0
+      "adds": 359,
+      "dels": 114
     }
   ],
   "recent_activity": [
+    {
+      "sha": "b302ac5aa494024d777df353d6bcdf88093bc1d9",
+      "short_sha": "b302ac5",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-08T09:54:46Z",
+      "message": "add resident login",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b302ac5aa494024d777df353d6bcdf88093bc1d9",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "4e1c3334f0e0be99d60fa0285feea037a50cb610",
+      "short_sha": "4e1c333",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-08T09:33:43Z",
+      "message": "feature: allow sending emails to residents",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/4e1c3334f0e0be99d60fa0285feea037a50cb610",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "ac7dd99939b0137756d774db7d8e9b4e73b42bdb",
+      "short_sha": "ac7dd99",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-08T06:37:00Z",
+      "message": "replace deprecated use_container_width with width across views",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/ac7dd99939b0137756d774db7d8e9b4e73b42bdb",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "6cc70ab3dce94481d8f82731d4417ecf26295afe",
+      "short_sha": "6cc70ab",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-06-08T02:56:10Z",
+      "message": "data: refresh 2026-06-08T02:56:10Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/6cc70ab3dce94481d8f82731d4417ecf26295afe",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "6e37a8a458a0bb2ca9d52e30099c04a2ac04275b",
       "short_sha": "6e37a8a",
@@ -684,17 +728,6 @@
       "project_title": "Gestapro Dashboard"
     },
     {
-      "sha": "b8bcd32fe2516b745561c3973ed9ea296c580810",
-      "short_sha": "b8bcd32",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-06-05T14:34:04Z",
-      "message": "data: refresh 2026-06-05T14:34:04Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/b8bcd32fe2516b745561c3973ed9ea296c580810",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
       "sha": "0b8f3648e02bad77f0a4d44b6ec8ba9bdf2f46b1",
       "short_sha": "0b8f364",
       "author": "Blanca",
@@ -768,39 +801,6 @@
       "date": "2026-06-04T10:24:45Z",
       "message": "add incidencias view",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/99abda48ef4d598e303911a29974ba8fdf3ce223",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "ff5fa8491514ab86b7577f6bfe9adabfd736a309",
-      "short_sha": "ff5fa84",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T10:16:13Z",
-      "message": "fix: prevent code-picker menu clipping in zoomed grid view",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/ff5fa8491514ab86b7577f6bfe9adabfd736a309",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "2f257ea3dbcee90ed00856b7599c810fa8ffcc7f",
-      "short_sha": "2f257ea",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T10:03:26Z",
-      "message": "create ignore hard constraints button",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2f257ea3dbcee90ed00856b7599c810fa8ffcc7f",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "791c71dd10fac1f9b2ee78ff6acbb6e491f81104",
-      "short_sha": "791c71d",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T09:48:21Z",
-      "message": "add soft restrictions to model",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/791c71dd10fac1f9b2ee78ff6acbb6e491f81104",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     }
