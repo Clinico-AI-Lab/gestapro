@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T02:33:37.190Z",
+  "generated_at": "2026-06-09T09:31:41.285Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -79,7 +79,7 @@
         "automation",
         "healthcare"
       ],
-      "pushed_at": "2026-06-01T09:01:40Z",
+      "pushed_at": "2026-06-09T07:34:11Z",
       "open_issues": 8,
       "open_prs": 0,
       "languages_top": "Python",
@@ -100,7 +100,7 @@
         6,
         2,
         1,
-        0
+        1
       ],
       "description": "Excel-to-REINF feeder bot. Reads patient rows from an Excel sheet and fills the Registro de Infarto de Madrid web form via Playwright, with Basic/NTLM auth against the institutional SALUD network. Modify-only policy: never creates new records, only updates existing ones.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-06-08T20:06:21Z",
+      "pushed_at": "2026-06-09T02:33:37Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,17 +165,17 @@
         36,
         30,
         28,
-        8
+        9
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 269,
+    "commits_52w": 271,
     "open_todos": 0,
     "languages": {
-      "Python": 1290709,
+      "Python": 1332285,
       "TeX": 42874,
       "HTML": 84335,
       "JavaScript": 32912,
@@ -184,8 +184,8 @@
       "Astro": 23346,
       "CSS": 7356
     },
-    "adds_52w": 82867,
-    "dels_52w": 28999
+    "adds_52w": 84028,
+    "dels_52w": 29068
   },
   "weekly_stack": [
     {
@@ -314,11 +314,11 @@
       "per_project": {
         "activa-ldl-heavy": 0,
         "autorot": 3,
-        "ci": 0,
+        "ci": 1,
         "emergo": 0,
-        "gestapro": 8
+        "gestapro": 9
       },
-      "total": 11
+      "total": 13
     }
   ],
   "code_flow": [
@@ -579,11 +579,33 @@
     },
     {
       "week": 1780790400,
-      "adds": 359,
-      "dels": 114
+      "adds": 1520,
+      "dels": 183
     }
   ],
   "recent_activity": [
+    {
+      "sha": "b08ea73c4ab5936227819229637e0d70cdf1c9cb",
+      "short_sha": "b08ea73",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-06-09T07:34:07Z",
+      "message": "﻿Phase 2C iter 7: localizacion IM en ECG + dry_run_3/4 + robustez submit/nav",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/b08ea73c4ab5936227819229637e0d70cdf1c9cb",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "79b4dad5e9b61de6dda0bf0208bd112a851bbe5c",
+      "short_sha": "79b4dad",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-06-09T02:33:37Z",
+      "message": "data: refresh 2026-06-09T02:33:37Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/79b4dad5e9b61de6dda0bf0208bd112a851bbe5c",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "99de4dc7c971dcb2f8fee05d0c59840cd40bc346",
       "short_sha": "99de4dc",
@@ -717,17 +739,6 @@
       "project_title": "Gestapro Dashboard"
     },
     {
-      "sha": "048225f58980957acc5835236ff8821d2bda824d",
-      "short_sha": "048225f",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-06-06T13:18:35Z",
-      "message": "data: refresh 2026-06-06T13:18:35Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/048225f58980957acc5835236ff8821d2bda824d",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
       "sha": "0b8f3648e02bad77f0a4d44b6ec8ba9bdf2f46b1",
       "short_sha": "0b8f364",
       "author": "Blanca",
@@ -790,17 +801,6 @@
       "date": "2026-06-04T10:34:33Z",
       "message": "remove date and time form indicencias view",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b0d2c6e9c60ab7d3334af0b121f497b301d48831",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "99abda48ef4d598e303911a29974ba8fdf3ce223",
-      "short_sha": "99abda4",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T10:24:45Z",
-      "message": "add incidencias view",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/99abda48ef4d598e303911a29974ba8fdf3ce223",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     }
