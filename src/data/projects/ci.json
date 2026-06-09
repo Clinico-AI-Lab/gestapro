@@ -21,9 +21,9 @@
     "name": "ci",
     "url": "https://github.com/Clinico-AI-Lab/ci",
     "default_branch": "main",
-    "pushed_at": "2026-06-09T07:34:11Z",
+    "pushed_at": "2026-06-09T12:04:28Z",
     "languages": {
-      "Python": 182855,
+      "Python": 203255,
       "PowerShell": 2688
     },
     "open_issues": 8,
@@ -32,11 +32,11 @@
       {
         "login": "clinicoailab",
         "avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-        "contributions": 10,
+        "contributions": 11,
         "html_url": "https://github.com/clinicoailab"
       }
     ],
-    "size_kb": 151,
+    "size_kb": 187,
     "is_empty": false
   },
   "activity": {
@@ -808,22 +808,31 @@
       },
       {
         "week": 1780790400,
-        "total": 1,
+        "total": 2,
         "days": [
           0,
           0,
-          1,
+          2,
           0,
           0,
           0,
           0
         ],
-        "adds": 1161,
-        "dels": 69
+        "adds": 1765,
+        "dels": 148
       }
     ]
   },
   "commits": [
+    {
+      "sha": "a5ee43c7db1678601a3d336b02b8abf8cbdd1c80",
+      "short_sha": "a5ee43c",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-06-09T12:04:25Z",
+      "message": "﻿Phase 2C iter 8: alta de registros nuevos (--crear-altas) + optimizacion velocidad",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/a5ee43c7db1678601a3d336b02b8abf8cbdd1c80"
+    },
     {
       "sha": "b08ea73c4ab5936227819229637e0d70cdf1c9cb",
       "short_sha": "b08ea73",
@@ -921,44 +930,53 @@
     "done": []
   },
   "churn": {
-    "since": "2025-06-09T09:30:48.595Z",
+    "since": "2025-06-09T14:34:59.820Z",
     "totals": {
-      "files": 46,
-      "commits": 10,
-      "adds": 6950,
-      "dels": 364
+      "files": 47,
+      "commits": 11,
+      "adds": 7554,
+      "dels": 443
     },
     "tree": {
       "name": "<root>",
-      "churn": 7314,
-      "adds": 6950,
-      "dels": 364,
-      "commits": 89,
+      "churn": 7997,
+      "adds": 7554,
+      "dels": 443,
+      "commits": 100,
       "children": [
         {
           "name": "src",
-          "churn": 2639,
-          "adds": 2397,
-          "dels": 242,
-          "commits": 32,
+          "churn": 3054,
+          "adds": 2741,
+          "dels": 313,
+          "commits": 36,
           "children": [
             {
               "name": "form_filler.py",
               "path": "src/form_filler.py",
-              "churn": 1037,
-              "adds": 885,
-              "dels": 152,
-              "commits": 5,
-              "last_touched": "2026-06-09T07:34:07.000Z"
+              "churn": 1295,
+              "adds": 1090,
+              "dels": 205,
+              "commits": 6,
+              "last_touched": "2026-06-09T12:04:25.000Z"
             },
             {
               "name": "main.py",
               "path": "src/main.py",
-              "churn": 448,
-              "adds": 394,
-              "dels": 54,
-              "commits": 8,
-              "last_touched": "2026-06-09T07:34:07.000Z"
+              "churn": 540,
+              "adds": 469,
+              "dels": 71,
+              "commits": 9,
+              "last_touched": "2026-06-09T12:04:25.000Z"
+            },
+            {
+              "name": "excel_to_reinf.py",
+              "path": "src/excel_to_reinf.py",
+              "churn": 240,
+              "adds": 237,
+              "dels": 3,
+              "commits": 5,
+              "last_touched": "2026-06-09T12:04:25.000Z"
             },
             {
               "name": "localizacion.py",
@@ -977,15 +995,6 @@
               "dels": 32,
               "commits": 3,
               "last_touched": "2026-05-22T13:42:20.000Z"
-            },
-            {
-              "name": "excel_to_reinf.py",
-              "path": "src/excel_to_reinf.py",
-              "churn": 199,
-              "adds": 196,
-              "dels": 3,
-              "commits": 4,
-              "last_touched": "2026-05-29T09:20:19.000Z"
             },
             {
               "name": "metrics.py",
@@ -1024,6 +1033,15 @@
               "last_touched": "2026-05-20T12:43:05.000Z"
             },
             {
+              "name": "exceptions.py",
+              "path": "src/exceptions.py",
+              "churn": 60,
+              "adds": 59,
+              "dels": 1,
+              "commits": 3,
+              "last_touched": "2026-06-09T12:04:25.000Z"
+            },
+            {
               "name": "postback_utils.py",
               "path": "src/postback_utils.py",
               "churn": 40,
@@ -1042,15 +1060,6 @@
               "last_touched": "2026-05-20T12:43:05.000Z"
             },
             {
-              "name": "exceptions.py",
-              "path": "src/exceptions.py",
-              "churn": 36,
-              "adds": 36,
-              "dels": 0,
-              "commits": 2,
-              "last_touched": "2026-05-21T13:03:33.000Z"
-            },
-            {
               "name": "__init__.py",
               "path": "src/__init__.py",
               "churn": 0,
@@ -1063,136 +1072,55 @@
         },
         {
           "name": "config",
-          "churn": 905,
-          "adds": 812,
-          "dels": 93,
-          "commits": 13,
+          "churn": 967,
+          "adds": 867,
+          "dels": 100,
+          "commits": 16,
           "children": [
             {
               "name": "selectors.yaml",
               "path": "config/selectors.yaml",
-              "churn": 581,
-              "adds": 545,
+              "churn": 597,
+              "adds": 561,
               "dels": 36,
-              "commits": 3,
-              "last_touched": "2026-05-25T12:52:30.000Z"
+              "commits": 4,
+              "last_touched": "2026-06-09T12:04:25.000Z"
             },
             {
               "name": "form_flow.yaml",
               "path": "config/form_flow.yaml",
-              "churn": 260,
-              "adds": 211,
-              "dels": 49,
-              "commits": 5,
-              "last_touched": "2026-06-01T09:01:37.000Z"
+              "churn": 302,
+              "adds": 247,
+              "dels": 55,
+              "commits": 6,
+              "last_touched": "2026-06-09T12:04:25.000Z"
             },
             {
               "name": "settings.yaml",
               "path": "config/settings.yaml",
-              "churn": 64,
-              "adds": 56,
-              "dels": 8,
-              "commits": 5,
-              "last_touched": "2026-06-01T09:01:37.000Z"
-            }
-          ]
-        },
-        {
-          "name": "scripts",
-          "churn": 1482,
-          "adds": 1467,
-          "dels": 15,
-          "commits": 10,
-          "children": [
-            {
-              "name": "build_dry_run_4.py",
-              "path": "scripts/build_dry_run_4.py",
-              "churn": 347,
-              "adds": 347,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-06-09T07:34:07.000Z"
-            },
-            {
-              "name": "build_dry_run_2.py",
-              "path": "scripts/build_dry_run_2.py",
-              "churn": 262,
-              "adds": 262,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-22T11:22:29.000Z"
-            },
-            {
-              "name": "merge_fechas_alta.py",
-              "path": "scripts/merge_fechas_alta.py",
-              "churn": 211,
-              "adds": 197,
-              "dels": 14,
-              "commits": 2,
-              "last_touched": "2026-06-09T07:34:07.000Z"
-            },
-            {
-              "name": "build_dry_run_3.py",
-              "path": "scripts/build_dry_run_3.py",
-              "churn": 186,
-              "adds": 186,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-06-09T07:34:07.000Z"
-            },
-            {
-              "name": "build_dry_run_excel.py",
-              "path": "scripts/build_dry_run_excel.py",
-              "churn": 148,
-              "adds": 148,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-21T13:03:33.000Z"
-            },
-            {
-              "name": "verify_credentials.py",
-              "path": "scripts/verify_credentials.py",
-              "churn": 128,
-              "adds": 128,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-21T12:38:56.000Z"
-            },
-            {
-              "name": "verify_cookie_transfer.py",
-              "path": "scripts/verify_cookie_transfer.py",
-              "churn": 123,
-              "adds": 123,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-21T12:38:56.000Z"
-            },
-            {
-              "name": "run_bot.ps1",
-              "path": "scripts/run_bot.ps1",
-              "churn": 77,
-              "adds": 76,
-              "dels": 1,
-              "commits": 2,
-              "last_touched": "2026-05-22T13:42:20.000Z"
+              "churn": 68,
+              "adds": 59,
+              "dels": 9,
+              "commits": 6,
+              "last_touched": "2026-06-09T12:04:25.000Z"
             }
           ]
         },
         {
           "name": "tests",
-          "churn": 1422,
-          "adds": 1409,
+          "churn": 1524,
+          "adds": 1511,
           "dels": 13,
-          "commits": 20,
+          "commits": 22,
           "children": [
             {
               "name": "test_excel_to_reinf.py",
               "path": "tests/test_excel_to_reinf.py",
-              "churn": 310,
-              "adds": 304,
+              "churn": 387,
+              "adds": 381,
               "dels": 6,
-              "commits": 4,
-              "last_touched": "2026-05-29T09:20:19.000Z"
+              "commits": 5,
+              "last_touched": "2026-06-09T12:04:25.000Z"
             },
             {
               "name": "test_localizacion.py",
@@ -1204,6 +1132,15 @@
               "last_touched": "2026-06-09T07:34:07.000Z"
             },
             {
+              "name": "test_phase2_config.py",
+              "path": "tests/test_phase2_config.py",
+              "churn": 179,
+              "adds": 172,
+              "dels": 7,
+              "commits": 5,
+              "last_touched": "2026-06-09T12:04:25.000Z"
+            },
+            {
               "name": "test_inventory_selectors.py",
               "path": "tests/test_inventory_selectors.py",
               "churn": 164,
@@ -1211,15 +1148,6 @@
               "dels": 0,
               "commits": 1,
               "last_touched": "2026-05-21T12:38:56.000Z"
-            },
-            {
-              "name": "test_phase2_config.py",
-              "path": "tests/test_phase2_config.py",
-              "churn": 154,
-              "adds": 147,
-              "dels": 7,
-              "commits": 4,
-              "last_touched": "2026-06-01T09:01:37.000Z"
             },
             {
               "name": "test_phase1_artifacts.py",
@@ -1305,11 +1233,101 @@
           ]
         },
         {
+          "name": "scripts",
+          "churn": 1563,
+          "adds": 1548,
+          "dels": 15,
+          "commits": 11,
+          "children": [
+            {
+              "name": "build_dry_run_4.py",
+              "path": "scripts/build_dry_run_4.py",
+              "churn": 347,
+              "adds": 347,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-06-09T07:34:07.000Z"
+            },
+            {
+              "name": "build_dry_run_2.py",
+              "path": "scripts/build_dry_run_2.py",
+              "churn": 262,
+              "adds": 262,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-22T11:22:29.000Z"
+            },
+            {
+              "name": "merge_fechas_alta.py",
+              "path": "scripts/merge_fechas_alta.py",
+              "churn": 211,
+              "adds": 197,
+              "dels": 14,
+              "commits": 2,
+              "last_touched": "2026-06-09T07:34:07.000Z"
+            },
+            {
+              "name": "build_dry_run_3.py",
+              "path": "scripts/build_dry_run_3.py",
+              "churn": 186,
+              "adds": 186,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-06-09T07:34:07.000Z"
+            },
+            {
+              "name": "build_dry_run_excel.py",
+              "path": "scripts/build_dry_run_excel.py",
+              "churn": 148,
+              "adds": 148,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T13:03:33.000Z"
+            },
+            {
+              "name": "verify_credentials.py",
+              "path": "scripts/verify_credentials.py",
+              "churn": 128,
+              "adds": 128,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "verify_cookie_transfer.py",
+              "path": "scripts/verify_cookie_transfer.py",
+              "churn": 123,
+              "adds": 123,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-21T12:38:56.000Z"
+            },
+            {
+              "name": "clean_estado.py",
+              "path": "scripts/clean_estado.py",
+              "churn": 81,
+              "adds": 81,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-06-09T12:04:25.000Z"
+            },
+            {
+              "name": "run_bot.ps1",
+              "path": "scripts/run_bot.ps1",
+              "churn": 77,
+              "adds": 76,
+              "dels": 1,
+              "commits": 2,
+              "last_touched": "2026-05-22T13:42:20.000Z"
+            }
+          ]
+        },
+        {
           "name": "docs",
-          "churn": 646,
-          "adds": 646,
-          "dels": 0,
-          "commits": 5,
+          "churn": 669,
+          "adds": 668,
+          "dels": 1,
+          "commits": 6,
           "children": [
             {
               "name": "field_inventory.md",
@@ -1350,11 +1368,11 @@
             {
               "name": "policy_modify_only.md",
               "path": "docs/policy_modify_only.md",
-              "churn": 66,
-              "adds": 66,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-21T12:38:56.000Z"
+              "churn": 89,
+              "adds": 88,
+              "dels": 1,
+              "commits": 2,
+              "last_touched": "2026-06-09T12:04:25.000Z"
             }
           ]
         },
@@ -1397,6 +1415,6 @@
       ]
     }
   },
-  "_generated_at": "2026-06-09T09:30:48.596Z",
+  "_generated_at": "2026-06-09T14:34:59.821Z",
   "_warnings": []
 }
