@@ -20,9 +20,9 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-06-08T21:22:30Z",
+    "pushed_at": "2026-06-10T07:08:26Z",
     "languages": {
-      "Python": 348066,
+      "Python": 350969,
       "HTML": 50634,
       "JavaScript": 32539
     },
@@ -32,11 +32,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 120,
+        "contributions": 121,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 1087,
+    "size_kb": 1095,
     "is_empty": false
   },
   "activity": {
@@ -808,22 +808,31 @@
       },
       {
         "week": 1780790400,
-        "total": 3,
+        "total": 4,
         "days": [
           0,
           3,
           0,
-          0,
+          1,
           0,
           0,
           0
         ],
-        "adds": 359,
-        "dels": 114
+        "adds": 487,
+        "dels": 171
       }
     ]
   },
   "commits": [
+    {
+      "sha": "122fcf53ed13bda4434afd4293b30b871fa03bdc",
+      "short_sha": "122fcf5",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-10T06:27:55Z",
+      "message": "improve auth page",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/122fcf53ed13bda4434afd4293b30b871fa03bdc"
+    },
     {
       "sha": "b302ac5aa494024d777df353d6bcdf88093bc1d9",
       "short_sha": "b302ac5",
@@ -1084,15 +1093,6 @@
       "date": "2026-05-29T09:23:27Z",
       "message": "add non-relaxed behaviour to bajas",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/74fc22ddd0ba1b039b477750a0cbded86376e7fc"
-    },
-    {
-      "sha": "2a9e2f70ecece4ea34c896e44bcf23817091baaa",
-      "short_sha": "2a9e2f7",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-26T08:37:22Z",
-      "message": "create tests",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2a9e2f70ecece4ea34c896e44bcf23817091baaa"
     }
   ],
   "todos": {
@@ -1101,19 +1101,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-06-10T02:47:43.978Z",
+    "since": "2025-06-10T09:45:28.017Z",
     "totals": {
       "files": 81,
-      "commits": 108,
-      "adds": 30082,
-      "dels": 15239
+      "commits": 109,
+      "adds": 30210,
+      "dels": 15296
     },
     "tree": {
       "name": "<root>",
-      "churn": 45321,
-      "adds": 30082,
-      "dels": 15239,
-      "commits": 439,
+      "churn": 45506,
+      "adds": 30210,
+      "dels": 15296,
+      "commits": 443,
       "children": [
         {
           "name": "data",
@@ -1144,10 +1144,10 @@
         },
         {
           "name": "autorot",
-          "churn": 19680,
-          "adds": 13543,
-          "dels": 6137,
-          "commits": 334,
+          "churn": 19806,
+          "adds": 13656,
+          "dels": 6150,
+          "commits": 335,
           "children": [
             {
               "name": "scheduler",
@@ -1555,6 +1555,15 @@
               "last_touched": "2026-06-08T09:54:46.000Z"
             },
             {
+              "name": "auth.py",
+              "path": "autorot/auth.py",
+              "churn": 182,
+              "adds": 169,
+              "dels": 13,
+              "commits": 2,
+              "last_touched": "2026-06-10T06:27:55.000Z"
+            },
+            {
               "name": "analytics.py",
               "path": "autorot/analytics.py",
               "churn": 173,
@@ -1580,15 +1589,6 @@
               "dels": 39,
               "commits": 8,
               "last_touched": "2026-05-29T12:18:07.000Z"
-            },
-            {
-              "name": "auth.py",
-              "path": "autorot/auth.py",
-              "churn": 56,
-              "adds": 56,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-06-04T11:14:50.000Z"
             },
             {
               "name": "dateutils.py",
@@ -1703,11 +1703,11 @@
         {
           "name": "app.py",
           "path": "app.py",
-          "churn": 1653,
-          "adds": 882,
-          "dels": 771,
-          "commits": 17,
-          "last_touched": "2026-06-08T09:54:46.000Z"
+          "churn": 1658,
+          "adds": 886,
+          "dels": 772,
+          "commits": 18,
+          "last_touched": "2026-06-10T06:27:55.000Z"
         },
         {
           "name": "rules",
@@ -1809,21 +1809,21 @@
           ]
         },
         {
-          "name": "README.md",
-          "path": "README.md",
-          "churn": 185,
-          "adds": 131,
-          "dels": 54,
-          "commits": 4,
-          "last_touched": "2026-05-20T08:45:07.000Z"
-        },
-        {
           "name": "scripts",
-          "churn": 780,
-          "adds": 750,
-          "dels": 30,
-          "commits": 10,
+          "churn": 831,
+          "adds": 759,
+          "dels": 72,
+          "commits": 11,
           "children": [
+            {
+              "name": "keep_awake.py",
+              "path": "scripts/keep_awake.py",
+              "churn": 188,
+              "adds": 140,
+              "dels": 48,
+              "commits": 4,
+              "last_touched": "2026-06-10T06:27:55.000Z"
+            },
             {
               "name": "probe_all_cohorts.py",
               "path": "scripts/probe_all_cohorts.py",
@@ -1852,15 +1852,6 @@
               "last_touched": "2026-05-20T08:45:07.000Z"
             },
             {
-              "name": "keep_awake.py",
-              "path": "scripts/keep_awake.py",
-              "churn": 137,
-              "adds": 131,
-              "dels": 6,
-              "commits": 3,
-              "last_touched": "2026-06-08T06:37:00.000Z"
-            },
-            {
               "name": "rename_legacy_residents.py",
               "path": "scripts/rename_legacy_residents.py",
               "churn": 111,
@@ -1879,6 +1870,15 @@
               "last_touched": "2026-05-19T11:18:40.000Z"
             }
           ]
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "churn": 185,
+          "adds": 131,
+          "dels": 54,
+          "commits": 4,
+          "last_touched": "2026-05-20T08:45:07.000Z"
         },
         {
           "name": "CLAUDE.md",
@@ -1955,11 +1955,11 @@
         {
           "name": "requirements.txt",
           "path": "requirements.txt",
-          "churn": 13,
-          "adds": 10,
-          "dels": 3,
-          "commits": 4,
-          "last_touched": "2026-05-22T11:13:17.000Z"
+          "churn": 16,
+          "adds": 12,
+          "dels": 4,
+          "commits": 5,
+          "last_touched": "2026-06-10T06:27:55.000Z"
         },
         {
           "name": "pyproject.toml",
@@ -2000,6 +2000,6 @@
       ]
     }
   },
-  "_generated_at": "2026-06-10T02:47:43.979Z",
+  "_generated_at": "2026-06-10T09:45:28.018Z",
   "_warnings": []
 }
