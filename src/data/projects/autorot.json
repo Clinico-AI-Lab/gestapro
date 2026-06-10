@@ -20,7 +20,7 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-06-10T07:08:26Z",
+    "pushed_at": "2026-06-10T12:25:12Z",
     "languages": {
       "Python": 350969,
       "HTML": 50634,
@@ -32,7 +32,7 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 121,
+        "contributions": 122,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
@@ -808,22 +808,31 @@
       },
       {
         "week": 1780790400,
-        "total": 4,
+        "total": 5,
         "days": [
           0,
           3,
           0,
-          1,
+          2,
           0,
           0,
           0
         ],
-        "adds": 487,
+        "adds": 488,
         "dels": 171
       }
     ]
   },
   "commits": [
+    {
+      "sha": "9484a59f308065fd2678ca486829e1d516d53d8f",
+      "short_sha": "9484a59",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-10T12:25:10Z",
+      "message": "add openpyxl dep for Excel export",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/9484a59f308065fd2678ca486829e1d516d53d8f"
+    },
     {
       "sha": "122fcf53ed13bda4434afd4293b30b871fa03bdc",
       "short_sha": "122fcf5",
@@ -1084,15 +1093,6 @@
       "date": "2026-05-29T09:42:11Z",
       "message": "fix: measure external-rotation tail from effective_end_date so prórroga residents aren't wrongly flagged",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/24aa721a46f4740e652f99b1be861382ec585949"
-    },
-    {
-      "sha": "74fc22ddd0ba1b039b477750a0cbded86376e7fc",
-      "short_sha": "74fc22d",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-29T09:23:27Z",
-      "message": "add non-relaxed behaviour to bajas",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/74fc22ddd0ba1b039b477750a0cbded86376e7fc"
     }
   ],
   "todos": {
@@ -1101,19 +1101,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-06-10T09:45:28.017Z",
+    "since": "2025-06-10T15:20:02.227Z",
     "totals": {
       "files": 81,
-      "commits": 109,
-      "adds": 30210,
+      "commits": 110,
+      "adds": 30211,
       "dels": 15296
     },
     "tree": {
       "name": "<root>",
-      "churn": 45506,
-      "adds": 30210,
+      "churn": 45507,
+      "adds": 30211,
       "dels": 15296,
-      "commits": 443,
+      "commits": 444,
       "children": [
         {
           "name": "data",
@@ -1955,11 +1955,11 @@
         {
           "name": "requirements.txt",
           "path": "requirements.txt",
-          "churn": 16,
-          "adds": 12,
+          "churn": 17,
+          "adds": 13,
           "dels": 4,
-          "commits": 5,
-          "last_touched": "2026-06-10T06:27:55.000Z"
+          "commits": 6,
+          "last_touched": "2026-06-10T12:25:10.000Z"
         },
         {
           "name": "pyproject.toml",
@@ -2000,6 +2000,6 @@
       ]
     }
   },
-  "_generated_at": "2026-06-10T09:45:28.018Z",
+  "_generated_at": "2026-06-10T15:20:02.228Z",
   "_warnings": []
 }
