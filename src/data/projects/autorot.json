@@ -20,9 +20,9 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-06-10T12:25:12Z",
+    "pushed_at": "2026-06-12T11:08:55Z",
     "languages": {
-      "Python": 350969,
+      "Python": 360675,
       "HTML": 50634,
       "JavaScript": 32539
     },
@@ -32,11 +32,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 122,
+        "contributions": 127,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 1095,
+    "size_kb": 1139,
     "is_empty": false
   },
   "activity": {
@@ -808,22 +808,67 @@
       },
       {
         "week": 1780790400,
-        "total": 5,
+        "total": 10,
         "days": [
           0,
           3,
           0,
           2,
           0,
-          0,
+          5,
           0
         ],
-        "adds": 488,
-        "dels": 171
+        "adds": 801,
+        "dels": 232
       }
     ]
   },
   "commits": [
+    {
+      "sha": "3a028c33c2e321f04a41b8c2fbdc0755691e9597",
+      "short_sha": "3a028c3",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-12T11:08:48Z",
+      "message": "fix(routing): serve resident portal at root, admin at /admin",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/3a028c33c2e321f04a41b8c2fbdc0755691e9597"
+    },
+    {
+      "sha": "b53dc675a33bdaacbf0a047b6e84f906c03ded30",
+      "short_sha": "b53dc67",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-12T10:59:53Z",
+      "message": "improve vista filter style",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b53dc675a33bdaacbf0a047b6e84f906c03ded30"
+    },
+    {
+      "sha": "72b136355c093a1b529bb96a86e03c5eb7db85b0",
+      "short_sha": "72b1363",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-12T10:44:45Z",
+      "message": "improve residents view",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/72b136355c093a1b529bb96a86e03c5eb7db85b0"
+    },
+    {
+      "sha": "8d2240e946be5485a3dd541497a8c5f053d4d57c",
+      "short_sha": "8d2240e",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-12T10:23:15Z",
+      "message": "add residents general view",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/8d2240e946be5485a3dd541497a8c5f053d4d57c"
+    },
+    {
+      "sha": "6647a6473716d7d6a79ed8b0bffa66bddfd6b85c",
+      "short_sha": "6647a64",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-12T09:21:31Z",
+      "message": "fix(export): handle empty selection without crashing",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/6647a6473716d7d6a79ed8b0bffa66bddfd6b85c"
+    },
     {
       "sha": "9484a59f308065fd2678ca486829e1d516d53d8f",
       "short_sha": "9484a59",
@@ -1048,51 +1093,6 @@
       "date": "2026-06-01T09:23:55Z",
       "message": "merge contiguous same rotation block",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/91ce27215476aa0c0f315ffc57eb129439c52ad6"
-    },
-    {
-      "sha": "fc424c233fa870acb8ab48b9e2877d6cd0c7d536",
-      "short_sha": "fc424c2",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-01T08:59:33Z",
-      "message": "fix timestamp lag",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/fc424c233fa870acb8ab48b9e2877d6cd0c7d536"
-    },
-    {
-      "sha": "adffa91ec91f77212f5a86fd89766092c223ade4",
-      "short_sha": "adffa91",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-01T07:15:27Z",
-      "message": "add visual Gannt Chart to restaurar rotaciones",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/adffa91ec91f77212f5a86fd89766092c223ade4"
-    },
-    {
-      "sha": "b2b2dec9684e65ce3c049b1d6a8c3a8a19007211",
-      "short_sha": "b2b2dec",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-01T07:05:47Z",
-      "message": "add per-resident rotation restore to Historial from rotations_history temporal table",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b2b2dec9684e65ce3c049b1d6a8c3a8a19007211"
-    },
-    {
-      "sha": "b6807b46d61903d58b1dc428f3d1c171405ef872",
-      "short_sha": "b6807b4",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-29T12:18:07Z",
-      "message": "add urgencias rotation",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b6807b46d61903d58b1dc428f3d1c171405ef872"
-    },
-    {
-      "sha": "24aa721a46f4740e652f99b1be861382ec585949",
-      "short_sha": "24aa721",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-05-29T09:42:11Z",
-      "message": "fix: measure external-rotation tail from effective_end_date so prórroga residents aren't wrongly flagged",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/24aa721a46f4740e652f99b1be861382ec585949"
     }
   ],
   "todos": {
@@ -1101,19 +1101,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-06-12T10:01:32.304Z",
+    "since": "2025-06-12T14:44:50.617Z",
     "totals": {
       "files": 81,
-      "commits": 110,
-      "adds": 30211,
-      "dels": 15296
+      "commits": 115,
+      "adds": 30524,
+      "dels": 15357
     },
     "tree": {
       "name": "<root>",
-      "churn": 45507,
-      "adds": 30211,
-      "dels": 15296,
-      "commits": 444,
+      "churn": 45881,
+      "adds": 30524,
+      "dels": 15357,
+      "commits": 456,
       "children": [
         {
           "name": "data",
@@ -1144,10 +1144,10 @@
         },
         {
           "name": "autorot",
-          "churn": 19806,
-          "adds": 13656,
-          "dels": 6150,
-          "commits": 335,
+          "churn": 20170,
+          "adds": 13963,
+          "dels": 6207,
+          "commits": 346,
           "children": [
             {
               "name": "scheduler",
@@ -1358,19 +1358,19 @@
             },
             {
               "name": "views",
-              "churn": 5012,
-              "adds": 3966,
-              "dels": 1046,
-              "commits": 108,
+              "churn": 5246,
+              "adds": 4145,
+              "dels": 1101,
+              "commits": 117,
               "children": [
                 {
                   "name": "management.py",
                   "path": "autorot/views/management.py",
-                  "churn": 1286,
-                  "adds": 1017,
-                  "dels": 269,
-                  "commits": 25,
-                  "last_touched": "2026-06-08T09:54:46.000Z"
+                  "churn": 1313,
+                  "adds": 1042,
+                  "dels": 271,
+                  "commits": 27,
+                  "last_touched": "2026-06-12T11:08:48.000Z"
                 },
                 {
                   "name": "scheduler_panel.py",
@@ -1402,11 +1402,20 @@
                 {
                   "name": "export.py",
                   "path": "autorot/views/export.py",
-                  "churn": 373,
-                  "adds": 366,
-                  "dels": 7,
-                  "commits": 3,
-                  "last_touched": "2026-06-08T06:37:00.000Z"
+                  "churn": 392,
+                  "adds": 381,
+                  "dels": 11,
+                  "commits": 4,
+                  "last_touched": "2026-06-12T09:21:31.000Z"
+                },
+                {
+                  "name": "detail.py",
+                  "path": "autorot/views/detail.py",
+                  "churn": 362,
+                  "adds": 287,
+                  "dels": 75,
+                  "commits": 14,
+                  "last_touched": "2026-06-12T10:59:53.000Z"
                 },
                 {
                   "name": "_gantt.py",
@@ -1418,13 +1427,13 @@
                   "last_touched": "2026-06-01T11:50:12.000Z"
                 },
                 {
-                  "name": "detail.py",
-                  "path": "autorot/views/detail.py",
-                  "churn": 207,
-                  "adds": 178,
-                  "dels": 29,
-                  "commits": 11,
-                  "last_touched": "2026-06-08T06:37:00.000Z"
+                  "name": "portal.py",
+                  "path": "autorot/views/portal.py",
+                  "churn": 102,
+                  "adds": 99,
+                  "dels": 3,
+                  "commits": 4,
+                  "last_touched": "2026-06-12T11:08:48.000Z"
                 },
                 {
                   "name": "incidencias.py",
@@ -1434,15 +1443,6 @@
                   "dels": 8,
                   "commits": 3,
                   "last_touched": "2026-06-08T06:37:00.000Z"
-                },
-                {
-                  "name": "portal.py",
-                  "path": "autorot/views/portal.py",
-                  "churn": 69,
-                  "adds": 69,
-                  "dels": 0,
-                  "commits": 1,
-                  "last_touched": "2026-06-08T09:54:46.000Z"
                 },
                 {
                   "name": "_settings.py",
@@ -1467,11 +1467,11 @@
             {
               "name": "store.py",
               "path": "autorot/store.py",
-              "churn": 1190,
-              "adds": 852,
+              "churn": 1290,
+              "adds": 952,
               "dels": 338,
-              "commits": 15,
-              "last_touched": "2026-06-08T09:54:46.000Z"
+              "commits": 16,
+              "last_touched": "2026-06-12T09:21:31.000Z"
             },
             {
               "name": "components",
@@ -1546,6 +1546,15 @@
               "last_touched": "2026-06-08T09:54:46.000Z"
             },
             {
+              "name": "auth.py",
+              "path": "autorot/auth.py",
+              "churn": 212,
+              "adds": 197,
+              "dels": 15,
+              "commits": 3,
+              "last_touched": "2026-06-12T09:21:31.000Z"
+            },
+            {
               "name": "models.py",
               "path": "autorot/models.py",
               "churn": 199,
@@ -1553,15 +1562,6 @@
               "dels": 30,
               "commits": 11,
               "last_touched": "2026-06-08T09:54:46.000Z"
-            },
-            {
-              "name": "auth.py",
-              "path": "autorot/auth.py",
-              "churn": 182,
-              "adds": 169,
-              "dels": 13,
-              "commits": 2,
-              "last_touched": "2026-06-10T06:27:55.000Z"
             },
             {
               "name": "analytics.py",
@@ -1703,11 +1703,11 @@
         {
           "name": "app.py",
           "path": "app.py",
-          "churn": 1658,
-          "adds": 886,
-          "dels": 772,
-          "commits": 18,
-          "last_touched": "2026-06-10T06:27:55.000Z"
+          "churn": 1668,
+          "adds": 892,
+          "dels": 776,
+          "commits": 19,
+          "last_touched": "2026-06-12T11:08:48.000Z"
         },
         {
           "name": "rules",
@@ -2000,6 +2000,6 @@
       ]
     }
   },
-  "_generated_at": "2026-06-12T10:01:32.304Z",
+  "_generated_at": "2026-06-12T14:44:50.618Z",
   "_warnings": []
 }

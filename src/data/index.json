@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T10:01:32.308Z",
+  "generated_at": "2026-06-12T14:44:50.623Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-06-10T12:25:12Z",
+      "pushed_at": "2026-06-12T11:08:55Z",
       "open_issues": 9,
       "open_prs": 0,
       "languages_top": "Python",
@@ -65,7 +65,7 @@
         30,
         16,
         23,
-        5
+        10
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-06-12T02:54:29Z",
+      "pushed_at": "2026-06-12T10:01:33Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,17 +165,17 @@
         36,
         30,
         28,
-        21
+        22
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 286,
+    "commits_52w": 292,
     "open_todos": 0,
     "languages": {
-      "Python": 1355588,
+      "Python": 1365294,
       "TeX": 42874,
       "HTML": 84335,
       "JavaScript": 32912,
@@ -184,8 +184,8 @@
       "Astro": 23346,
       "CSS": 7356
     },
-    "adds_52w": 84761,
-    "dels_52w": 29204
+    "adds_52w": 85074,
+    "dels_52w": 29265
   },
   "weekly_stack": [
     {
@@ -313,12 +313,12 @@
       "week": 1780790400,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 5,
+        "autorot": 10,
         "ci": 2,
         "emergo": 0,
-        "gestapro": 21
+        "gestapro": 22
       },
-      "total": 28
+      "total": 34
     }
   ],
   "code_flow": [
@@ -579,11 +579,77 @@
     },
     {
       "week": 1780790400,
-      "adds": 2253,
-      "dels": 319
+      "adds": 2566,
+      "dels": 380
     }
   ],
   "recent_activity": [
+    {
+      "sha": "3a028c33c2e321f04a41b8c2fbdc0755691e9597",
+      "short_sha": "3a028c3",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-12T11:08:48Z",
+      "message": "fix(routing): serve resident portal at root, admin at /admin",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/3a028c33c2e321f04a41b8c2fbdc0755691e9597",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "b53dc675a33bdaacbf0a047b6e84f906c03ded30",
+      "short_sha": "b53dc67",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-12T10:59:53Z",
+      "message": "improve vista filter style",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b53dc675a33bdaacbf0a047b6e84f906c03ded30",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "72b136355c093a1b529bb96a86e03c5eb7db85b0",
+      "short_sha": "72b1363",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-12T10:44:45Z",
+      "message": "improve residents view",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/72b136355c093a1b529bb96a86e03c5eb7db85b0",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "8d2240e946be5485a3dd541497a8c5f053d4d57c",
+      "short_sha": "8d2240e",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-12T10:23:15Z",
+      "message": "add residents general view",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/8d2240e946be5485a3dd541497a8c5f053d4d57c",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "b5a579944423cb01cd623440220f81a5dfa87568",
+      "short_sha": "b5a5799",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-06-12T10:01:32Z",
+      "message": "data: refresh 2026-06-12T10:01:32Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/b5a579944423cb01cd623440220f81a5dfa87568",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
+    {
+      "sha": "6647a6473716d7d6a79ed8b0bffa66bddfd6b85c",
+      "short_sha": "6647a64",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-12T09:21:31Z",
+      "message": "fix(export): handle empty selection without crashing",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/6647a6473716d7d6a79ed8b0bffa66bddfd6b85c",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
     {
       "sha": "aa86c44f41935fdce3c26b1ec11de81d84c565aa",
       "short_sha": "aa86c44",
@@ -706,17 +772,6 @@
       "project_title": "Gestapro Dashboard"
     },
     {
-      "sha": "a0b6a096954d6d8771f00126fc1da5bdb6e9fb29",
-      "short_sha": "a0b6a09",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-06-09T20:01:08Z",
-      "message": "data: refresh 2026-06-09T20:01:08Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/a0b6a096954d6d8771f00126fc1da5bdb6e9fb29",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
       "sha": "a5ee43c7db1678601a3d336b02b8abf8cbdd1c80",
       "short_sha": "a5ee43c",
       "author": "clinicoailab",
@@ -746,61 +801,6 @@
       "date": "2026-06-08T09:54:46Z",
       "message": "add resident login",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b302ac5aa494024d777df353d6bcdf88093bc1d9",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "4e1c3334f0e0be99d60fa0285feea037a50cb610",
-      "short_sha": "4e1c333",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-08T09:33:43Z",
-      "message": "feature: allow sending emails to residents",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/4e1c3334f0e0be99d60fa0285feea037a50cb610",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "ac7dd99939b0137756d774db7d8e9b4e73b42bdb",
-      "short_sha": "ac7dd99",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-08T06:37:00Z",
-      "message": "replace deprecated use_container_width with width across views",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/ac7dd99939b0137756d774db7d8e9b4e73b42bdb",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "0b8f3648e02bad77f0a4d44b6ec8ba9bdf2f46b1",
-      "short_sha": "0b8f364",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T12:26:18Z",
-      "message": "keep-awake: match password field by label, not input[type=password]",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/0b8f3648e02bad77f0a4d44b6ec8ba9bdf2f46b1",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "f7775eb91b314aa0ac522276b99af72580451839",
-      "short_sha": "f7775eb",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T12:16:12Z",
-      "message": "keep-awake: drive headless Playwright through password gate instead of curl",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/f7775eb91b314aa0ac522276b99af72580451839",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "ed02bc63bc7ccd26b469ed1c3bfb693546b54402",
-      "short_sha": "ed02bc6",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T11:14:50Z",
-      "message": "add password gate",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/ed02bc63bc7ccd26b469ed1c3bfb693546b54402",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     }
