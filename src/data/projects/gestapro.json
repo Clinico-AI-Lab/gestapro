@@ -30,7 +30,7 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-06-20T13:47:25Z",
+    "pushed_at": "2026-06-20T19:15:37Z",
     "languages": {
       "TypeScript": 48218,
       "Astro": 23346,
@@ -53,26 +53,11 @@
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 433,
+    "size_kb": 435,
     "is_empty": false
   },
   "activity": {
     "weeks": [
-      {
-        "week": 1750550400,
-        "total": 0,
-        "days": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "adds": 0,
-        "dels": 0
-      },
       {
         "week": 1751155200,
         "total": 0,
@@ -825,7 +810,7 @@
       },
       {
         "week": 1781395200,
-        "total": 27,
+        "total": 28,
         "days": [
           4,
           4,
@@ -833,7 +818,22 @@
           4,
           4,
           4,
-          3
+          4
+        ],
+        "adds": 0,
+        "dels": 0
+      },
+      {
+        "week": 1782000000,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "adds": 0,
         "dels": 0
@@ -841,6 +841,15 @@
     ]
   },
   "commits": [
+    {
+      "sha": "97e1fbe6bfa000f148a881a5b7d44ab260ab21ba",
+      "short_sha": "97e1fbe",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-06-20T19:15:36Z",
+      "message": "data: refresh 2026-06-20T19:15:36Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/97e1fbe6bfa000f148a881a5b7d44ab260ab21ba"
+    },
     {
       "sha": "c136de70196908798009383e239ea84bbb2a3ad2",
       "short_sha": "c136de7",
@@ -1101,15 +1110,6 @@
       "date": "2026-06-13T13:45:30Z",
       "message": "data: refresh 2026-06-13T13:45:30Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/f4211d20d1116b2ea041f580f9af3e2dbfb9274b"
-    },
-    {
-      "sha": "8084400b5668dbf83300849e23d355aa7d984232",
-      "short_sha": "8084400",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-06-13T08:50:17Z",
-      "message": "data: refresh 2026-06-13T08:50:17Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/8084400b5668dbf83300849e23d355aa7d984232"
     }
   ],
   "todos": {
@@ -1118,10 +1118,10 @@
     "done": []
   },
   "churn": {
-    "since": "2025-06-20T19:15:32.154Z",
+    "since": "2025-06-21T03:27:04.161Z",
     "totals": {
       "files": 51,
-      "commits": 175,
+      "commits": 176,
       "adds": 2930,
       "dels": 69
     },
@@ -1720,6 +1720,6 @@
       ]
     }
   },
-  "_generated_at": "2026-06-20T19:15:32.155Z",
+  "_generated_at": "2026-06-21T03:27:04.162Z",
   "_warnings": []
 }
