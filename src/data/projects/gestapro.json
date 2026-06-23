@@ -30,7 +30,7 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-06-22T16:44:08Z",
+    "pushed_at": "2026-06-22T20:38:26Z",
     "languages": {
       "TypeScript": 48218,
       "Astro": 23346,
@@ -53,7 +53,7 @@
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 449,
+    "size_kb": 451,
     "is_empty": false
   },
   "activity": {
@@ -825,10 +825,10 @@
       },
       {
         "week": 1782000000,
-        "total": 7,
+        "total": 8,
         "days": [
           4,
-          3,
+          4,
           0,
           0,
           0,
@@ -841,6 +841,15 @@
     ]
   },
   "commits": [
+    {
+      "sha": "41e8cda0fd07fadf46c2fa74fe0122b702edc0b1",
+      "short_sha": "41e8cda",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-06-22T20:38:25Z",
+      "message": "data: refresh 2026-06-22T20:38:25Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/41e8cda0fd07fadf46c2fa74fe0122b702edc0b1"
+    },
     {
       "sha": "62ba285e285fe49ccb8b1e1410a04f32586ceb16",
       "short_sha": "62ba285",
@@ -1101,15 +1110,6 @@
       "date": "2026-06-15T17:06:07Z",
       "message": "data: refresh 2026-06-15T17:06:07Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/a55943fe1e7daf9e1d403ee0ac8b0258f5ab7fd6"
-    },
-    {
-      "sha": "6ef38e11aea540a4c831d732169f82f0f1ed9e70",
-      "short_sha": "6ef38e1",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-06-15T11:52:19Z",
-      "message": "data: refresh 2026-06-15T11:52:19Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/6ef38e11aea540a4c831d732169f82f0f1ed9e70"
     }
   ],
   "todos": {
@@ -1118,10 +1118,10 @@
     "done": []
   },
   "churn": {
-    "since": "2025-06-22T20:38:25.960Z",
+    "since": "2025-06-23T02:39:40.688Z",
     "totals": {
       "files": 51,
-      "commits": 183,
+      "commits": 184,
       "adds": 2930,
       "dels": 69
     },
@@ -1720,6 +1720,6 @@
       ]
     }
   },
-  "_generated_at": "2026-06-22T20:38:25.961Z",
+  "_generated_at": "2026-06-23T02:39:40.688Z",
   "_warnings": []
 }
