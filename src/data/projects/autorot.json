@@ -20,11 +20,11 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-06-29T08:51:42Z",
+    "pushed_at": "2026-06-29T12:16:42Z",
     "languages": {
-      "Python": 365063,
+      "Python": 366087,
       "HTML": 50634,
-      "JavaScript": 32544
+      "JavaScript": 33711
     },
     "open_issues": 9,
     "open_prs": 0,
@@ -32,11 +32,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 130,
+        "contributions": 132,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 1219,
+    "size_kb": 2073,
     "is_empty": false
   },
   "activity": {
@@ -808,22 +808,40 @@
       },
       {
         "week": 1782604800,
-        "total": 1,
+        "total": 3,
         "days": [
           0,
-          1,
+          3,
           0,
           0,
           0,
           0,
           0
         ],
-        "adds": 13,
-        "dels": 50
+        "adds": 117,
+        "dels": 102
       }
     ]
   },
   "commits": [
+    {
+      "sha": "af9f01dc9854462ab41e24379d3005b1e1069c10",
+      "short_sha": "af9f01d",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-29T12:16:36Z",
+      "message": "feat(grid): center view on current month by default",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/af9f01dc9854462ab41e24379d3005b1e1069c10"
+    },
+    {
+      "sha": "a93c62de91c4f8d9184c098661e0ae87fd74a0b2",
+      "short_sha": "a93c62d",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-29T11:34:04Z",
+      "message": "Fix export pdf and change logo",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a93c62de91c4f8d9184c098661e0ae87fd74a0b2"
+    },
     {
       "sha": "9a5586666131047f7ec33954ad8df973fc33c6a1",
       "short_sha": "9a55866",
@@ -1075,24 +1093,6 @@
       "date": "2026-06-01T11:41:51Z",
       "message": "fix: extend editable grid axis to cover leave before recalc applied",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/7376b7eebbf25a2b83a1e0dca402dcbbab97465d"
-    },
-    {
-      "sha": "8f51d688851b4b380a4c699e724cc3eec88570d0",
-      "short_sha": "8f51d68",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-01T11:32:25Z",
-      "message": "fix: save button behaviour",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/8f51d688851b4b380a4c699e724cc3eec88570d0"
-    },
-    {
-      "sha": "68623d2b78d27b538c44da13de1224be392219c4",
-      "short_sha": "68623d2",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-01T10:33:11Z",
-      "message": "add soft constraints editor",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/68623d2b78d27b538c44da13de1224be392219c4"
     }
   ],
   "todos": {
@@ -1101,19 +1101,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-06-29T10:30:31.340Z",
+    "since": "2025-06-29T15:36:03.592Z",
     "totals": {
-      "files": 81,
-      "commits": 118,
-      "adds": 31021,
-      "dels": 15738
+      "files": 82,
+      "commits": 120,
+      "adds": 31125,
+      "dels": 15790
     },
     "tree": {
       "name": "<root>",
-      "churn": 46759,
-      "adds": 31021,
-      "dels": 15738,
-      "commits": 473,
+      "churn": 46915,
+      "adds": 31125,
+      "dels": 15790,
+      "commits": 481,
       "children": [
         {
           "name": "data",
@@ -1144,10 +1144,10 @@
         },
         {
           "name": "autorot",
-          "churn": 21044,
-          "adds": 14458,
-          "dels": 6586,
-          "commits": 362,
+          "churn": 21188,
+          "adds": 14559,
+          "dels": 6629,
+          "commits": 367,
           "children": [
             {
               "name": "scheduler",
@@ -1358,19 +1358,19 @@
             },
             {
               "name": "views",
-              "churn": 6040,
-              "adds": 4600,
-              "dels": 1440,
-              "commits": 128,
+              "churn": 6153,
+              "adds": 4671,
+              "dels": 1482,
+              "commits": 132,
               "children": [
                 {
                   "name": "management.py",
                   "path": "autorot/views/management.py",
-                  "churn": 1735,
-                  "adds": 1284,
-                  "dels": 451,
-                  "commits": 29,
-                  "last_touched": "2026-06-26T11:57:39.000Z"
+                  "churn": 1770,
+                  "adds": 1288,
+                  "dels": 482,
+                  "commits": 30,
+                  "last_touched": "2026-06-29T12:16:36.000Z"
                 },
                 {
                   "name": "scheduler_panel.py",
@@ -1393,11 +1393,11 @@
                 {
                   "name": "export.py",
                   "path": "autorot/views/export.py",
-                  "churn": 547,
-                  "adds": 504,
-                  "dels": 43,
-                  "commits": 6,
-                  "last_touched": "2026-06-29T08:51:35.000Z"
+                  "churn": 593,
+                  "adds": 540,
+                  "dels": 53,
+                  "commits": 7,
+                  "last_touched": "2026-06-29T11:34:04.000Z"
                 },
                 {
                   "name": "restricciones.py",
@@ -1411,20 +1411,20 @@
                 {
                   "name": "detail.py",
                   "path": "autorot/views/detail.py",
-                  "churn": 362,
-                  "adds": 287,
+                  "churn": 385,
+                  "adds": 310,
                   "dels": 75,
-                  "commits": 14,
-                  "last_touched": "2026-06-12T10:59:53.000Z"
+                  "commits": 15,
+                  "last_touched": "2026-06-29T11:34:04.000Z"
                 },
                 {
                   "name": "_gantt.py",
                   "path": "autorot/views/_gantt.py",
-                  "churn": 230,
-                  "adds": 195,
-                  "dels": 35,
-                  "commits": 10,
-                  "last_touched": "2026-06-25T12:19:49.000Z"
+                  "churn": 239,
+                  "adds": 203,
+                  "dels": 36,
+                  "commits": 11,
+                  "last_touched": "2026-06-29T12:16:36.000Z"
                 },
                 {
                   "name": "portal.py",
@@ -1475,33 +1475,33 @@
             },
             {
               "name": "components",
-              "churn": 1376,
-              "adds": 1333,
-              "dels": 43,
-              "commits": 18,
+              "churn": 1407,
+              "adds": 1363,
+              "dels": 44,
+              "commits": 19,
               "children": [
                 {
                   "name": "rotation_grid",
-                  "churn": 1375,
-                  "adds": 1332,
-                  "dels": 43,
-                  "commits": 17,
+                  "churn": 1406,
+                  "adds": 1362,
+                  "dels": 44,
+                  "commits": 18,
                   "children": [
                     {
                       "name": "frontend",
-                      "churn": 1309,
-                      "adds": 1266,
-                      "dels": 43,
-                      "commits": 15,
+                      "churn": 1340,
+                      "adds": 1296,
+                      "dels": 44,
+                      "commits": 16,
                       "children": [
                         {
                           "name": "grid.js",
                           "path": "autorot/components/rotation_grid/frontend/grid.js",
-                          "churn": 979,
-                          "adds": 939,
-                          "dels": 40,
-                          "commits": 9,
-                          "last_touched": "2026-06-25T12:19:49.000Z"
+                          "churn": 1010,
+                          "adds": 969,
+                          "dels": 41,
+                          "commits": 10,
+                          "last_touched": "2026-06-29T12:16:36.000Z"
                         },
                         {
                           "name": "index.html",
@@ -1703,11 +1703,11 @@
         {
           "name": "app.py",
           "path": "app.py",
-          "churn": 1672,
-          "adds": 894,
-          "dels": 778,
-          "commits": 20,
-          "last_touched": "2026-06-25T12:19:49.000Z"
+          "churn": 1684,
+          "adds": 897,
+          "dels": 787,
+          "commits": 21,
+          "last_touched": "2026-06-29T11:34:04.000Z"
         },
         {
           "name": "rules",
@@ -1777,7 +1777,7 @@
           "churn": 197,
           "adds": 197,
           "dels": 0,
-          "commits": 4,
+          "commits": 6,
           "children": [
             {
               "name": "logo.svg",
@@ -1789,13 +1789,13 @@
               "last_touched": "2026-05-04T12:45:55.000Z"
             },
             {
-              "name": "logo_favicon.png:Zone.Identifier",
-              "path": "assets/logo_favicon.png:Zone.Identifier",
+              "name": "logo-2.png",
+              "path": "assets/logo-2.png",
               "churn": 0,
               "adds": 0,
               "dels": 0,
-              "commits": 2,
-              "last_touched": "2026-05-04T12:50:17.000Z"
+              "commits": 1,
+              "last_touched": "2026-06-29T11:34:04.000Z"
             },
             {
               "name": "logo_favicon.png",
@@ -1803,8 +1803,17 @@
               "churn": 0,
               "adds": 0,
               "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-05-04T12:32:14.000Z"
+              "commits": 2,
+              "last_touched": "2026-06-29T11:34:04.000Z"
+            },
+            {
+              "name": "logo_favicon.png:Zone.Identifier",
+              "path": "assets/logo_favicon.png:Zone.Identifier",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-05-04T12:50:17.000Z"
             }
           ]
         },
@@ -2000,6 +2009,6 @@
       ]
     }
   },
-  "_generated_at": "2026-06-29T10:30:31.340Z",
+  "_generated_at": "2026-06-29T15:36:03.593Z",
   "_warnings": []
 }
