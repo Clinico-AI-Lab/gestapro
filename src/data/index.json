@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T02:50:07.924Z",
+  "generated_at": "2026-06-29T10:30:42.276Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-06-25T12:19:54Z",
+      "pushed_at": "2026-06-29T08:51:42Z",
       "open_issues": 9,
       "open_prs": 0,
       "languages_top": "Python",
@@ -64,8 +64,8 @@
         23,
         10,
         0,
-        1,
-        0
+        2,
+        1
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-06-28T19:09:25Z",
+      "pushed_at": "2026-06-29T02:50:08Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,17 +165,17 @@
         28,
         28,
         28,
-        4
+        5
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 359,
+    "commits_52w": 362,
     "open_todos": 0,
     "languages": {
-      "Python": 1369050,
+      "Python": 1369682,
       "TeX": 42874,
       "HTML": 84335,
       "JavaScript": 32917,
@@ -184,8 +184,8 @@
       "Astro": 23346,
       "CSS": 7356
     },
-    "adds_52w": 85368,
-    "dels_52w": 29468
+    "adds_52w": 85571,
+    "dels_52w": 29646
   },
   "weekly_stack": [
     {
@@ -302,23 +302,23 @@
       "week": 1782000000,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 1,
+        "autorot": 2,
         "ci": 0,
         "emergo": 0,
         "gestapro": 28
       },
-      "total": 29
+      "total": 30
     },
     {
       "week": 1782604800,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 0,
+        "autorot": 1,
         "ci": 0,
         "emergo": 0,
-        "gestapro": 4
+        "gestapro": 5
       },
-      "total": 4
+      "total": 6
     }
   ],
   "code_flow": [
@@ -574,16 +574,38 @@
     },
     {
       "week": 1782000000,
-      "adds": 294,
-      "dels": 203
+      "adds": 484,
+      "dels": 331
     },
     {
       "week": 1782604800,
-      "adds": 0,
-      "dels": 0
+      "adds": 13,
+      "dels": 50
     }
   ],
   "recent_activity": [
+    {
+      "sha": "9a5586666131047f7ec33954ad8df973fc33c6a1",
+      "short_sha": "9a55866",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-29T08:51:35Z",
+      "message": "fix(export): show 3-letter names in multi-resident PDF gantt",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/9a5586666131047f7ec33954ad8df973fc33c6a1",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "072535b60058e771ecccc9b375bc2e849e01e0fa",
+      "short_sha": "072535b",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-06-29T02:50:07Z",
+      "message": "data: refresh 2026-06-29T02:50:07Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/072535b60058e771ecccc9b375bc2e849e01e0fa",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "155adb2d4107e3c37d2f00aa7620669a38377fc5",
       "short_sha": "155adb2",
@@ -684,15 +706,15 @@
       "project_title": "Gestapro Dashboard"
     },
     {
-      "sha": "02f4aed7af7d872487050f4b73e9f39e6a523e3e",
-      "short_sha": "02f4aed",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-06-26T14:10:51Z",
-      "message": "data: refresh 2026-06-26T14:10:51Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/02f4aed7af7d872487050f4b73e9f39e6a523e3e",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
+      "sha": "47063263a3e947e81b0ac4310405ebeaf03f96f1",
+      "short_sha": "4706326",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-06-26T11:57:39Z",
+      "message": "Alta and Baja merge into Gestión de residentes",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/47063263a3e947e81b0ac4310405ebeaf03f96f1",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
     },
     {
       "sha": "60d6c4736af7e0d01d1777fa904cab4c62648692",
@@ -781,28 +803,6 @@
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/122fcf53ed13bda4434afd4293b30b871fa03bdc",
       "project_slug": "autorot",
       "project_title": "AutoRot"
-    },
-    {
-      "sha": "a5ee43c7db1678601a3d336b02b8abf8cbdd1c80",
-      "short_sha": "a5ee43c",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-06-09T12:04:25Z",
-      "message": "﻿Phase 2C iter 8: alta de registros nuevos (--crear-altas) + optimizacion velocidad",
-      "url": "https://github.com/Clinico-AI-Lab/ci/commit/a5ee43c7db1678601a3d336b02b8abf8cbdd1c80",
-      "project_slug": "ci",
-      "project_title": "REINF Madrid Feeder"
-    },
-    {
-      "sha": "b08ea73c4ab5936227819229637e0d70cdf1c9cb",
-      "short_sha": "b08ea73",
-      "author": "clinicoailab",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
-      "date": "2026-06-09T07:34:07Z",
-      "message": "﻿Phase 2C iter 7: localizacion IM en ECG + dry_run_3/4 + robustez submit/nav",
-      "url": "https://github.com/Clinico-AI-Lab/ci/commit/b08ea73c4ab5936227819229637e0d70cdf1c9cb",
-      "project_slug": "ci",
-      "project_title": "REINF Madrid Feeder"
     }
   ]
 }
