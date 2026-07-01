@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T02:50:11.144Z",
+  "generated_at": "2026-07-01T09:35:50.349Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-06-29T12:16:42Z",
+      "pushed_at": "2026-07-01T08:16:11Z",
       "open_issues": 9,
       "open_prs": 0,
       "languages_top": "Python",
@@ -65,7 +65,7 @@
         10,
         0,
         2,
-        3
+        5
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-06-30T19:46:44Z",
+      "pushed_at": "2026-07-01T02:50:11Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,17 +165,17 @@
         28,
         28,
         28,
-        12
+        13
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 371,
+    "commits_52w": 374,
     "open_todos": 0,
     "languages": {
-      "Python": 1370706,
+      "Python": 1388550,
       "TeX": 42874,
       "HTML": 84335,
       "JavaScript": 34084,
@@ -184,8 +184,8 @@
       "Astro": 23346,
       "CSS": 7356
     },
-    "adds_52w": 85675,
-    "dels_52w": 29698
+    "adds_52w": 86141,
+    "dels_52w": 29703
   },
   "weekly_stack": [
     {
@@ -313,12 +313,12 @@
       "week": 1782604800,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 3,
+        "autorot": 5,
         "ci": 0,
         "emergo": 0,
-        "gestapro": 12
+        "gestapro": 13
       },
-      "total": 15
+      "total": 18
     }
   ],
   "code_flow": [
@@ -579,11 +579,44 @@
     },
     {
       "week": 1782604800,
-      "adds": 117,
-      "dels": 102
+      "adds": 583,
+      "dels": 107
     }
   ],
   "recent_activity": [
+    {
+      "sha": "eb3569784828c9a6fa9829c018b51e5d622e4b00",
+      "short_sha": "eb35697",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-07-01T08:16:06Z",
+      "message": "feat(detail): disable zoom and default to pan on resident Gantt charts",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/eb3569784828c9a6fa9829c018b51e5d622e4b00",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "c5febb8b902a35a44b12894f25f548563b0353cc",
+      "short_sha": "c5febb8",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-07-01T07:51:41Z",
+      "message": "feat(medicos): add read-only service-doctor portal at /medicos with area-filtered gantt/heatmap + roster, and doctor",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c5febb8b902a35a44b12894f25f548563b0353cc",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "3e120f17f349cff7691938f06173922df743d2ae",
+      "short_sha": "3e120f1",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-07-01T02:50:11Z",
+      "message": "data: refresh 2026-07-01T02:50:11Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/3e120f17f349cff7691938f06173922df743d2ae",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "092898018adc292c172b78b33de741c9a855836f",
       "short_sha": "0928980",
@@ -717,17 +750,6 @@
       "project_title": "Gestapro Dashboard"
     },
     {
-      "sha": "b563236e6eebdb2d3e8b9bd11fed18c6f9097d7c",
-      "short_sha": "b563236",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-06-28T13:23:31Z",
-      "message": "data: refresh 2026-06-28T13:23:31Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/b563236e6eebdb2d3e8b9bd11fed18c6f9097d7c",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
       "sha": "47063263a3e947e81b0ac4310405ebeaf03f96f1",
       "short_sha": "4706326",
       "author": "Blanca",
@@ -779,28 +801,6 @@
       "date": "2026-06-12T10:44:45Z",
       "message": "improve residents view",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/72b136355c093a1b529bb96a86e03c5eb7db85b0",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "8d2240e946be5485a3dd541497a8c5f053d4d57c",
-      "short_sha": "8d2240e",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-12T10:23:15Z",
-      "message": "add residents general view",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/8d2240e946be5485a3dd541497a8c5f053d4d57c",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "6647a6473716d7d6a79ed8b0bffa66bddfd6b85c",
-      "short_sha": "6647a64",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-12T09:21:31Z",
-      "message": "fix(export): handle empty selection without crashing",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/6647a6473716d7d6a79ed8b0bffa66bddfd6b85c",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     }

@@ -20,9 +20,9 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-06-29T12:16:42Z",
+    "pushed_at": "2026-07-01T08:16:11Z",
     "languages": {
-      "Python": 366087,
+      "Python": 383931,
       "HTML": 50634,
       "JavaScript": 33711
     },
@@ -32,11 +32,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 132,
+        "contributions": 134,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 2073,
+    "size_kb": 2089,
     "is_empty": false
   },
   "activity": {
@@ -808,22 +808,40 @@
       },
       {
         "week": 1782604800,
-        "total": 3,
+        "total": 5,
         "days": [
           0,
           3,
           0,
-          0,
+          2,
           0,
           0,
           0
         ],
-        "adds": 117,
-        "dels": 102
+        "adds": 583,
+        "dels": 107
       }
     ]
   },
   "commits": [
+    {
+      "sha": "eb3569784828c9a6fa9829c018b51e5d622e4b00",
+      "short_sha": "eb35697",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-07-01T08:16:06Z",
+      "message": "feat(detail): disable zoom and default to pan on resident Gantt charts",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/eb3569784828c9a6fa9829c018b51e5d622e4b00"
+    },
+    {
+      "sha": "c5febb8b902a35a44b12894f25f548563b0353cc",
+      "short_sha": "c5febb8",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-07-01T07:51:41Z",
+      "message": "feat(medicos): add read-only service-doctor portal at /medicos with area-filtered gantt/heatmap + roster, and doctor",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c5febb8b902a35a44b12894f25f548563b0353cc"
+    },
     {
       "sha": "af9f01dc9854462ab41e24379d3005b1e1069c10",
       "short_sha": "af9f01d",
@@ -1075,24 +1093,6 @@
       "date": "2026-06-01T11:50:12Z",
       "message": "add short names on Gantt",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2725f897080bbefeca8c99601e1a724f7c689b7f"
-    },
-    {
-      "sha": "4333d524bc0630ddc2224477a5597451c883282a",
-      "short_sha": "4333d52",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-01T11:46:56Z",
-      "message": "fix: filter on interactive table does not affect gantt chart",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/4333d524bc0630ddc2224477a5597451c883282a"
-    },
-    {
-      "sha": "7376b7eebbf25a2b83a1e0dca402dcbbab97465d",
-      "short_sha": "7376b7e",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-01T11:41:51Z",
-      "message": "fix: extend editable grid axis to cover leave before recalc applied",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/7376b7eebbf25a2b83a1e0dca402dcbbab97465d"
     }
   ],
   "todos": {
@@ -1101,19 +1101,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-07-01T02:50:05.273Z",
+    "since": "2025-07-01T09:35:43.473Z",
     "totals": {
-      "files": 82,
-      "commits": 120,
-      "adds": 31125,
-      "dels": 15790
+      "files": 83,
+      "commits": 122,
+      "adds": 31591,
+      "dels": 15795
     },
     "tree": {
       "name": "<root>",
-      "churn": 46915,
-      "adds": 31125,
-      "dels": 15790,
-      "commits": 481,
+      "churn": 47386,
+      "adds": 31591,
+      "dels": 15795,
+      "commits": 486,
       "children": [
         {
           "name": "data",
@@ -1144,10 +1144,10 @@
         },
         {
           "name": "autorot",
-          "churn": 21188,
-          "adds": 14559,
-          "dels": 6629,
-          "commits": 367,
+          "churn": 21657,
+          "adds": 15023,
+          "dels": 6634,
+          "commits": 371,
           "children": [
             {
               "name": "scheduler",
@@ -1358,19 +1358,19 @@
             },
             {
               "name": "views",
-              "churn": 6153,
-              "adds": 4671,
-              "dels": 1482,
-              "commits": 132,
+              "churn": 6548,
+              "adds": 5061,
+              "dels": 1487,
+              "commits": 135,
               "children": [
                 {
                   "name": "management.py",
                   "path": "autorot/views/management.py",
-                  "churn": 1770,
-                  "adds": 1288,
-                  "dels": 482,
-                  "commits": 30,
-                  "last_touched": "2026-06-29T12:16:36.000Z"
+                  "churn": 1893,
+                  "adds": 1410,
+                  "dels": 483,
+                  "commits": 31,
+                  "last_touched": "2026-07-01T07:51:41.000Z"
                 },
                 {
                   "name": "scheduler_panel.py",
@@ -1411,11 +1411,20 @@
                 {
                   "name": "detail.py",
                   "path": "autorot/views/detail.py",
-                  "churn": 385,
-                  "adds": 310,
-                  "dels": 75,
-                  "commits": 15,
-                  "last_touched": "2026-06-29T11:34:04.000Z"
+                  "churn": 396,
+                  "adds": 317,
+                  "dels": 79,
+                  "commits": 16,
+                  "last_touched": "2026-07-01T08:16:06.000Z"
+                },
+                {
+                  "name": "medicos.py",
+                  "path": "autorot/views/medicos.py",
+                  "churn": 261,
+                  "adds": 261,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-07-01T07:51:41.000Z"
                 },
                 {
                   "name": "_gantt.py",
@@ -1467,11 +1476,11 @@
             {
               "name": "store.py",
               "path": "autorot/store.py",
-              "churn": 1290,
-              "adds": 952,
+              "churn": 1364,
+              "adds": 1026,
               "dels": 338,
-              "commits": 16,
-              "last_touched": "2026-06-12T09:21:31.000Z"
+              "commits": 17,
+              "last_touched": "2026-07-01T07:51:41.000Z"
             },
             {
               "name": "components",
@@ -1703,11 +1712,11 @@
         {
           "name": "app.py",
           "path": "app.py",
-          "churn": 1684,
-          "adds": 897,
+          "churn": 1686,
+          "adds": 899,
           "dels": 787,
-          "commits": 21,
-          "last_touched": "2026-06-29T11:34:04.000Z"
+          "commits": 22,
+          "last_touched": "2026-07-01T07:51:41.000Z"
         },
         {
           "name": "rules",
@@ -2009,6 +2018,6 @@
       ]
     }
   },
-  "_generated_at": "2026-07-01T02:50:05.273Z",
+  "_generated_at": "2026-07-01T09:35:43.474Z",
   "_warnings": []
 }
