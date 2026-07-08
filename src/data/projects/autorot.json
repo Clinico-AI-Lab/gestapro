@@ -20,9 +20,9 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-07-01T08:16:11Z",
+    "pushed_at": "2026-07-08T12:19:19Z",
     "languages": {
-      "Python": 383931,
+      "Python": 389065,
       "HTML": 50634,
       "JavaScript": 33711
     },
@@ -32,11 +32,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 134,
+        "contributions": 135,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 2089,
+    "size_kb": 2128,
     "is_empty": false
   },
   "activity": {
@@ -808,22 +808,31 @@
       },
       {
         "week": 1783209600,
-        "total": 0,
+        "total": 1,
         "days": [
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 166,
+        "dels": 42
       }
     ]
   },
   "commits": [
+    {
+      "sha": "2ac1a02068d17c3e6e35e02a5cc0992738e3bfd6",
+      "short_sha": "2ac1a02",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-07-08T12:19:11Z",
+      "message": "add medicos endpoint",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2ac1a02068d17c3e6e35e02a5cc0992738e3bfd6"
+    },
     {
       "sha": "eb3569784828c9a6fa9829c018b51e5d622e4b00",
       "short_sha": "eb35697",
@@ -1084,15 +1093,6 @@
       "date": "2026-06-02T06:52:00Z",
       "message": "remove soft restrictions entries from table",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/818a2fd6ae5f38c5b31d504bffc111c66f15fe85"
-    },
-    {
-      "sha": "2725f897080bbefeca8c99601e1a724f7c689b7f",
-      "short_sha": "2725f89",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-01T11:50:12Z",
-      "message": "add short names on Gantt",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2725f897080bbefeca8c99601e1a724f7c689b7f"
     }
   ],
   "todos": {
@@ -1101,19 +1101,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-07-08T08:14:18.557Z",
+    "since": "2025-07-08T13:48:27.592Z",
     "totals": {
       "files": 83,
-      "commits": 122,
-      "adds": 31591,
-      "dels": 15795
+      "commits": 123,
+      "adds": 31757,
+      "dels": 15837
     },
     "tree": {
       "name": "<root>",
-      "churn": 47386,
-      "adds": 31591,
-      "dels": 15795,
-      "commits": 486,
+      "churn": 47594,
+      "adds": 31757,
+      "dels": 15837,
+      "commits": 489,
       "children": [
         {
           "name": "data",
@@ -1144,10 +1144,10 @@
         },
         {
           "name": "autorot",
-          "churn": 21657,
-          "adds": 15023,
-          "dels": 6634,
-          "commits": 371,
+          "churn": 21865,
+          "adds": 15189,
+          "dels": 6676,
+          "commits": 374,
           "children": [
             {
               "name": "scheduler",
@@ -1358,19 +1358,19 @@
             },
             {
               "name": "views",
-              "churn": 6548,
-              "adds": 5061,
-              "dels": 1487,
-              "commits": 135,
+              "churn": 6735,
+              "adds": 5208,
+              "dels": 1527,
+              "commits": 137,
               "children": [
                 {
                   "name": "management.py",
                   "path": "autorot/views/management.py",
-                  "churn": 1893,
-                  "adds": 1410,
-                  "dels": 483,
-                  "commits": 31,
-                  "last_touched": "2026-07-01T07:51:41.000Z"
+                  "churn": 2035,
+                  "adds": 1515,
+                  "dels": 520,
+                  "commits": 32,
+                  "last_touched": "2026-07-08T12:19:11.000Z"
                 },
                 {
                   "name": "scheduler_panel.py",
@@ -1420,11 +1420,11 @@
                 {
                   "name": "medicos.py",
                   "path": "autorot/views/medicos.py",
-                  "churn": 261,
-                  "adds": 261,
-                  "dels": 0,
-                  "commits": 1,
-                  "last_touched": "2026-07-01T07:51:41.000Z"
+                  "churn": 306,
+                  "adds": 303,
+                  "dels": 3,
+                  "commits": 2,
+                  "last_touched": "2026-07-08T12:19:11.000Z"
                 },
                 {
                   "name": "_gantt.py",
@@ -1476,11 +1476,11 @@
             {
               "name": "store.py",
               "path": "autorot/store.py",
-              "churn": 1364,
-              "adds": 1026,
-              "dels": 338,
-              "commits": 17,
-              "last_touched": "2026-07-01T07:51:41.000Z"
+              "churn": 1385,
+              "adds": 1045,
+              "dels": 340,
+              "commits": 18,
+              "last_touched": "2026-07-08T12:19:11.000Z"
             },
             {
               "name": "components",
@@ -2018,6 +2018,6 @@
       ]
     }
   },
-  "_generated_at": "2026-07-08T08:14:18.557Z",
+  "_generated_at": "2026-07-08T13:48:27.592Z",
   "_warnings": []
 }
