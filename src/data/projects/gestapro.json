@@ -30,7 +30,7 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-07-08T13:48:42Z",
+    "pushed_at": "2026-07-08T19:15:40Z",
     "languages": {
       "TypeScript": 48218,
       "Astro": 23346,
@@ -53,7 +53,7 @@
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 566,
+    "size_kb": 568,
     "is_empty": false
   },
   "activity": {
@@ -825,12 +825,12 @@
       },
       {
         "week": 1783209600,
-        "total": 15,
+        "total": 16,
         "days": [
           4,
           4,
           4,
-          3,
+          4,
           0,
           0,
           0
@@ -841,6 +841,15 @@
     ]
   },
   "commits": [
+    {
+      "sha": "84a936307d27edac852a07f114da3645789ec72f",
+      "short_sha": "84a9363",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-07-08T19:15:39Z",
+      "message": "data: refresh 2026-07-08T19:15:39Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/84a936307d27edac852a07f114da3645789ec72f"
+    },
     {
       "sha": "6c9f9b8c3d6dba1c2bea939fe5a90c2e36799e9d",
       "short_sha": "6c9f9b8",
@@ -1101,15 +1110,6 @@
       "date": "2026-07-01T14:20:37Z",
       "message": "data: refresh 2026-07-01T14:20:37Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/6202457e81595fe3a85cca9ba01e77ea38303a0b"
-    },
-    {
-      "sha": "d9bf01f6df736a5349db4a99f8682a74f07c8668",
-      "short_sha": "d9bf01f",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-07-01T09:35:50Z",
-      "message": "data: refresh 2026-07-01T09:35:50Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/d9bf01f6df736a5349db4a99f8682a74f07c8668"
     }
   ],
   "todos": {
@@ -1118,10 +1118,10 @@
     "done": []
   },
   "churn": {
-    "since": "2025-07-08T19:15:39.412Z",
+    "since": "2025-07-09T02:22:26.352Z",
     "totals": {
       "files": 51,
-      "commits": 247,
+      "commits": 248,
       "adds": 2930,
       "dels": 69
     },
@@ -1720,6 +1720,6 @@
       ]
     }
   },
-  "_generated_at": "2026-07-08T19:15:39.412Z",
+  "_generated_at": "2026-07-09T02:22:26.352Z",
   "_warnings": []
 }
