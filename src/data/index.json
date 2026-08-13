@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T18:54:57.197Z",
+  "generated_at": "2026-08-13T01:22:00.684Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -133,56 +133,18 @@
         0
       ],
       "description": "Description to come.\n"
-    },
-    {
-      "slug": "gestapro",
-      "title": "Gestapro Dashboard",
-      "status": "active",
-      "tags": [
-        "meta",
-        "astro",
-        "typescript",
-        "dashboard"
-      ],
-      "pushed_at": "2026-08-12T12:54:00Z",
-      "open_issues": 0,
-      "open_prs": 0,
-      "languages_top": "TypeScript",
-      "headline_metric": {
-        "label": "Tracked repos",
-        "source": "manual",
-        "value": 3
-      },
-      "sparkline_12w": [
-        30,
-        28,
-        28,
-        28,
-        28,
-        28,
-        28,
-        28,
-        28,
-        28,
-        28,
-        15
-      ],
-      "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
-    "repo_count": 5,
-    "commits_52w": 545,
+    "repo_count": 4,
+    "commits_52w": 158,
     "open_todos": 0,
     "languages": {
       "Python": 1393684,
       "TeX": 42874,
       "HTML": 84335,
-      "JavaScript": 34084,
-      "PowerShell": 2688,
-      "TypeScript": 48218,
-      "Astro": 23346,
-      "CSS": 7356
+      "JavaScript": 33711,
+      "PowerShell": 2688
     },
     "adds_52w": 83377,
     "dels_52w": 29676
@@ -194,10 +156,9 @@
         "activa-ldl-heavy": 0,
         "autorot": 16,
         "ci": 2,
-        "emergo": 0,
-        "gestapro": 30
+        "emergo": 0
       },
-      "total": 48
+      "total": 18
     },
     {
       "week": 1780185600,
@@ -205,10 +166,9 @@
         "activa-ldl-heavy": 0,
         "autorot": 23,
         "ci": 1,
-        "emergo": 0,
-        "gestapro": 28
+        "emergo": 0
       },
-      "total": 52
+      "total": 24
     },
     {
       "week": 1780790400,
@@ -216,10 +176,9 @@
         "activa-ldl-heavy": 0,
         "autorot": 10,
         "ci": 2,
-        "emergo": 0,
-        "gestapro": 28
+        "emergo": 0
       },
-      "total": 40
+      "total": 12
     },
     {
       "week": 1781395200,
@@ -227,10 +186,9 @@
         "activa-ldl-heavy": 0,
         "autorot": 0,
         "ci": 0,
-        "emergo": 0,
-        "gestapro": 28
+        "emergo": 0
       },
-      "total": 28
+      "total": 0
     },
     {
       "week": 1782000000,
@@ -238,10 +196,9 @@
         "activa-ldl-heavy": 0,
         "autorot": 2,
         "ci": 0,
-        "emergo": 0,
-        "gestapro": 28
+        "emergo": 0
       },
-      "total": 30
+      "total": 2
     },
     {
       "week": 1782604800,
@@ -249,10 +206,9 @@
         "activa-ldl-heavy": 0,
         "autorot": 5,
         "ci": 0,
-        "emergo": 0,
-        "gestapro": 28
+        "emergo": 0
       },
-      "total": 33
+      "total": 5
     },
     {
       "week": 1783209600,
@@ -260,10 +216,9 @@
         "activa-ldl-heavy": 0,
         "autorot": 1,
         "ci": 0,
-        "emergo": 0,
-        "gestapro": 28
+        "emergo": 0
       },
-      "total": 29
+      "total": 1
     },
     {
       "week": 1783814400,
@@ -271,10 +226,9 @@
         "activa-ldl-heavy": 0,
         "autorot": 0,
         "ci": 0,
-        "emergo": 0,
-        "gestapro": 28
+        "emergo": 0
       },
-      "total": 28
+      "total": 0
     },
     {
       "week": 1784419200,
@@ -282,10 +236,9 @@
         "activa-ldl-heavy": 0,
         "autorot": 0,
         "ci": 0,
-        "emergo": 0,
-        "gestapro": 28
+        "emergo": 0
       },
-      "total": 28
+      "total": 0
     },
     {
       "week": 1785024000,
@@ -293,10 +246,9 @@
         "activa-ldl-heavy": 0,
         "autorot": 0,
         "ci": 0,
-        "emergo": 0,
-        "gestapro": 28
+        "emergo": 0
       },
-      "total": 28
+      "total": 0
     },
     {
       "week": 1785628800,
@@ -304,10 +256,9 @@
         "activa-ldl-heavy": 0,
         "autorot": 0,
         "ci": 0,
-        "emergo": 0,
-        "gestapro": 28
+        "emergo": 0
       },
-      "total": 28
+      "total": 0
     },
     {
       "week": 1786233600,
@@ -315,20 +266,89 @@
         "activa-ldl-heavy": 0,
         "autorot": 0,
         "ci": 0,
-        "emergo": 0,
-        "gestapro": 15
+        "emergo": 0
       },
-      "total": 15
+      "total": 0
     }
   ],
   "code_flow": [
     {
-      "week": 1764460800,
+      "week": 1755388800,
       "adds": 0,
       "dels": 0
     },
     {
-      "week": 1764464400,
+      "week": 1755993600,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1756598400,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1757203200,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1757808000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1758412800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1759017600,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1759622400,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1760227200,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1760832000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1761436800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1762041600,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1762646400,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1763251200,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1763856000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1764460800,
       "adds": 0,
       "dels": 0
     },
@@ -338,17 +358,7 @@
       "dels": 0
     },
     {
-      "week": 1765069200,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1765670400,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1765674000,
       "adds": 0,
       "dels": 0
     },
@@ -358,17 +368,7 @@
       "dels": 0
     },
     {
-      "week": 1766278800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1766880000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1766883600,
       "adds": 0,
       "dels": 0
     },
@@ -378,17 +378,7 @@
       "dels": 0
     },
     {
-      "week": 1767488400,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1768089600,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1768093200,
       "adds": 0,
       "dels": 0
     },
@@ -398,17 +388,7 @@
       "dels": 0
     },
     {
-      "week": 1768698000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1769299200,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1769302800,
       "adds": 0,
       "dels": 0
     },
@@ -418,17 +398,7 @@
       "dels": 0
     },
     {
-      "week": 1769907600,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1770508800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1770512400,
       "adds": 0,
       "dels": 0
     },
@@ -438,17 +408,7 @@
       "dels": 0
     },
     {
-      "week": 1771117200,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1771718400,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1771722000,
       "adds": 0,
       "dels": 0
     },
@@ -458,17 +418,7 @@
       "dels": 0
     },
     {
-      "week": 1772326800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1772928000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1772931600,
       "adds": 0,
       "dels": 0
     },
@@ -585,116 +535,6 @@
   ],
   "recent_activity": [
     {
-      "sha": "39076b5a0aa6dc6828ae3dede914853e05f87d0d",
-      "short_sha": "39076b5",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-12T12:53:59Z",
-      "message": "data: refresh 2026-08-12T12:53:59Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/39076b5a0aa6dc6828ae3dede914853e05f87d0d",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "364337890df65536ecb06cb73802b16df77f42da",
-      "short_sha": "3643378",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-12T07:15:07Z",
-      "message": "data: refresh 2026-08-12T07:15:07Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/364337890df65536ecb06cb73802b16df77f42da",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "37dc9a90f2e0ca19749ed2a58b24f3941ef13c5d",
-      "short_sha": "37dc9a9",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-12T01:19:53Z",
-      "message": "data: refresh 2026-08-12T01:19:53Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/37dc9a90f2e0ca19749ed2a58b24f3941ef13c5d",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "4d1ab4b54edc2c8b432ac0ad5c23d7db708110c8",
-      "short_sha": "4d1ab4b",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-11T18:55:07Z",
-      "message": "data: refresh 2026-08-11T18:55:07Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/4d1ab4b54edc2c8b432ac0ad5c23d7db708110c8",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "074fd1c39308ec392b71b6890ee01d724ace9e0a",
-      "short_sha": "074fd1c",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-11T12:50:06Z",
-      "message": "data: refresh 2026-08-11T12:50:06Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/074fd1c39308ec392b71b6890ee01d724ace9e0a",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "12333dd09a275d0abf1928b22b02d6ca1be3d38e",
-      "short_sha": "12333dd",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-11T06:56:04Z",
-      "message": "data: refresh 2026-08-11T06:56:04Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/12333dd09a275d0abf1928b22b02d6ca1be3d38e",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "e2ed16ef7c6f5054c3b95ed6bc02503b180564bf",
-      "short_sha": "e2ed16e",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-11T01:12:19Z",
-      "message": "data: refresh 2026-08-11T01:12:19Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/e2ed16ef7c6f5054c3b95ed6bc02503b180564bf",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "ec12f3374be889afbd83cde84e053af7d3bade6d",
-      "short_sha": "ec12f33",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-10T18:47:58Z",
-      "message": "data: refresh 2026-08-10T18:47:58Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/ec12f3374be889afbd83cde84e053af7d3bade6d",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "63fb2b8c15edd3d972e39527628bc3ffe14a8363",
-      "short_sha": "63fb2b8",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-10T12:55:14Z",
-      "message": "data: refresh 2026-08-10T12:55:14Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/63fb2b8c15edd3d972e39527628bc3ffe14a8363",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "6dc92f8ce9e2be8c278a69d38cd6ce6f2be54092",
-      "short_sha": "6dc92f8",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-10T07:18:23Z",
-      "message": "data: refresh 2026-08-10T07:18:23Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/6dc92f8ce9e2be8c278a69d38cd6ce6f2be54092",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
       "sha": "2ac1a02068d17c3e6e35e02a5cc0992738e3bfd6",
       "short_sha": "2ac1a02",
       "author": "Blanca",
@@ -803,6 +643,116 @@
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b53dc675a33bdaacbf0a047b6e84f906c03ded30",
       "project_slug": "autorot",
       "project_title": "AutoRot"
+    },
+    {
+      "sha": "a5ee43c7db1678601a3d336b02b8abf8cbdd1c80",
+      "short_sha": "a5ee43c",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-06-09T12:04:25Z",
+      "message": "﻿Phase 2C iter 8: alta de registros nuevos (--crear-altas) + optimizacion velocidad",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/a5ee43c7db1678601a3d336b02b8abf8cbdd1c80",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "b08ea73c4ab5936227819229637e0d70cdf1c9cb",
+      "short_sha": "b08ea73",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-06-09T07:34:07Z",
+      "message": "﻿Phase 2C iter 7: localizacion IM en ECG + dry_run_3/4 + robustez submit/nav",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/b08ea73c4ab5936227819229637e0d70cdf1c9cb",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "1b755bbca6f6b0655e1a78d5504d5f35167c3af3",
+      "short_sha": "1b755bb",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-06-01T09:01:37Z",
+      "message": "Phase 2C iter 6: matching por NHC + NO_REGISTRADO + saneo PII + fix timeouts panel disabled",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/1b755bbca6f6b0655e1a78d5504d5f35167c3af3",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "8f0f8b555e59b7d3d471f765daad6fbcb866dd86",
+      "short_sha": "8f0f8b5",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-29T09:20:19Z",
+      "message": "Phase 2C iter 5: excluir filas sin FechaAlta ni FechaExitus + log de coste por run",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/8f0f8b555e59b7d3d471f765daad6fbcb866dd86",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "34de5618b8a795b0a0a82e2f4a665e1b0bd1ec25",
+      "short_sha": "34de561",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-25T12:37:46Z",
+      "message": "Phase 2C iter 4: flujo end-to-end real contra REINF Ethernet",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/34de5618b8a795b0a0a82e2f4a665e1b0bd1ec25",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "8a35e2f970398641b47db77cc0121ad0ded9a6d1",
+      "short_sha": "8a35e2f",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-22T13:42:20Z",
+      "message": "Phase 2C iter 3: auth NTLM operativa + CLI overrides para dry-runs visuales",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/8a35e2f970398641b47db77cc0121ad0ded9a6d1",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "10598bcb96c283700b55249f5bde18a881226541",
+      "short_sha": "10598bc",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-22T11:22:29Z",
+      "message": "Phase 2C iter 2: cablear bot para consumir dry_run_2.xlsx (must1 + must2)",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/10598bcb96c283700b55249f5bde18a881226541",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "0b542c6915e1e996ea93b3dd22a6f47e5be91b90",
+      "short_sha": "0b542c6",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-21T13:03:33Z",
+      "message": "Phase 2C: flujo modify-only — find_and_open + fill con politica overwrite_if_diff",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/0b542c6915e1e996ea93b3dd22a6f47e5be91b90",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "357771109119e05db3199973b89048a307f81ba2",
+      "short_sha": "3577711",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-21T12:50:02Z",
+      "message": "Phase 2A: selectors.yaml poblado, run_bot.ps1 wrapper NTLM, refactor login",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/357771109119e05db3199973b89048a307f81ba2",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
+    },
+    {
+      "sha": "6a6bfa8dccdf2698257009a26ef8d83eea80f53a",
+      "short_sha": "6a6bfa8",
+      "author": "clinicoailab",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/271196583?v=4",
+      "date": "2026-05-21T12:38:56Z",
+      "message": "Phase 1: capturas HTML, inventario de campos, auth NTLM confirmada, tests offline",
+      "url": "https://github.com/Clinico-AI-Lab/ci/commit/6a6bfa8dccdf2698257009a26ef8d83eea80f53a",
+      "project_slug": "ci",
+      "project_title": "REINF Madrid Feeder"
     }
   ]
 }
