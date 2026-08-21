@@ -20,9 +20,9 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-07-08T12:19:19Z",
+    "pushed_at": "2026-08-21T10:17:32Z",
     "languages": {
-      "Python": 389065,
+      "Python": 433004,
       "HTML": 50634,
       "JavaScript": 33711
     },
@@ -32,11 +32,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 135,
+        "contributions": 139,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 2128,
+    "size_kb": 2188,
     "is_empty": false
   },
   "activity": {
@@ -808,22 +808,58 @@
       },
       {
         "week": 1786838400,
-        "total": 0,
+        "total": 4,
         "days": [
           0,
           0,
           0,
           0,
           0,
-          0,
+          4,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 1903,
+        "dels": 127
       }
     ]
   },
   "commits": [
+    {
+      "sha": "7d18c56b11cba26e02afe4cabb970bb9a659f02d",
+      "short_sha": "7d18c56",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-08-21T10:17:24Z",
+      "message": "fix(auth): expire admin cookies and login lockouts",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/7d18c56b11cba26e02afe4cabb970bb9a659f02d"
+    },
+    {
+      "sha": "79e826712f83342916c6565810c3b598173410ae",
+      "short_sha": "79e8267",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-08-21T09:25:06Z",
+      "message": "feat(visitantes): default the Gantt to the current year plus two",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/79e826712f83342916c6565810c3b598173410ae"
+    },
+    {
+      "sha": "ebdf9e43a9b9ad82242dd513e8373521c8ec5fdc",
+      "short_sha": "ebdf9e4",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-08-21T09:18:24Z",
+      "message": "fix(visitantes): add new rows at the top of the editor",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/ebdf9e43a9b9ad82242dd513e8373521c8ec5fdc"
+    },
+    {
+      "sha": "63f43c7d07a26e3b14e9446ba29232e2f948a943",
+      "short_sha": "63f43c7",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-08-21T09:05:01Z",
+      "message": "feat(visitantes): visiting-doctor registry, filters and shared exports",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/63f43c7d07a26e3b14e9446ba29232e2f948a943"
+    },
     {
       "sha": "2ac1a02068d17c3e6e35e02a5cc0992738e3bfd6",
       "short_sha": "2ac1a02",
@@ -1057,42 +1093,6 @@
       "date": "2026-06-04T10:16:13Z",
       "message": "fix: prevent code-picker menu clipping in zoomed grid view",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/ff5fa8491514ab86b7577f6bfe9adabfd736a309"
-    },
-    {
-      "sha": "2f257ea3dbcee90ed00856b7599c810fa8ffcc7f",
-      "short_sha": "2f257ea",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T10:03:26Z",
-      "message": "create ignore hard constraints button",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2f257ea3dbcee90ed00856b7599c810fa8ffcc7f"
-    },
-    {
-      "sha": "791c71dd10fac1f9b2ee78ff6acbb6e491f81104",
-      "short_sha": "791c71d",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T09:48:21Z",
-      "message": "add soft restrictions to model",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/791c71dd10fac1f9b2ee78ff6acbb6e491f81104"
-    },
-    {
-      "sha": "f77a69e31b173489f9896d0d23cfbe1fa324113f",
-      "short_sha": "f77a69e",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-02T11:19:40Z",
-      "message": "add make rehab n<1 a soft constraint",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/f77a69e31b173489f9896d0d23cfbe1fa324113f"
-    },
-    {
-      "sha": "818a2fd6ae5f38c5b31d504bffc111c66f15fe85",
-      "short_sha": "818a2fd",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-02T06:52:00Z",
-      "message": "remove soft restrictions entries from table",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/818a2fd6ae5f38c5b31d504bffc111c66f15fe85"
     }
   ],
   "todos": {
@@ -1101,19 +1101,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-08-21T06:34:43.366Z",
+    "since": "2025-08-21T12:33:51.553Z",
     "totals": {
-      "files": 83,
-      "commits": 123,
-      "adds": 31757,
-      "dels": 15837
+      "files": 87,
+      "commits": 127,
+      "adds": 33660,
+      "dels": 15964
     },
     "tree": {
       "name": "<root>",
-      "churn": 47594,
-      "adds": 31757,
-      "dels": 15837,
-      "commits": 489,
+      "churn": 49624,
+      "adds": 33660,
+      "dels": 15964,
+      "commits": 502,
       "children": [
         {
           "name": "data",
@@ -1144,10 +1144,10 @@
         },
         {
           "name": "autorot",
-          "churn": 21865,
-          "adds": 15189,
-          "dels": 6676,
-          "commits": 374,
+          "churn": 23625,
+          "adds": 16822,
+          "dels": 6803,
+          "commits": 385,
           "children": [
             {
               "name": "scheduler",
@@ -1358,19 +1358,19 @@
             },
             {
               "name": "views",
-              "churn": 6735,
-              "adds": 5208,
-              "dels": 1527,
-              "commits": 137,
+              "churn": 7649,
+              "adds": 6021,
+              "dels": 1628,
+              "commits": 144,
               "children": [
                 {
                   "name": "management.py",
                   "path": "autorot/views/management.py",
-                  "churn": 2035,
-                  "adds": 1515,
+                  "churn": 2039,
+                  "adds": 1519,
                   "dels": 520,
-                  "commits": 32,
-                  "last_touched": "2026-07-08T12:19:11.000Z"
+                  "commits": 33,
+                  "last_touched": "2026-08-21T09:05:01.000Z"
                 },
                 {
                   "name": "scheduler_panel.py",
@@ -1393,11 +1393,20 @@
                 {
                   "name": "export.py",
                   "path": "autorot/views/export.py",
-                  "churn": 593,
-                  "adds": 540,
-                  "dels": 53,
-                  "commits": 7,
-                  "last_touched": "2026-06-29T11:34:04.000Z"
+                  "churn": 799,
+                  "adds": 663,
+                  "dels": 136,
+                  "commits": 8,
+                  "last_touched": "2026-08-21T09:05:01.000Z"
+                },
+                {
+                  "name": "medicos_visitantes.py",
+                  "path": "autorot/views/medicos_visitantes.py",
+                  "churn": 666,
+                  "adds": 664,
+                  "dels": 2,
+                  "commits": 3,
+                  "last_touched": "2026-08-21T09:25:06.000Z"
                 },
                 {
                   "name": "restricciones.py",
@@ -1420,11 +1429,11 @@
                 {
                   "name": "medicos.py",
                   "path": "autorot/views/medicos.py",
-                  "churn": 306,
-                  "adds": 303,
-                  "dels": 3,
-                  "commits": 2,
-                  "last_touched": "2026-07-08T12:19:11.000Z"
+                  "churn": 325,
+                  "adds": 314,
+                  "dels": 11,
+                  "commits": 3,
+                  "last_touched": "2026-08-21T10:17:24.000Z"
                 },
                 {
                   "name": "_gantt.py",
@@ -1438,11 +1447,11 @@
                 {
                   "name": "portal.py",
                   "path": "autorot/views/portal.py",
-                  "churn": 114,
-                  "adds": 105,
-                  "dels": 9,
-                  "commits": 5,
-                  "last_touched": "2026-06-25T12:19:49.000Z"
+                  "churn": 133,
+                  "adds": 116,
+                  "dels": 17,
+                  "commits": 6,
+                  "last_touched": "2026-08-21T10:17:24.000Z"
                 },
                 {
                   "name": "incidencias.py",
@@ -1476,11 +1485,11 @@
             {
               "name": "store.py",
               "path": "autorot/store.py",
-              "churn": 1385,
-              "adds": 1045,
-              "dels": 340,
-              "commits": 18,
-              "last_touched": "2026-07-08T12:19:11.000Z"
+              "churn": 1561,
+              "adds": 1209,
+              "dels": 352,
+              "commits": 20,
+              "last_touched": "2026-08-21T10:17:24.000Z"
             },
             {
               "name": "components",
@@ -1546,6 +1555,24 @@
               ]
             },
             {
+              "name": "data",
+              "churn": 607,
+              "adds": 607,
+              "dels": 0,
+              "commits": 1,
+              "children": [
+                {
+                  "name": "hospitales.txt",
+                  "path": "autorot/data/hospitales.txt",
+                  "churn": 607,
+                  "adds": 607,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-08-21T09:05:01.000Z"
+                }
+              ]
+            },
+            {
               "name": "loader.py",
               "path": "autorot/loader.py",
               "churn": 518,
@@ -1557,11 +1584,11 @@
             {
               "name": "auth.py",
               "path": "autorot/auth.py",
-              "churn": 218,
-              "adds": 200,
-              "dels": 18,
-              "commits": 4,
-              "last_touched": "2026-06-25T12:19:49.000Z"
+              "churn": 281,
+              "adds": 249,
+              "dels": 32,
+              "commits": 5,
+              "last_touched": "2026-08-21T10:17:24.000Z"
             },
             {
               "name": "models.py",
@@ -1621,10 +1648,10 @@
         },
         {
           "name": "tests",
-          "churn": 3732,
-          "adds": 3684,
+          "churn": 4002,
+          "adds": 3954,
           "dels": 48,
-          "commits": 14,
+          "commits": 16,
           "children": [
             {
               "name": "fixtures",
@@ -1672,6 +1699,15 @@
               "last_touched": "2026-05-29T09:23:27.000Z"
             },
             {
+              "name": "test_medicos_visitantes.py",
+              "path": "tests/test_medicos_visitantes.py",
+              "churn": 157,
+              "adds": 157,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-08-21T09:05:01.000Z"
+            },
+            {
               "name": "test_e2e.py",
               "path": "tests/test_e2e.py",
               "churn": 153,
@@ -1688,6 +1724,15 @@
               "dels": 2,
               "commits": 2,
               "last_touched": "2026-05-29T12:18:07.000Z"
+            },
+            {
+              "name": "test_auth.py",
+              "path": "tests/test_auth.py",
+              "churn": 113,
+              "adds": 113,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-08-21T10:17:24.000Z"
             },
             {
               "name": "conftest.py",
@@ -2018,6 +2063,6 @@
       ]
     }
   },
-  "_generated_at": "2026-08-21T06:34:43.366Z",
+  "_generated_at": "2026-08-21T12:33:51.554Z",
   "_warnings": []
 }
