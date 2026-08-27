@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T06:38:05.215Z",
+  "generated_at": "2026-08-27T21:35:47.270Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-08-21T10:17:32Z",
+      "pushed_at": "2026-08-27T08:02:55Z",
       "open_issues": 11,
       "open_prs": 0,
       "languages_top": "Python",
@@ -65,7 +65,7 @@
         0,
         0,
         4,
-        0
+        1
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-08-26T19:42:47Z",
+      "pushed_at": "2026-08-27T06:38:06Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,17 +165,17 @@
         28,
         28,
         28,
-        16
+        17
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 606,
+    "commits_52w": 608,
     "open_todos": 0,
     "languages": {
-      "Python": 1437623,
+      "Python": 1439042,
       "TeX": 42874,
       "HTML": 84335,
       "JavaScript": 34084,
@@ -184,8 +184,8 @@
       "Astro": 23346,
       "CSS": 7356
     },
-    "adds_52w": 85280,
-    "dels_52w": 29803
+    "adds_52w": 85312,
+    "dels_52w": 29806
   },
   "weekly_stack": [
     {
@@ -313,12 +313,12 @@
       "week": 1787443200,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 0,
+        "autorot": 1,
         "ci": 0,
         "emergo": 0,
-        "gestapro": 16
+        "gestapro": 17
       },
-      "total": 16
+      "total": 18
     }
   ],
   "code_flow": [
@@ -579,11 +579,33 @@
     },
     {
       "week": 1787443200,
-      "adds": 0,
-      "dels": 0
+      "adds": 32,
+      "dels": 3
     }
   ],
   "recent_activity": [
+    {
+      "sha": "8a1059224150f6a39546ab238998220659806da3",
+      "short_sha": "8a10592",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-08-27T08:02:53Z",
+      "message": "feat(visitantes): allow adding hospitals outside the catalog",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/8a1059224150f6a39546ab238998220659806da3",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "9eab36e7f4ae7bd2e273cb038ce0888d1948dff1",
+      "short_sha": "9eab36e",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-08-27T06:38:05Z",
+      "message": "data: refresh 2026-08-27T06:38:05Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/9eab36e7f4ae7bd2e273cb038ce0888d1948dff1",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "afb0ce01ac785a58fcf15c63818721ed9a7894db",
       "short_sha": "afb0ce0",
@@ -684,17 +706,6 @@
       "project_title": "Gestapro Dashboard"
     },
     {
-      "sha": "ce4b9a8b6ac9754469880d3bf0cbbd7f9788eaa4",
-      "short_sha": "ce4b9a8",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-24T12:36:02Z",
-      "message": "data: refresh 2026-08-24T12:36:02Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/ce4b9a8b6ac9754469880d3bf0cbbd7f9788eaa4",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
       "sha": "7d18c56b11cba26e02afe4cabb970bb9a659f02d",
       "short_sha": "7d18c56",
       "author": "Blanca",
@@ -790,17 +801,6 @@
       "date": "2026-06-29T11:34:04Z",
       "message": "Fix export pdf and change logo",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a93c62de91c4f8d9184c098661e0ae87fd74a0b2",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "9a5586666131047f7ec33954ad8df973fc33c6a1",
-      "short_sha": "9a55866",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-29T08:51:35Z",
-      "message": "fix(export): show 3-letter names in multi-resident PDF gantt",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/9a5586666131047f7ec33954ad8df973fc33c6a1",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     }

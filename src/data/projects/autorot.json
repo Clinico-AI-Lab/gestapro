@@ -20,9 +20,9 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-08-21T10:17:32Z",
+    "pushed_at": "2026-08-27T08:02:55Z",
     "languages": {
-      "Python": 433004,
+      "Python": 434423,
       "HTML": 50634,
       "JavaScript": 33711
     },
@@ -32,11 +32,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 139,
+        "contributions": 140,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 2188,
+    "size_kb": 2190,
     "is_empty": false
   },
   "activity": {
@@ -808,22 +808,31 @@
       },
       {
         "week": 1787443200,
-        "total": 0,
+        "total": 1,
         "days": [
           0,
           0,
           0,
           0,
-          0,
+          1,
           0,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 32,
+        "dels": 3
       }
     ]
   },
   "commits": [
+    {
+      "sha": "8a1059224150f6a39546ab238998220659806da3",
+      "short_sha": "8a10592",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-08-27T08:02:53Z",
+      "message": "feat(visitantes): allow adding hospitals outside the catalog",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/8a1059224150f6a39546ab238998220659806da3"
+    },
     {
       "sha": "7d18c56b11cba26e02afe4cabb970bb9a659f02d",
       "short_sha": "7d18c56",
@@ -1084,15 +1093,6 @@
       "date": "2026-06-04T10:24:45Z",
       "message": "add incidencias view",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/99abda48ef4d598e303911a29974ba8fdf3ce223"
-    },
-    {
-      "sha": "ff5fa8491514ab86b7577f6bfe9adabfd736a309",
-      "short_sha": "ff5fa84",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T10:16:13Z",
-      "message": "fix: prevent code-picker menu clipping in zoomed grid view",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/ff5fa8491514ab86b7577f6bfe9adabfd736a309"
     }
   ],
   "todos": {
@@ -1101,19 +1101,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-08-27T06:36:53.856Z",
+    "since": "2025-08-27T21:34:21.826Z",
     "totals": {
       "files": 87,
-      "commits": 127,
-      "adds": 33660,
-      "dels": 15964
+      "commits": 128,
+      "adds": 33692,
+      "dels": 15967
     },
     "tree": {
       "name": "<root>",
-      "churn": 49624,
-      "adds": 33660,
-      "dels": 15964,
-      "commits": 502,
+      "churn": 49659,
+      "adds": 33692,
+      "dels": 15967,
+      "commits": 503,
       "children": [
         {
           "name": "data",
@@ -1144,10 +1144,10 @@
         },
         {
           "name": "autorot",
-          "churn": 23625,
-          "adds": 16822,
-          "dels": 6803,
-          "commits": 385,
+          "churn": 23660,
+          "adds": 16854,
+          "dels": 6806,
+          "commits": 386,
           "children": [
             {
               "name": "scheduler",
@@ -1358,10 +1358,10 @@
             },
             {
               "name": "views",
-              "churn": 7649,
-              "adds": 6021,
-              "dels": 1628,
-              "commits": 144,
+              "churn": 7684,
+              "adds": 6053,
+              "dels": 1631,
+              "commits": 145,
               "children": [
                 {
                   "name": "management.py",
@@ -1402,11 +1402,11 @@
                 {
                   "name": "medicos_visitantes.py",
                   "path": "autorot/views/medicos_visitantes.py",
-                  "churn": 666,
-                  "adds": 664,
-                  "dels": 2,
-                  "commits": 3,
-                  "last_touched": "2026-08-21T09:25:06.000Z"
+                  "churn": 701,
+                  "adds": 696,
+                  "dels": 5,
+                  "commits": 4,
+                  "last_touched": "2026-08-27T08:02:53.000Z"
                 },
                 {
                   "name": "restricciones.py",
@@ -2063,6 +2063,6 @@
       ]
     }
   },
-  "_generated_at": "2026-08-27T06:36:53.856Z",
+  "_generated_at": "2026-08-27T21:34:21.826Z",
   "_warnings": []
 }
