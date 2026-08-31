@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T02:51:45.286Z",
+  "generated_at": "2026-08-31T12:24:35.214Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-08-27T08:02:55Z",
+      "pushed_at": "2026-08-31T08:21:34Z",
       "open_issues": 11,
       "open_prs": 0,
       "languages_top": "Python",
@@ -65,7 +65,7 @@
         0,
         4,
         1,
-        0
+        1
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-08-30T20:23:40Z",
+      "pushed_at": "2026-08-31T02:51:46Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,17 +165,17 @@
         28,
         28,
         23,
-        4
+        5
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 618,
+    "commits_52w": 620,
     "open_todos": 0,
     "languages": {
-      "Python": 1439042,
+      "Python": 1442472,
       "TeX": 42874,
       "HTML": 84335,
       "JavaScript": 34084,
@@ -184,8 +184,8 @@
       "Astro": 23346,
       "CSS": 7356
     },
-    "adds_52w": 88242,
-    "dels_52w": 29875
+    "adds_52w": 85399,
+    "dels_52w": 29814
   },
   "weekly_stack": [
     {
@@ -313,82 +313,17 @@
       "week": 1788048000,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 0,
+        "autorot": 1,
         "ci": 0,
         "emergo": 0,
-        "gestapro": 4
+        "gestapro": 5
       },
-      "total": 4
+      "total": 6
     }
   ],
   "code_flow": [
     {
-      "week": 1757203200,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1757808000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1758412800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1759017600,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1759622400,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1760227200,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1760832000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1761436800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1762041600,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1762646400,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1763251200,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1763856000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1764460800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1765065600,
+      "week": 1765069200,
       "adds": 0,
       "dels": 0
     },
@@ -398,7 +333,17 @@
       "dels": 0
     },
     {
+      "week": 1765674000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
       "week": 1766275200,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1766278800,
       "adds": 0,
       "dels": 0
     },
@@ -408,7 +353,17 @@
       "dels": 0
     },
     {
+      "week": 1766883600,
+      "adds": 0,
+      "dels": 0
+    },
+    {
       "week": 1767484800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1767488400,
       "adds": 0,
       "dels": 0
     },
@@ -418,7 +373,17 @@
       "dels": 0
     },
     {
+      "week": 1768093200,
+      "adds": 0,
+      "dels": 0
+    },
+    {
       "week": 1768694400,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1768698000,
       "adds": 0,
       "dels": 0
     },
@@ -428,7 +393,17 @@
       "dels": 0
     },
     {
+      "week": 1769302800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
       "week": 1769904000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1769907600,
       "adds": 0,
       "dels": 0
     },
@@ -438,7 +413,17 @@
       "dels": 0
     },
     {
+      "week": 1770512400,
+      "adds": 0,
+      "dels": 0
+    },
+    {
       "week": 1771113600,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1771117200,
       "adds": 0,
       "dels": 0
     },
@@ -448,12 +433,27 @@
       "dels": 0
     },
     {
+      "week": 1771722000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
       "week": 1772323200,
       "adds": 0,
       "dels": 0
     },
     {
+      "week": 1772326800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
       "week": 1772928000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1772931600,
       "adds": 0,
       "dels": 0
     },
@@ -499,18 +499,18 @@
     },
     {
       "week": 1778371200,
-      "adds": 8918,
-      "dels": 6457
+      "adds": 6233,
+      "dels": 6415
     },
     {
       "week": 1778976000,
-      "adds": 10025,
-      "dels": 3004
+      "adds": 9939,
+      "dels": 2986
     },
     {
       "week": 1779580800,
-      "adds": 7856,
-      "dels": 504
+      "adds": 7697,
+      "dels": 495
     },
     {
       "week": 1780185600,
@@ -579,11 +579,33 @@
     },
     {
       "week": 1788048000,
-      "adds": 0,
-      "dels": 0
+      "adds": 87,
+      "dels": 8
     }
   ],
   "recent_activity": [
+    {
+      "sha": "58ab1fc3d2ce6a5c626bb1e04f81240cd72d66bd",
+      "short_sha": "58ab1fc",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-08-31T08:21:16Z",
+      "message": "fix(visitantes): merge split stays and stop homonym rows colliding",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/58ab1fc3d2ce6a5c626bb1e04f81240cd72d66bd",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "4286bdb6320e08a7bc6bbdbcb517def58e1d4a3c",
+      "short_sha": "4286bdb",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-08-31T02:51:45Z",
+      "message": "data: refresh 2026-08-31T02:51:45Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/4286bdb6320e08a7bc6bbdbcb517def58e1d4a3c",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "633d35e06feb9aecee82560a99bb2fec4c6fc556",
       "short_sha": "633d35e",
@@ -684,17 +706,6 @@
       "project_title": "Gestapro Dashboard"
     },
     {
-      "sha": "f65414912940b8c10439fea00764a143a8ea7885",
-      "short_sha": "f654149",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-27T21:35:47Z",
-      "message": "data: refresh 2026-08-27T21:35:47Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/f65414912940b8c10439fea00764a143a8ea7885",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
       "sha": "8a1059224150f6a39546ab238998220659806da3",
       "short_sha": "8a10592",
       "author": "Blanca",
@@ -790,17 +801,6 @@
       "date": "2026-06-29T12:16:36Z",
       "message": "feat(grid): center view on current month by default",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/af9f01dc9854462ab41e24379d3005b1e1069c10",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "a93c62de91c4f8d9184c098661e0ae87fd74a0b2",
-      "short_sha": "a93c62d",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-29T11:34:04Z",
-      "message": "Fix export pdf and change logo",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/a93c62de91c4f8d9184c098661e0ae87fd74a0b2",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     }

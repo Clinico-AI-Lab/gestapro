@@ -20,9 +20,9 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-08-27T08:02:55Z",
+    "pushed_at": "2026-08-31T08:21:34Z",
     "languages": {
-      "Python": 434423,
+      "Python": 437853,
       "HTML": 50634,
       "JavaScript": 33711
     },
@@ -32,11 +32,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 140,
+        "contributions": 141,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 2190,
+    "size_kb": 2203,
     "is_empty": false
   },
   "activity": {
@@ -808,22 +808,31 @@
       },
       {
         "week": 1788048000,
-        "total": 0,
+        "total": 1,
         "days": [
           0,
-          0,
+          1,
           0,
           0,
           0,
           0,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 87,
+        "dels": 8
       }
     ]
   },
   "commits": [
+    {
+      "sha": "58ab1fc3d2ce6a5c626bb1e04f81240cd72d66bd",
+      "short_sha": "58ab1fc",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-08-31T08:21:16Z",
+      "message": "fix(visitantes): merge split stays and stop homonym rows colliding",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/58ab1fc3d2ce6a5c626bb1e04f81240cd72d66bd"
+    },
     {
       "sha": "8a1059224150f6a39546ab238998220659806da3",
       "short_sha": "8a10592",
@@ -1084,15 +1093,6 @@
       "date": "2026-06-04T10:34:33Z",
       "message": "remove date and time form indicencias view",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b0d2c6e9c60ab7d3334af0b121f497b301d48831"
-    },
-    {
-      "sha": "99abda48ef4d598e303911a29974ba8fdf3ce223",
-      "short_sha": "99abda4",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T10:24:45Z",
-      "message": "add incidencias view",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/99abda48ef4d598e303911a29974ba8fdf3ce223"
     }
   ],
   "todos": {
@@ -1101,19 +1101,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-08-31T02:50:52.488Z",
+    "since": "2025-08-31T12:23:22.895Z",
     "totals": {
       "files": 87,
-      "commits": 128,
-      "adds": 33692,
-      "dels": 15967
+      "commits": 129,
+      "adds": 33779,
+      "dels": 15975
     },
     "tree": {
       "name": "<root>",
-      "churn": 49659,
-      "adds": 33692,
-      "dels": 15967,
-      "commits": 503,
+      "churn": 49754,
+      "adds": 33779,
+      "dels": 15975,
+      "commits": 505,
       "children": [
         {
           "name": "data",
@@ -1144,10 +1144,10 @@
         },
         {
           "name": "autorot",
-          "churn": 23660,
-          "adds": 16854,
-          "dels": 6806,
-          "commits": 386,
+          "churn": 23716,
+          "adds": 16902,
+          "dels": 6814,
+          "commits": 387,
           "children": [
             {
               "name": "scheduler",
@@ -1358,10 +1358,10 @@
             },
             {
               "name": "views",
-              "churn": 7684,
-              "adds": 6053,
-              "dels": 1631,
-              "commits": 145,
+              "churn": 7740,
+              "adds": 6101,
+              "dels": 1639,
+              "commits": 146,
               "children": [
                 {
                   "name": "management.py",
@@ -1402,11 +1402,11 @@
                 {
                   "name": "medicos_visitantes.py",
                   "path": "autorot/views/medicos_visitantes.py",
-                  "churn": 701,
-                  "adds": 696,
-                  "dels": 5,
-                  "commits": 4,
-                  "last_touched": "2026-08-27T08:02:53.000Z"
+                  "churn": 757,
+                  "adds": 744,
+                  "dels": 13,
+                  "commits": 5,
+                  "last_touched": "2026-08-31T08:21:26.000Z"
                 },
                 {
                   "name": "restricciones.py",
@@ -1648,10 +1648,10 @@
         },
         {
           "name": "tests",
-          "churn": 4002,
-          "adds": 3954,
+          "churn": 4041,
+          "adds": 3993,
           "dels": 48,
-          "commits": 16,
+          "commits": 17,
           "children": [
             {
               "name": "fixtures",
@@ -1701,11 +1701,11 @@
             {
               "name": "test_medicos_visitantes.py",
               "path": "tests/test_medicos_visitantes.py",
-              "churn": 157,
-              "adds": 157,
+              "churn": 196,
+              "adds": 196,
               "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-08-21T09:05:01.000Z"
+              "commits": 2,
+              "last_touched": "2026-08-31T08:21:26.000Z"
             },
             {
               "name": "test_e2e.py",
@@ -2063,6 +2063,6 @@
       ]
     }
   },
-  "_generated_at": "2026-08-31T02:50:52.488Z",
+  "_generated_at": "2026-08-31T12:23:22.896Z",
   "_warnings": []
 }
