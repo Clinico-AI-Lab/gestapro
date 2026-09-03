@@ -20,9 +20,9 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-09-03T10:27:46Z",
+    "pushed_at": "2026-09-03T10:55:47Z",
     "languages": {
-      "Python": 450831,
+      "Python": 458789,
       "HTML": 50634,
       "JavaScript": 33711
     },
@@ -32,11 +32,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 142,
+        "contributions": 144,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 2203,
+    "size_kb": 2252,
     "is_empty": false
   },
   "activity": {
@@ -808,22 +808,40 @@
       },
       {
         "week": 1788048000,
-        "total": 2,
+        "total": 4,
         "days": [
           0,
           1,
           0,
           0,
-          1,
+          3,
           0,
           0
         ],
-        "adds": 503,
-        "dels": 131
+        "adds": 752,
+        "dels": 199
       }
     ]
   },
   "commits": [
+    {
+      "sha": "49b4e47f8ef315365e5c91acdc4521f210b3b82d",
+      "short_sha": "49b4e47",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-09-03T10:55:44Z",
+      "message": "feat(visitantes): order the stay Gantt by date, open on this year",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/49b4e47f8ef315365e5c91acdc4521f210b3b82d"
+    },
+    {
+      "sha": "4cdb471fb7d20eaaf19c8702010426dd7ce9d9ec",
+      "short_sha": "4cdb471",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-09-03T10:47:34Z",
+      "message": "feat(medicos): rotation picker and a Gantt trimmed to the period",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/4cdb471fb7d20eaaf19c8702010426dd7ce9d9ec"
+    },
     {
       "sha": "d2671feb7da9b0cf96e9c1ce092770a3c1fa45a8",
       "short_sha": "d2671fe",
@@ -1075,24 +1093,6 @@
       "date": "2026-06-04T11:14:50Z",
       "message": "add password gate",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/ed02bc63bc7ccd26b469ed1c3bfb693546b54402"
-    },
-    {
-      "sha": "4a18f78626db14f2a5829bf3c009f83f49e289a7",
-      "short_sha": "4a18f78",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T10:42:06Z",
-      "message": "modify running time to 4-6h",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/4a18f78626db14f2a5829bf3c009f83f49e289a7"
-    },
-    {
-      "sha": "9afb90fe5e26724dbc9236f3cd5293f7000646d6",
-      "short_sha": "9afb90f",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T10:38:32Z",
-      "message": "fix workflow file",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/9afb90fe5e26724dbc9236f3cd5293f7000646d6"
     }
   ],
   "todos": {
@@ -1101,19 +1101,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-09-03T10:31:51.628Z",
+    "since": "2025-09-03T15:36:15.872Z",
     "totals": {
       "files": 88,
-      "commits": 130,
-      "adds": 34195,
-      "dels": 16098
+      "commits": 132,
+      "adds": 34444,
+      "dels": 16166
     },
     "tree": {
       "name": "<root>",
-      "churn": 50293,
-      "adds": 34195,
-      "dels": 16098,
-      "commits": 509,
+      "churn": 50610,
+      "adds": 34444,
+      "dels": 16166,
+      "commits": 515,
       "children": [
         {
           "name": "data",
@@ -1144,10 +1144,10 @@
         },
         {
           "name": "autorot",
-          "churn": 24118,
-          "adds": 17181,
-          "dels": 6937,
-          "commits": 390,
+          "churn": 24353,
+          "adds": 17349,
+          "dels": 7004,
+          "commits": 394,
           "children": [
             {
               "name": "scheduler",
@@ -1358,10 +1358,10 @@
             },
             {
               "name": "views",
-              "churn": 8142,
-              "adds": 6380,
-              "dels": 1762,
-              "commits": 149,
+              "churn": 8377,
+              "adds": 6548,
+              "dels": 1829,
+              "commits": 153,
               "children": [
                 {
                   "name": "management.py",
@@ -1391,6 +1391,15 @@
                   "last_touched": "2026-06-29T08:51:35.000Z"
                 },
                 {
+                  "name": "medicos.py",
+                  "path": "autorot/views/medicos.py",
+                  "churn": 895,
+                  "adds": 702,
+                  "dels": 193,
+                  "commits": 6,
+                  "last_touched": "2026-09-03T10:55:44.000Z"
+                },
+                {
                   "name": "export.py",
                   "path": "autorot/views/export.py",
                   "churn": 812,
@@ -1402,20 +1411,11 @@
                 {
                   "name": "medicos_visitantes.py",
                   "path": "autorot/views/medicos_visitantes.py",
-                  "churn": 757,
-                  "adds": 744,
-                  "dels": 13,
-                  "commits": 5,
-                  "last_touched": "2026-08-31T08:21:26.000Z"
-                },
-                {
-                  "name": "medicos.py",
-                  "path": "autorot/views/medicos.py",
-                  "churn": 705,
-                  "adds": 575,
-                  "dels": 130,
-                  "commits": 4,
-                  "last_touched": "2026-09-03T10:27:38.000Z"
+                  "churn": 774,
+                  "adds": 757,
+                  "dels": 17,
+                  "commits": 6,
+                  "last_touched": "2026-09-03T10:55:44.000Z"
                 },
                 {
                   "name": "restricciones.py",
@@ -1438,11 +1438,11 @@
                 {
                   "name": "_gantt.py",
                   "path": "autorot/views/_gantt.py",
-                  "churn": 248,
-                  "adds": 210,
+                  "churn": 276,
+                  "adds": 238,
                   "dels": 38,
-                  "commits": 12,
-                  "last_touched": "2026-09-03T10:27:38.000Z"
+                  "commits": 13,
+                  "last_touched": "2026-09-03T10:55:44.000Z"
                 },
                 {
                   "name": "portal.py",
@@ -1648,10 +1648,10 @@
         },
         {
           "name": "tests",
-          "churn": 4178,
-          "adds": 4130,
-          "dels": 48,
-          "commits": 18,
+          "churn": 4260,
+          "adds": 4211,
+          "dels": 49,
+          "commits": 20,
           "children": [
             {
               "name": "fixtures",
@@ -1690,6 +1690,15 @@
               ]
             },
             {
+              "name": "test_medicos_visitantes.py",
+              "path": "tests/test_medicos_visitantes.py",
+              "churn": 220,
+              "adds": 219,
+              "dels": 1,
+              "commits": 3,
+              "last_touched": "2026-09-03T10:55:44.000Z"
+            },
+            {
               "name": "factories.py",
               "path": "tests/factories.py",
               "churn": 215,
@@ -1699,13 +1708,13 @@
               "last_touched": "2026-05-29T09:23:27.000Z"
             },
             {
-              "name": "test_medicos_visitantes.py",
-              "path": "tests/test_medicos_visitantes.py",
-              "churn": 196,
-              "adds": 196,
+              "name": "test_medicos.py",
+              "path": "tests/test_medicos.py",
+              "churn": 195,
+              "adds": 195,
               "dels": 0,
               "commits": 2,
-              "last_touched": "2026-08-31T08:21:26.000Z"
+              "last_touched": "2026-09-03T10:47:34.000Z"
             },
             {
               "name": "test_e2e.py",
@@ -1724,15 +1733,6 @@
               "dels": 2,
               "commits": 2,
               "last_touched": "2026-05-29T12:18:07.000Z"
-            },
-            {
-              "name": "test_medicos.py",
-              "path": "tests/test_medicos.py",
-              "churn": 137,
-              "adds": 137,
-              "dels": 0,
-              "commits": 1,
-              "last_touched": "2026-09-03T10:27:38.000Z"
             },
             {
               "name": "test_auth.py",
@@ -2072,6 +2072,6 @@
       ]
     }
   },
-  "_generated_at": "2026-09-03T10:31:51.628Z",
+  "_generated_at": "2026-09-03T15:36:15.872Z",
   "_warnings": []
 }

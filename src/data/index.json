@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T10:33:15.047Z",
+  "generated_at": "2026-09-03T15:37:05.238Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -44,7 +44,7 @@
         "agent",
         "benchmark"
       ],
-      "pushed_at": "2026-09-03T10:27:46Z",
+      "pushed_at": "2026-09-03T10:55:47Z",
       "open_issues": 11,
       "open_prs": 0,
       "languages_top": "Python",
@@ -65,7 +65,7 @@
         0,
         4,
         1,
-        2
+        4
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-09-03T02:29:22Z",
+      "pushed_at": "2026-09-03T10:33:16Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,17 +165,17 @@
         28,
         28,
         23,
-        16
+        17
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 632,
+    "commits_52w": 635,
     "open_todos": 0,
     "languages": {
-      "Python": 1455450,
+      "Python": 1463408,
       "TeX": 42874,
       "HTML": 84335,
       "JavaScript": 34084,
@@ -184,8 +184,8 @@
       "Astro": 23346,
       "CSS": 7356
     },
-    "adds_52w": 85815,
-    "dels_52w": 29937
+    "adds_52w": 88994,
+    "dels_52w": 30074
   },
   "weekly_stack": [
     {
@@ -313,17 +313,82 @@
       "week": 1788048000,
       "per_project": {
         "activa-ldl-heavy": 0,
-        "autorot": 2,
+        "autorot": 4,
         "ci": 0,
         "emergo": 0,
-        "gestapro": 16
+        "gestapro": 17
       },
-      "total": 18
+      "total": 21
     }
   ],
   "code_flow": [
     {
-      "week": 1765069200,
+      "week": 1757203200,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1757808000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1758412800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1759017600,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1759622400,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1760227200,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1760832000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1761436800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1762041600,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1762646400,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1763251200,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1763856000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1764460800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1765065600,
       "adds": 0,
       "dels": 0
     },
@@ -333,17 +398,7 @@
       "dels": 0
     },
     {
-      "week": 1765674000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1766275200,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1766278800,
       "adds": 0,
       "dels": 0
     },
@@ -353,17 +408,7 @@
       "dels": 0
     },
     {
-      "week": 1766883600,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1767484800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1767488400,
       "adds": 0,
       "dels": 0
     },
@@ -373,17 +418,7 @@
       "dels": 0
     },
     {
-      "week": 1768093200,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1768694400,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1768698000,
       "adds": 0,
       "dels": 0
     },
@@ -393,17 +428,7 @@
       "dels": 0
     },
     {
-      "week": 1769302800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1769904000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1769907600,
       "adds": 0,
       "dels": 0
     },
@@ -413,17 +438,7 @@
       "dels": 0
     },
     {
-      "week": 1770512400,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1771113600,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1771117200,
       "adds": 0,
       "dels": 0
     },
@@ -433,27 +448,12 @@
       "dels": 0
     },
     {
-      "week": 1771722000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1772323200,
       "adds": 0,
       "dels": 0
     },
     {
-      "week": 1772326800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1772928000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1772931600,
       "adds": 0,
       "dels": 0
     },
@@ -499,18 +499,18 @@
     },
     {
       "week": 1778371200,
-      "adds": 6233,
-      "dels": 6415
+      "adds": 8918,
+      "dels": 6457
     },
     {
       "week": 1778976000,
-      "adds": 9939,
-      "dels": 2986
+      "adds": 10025,
+      "dels": 3004
     },
     {
       "week": 1779580800,
-      "adds": 7697,
-      "dels": 495
+      "adds": 7856,
+      "dels": 504
     },
     {
       "week": 1780185600,
@@ -579,11 +579,44 @@
     },
     {
       "week": 1788048000,
-      "adds": 503,
-      "dels": 131
+      "adds": 752,
+      "dels": 199
     }
   ],
   "recent_activity": [
+    {
+      "sha": "49b4e47f8ef315365e5c91acdc4521f210b3b82d",
+      "short_sha": "49b4e47",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-09-03T10:55:44Z",
+      "message": "feat(visitantes): order the stay Gantt by date, open on this year",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/49b4e47f8ef315365e5c91acdc4521f210b3b82d",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "4cdb471fb7d20eaaf19c8702010426dd7ce9d9ec",
+      "short_sha": "4cdb471",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-09-03T10:47:34Z",
+      "message": "feat(medicos): rotation picker and a Gantt trimmed to the period",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/4cdb471fb7d20eaaf19c8702010426dd7ce9d9ec",
+      "project_slug": "autorot",
+      "project_title": "AutoRot"
+    },
+    {
+      "sha": "faa08aa0f70233daa72af494f238d954df5f7d4b",
+      "short_sha": "faa08aa",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-09-03T10:33:15Z",
+      "message": "data: refresh 2026-09-03T10:33:15Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/faa08aa0f70233daa72af494f238d954df5f7d4b",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "d2671feb7da9b0cf96e9c1ce092770a3c1fa45a8",
       "short_sha": "d2671fe",
@@ -695,17 +728,6 @@
       "project_title": "Gestapro Dashboard"
     },
     {
-      "sha": "195fe7e4d3d54284c3c01c12aab32d2572b3dcf5",
-      "short_sha": "195fe7e",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-31T22:17:59Z",
-      "message": "data: refresh 2026-08-31T22:17:59Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/195fe7e4d3d54284c3c01c12aab32d2572b3dcf5",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
       "sha": "58ab1fc3d2ce6a5c626bb1e04f81240cd72d66bd",
       "short_sha": "58ab1fc",
       "author": "Blanca",
@@ -779,28 +801,6 @@
       "date": "2026-07-08T12:19:11Z",
       "message": "add medicos endpoint",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/2ac1a02068d17c3e6e35e02a5cc0992738e3bfd6",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "eb3569784828c9a6fa9829c018b51e5d622e4b00",
-      "short_sha": "eb35697",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-07-01T08:16:06Z",
-      "message": "feat(detail): disable zoom and default to pan on resident Gantt charts",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/eb3569784828c9a6fa9829c018b51e5d622e4b00",
-      "project_slug": "autorot",
-      "project_title": "AutoRot"
-    },
-    {
-      "sha": "c5febb8b902a35a44b12894f25f548563b0353cc",
-      "short_sha": "c5febb8",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-07-01T07:51:41Z",
-      "message": "feat(medicos): add read-only service-doctor portal at /medicos with area-filtered gantt/heatmap + roster, and doctor",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/c5febb8b902a35a44b12894f25f548563b0353cc",
       "project_slug": "autorot",
       "project_title": "AutoRot"
     }
