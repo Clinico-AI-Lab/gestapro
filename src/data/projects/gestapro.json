@@ -30,7 +30,7 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-09-04T15:36:24Z",
+    "pushed_at": "2026-09-04T20:09:59Z",
     "languages": {
       "TypeScript": 48218,
       "Astro": 23346,
@@ -53,7 +53,7 @@
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 1011,
+    "size_kb": 1013,
     "is_empty": false
   },
   "activity": {
@@ -825,14 +825,14 @@
       },
       {
         "week": 1788048000,
-        "total": 22,
+        "total": 23,
         "days": [
           4,
           3,
           4,
           4,
           4,
-          3,
+          4,
           0
         ],
         "adds": 0,
@@ -841,6 +841,15 @@
     ]
   },
   "commits": [
+    {
+      "sha": "6a737f5f69f5f6085112d2c4ced3065ba1541cf8",
+      "short_sha": "6a737f5",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-09-04T20:09:57Z",
+      "message": "data: refresh 2026-09-04T20:09:57Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/6a737f5f69f5f6085112d2c4ced3065ba1541cf8"
+    },
     {
       "sha": "798bb732ce3d4e0761445063a101284b9751299e",
       "short_sha": "798bb73",
@@ -1101,15 +1110,6 @@
       "date": "2026-08-27T06:38:05Z",
       "message": "data: refresh 2026-08-27T06:38:05Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/9eab36e7f4ae7bd2e273cb038ce0888d1948dff1"
-    },
-    {
-      "sha": "afb0ce01ac785a58fcf15c63818721ed9a7894db",
-      "short_sha": "afb0ce0",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-08-26T19:42:46Z",
-      "message": "data: refresh 2026-08-26T19:42:46Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/afb0ce01ac785a58fcf15c63818721ed9a7894db"
     }
   ],
   "todos": {
@@ -1118,6 +1118,6 @@
     "done": []
   },
   "churn": null,
-  "_generated_at": "2026-09-04T20:09:57.935Z",
+  "_generated_at": "2026-09-05T02:26:06.830Z",
   "_warnings": []
 }
