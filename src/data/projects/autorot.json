@@ -117,7 +117,7 @@
         "dels": 0
       },
       {
-        "week": 1762650000,
+        "week": 1762646400,
         "total": 0,
         "days": [
           0,
@@ -132,7 +132,7 @@
         "dels": 0
       },
       {
-        "week": 1763254800,
+        "week": 1763251200,
         "total": 0,
         "days": [
           0,
@@ -147,7 +147,7 @@
         "dels": 0
       },
       {
-        "week": 1763859600,
+        "week": 1763856000,
         "total": 0,
         "days": [
           0,
@@ -162,7 +162,7 @@
         "dels": 0
       },
       {
-        "week": 1764464400,
+        "week": 1764460800,
         "total": 0,
         "days": [
           0,
@@ -177,7 +177,7 @@
         "dels": 0
       },
       {
-        "week": 1765069200,
+        "week": 1765065600,
         "total": 0,
         "days": [
           0,
@@ -192,7 +192,7 @@
         "dels": 0
       },
       {
-        "week": 1765674000,
+        "week": 1765670400,
         "total": 0,
         "days": [
           0,
@@ -207,7 +207,7 @@
         "dels": 0
       },
       {
-        "week": 1766278800,
+        "week": 1766275200,
         "total": 0,
         "days": [
           0,
@@ -222,7 +222,7 @@
         "dels": 0
       },
       {
-        "week": 1766883600,
+        "week": 1766880000,
         "total": 0,
         "days": [
           0,
@@ -237,7 +237,7 @@
         "dels": 0
       },
       {
-        "week": 1767488400,
+        "week": 1767484800,
         "total": 0,
         "days": [
           0,
@@ -252,7 +252,7 @@
         "dels": 0
       },
       {
-        "week": 1768093200,
+        "week": 1768089600,
         "total": 0,
         "days": [
           0,
@@ -267,7 +267,7 @@
         "dels": 0
       },
       {
-        "week": 1768698000,
+        "week": 1768694400,
         "total": 0,
         "days": [
           0,
@@ -282,7 +282,7 @@
         "dels": 0
       },
       {
-        "week": 1769302800,
+        "week": 1769299200,
         "total": 0,
         "days": [
           0,
@@ -297,7 +297,7 @@
         "dels": 0
       },
       {
-        "week": 1769907600,
+        "week": 1769904000,
         "total": 0,
         "days": [
           0,
@@ -312,7 +312,7 @@
         "dels": 0
       },
       {
-        "week": 1770512400,
+        "week": 1770508800,
         "total": 0,
         "days": [
           0,
@@ -327,7 +327,7 @@
         "dels": 0
       },
       {
-        "week": 1771117200,
+        "week": 1771113600,
         "total": 0,
         "days": [
           0,
@@ -342,7 +342,7 @@
         "dels": 0
       },
       {
-        "week": 1771722000,
+        "week": 1771718400,
         "total": 0,
         "days": [
           0,
@@ -357,7 +357,7 @@
         "dels": 0
       },
       {
-        "week": 1772326800,
+        "week": 1772323200,
         "total": 0,
         "days": [
           0,
@@ -372,7 +372,7 @@
         "dels": 0
       },
       {
-        "week": 1772931600,
+        "week": 1772928000,
         "total": 0,
         "days": [
           0,
@@ -503,8 +503,8 @@
           0,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 10971,
+        "dels": 5046
       },
       {
         "week": 1778371200,
@@ -518,8 +518,8 @@
           3,
           2
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 4864,
+        "dels": 6375
       },
       {
         "week": 1778976000,
@@ -533,8 +533,8 @@
           6,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 5209,
+        "dels": 2829
       },
       {
         "week": 1779580800,
@@ -548,8 +548,8 @@
           3,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 6816,
+        "dels": 414
       },
       {
         "week": 1780185600,
@@ -563,8 +563,8 @@
           0,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 1863,
+        "dels": 461
       },
       {
         "week": 1780790400,
@@ -578,8 +578,8 @@
           5,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 801,
+        "dels": 232
       },
       {
         "week": 1781395200,
@@ -608,8 +608,8 @@
           1,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 484,
+        "dels": 331
       },
       {
         "week": 1782604800,
@@ -623,8 +623,8 @@
           0,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 583,
+        "dels": 107
       },
       {
         "week": 1783209600,
@@ -638,8 +638,8 @@
           0,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 166,
+        "dels": 42
       },
       {
         "week": 1783814400,
@@ -728,8 +728,8 @@
           4,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 1903,
+        "dels": 127
       },
       {
         "week": 1787443200,
@@ -743,8 +743,8 @@
           0,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 32,
+        "dels": 3
       },
       {
         "week": 1788048000,
@@ -758,8 +758,8 @@
           0,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 752,
+        "dels": 199
       },
       {
         "week": 1788652800,
@@ -1100,7 +1100,978 @@
     "in_progress": [],
     "done": []
   },
-  "churn": null,
-  "_generated_at": "2026-09-29T21:46:46.350Z",
+  "churn": {
+    "since": "2025-09-30T03:26:51.654Z",
+    "totals": {
+      "files": 88,
+      "commits": 132,
+      "adds": 34444,
+      "dels": 16166
+    },
+    "tree": {
+      "name": "<root>",
+      "churn": 50610,
+      "adds": 34444,
+      "dels": 16166,
+      "commits": 515,
+      "children": [
+        {
+          "name": "data",
+          "churn": 13882,
+          "adds": 5808,
+          "dels": 8074,
+          "commits": 15,
+          "children": [
+            {
+              "name": "residents.json",
+              "path": "data/residents.json",
+              "churn": 12818,
+              "adds": 5276,
+              "dels": 7542,
+              "commits": 13,
+              "last_touched": "2026-05-13T06:59:34.000Z"
+            },
+            {
+              "name": "residents-2026.json",
+              "path": "data/residents-2026.json",
+              "churn": 1064,
+              "adds": 532,
+              "dels": 532,
+              "commits": 2,
+              "last_touched": "2026-05-06T08:40:59.000Z"
+            }
+          ]
+        },
+        {
+          "name": "autorot",
+          "churn": 24353,
+          "adds": 17349,
+          "dels": 7004,
+          "commits": 394,
+          "children": [
+            {
+              "name": "scheduler",
+              "churn": 10916,
+              "adds": 6740,
+              "dels": 4176,
+              "commits": 153,
+              "children": [
+                {
+                  "name": "model.py",
+                  "path": "autorot/scheduler/model.py",
+                  "churn": 5573,
+                  "adds": 2839,
+                  "dels": 2734,
+                  "commits": 40,
+                  "last_touched": "2026-06-04T09:48:21.000Z"
+                },
+                {
+                  "name": "constraints",
+                  "churn": 3551,
+                  "adds": 2504,
+                  "dels": 1047,
+                  "commits": 65,
+                  "children": [
+                    {
+                      "name": "coverage.py",
+                      "path": "autorot/scheduler/constraints/coverage.py",
+                      "churn": 899,
+                      "adds": 562,
+                      "dels": 337,
+                      "commits": 8,
+                      "last_touched": "2026-05-29T09:23:27.000Z"
+                    },
+                    {
+                      "name": "fixed_blocks.py",
+                      "path": "autorot/scheduler/constraints/fixed_blocks.py",
+                      "churn": 438,
+                      "adds": 310,
+                      "dels": 128,
+                      "commits": 6,
+                      "last_touched": "2026-06-04T09:48:21.000Z"
+                    },
+                    {
+                      "name": "baja.py",
+                      "path": "autorot/scheduler/constraints/baja.py",
+                      "churn": 418,
+                      "adds": 327,
+                      "dels": 91,
+                      "commits": 7,
+                      "last_touched": "2026-06-01T10:33:11.000Z"
+                    },
+                    {
+                      "name": "eco_uco.py",
+                      "path": "autorot/scheduler/constraints/eco_uco.py",
+                      "churn": 358,
+                      "adds": 255,
+                      "dels": 103,
+                      "commits": 5,
+                      "last_touched": "2026-05-29T09:23:27.000Z"
+                    },
+                    {
+                      "name": "externals.py",
+                      "path": "autorot/scheduler/constraints/externals.py",
+                      "churn": 323,
+                      "adds": 219,
+                      "dels": 104,
+                      "commits": 5,
+                      "last_touched": "2026-05-29T09:23:27.000Z"
+                    },
+                    {
+                      "name": "rehab.py",
+                      "path": "autorot/scheduler/constraints/rehab.py",
+                      "churn": 226,
+                      "adds": 155,
+                      "dels": 71,
+                      "commits": 5,
+                      "last_touched": "2026-06-02T11:19:40.000Z"
+                    },
+                    {
+                      "name": "libre.py",
+                      "path": "autorot/scheduler/constraints/libre.py",
+                      "churn": 163,
+                      "adds": 123,
+                      "dels": 40,
+                      "commits": 5,
+                      "last_touched": "2026-05-29T09:23:27.000Z"
+                    },
+                    {
+                      "name": "planta.py",
+                      "path": "autorot/scheduler/constraints/planta.py",
+                      "churn": 157,
+                      "adds": 115,
+                      "dels": 42,
+                      "commits": 3,
+                      "last_touched": "2026-05-29T09:23:27.000Z"
+                    },
+                    {
+                      "name": "wildcards.py",
+                      "path": "autorot/scheduler/constraints/wildcards.py",
+                      "churn": 139,
+                      "adds": 105,
+                      "dels": 34,
+                      "commits": 4,
+                      "last_touched": "2026-05-29T09:23:27.000Z"
+                    },
+                    {
+                      "name": "six_month.py",
+                      "path": "autorot/scheduler/constraints/six_month.py",
+                      "churn": 129,
+                      "adds": 85,
+                      "dels": 44,
+                      "commits": 4,
+                      "last_touched": "2026-05-29T09:23:27.000Z"
+                    },
+                    {
+                      "name": "lock_history.py",
+                      "path": "autorot/scheduler/constraints/lock_history.py",
+                      "churn": 127,
+                      "adds": 92,
+                      "dels": 35,
+                      "commits": 3,
+                      "last_touched": "2026-05-20T17:20:45.000Z"
+                    },
+                    {
+                      "name": "pinned_segments.py",
+                      "path": "autorot/scheduler/constraints/pinned_segments.py",
+                      "churn": 63,
+                      "adds": 59,
+                      "dels": 4,
+                      "commits": 2,
+                      "last_touched": "2026-05-29T12:18:07.000Z"
+                    },
+                    {
+                      "name": "__init__.py",
+                      "path": "autorot/scheduler/constraints/__init__.py",
+                      "churn": 58,
+                      "adds": 58,
+                      "dels": 0,
+                      "commits": 6,
+                      "last_touched": "2026-05-21T10:24:45.000Z"
+                    },
+                    {
+                      "name": "libre_fixed.py",
+                      "path": "autorot/scheduler/constraints/libre_fixed.py",
+                      "churn": 53,
+                      "adds": 39,
+                      "dels": 14,
+                      "commits": 2,
+                      "last_touched": "2026-05-20T17:20:45.000Z"
+                    }
+                  ]
+                },
+                {
+                  "name": "preflight.py",
+                  "path": "autorot/scheduler/preflight.py",
+                  "churn": 798,
+                  "adds": 682,
+                  "dels": 116,
+                  "commits": 9,
+                  "last_touched": "2026-06-25T12:19:49.000Z"
+                },
+                {
+                  "name": "constants.py",
+                  "path": "autorot/scheduler/constants.py",
+                  "churn": 392,
+                  "adds": 270,
+                  "dels": 122,
+                  "commits": 14,
+                  "last_touched": "2026-06-04T09:48:21.000Z"
+                },
+                {
+                  "name": "shape.py",
+                  "path": "autorot/scheduler/shape.py",
+                  "churn": 334,
+                  "adds": 243,
+                  "dels": 91,
+                  "commits": 7,
+                  "last_touched": "2026-05-29T09:23:27.000Z"
+                },
+                {
+                  "name": "helpers.py",
+                  "path": "autorot/scheduler/helpers.py",
+                  "churn": 199,
+                  "adds": 137,
+                  "dels": 62,
+                  "commits": 12,
+                  "last_touched": "2026-05-29T12:18:07.000Z"
+                },
+                {
+                  "name": "weights.py",
+                  "path": "autorot/scheduler/weights.py",
+                  "churn": 56,
+                  "adds": 56,
+                  "dels": 0,
+                  "commits": 3,
+                  "last_touched": "2026-06-04T09:48:21.000Z"
+                },
+                {
+                  "name": "__init__.py",
+                  "path": "autorot/scheduler/__init__.py",
+                  "churn": 13,
+                  "adds": 9,
+                  "dels": 4,
+                  "commits": 3,
+                  "last_touched": "2026-05-26T08:37:22.000Z"
+                }
+              ]
+            },
+            {
+              "name": "views",
+              "churn": 8377,
+              "adds": 6548,
+              "dels": 1829,
+              "commits": 153,
+              "children": [
+                {
+                  "name": "management.py",
+                  "path": "autorot/views/management.py",
+                  "churn": 2039,
+                  "adds": 1519,
+                  "dels": 520,
+                  "commits": 33,
+                  "last_touched": "2026-08-21T09:05:01.000Z"
+                },
+                {
+                  "name": "scheduler_panel.py",
+                  "path": "autorot/views/scheduler_panel.py",
+                  "churn": 1284,
+                  "adds": 976,
+                  "dels": 308,
+                  "commits": 24,
+                  "last_touched": "2026-06-25T12:19:49.000Z"
+                },
+                {
+                  "name": "overview.py",
+                  "path": "autorot/views/overview.py",
+                  "churn": 1139,
+                  "adds": 806,
+                  "dels": 333,
+                  "commits": 27,
+                  "last_touched": "2026-06-29T08:51:35.000Z"
+                },
+                {
+                  "name": "medicos.py",
+                  "path": "autorot/views/medicos.py",
+                  "churn": 895,
+                  "adds": 702,
+                  "dels": 193,
+                  "commits": 6,
+                  "last_touched": "2026-09-03T10:55:44.000Z"
+                },
+                {
+                  "name": "export.py",
+                  "path": "autorot/views/export.py",
+                  "churn": 812,
+                  "adds": 674,
+                  "dels": 138,
+                  "commits": 9,
+                  "last_touched": "2026-09-03T10:27:38.000Z"
+                },
+                {
+                  "name": "medicos_visitantes.py",
+                  "path": "autorot/views/medicos_visitantes.py",
+                  "churn": 774,
+                  "adds": 757,
+                  "dels": 17,
+                  "commits": 6,
+                  "last_touched": "2026-09-03T10:55:44.000Z"
+                },
+                {
+                  "name": "restricciones.py",
+                  "path": "autorot/views/restricciones.py",
+                  "churn": 510,
+                  "adds": 333,
+                  "dels": 177,
+                  "commits": 7,
+                  "last_touched": "2026-06-25T12:19:49.000Z"
+                },
+                {
+                  "name": "detail.py",
+                  "path": "autorot/views/detail.py",
+                  "churn": 396,
+                  "adds": 317,
+                  "dels": 79,
+                  "commits": 16,
+                  "last_touched": "2026-07-01T08:16:06.000Z"
+                },
+                {
+                  "name": "_gantt.py",
+                  "path": "autorot/views/_gantt.py",
+                  "churn": 276,
+                  "adds": 238,
+                  "dels": 38,
+                  "commits": 13,
+                  "last_touched": "2026-09-03T10:55:44.000Z"
+                },
+                {
+                  "name": "portal.py",
+                  "path": "autorot/views/portal.py",
+                  "churn": 133,
+                  "adds": 116,
+                  "dels": 17,
+                  "commits": 6,
+                  "last_touched": "2026-08-21T10:17:24.000Z"
+                },
+                {
+                  "name": "incidencias.py",
+                  "path": "autorot/views/incidencias.py",
+                  "churn": 90,
+                  "adds": 81,
+                  "dels": 9,
+                  "commits": 4,
+                  "last_touched": "2026-06-25T12:19:49.000Z"
+                },
+                {
+                  "name": "_settings.py",
+                  "path": "autorot/views/_settings.py",
+                  "churn": 28,
+                  "adds": 28,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-06-01T10:33:11.000Z"
+                },
+                {
+                  "name": "__init__.py",
+                  "path": "autorot/views/__init__.py",
+                  "churn": 1,
+                  "adds": 1,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-04T11:16:33.000Z"
+                }
+              ]
+            },
+            {
+              "name": "store.py",
+              "path": "autorot/store.py",
+              "churn": 1561,
+              "adds": 1209,
+              "dels": 352,
+              "commits": 20,
+              "last_touched": "2026-08-21T10:17:24.000Z"
+            },
+            {
+              "name": "components",
+              "churn": 1407,
+              "adds": 1363,
+              "dels": 44,
+              "commits": 19,
+              "children": [
+                {
+                  "name": "rotation_grid",
+                  "churn": 1406,
+                  "adds": 1362,
+                  "dels": 44,
+                  "commits": 18,
+                  "children": [
+                    {
+                      "name": "frontend",
+                      "churn": 1340,
+                      "adds": 1296,
+                      "dels": 44,
+                      "commits": 16,
+                      "children": [
+                        {
+                          "name": "grid.js",
+                          "path": "autorot/components/rotation_grid/frontend/grid.js",
+                          "churn": 1010,
+                          "adds": 969,
+                          "dels": 41,
+                          "commits": 10,
+                          "last_touched": "2026-06-29T12:16:36.000Z"
+                        },
+                        {
+                          "name": "index.html",
+                          "path": "autorot/components/rotation_grid/frontend/index.html",
+                          "churn": 330,
+                          "adds": 327,
+                          "dels": 3,
+                          "commits": 6,
+                          "last_touched": "2026-06-04T10:03:26.000Z"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "path": "autorot/components/rotation_grid/__init__.py",
+                      "churn": 66,
+                      "adds": 66,
+                      "dels": 0,
+                      "commits": 2,
+                      "last_touched": "2026-06-01T10:11:44.000Z"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "path": "autorot/components/__init__.py",
+                  "churn": 1,
+                  "adds": 1,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-25T08:20:34.000Z"
+                }
+              ]
+            },
+            {
+              "name": "data",
+              "churn": 607,
+              "adds": 607,
+              "dels": 0,
+              "commits": 1,
+              "children": [
+                {
+                  "name": "hospitales.txt",
+                  "path": "autorot/data/hospitales.txt",
+                  "churn": 607,
+                  "adds": 607,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-08-21T09:05:01.000Z"
+                }
+              ]
+            },
+            {
+              "name": "loader.py",
+              "path": "autorot/loader.py",
+              "churn": 518,
+              "adds": 80,
+              "dels": 438,
+              "commits": 11,
+              "last_touched": "2026-06-08T09:54:46.000Z"
+            },
+            {
+              "name": "auth.py",
+              "path": "autorot/auth.py",
+              "churn": 281,
+              "adds": 249,
+              "dels": 32,
+              "commits": 5,
+              "last_touched": "2026-08-21T10:17:24.000Z"
+            },
+            {
+              "name": "models.py",
+              "path": "autorot/models.py",
+              "churn": 199,
+              "adds": 169,
+              "dels": 30,
+              "commits": 11,
+              "last_touched": "2026-06-08T09:54:46.000Z"
+            },
+            {
+              "name": "analytics.py",
+              "path": "autorot/analytics.py",
+              "churn": 183,
+              "adds": 152,
+              "dels": 31,
+              "commits": 7,
+              "last_touched": "2026-06-25T12:19:49.000Z"
+            },
+            {
+              "name": "supabase_client.py",
+              "path": "autorot/supabase_client.py",
+              "churn": 158,
+              "adds": 138,
+              "dels": 20,
+              "commits": 3,
+              "last_touched": "2026-05-20T17:20:45.000Z"
+            },
+            {
+              "name": "rotations.py",
+              "path": "autorot/rotations.py",
+              "churn": 126,
+              "adds": 74,
+              "dels": 52,
+              "commits": 9,
+              "last_touched": "2026-06-25T12:19:49.000Z"
+            },
+            {
+              "name": "dateutils.py",
+              "path": "autorot/dateutils.py",
+              "churn": 19,
+              "adds": 19,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-13T11:01:34.000Z"
+            },
+            {
+              "name": "__init__.py",
+              "path": "autorot/__init__.py",
+              "churn": 1,
+              "adds": 1,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-04T11:16:33.000Z"
+            }
+          ]
+        },
+        {
+          "name": "tests",
+          "churn": 4260,
+          "adds": 4211,
+          "dels": 49,
+          "commits": 20,
+          "children": [
+            {
+              "name": "fixtures",
+              "churn": 2547,
+              "adds": 2547,
+              "dels": 0,
+              "commits": 1,
+              "children": [
+                {
+                  "name": "cohort_snapshot.json",
+                  "path": "tests/fixtures/cohort_snapshot.json",
+                  "churn": 2547,
+                  "adds": 2547,
+                  "dels": 0,
+                  "commits": 1,
+                  "last_touched": "2026-05-26T08:37:22.000Z"
+                }
+              ]
+            },
+            {
+              "name": "test_constraints",
+              "churn": 663,
+              "adds": 631,
+              "dels": 32,
+              "commits": 4,
+              "children": [
+                {
+                  "name": "test_units.py",
+                  "path": "tests/test_constraints/test_units.py",
+                  "churn": 663,
+                  "adds": 631,
+                  "dels": 32,
+                  "commits": 4,
+                  "last_touched": "2026-06-04T09:48:21.000Z"
+                }
+              ]
+            },
+            {
+              "name": "test_medicos_visitantes.py",
+              "path": "tests/test_medicos_visitantes.py",
+              "churn": 220,
+              "adds": 219,
+              "dels": 1,
+              "commits": 3,
+              "last_touched": "2026-09-03T10:55:44.000Z"
+            },
+            {
+              "name": "factories.py",
+              "path": "tests/factories.py",
+              "churn": 215,
+              "adds": 207,
+              "dels": 8,
+              "commits": 2,
+              "last_touched": "2026-05-29T09:23:27.000Z"
+            },
+            {
+              "name": "test_medicos.py",
+              "path": "tests/test_medicos.py",
+              "churn": 195,
+              "adds": 195,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-09-03T10:47:34.000Z"
+            },
+            {
+              "name": "test_e2e.py",
+              "path": "tests/test_e2e.py",
+              "churn": 153,
+              "adds": 147,
+              "dels": 6,
+              "commits": 4,
+              "last_touched": "2026-06-04T09:48:21.000Z"
+            },
+            {
+              "name": "test_invariants.py",
+              "path": "tests/test_invariants.py",
+              "churn": 147,
+              "adds": 145,
+              "dels": 2,
+              "commits": 2,
+              "last_touched": "2026-05-29T12:18:07.000Z"
+            },
+            {
+              "name": "test_auth.py",
+              "path": "tests/test_auth.py",
+              "churn": 113,
+              "adds": 113,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-08-21T10:17:24.000Z"
+            },
+            {
+              "name": "conftest.py",
+              "path": "tests/conftest.py",
+              "churn": 7,
+              "adds": 7,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-26T08:37:22.000Z"
+            }
+          ]
+        },
+        {
+          "name": "residents.json",
+          "path": "residents.json",
+          "churn": 2266,
+          "adds": 2266,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-03T19:40:03.000Z"
+        },
+        {
+          "name": "app.py",
+          "path": "app.py",
+          "churn": 1686,
+          "adds": 899,
+          "dels": 787,
+          "commits": 22,
+          "last_touched": "2026-07-01T07:51:41.000Z"
+        },
+        {
+          "name": "rules",
+          "churn": 1088,
+          "adds": 1088,
+          "dels": 0,
+          "commits": 3,
+          "children": [
+            {
+              "name": "Reglas-Rotaciones-Residentes.html",
+              "path": "rules/Reglas-Rotaciones-Residentes.html",
+              "churn": 706,
+              "adds": 706,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-25T11:27:43.000Z"
+            },
+            {
+              "name": "Ranking_Restricciones.html",
+              "path": "rules/Ranking_Restricciones.html",
+              "churn": 382,
+              "adds": 382,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-25T11:27:43.000Z"
+            },
+            {
+              "name": "Reglas-Rotacion-Cardiologia_v2.docx",
+              "path": "rules/Reglas-Rotacion-Cardiologia_v2.docx",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-25T11:27:43.000Z"
+            }
+          ]
+        },
+        {
+          "name": "scheduler.py",
+          "path": "scheduler.py",
+          "churn": 639,
+          "adds": 639,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-03T19:40:03.000Z"
+        },
+        {
+          "name": "data_loader.py",
+          "path": "data_loader.py",
+          "churn": 431,
+          "adds": 431,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-03T19:40:03.000Z"
+        },
+        {
+          "name": "data_store.py",
+          "path": "data_store.py",
+          "churn": 298,
+          "adds": 298,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-03T19:40:03.000Z"
+        },
+        {
+          "name": "assets",
+          "churn": 197,
+          "adds": 197,
+          "dels": 0,
+          "commits": 6,
+          "children": [
+            {
+              "name": "logo.svg",
+              "path": "assets/logo.svg",
+              "churn": 197,
+              "adds": 197,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-04T12:45:55.000Z"
+            },
+            {
+              "name": "logo-2.png",
+              "path": "assets/logo-2.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-06-29T11:34:04.000Z"
+            },
+            {
+              "name": "logo_favicon.png",
+              "path": "assets/logo_favicon.png",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-06-29T11:34:04.000Z"
+            },
+            {
+              "name": "logo_favicon.png:Zone.Identifier",
+              "path": "assets/logo_favicon.png:Zone.Identifier",
+              "churn": 0,
+              "adds": 0,
+              "dels": 0,
+              "commits": 2,
+              "last_touched": "2026-05-04T12:50:17.000Z"
+            }
+          ]
+        },
+        {
+          "name": "scripts",
+          "churn": 831,
+          "adds": 759,
+          "dels": 72,
+          "commits": 11,
+          "children": [
+            {
+              "name": "keep_awake.py",
+              "path": "scripts/keep_awake.py",
+              "churn": 188,
+              "adds": 140,
+              "dels": 48,
+              "commits": 4,
+              "last_touched": "2026-06-10T06:27:55.000Z"
+            },
+            {
+              "name": "probe_all_cohorts.py",
+              "path": "scripts/probe_all_cohorts.py",
+              "churn": 182,
+              "adds": 182,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T17:20:45.000Z"
+            },
+            {
+              "name": "probe_ignore_history_real.py",
+              "path": "scripts/probe_ignore_history_real.py",
+              "churn": 155,
+              "adds": 155,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T10:23:49.000Z"
+            },
+            {
+              "name": "probe_standalone_cohort.py",
+              "path": "scripts/probe_standalone_cohort.py",
+              "churn": 142,
+              "adds": 142,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-20T08:45:07.000Z"
+            },
+            {
+              "name": "rename_legacy_residents.py",
+              "path": "scripts/rename_legacy_residents.py",
+              "churn": 111,
+              "adds": 89,
+              "dels": 22,
+              "commits": 2,
+              "last_touched": "2026-05-19T11:18:40.000Z"
+            },
+            {
+              "name": "add_legacy_cohorts.py",
+              "path": "scripts/add_legacy_cohorts.py",
+              "churn": 53,
+              "adds": 51,
+              "dels": 2,
+              "commits": 2,
+              "last_touched": "2026-05-19T11:18:40.000Z"
+            }
+          ]
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "churn": 185,
+          "adds": 131,
+          "dels": 54,
+          "commits": 4,
+          "last_touched": "2026-05-20T08:45:07.000Z"
+        },
+        {
+          "name": "CLAUDE.md",
+          "path": "CLAUDE.md",
+          "churn": 124,
+          "adds": 62,
+          "dels": 62,
+          "commits": 5,
+          "last_touched": "2026-05-11T08:29:57.000Z"
+        },
+        {
+          "name": "rotations.py",
+          "path": "rotations.py",
+          "churn": 122,
+          "adds": 122,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-03T19:40:03.000Z"
+        },
+        {
+          "name": ".github",
+          "churn": 112,
+          "adds": 78,
+          "dels": 34,
+          "commits": 4,
+          "children": [
+            {
+              "name": "workflows",
+              "churn": 112,
+              "adds": 78,
+              "dels": 34,
+              "commits": 4,
+              "children": [
+                {
+                  "name": "keep-awake.yml",
+                  "path": ".github/workflows/keep-awake.yml",
+                  "churn": 112,
+                  "adds": 78,
+                  "dels": 34,
+                  "commits": 4,
+                  "last_touched": "2026-06-04T12:16:12.000Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": ".gitignore",
+          "path": ".gitignore",
+          "churn": 77,
+          "adds": 51,
+          "dels": 26,
+          "commits": 13,
+          "last_touched": "2026-06-01T07:05:47.000Z"
+        },
+        {
+          "name": ".devcontainer",
+          "churn": 33,
+          "adds": 33,
+          "dels": 0,
+          "commits": 1,
+          "children": [
+            {
+              "name": "devcontainer.json",
+              "path": ".devcontainer/devcontainer.json",
+              "churn": 33,
+              "adds": 33,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-05-19T11:31:35.000Z"
+            }
+          ]
+        },
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "churn": 17,
+          "adds": 13,
+          "dels": 4,
+          "commits": 6,
+          "last_touched": "2026-06-10T12:25:10.000Z"
+        },
+        {
+          "name": "pyproject.toml",
+          "path": "pyproject.toml",
+          "churn": 8,
+          "adds": 8,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-26T08:37:22.000Z"
+        },
+        {
+          "name": "requirements-dev.txt",
+          "path": "requirements-dev.txt",
+          "churn": 1,
+          "adds": 1,
+          "dels": 0,
+          "commits": 1,
+          "last_touched": "2026-05-26T08:37:22.000Z"
+        },
+        {
+          "name": "keep_awake_failure.png",
+          "path": "keep_awake_failure.png",
+          "churn": 0,
+          "adds": 0,
+          "dels": 0,
+          "commits": 2,
+          "last_touched": "2026-06-08T09:33:43.000Z"
+        },
+        {
+          "name": ".CLAUDE.md.swp",
+          "path": ".CLAUDE.md.swp",
+          "churn": 0,
+          "adds": 0,
+          "dels": 0,
+          "commits": 2,
+          "last_touched": "2026-05-06T08:40:59.000Z"
+        }
+      ]
+    }
+  },
+  "_generated_at": "2026-09-30T03:26:51.655Z",
   "_warnings": []
 }
