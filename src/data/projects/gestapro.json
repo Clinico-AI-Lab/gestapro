@@ -30,7 +30,7 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-10-15T16:07:35Z",
+    "pushed_at": "2026-10-15T20:51:16Z",
     "languages": {
       "TypeScript": 48218,
       "Astro": 23346,
@@ -53,7 +53,7 @@
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 1301,
+    "size_kb": 1307,
     "is_empty": false
   },
   "activity": {
@@ -825,13 +825,13 @@
       },
       {
         "week": 1791676800,
-        "total": 16,
+        "total": 17,
         "days": [
           4,
           2,
           3,
           4,
-          3,
+          4,
           0,
           0
         ],
@@ -841,6 +841,15 @@
     ]
   },
   "commits": [
+    {
+      "sha": "f6a2ab0956f3bb865719db43ffa339a0379ae62c",
+      "short_sha": "f6a2ab0",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-10-15T20:51:15Z",
+      "message": "data: refresh 2026-10-15T20:51:15Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/f6a2ab0956f3bb865719db43ffa339a0379ae62c"
+    },
     {
       "sha": "79633dd8a53a2c0cde12599653636aa839fa6fc1",
       "short_sha": "79633dd",
@@ -1101,15 +1110,6 @@
       "date": "2026-10-07T03:44:19Z",
       "message": "data: refresh 2026-10-07T03:44:19Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/f55358d9b98a9b90ffe815f47576afa8b733f248"
-    },
-    {
-      "sha": "d550e0f6b47b11db9f001b15bdecfa510b76fbbf",
-      "short_sha": "d550e0f",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-10-06T22:10:04Z",
-      "message": "data: refresh 2026-10-06T22:10:04Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/d550e0f6b47b11db9f001b15bdecfa510b76fbbf"
     }
   ],
   "todos": {
@@ -1118,6 +1118,6 @@
     "done": []
   },
   "churn": null,
-  "_generated_at": "2026-10-15T20:51:15.650Z",
+  "_generated_at": "2026-10-16T02:40:17.226Z",
   "_warnings": []
 }
