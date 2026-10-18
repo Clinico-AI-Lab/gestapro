@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T19:58:30.113Z",
+  "generated_at": "2026-10-18T02:32:46.207Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -56,10 +56,10 @@
       "sparkline_12w": [
         0,
         0,
-        0,
         4,
         1,
         4,
+        0,
         0,
         0,
         0,
@@ -150,16 +150,6 @@
     "dels_52w": 30005
   },
   "weekly_stack": [
-    {
-      "week": 1785024000,
-      "per_project": {
-        "activa-ldl-heavy": 0,
-        "autorot": 0,
-        "ci": 0,
-        "emergo": 0
-      },
-      "total": 0
-    },
     {
       "week": 1785628800,
       "per_project": {
@@ -269,14 +259,19 @@
         "emergo": 0
       },
       "total": 0
+    },
+    {
+      "week": 1792281600,
+      "per_project": {
+        "activa-ldl-heavy": 0,
+        "autorot": 0,
+        "ci": 0,
+        "emergo": 0
+      },
+      "total": 0
     }
   ],
   "code_flow": [
-    {
-      "week": 1760832000,
-      "adds": 0,
-      "dels": 0
-    },
     {
       "week": 1761436800,
       "adds": 0,
@@ -529,6 +524,11 @@
     },
     {
       "week": 1791676800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1792281600,
       "adds": 0,
       "dels": 0
     }
