@@ -20,11 +20,11 @@
     "name": "autorot",
     "url": "https://github.com/Clinico-AI-Lab/autorot",
     "default_branch": "main",
-    "pushed_at": "2026-09-03T10:55:47Z",
+    "pushed_at": "2026-10-20T09:41:59Z",
     "languages": {
-      "Python": 458789,
+      "Python": 462098,
       "HTML": 50634,
-      "JavaScript": 33711
+      "JavaScript": 34626
     },
     "open_issues": 11,
     "open_prs": 0,
@@ -32,11 +32,11 @@
       {
         "login": "BlancaNietoPetinal",
         "avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-        "contributions": 144,
+        "contributions": 146,
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 2252,
+    "size_kb": 2270,
     "is_empty": false
   },
   "activity": {
@@ -808,22 +808,40 @@
       },
       {
         "week": 1792281600,
-        "total": 0,
+        "total": 2,
         "days": [
           0,
           0,
-          0,
+          2,
           0,
           0,
           0,
           0
         ],
-        "adds": 0,
-        "dels": 0
+        "adds": 119,
+        "dels": 21
       }
     ]
   },
   "commits": [
+    {
+      "sha": "0c772265c182a7129db1c13d1710408a532788f5",
+      "short_sha": "0c77226",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-10-20T09:40:14Z",
+      "message": "feat(overview): group filter chips above the grid, re-anchor scroll on year change",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/0c772265c182a7129db1c13d1710408a532788f5"
+    },
+    {
+      "sha": "b650e055394354017bf9e97f3e3dba8e29516b6c",
+      "short_sha": "b650e05",
+      "author": "Blanca",
+      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
+      "date": "2026-10-20T07:12:03Z",
+      "message": "fix(export): pin plotly<7 and degrade the PDF to table-only without kaleido",
+      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/b650e055394354017bf9e97f3e3dba8e29516b6c"
+    },
     {
       "sha": "49b4e47f8ef315365e5c91acdc4521f210b3b82d",
       "short_sha": "49b4e47",
@@ -1075,24 +1093,6 @@
       "date": "2026-06-04T12:26:18Z",
       "message": "keep-awake: match password field by label, not input[type=password]",
       "url": "https://github.com/Clinico-AI-Lab/autorot/commit/0b8f3648e02bad77f0a4d44b6ec8ba9bdf2f46b1"
-    },
-    {
-      "sha": "f7775eb91b314aa0ac522276b99af72580451839",
-      "short_sha": "f7775eb",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T12:16:12Z",
-      "message": "keep-awake: drive headless Playwright through password gate instead of curl",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/f7775eb91b314aa0ac522276b99af72580451839"
-    },
-    {
-      "sha": "ed02bc63bc7ccd26b469ed1c3bfb693546b54402",
-      "short_sha": "ed02bc6",
-      "author": "Blanca",
-      "author_avatar_url": "https://avatars.githubusercontent.com/u/26384451?v=4",
-      "date": "2026-06-04T11:14:50Z",
-      "message": "add password gate",
-      "url": "https://github.com/Clinico-AI-Lab/autorot/commit/ed02bc63bc7ccd26b469ed1c3bfb693546b54402"
     }
   ],
   "todos": {
@@ -1101,19 +1101,19 @@
     "done": []
   },
   "churn": {
-    "since": "2025-10-20T02:56:39.114Z",
+    "since": "2025-10-20T10:47:10.734Z",
     "totals": {
-      "files": 88,
-      "commits": 132,
-      "adds": 34444,
-      "dels": 16166
+      "files": 89,
+      "commits": 134,
+      "adds": 34563,
+      "dels": 16187
     },
     "tree": {
       "name": "<root>",
-      "churn": 50610,
-      "adds": 34444,
-      "dels": 16166,
-      "commits": 515,
+      "churn": 50750,
+      "adds": 34563,
+      "dels": 16187,
+      "commits": 521,
       "children": [
         {
           "name": "data",
@@ -1144,10 +1144,10 @@
         },
         {
           "name": "autorot",
-          "churn": 24353,
-          "adds": 17349,
-          "dels": 7004,
-          "commits": 394,
+          "churn": 24462,
+          "adds": 17438,
+          "dels": 7024,
+          "commits": 398,
           "children": [
             {
               "name": "scheduler",
@@ -1358,10 +1358,10 @@
             },
             {
               "name": "views",
-              "churn": 8377,
-              "adds": 6548,
-              "dels": 1829,
-              "commits": 153,
+              "churn": 8471,
+              "adds": 6622,
+              "dels": 1849,
+              "commits": 156,
               "children": [
                 {
                   "name": "management.py",
@@ -1384,11 +1384,11 @@
                 {
                   "name": "overview.py",
                   "path": "autorot/views/overview.py",
-                  "churn": 1139,
-                  "adds": 806,
-                  "dels": 333,
-                  "commits": 27,
-                  "last_touched": "2026-06-29T08:51:35.000Z"
+                  "churn": 1176,
+                  "adds": 839,
+                  "dels": 337,
+                  "commits": 28,
+                  "last_touched": "2026-10-20T09:40:14.000Z"
                 },
                 {
                   "name": "medicos.py",
@@ -1402,11 +1402,11 @@
                 {
                   "name": "export.py",
                   "path": "autorot/views/export.py",
-                  "churn": 812,
-                  "adds": 674,
-                  "dels": 138,
-                  "commits": 9,
-                  "last_touched": "2026-09-03T10:27:38.000Z"
+                  "churn": 860,
+                  "adds": 708,
+                  "dels": 152,
+                  "commits": 10,
+                  "last_touched": "2026-10-20T07:12:03.000Z"
                 },
                 {
                   "name": "medicos_visitantes.py",
@@ -1429,11 +1429,11 @@
                 {
                   "name": "detail.py",
                   "path": "autorot/views/detail.py",
-                  "churn": 396,
-                  "adds": 317,
-                  "dels": 79,
-                  "commits": 16,
-                  "last_touched": "2026-07-01T08:16:06.000Z"
+                  "churn": 405,
+                  "adds": 324,
+                  "dels": 81,
+                  "commits": 17,
+                  "last_touched": "2026-10-20T07:12:03.000Z"
                 },
                 {
                   "name": "_gantt.py",
@@ -1493,33 +1493,33 @@
             },
             {
               "name": "components",
-              "churn": 1407,
-              "adds": 1363,
+              "churn": 1422,
+              "adds": 1378,
               "dels": 44,
-              "commits": 19,
+              "commits": 20,
               "children": [
                 {
                   "name": "rotation_grid",
-                  "churn": 1406,
-                  "adds": 1362,
+                  "churn": 1421,
+                  "adds": 1377,
                   "dels": 44,
-                  "commits": 18,
+                  "commits": 19,
                   "children": [
                     {
                       "name": "frontend",
-                      "churn": 1340,
-                      "adds": 1296,
+                      "churn": 1355,
+                      "adds": 1311,
                       "dels": 44,
-                      "commits": 16,
+                      "commits": 17,
                       "children": [
                         {
                           "name": "grid.js",
                           "path": "autorot/components/rotation_grid/frontend/grid.js",
-                          "churn": 1010,
-                          "adds": 969,
+                          "churn": 1025,
+                          "adds": 984,
                           "dels": 41,
-                          "commits": 10,
-                          "last_touched": "2026-06-29T12:16:36.000Z"
+                          "commits": 11,
+                          "last_touched": "2026-10-20T09:40:14.000Z"
                         },
                         {
                           "name": "index.html",
@@ -1648,10 +1648,10 @@
         },
         {
           "name": "tests",
-          "churn": 4260,
-          "adds": 4211,
+          "churn": 4289,
+          "adds": 4240,
           "dels": 49,
-          "commits": 20,
+          "commits": 21,
           "children": [
             {
               "name": "fixtures",
@@ -1742,6 +1742,15 @@
               "dels": 0,
               "commits": 1,
               "last_touched": "2026-08-21T10:17:24.000Z"
+            },
+            {
+              "name": "test_export.py",
+              "path": "tests/test_export.py",
+              "churn": 29,
+              "adds": 29,
+              "dels": 0,
+              "commits": 1,
+              "last_touched": "2026-10-20T07:12:03.000Z"
             },
             {
               "name": "conftest.py",
@@ -2027,11 +2036,11 @@
         {
           "name": "requirements.txt",
           "path": "requirements.txt",
-          "churn": 17,
-          "adds": 13,
-          "dels": 4,
-          "commits": 6,
-          "last_touched": "2026-06-10T12:25:10.000Z"
+          "churn": 19,
+          "adds": 14,
+          "dels": 5,
+          "commits": 7,
+          "last_touched": "2026-10-20T07:12:03.000Z"
         },
         {
           "name": "pyproject.toml",
@@ -2072,6 +2081,6 @@
       ]
     }
   },
-  "_generated_at": "2026-10-20T02:56:39.114Z",
+  "_generated_at": "2026-10-20T10:47:10.735Z",
   "_warnings": []
 }
