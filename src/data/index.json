@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T10:51:52.334Z",
+  "generated_at": "2026-10-23T16:16:19.241Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-10-23T02:54:31Z",
+      "pushed_at": "2026-10-23T10:51:53Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -165,14 +165,14 @@
         26,
         23,
         25,
-        20
+        21
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 825,
+    "commits_52w": 826,
     "open_todos": 0,
     "languages": {
       "Python": 1466638,
@@ -184,8 +184,8 @@
       "Astro": 23346,
       "CSS": 7356
     },
-    "adds_52w": 89116,
-    "dels_52w": 30100
+    "adds_52w": 86186,
+    "dels_52w": 30031
   },
   "weekly_stack": [
     {
@@ -316,64 +316,19 @@
         "autorot": 3,
         "ci": 0,
         "emergo": 0,
-        "gestapro": 20
+        "gestapro": 21
       },
-      "total": 23
+      "total": 24
     }
   ],
   "code_flow": [
     {
-      "week": 1761436800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1762041600,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1762646400,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1763251200,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1763856000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1764460800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1765065600,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1765670400,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1766275200,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1766880000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1767484800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1767488400,
       "adds": 0,
       "dels": 0
     },
@@ -383,7 +338,17 @@
       "dels": 0
     },
     {
+      "week": 1768093200,
+      "adds": 0,
+      "dels": 0
+    },
+    {
       "week": 1768694400,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1768698000,
       "adds": 0,
       "dels": 0
     },
@@ -393,7 +358,17 @@
       "dels": 0
     },
     {
+      "week": 1769302800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
       "week": 1769904000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1769907600,
       "adds": 0,
       "dels": 0
     },
@@ -403,7 +378,17 @@
       "dels": 0
     },
     {
+      "week": 1770512400,
+      "adds": 0,
+      "dels": 0
+    },
+    {
       "week": 1771113600,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1771117200,
       "adds": 0,
       "dels": 0
     },
@@ -413,12 +398,27 @@
       "dels": 0
     },
     {
+      "week": 1771722000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
       "week": 1772323200,
       "adds": 0,
       "dels": 0
     },
     {
+      "week": 1772326800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
       "week": 1772928000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1772931600,
       "adds": 0,
       "dels": 0
     },
@@ -464,18 +464,18 @@
     },
     {
       "week": 1778371200,
-      "adds": 8918,
-      "dels": 6457
+      "adds": 6233,
+      "dels": 6415
     },
     {
       "week": 1778976000,
-      "adds": 10025,
-      "dels": 3004
+      "adds": 9939,
+      "dels": 2986
     },
     {
       "week": 1779580800,
-      "adds": 7856,
-      "dels": 504
+      "adds": 7697,
+      "dels": 495
     },
     {
       "week": 1780185600,
@@ -585,6 +585,17 @@
   ],
   "recent_activity": [
     {
+      "sha": "7e27d973c8711f04d7f796726eb835679159e561",
+      "short_sha": "7e27d97",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-10-23T10:51:52Z",
+      "message": "data: refresh 2026-10-23T10:51:52Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/7e27d973c8711f04d7f796726eb835679159e561",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
+    {
       "sha": "3e377fafdfbffa85f7a418a518afcca47516aa36",
       "short_sha": "3e377fa",
       "author": "gestapro-bot",
@@ -680,17 +691,6 @@
       "date": "2026-10-21T02:52:24Z",
       "message": "data: refresh 2026-10-21T02:52:24Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/f101cf2269757f92e3919f6fcc399e8af40239fc",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "ff18e6a602ebd554f857d92d67bde499a831dc84",
-      "short_sha": "ff18e6a",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-10-20T21:08:33Z",
-      "message": "data: refresh 2026-10-20T21:08:33Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/ff18e6a602ebd554f857d92d67bde499a831dc84",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
     },
