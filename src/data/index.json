@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T20:04:55.254Z",
+  "generated_at": "2026-10-25T02:42:47.915Z",
   "projects": [
     {
       "slug": "activa-ldl-heavy",
@@ -55,7 +55,6 @@
       },
       "sparkline_12w": [
         0,
-        0,
         4,
         1,
         4,
@@ -65,7 +64,8 @@
         0,
         0,
         0,
-        3
+        3,
+        0
       ],
       "description": "AutoRot is a dashboard for managing and auto-scheduling cardiology MIR resident rotations.\n"
     },
@@ -144,7 +144,7 @@
         "typescript",
         "dashboard"
       ],
-      "pushed_at": "2026-10-24T15:14:03Z",
+      "pushed_at": "2026-10-24T20:04:56Z",
       "open_issues": 0,
       "open_prs": 0,
       "languages_top": "TypeScript",
@@ -156,7 +156,6 @@
       "sparkline_12w": [
         28,
         28,
-        28,
         23,
         27,
         28,
@@ -165,14 +164,15 @@
         26,
         23,
         25,
-        26
+        27,
+        0
       ],
       "description": "This dashboard. Aggregates GitHub data from Clinico-AI-Lab projects and renders a static site to GitHub Pages. Tracks itself for fun.\n"
     }
   ],
   "totals": {
     "repo_count": 5,
-    "commits_52w": 831,
+    "commits_52w": 832,
     "open_todos": 0,
     "languages": {
       "Python": 1466638,
@@ -184,21 +184,10 @@
       "Astro": 23346,
       "CSS": 7356
     },
-    "adds_52w": 86186,
-    "dels_52w": 30031
+    "adds_52w": 89116,
+    "dels_52w": 30100
   },
   "weekly_stack": [
-    {
-      "week": 1785628800,
-      "per_project": {
-        "activa-ldl-heavy": 0,
-        "autorot": 0,
-        "ci": 0,
-        "emergo": 0,
-        "gestapro": 28
-      },
-      "total": 28
-    },
     {
       "week": 1786233600,
       "per_project": {
@@ -316,19 +305,70 @@
         "autorot": 3,
         "ci": 0,
         "emergo": 0,
-        "gestapro": 26
+        "gestapro": 27
       },
-      "total": 29
+      "total": 30
+    },
+    {
+      "week": 1792886400,
+      "per_project": {
+        "activa-ldl-heavy": 0,
+        "autorot": 0,
+        "ci": 0,
+        "emergo": 0,
+        "gestapro": 0
+      },
+      "total": 0
     }
   ],
   "code_flow": [
     {
-      "week": 1767484800,
+      "week": 1762041600,
       "adds": 0,
       "dels": 0
     },
     {
-      "week": 1767488400,
+      "week": 1762646400,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1763251200,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1763856000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1764460800,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1765065600,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1765670400,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1766275200,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1766880000,
+      "adds": 0,
+      "dels": 0
+    },
+    {
+      "week": 1767484800,
       "adds": 0,
       "dels": 0
     },
@@ -338,17 +378,7 @@
       "dels": 0
     },
     {
-      "week": 1768093200,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1768694400,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1768698000,
       "adds": 0,
       "dels": 0
     },
@@ -358,17 +388,7 @@
       "dels": 0
     },
     {
-      "week": 1769302800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1769904000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1769907600,
       "adds": 0,
       "dels": 0
     },
@@ -378,17 +398,7 @@
       "dels": 0
     },
     {
-      "week": 1770512400,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1771113600,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1771117200,
       "adds": 0,
       "dels": 0
     },
@@ -398,27 +408,12 @@
       "dels": 0
     },
     {
-      "week": 1771722000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1772323200,
       "adds": 0,
       "dels": 0
     },
     {
-      "week": 1772326800,
-      "adds": 0,
-      "dels": 0
-    },
-    {
       "week": 1772928000,
-      "adds": 0,
-      "dels": 0
-    },
-    {
-      "week": 1772931600,
       "adds": 0,
       "dels": 0
     },
@@ -464,18 +459,18 @@
     },
     {
       "week": 1778371200,
-      "adds": 6233,
-      "dels": 6415
+      "adds": 8918,
+      "dels": 6457
     },
     {
       "week": 1778976000,
-      "adds": 9939,
-      "dels": 2986
+      "adds": 10025,
+      "dels": 3004
     },
     {
       "week": 1779580800,
-      "adds": 7697,
-      "dels": 495
+      "adds": 7856,
+      "dels": 504
     },
     {
       "week": 1780185600,
@@ -581,9 +576,25 @@
       "week": 1792281600,
       "adds": 122,
       "dels": 26
+    },
+    {
+      "week": 1792886400,
+      "adds": 0,
+      "dels": 0
     }
   ],
   "recent_activity": [
+    {
+      "sha": "68d38664eea2c89d20563a49254485cd57fbe6a6",
+      "short_sha": "68d3866",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-10-24T20:04:55Z",
+      "message": "data: refresh 2026-10-24T20:04:55Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/68d38664eea2c89d20563a49254485cd57fbe6a6",
+      "project_slug": "gestapro",
+      "project_title": "Gestapro Dashboard"
+    },
     {
       "sha": "1b7b1002d75b7ee384682356fb570d654a5802ea",
       "short_sha": "1b7b100",
@@ -680,17 +691,6 @@
       "date": "2026-10-22T16:27:20Z",
       "message": "data: refresh 2026-10-22T16:27:20Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/275f6008486cdbeba2a9b927f4fbf963585ba676",
-      "project_slug": "gestapro",
-      "project_title": "Gestapro Dashboard"
-    },
-    {
-      "sha": "39a8da6e541f5e412e7e210d784ab13ce12d3054",
-      "short_sha": "39a8da6",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-10-22T10:58:48Z",
-      "message": "data: refresh 2026-10-22T10:58:48Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/39a8da6e541f5e412e7e210d784ab13ce12d3054",
       "project_slug": "gestapro",
       "project_title": "Gestapro Dashboard"
     },
