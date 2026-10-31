@@ -30,7 +30,7 @@
     "name": "gestapro",
     "url": "https://github.com/Clinico-AI-Lab/gestapro",
     "default_branch": "main",
-    "pushed_at": "2026-10-31T11:33:11Z",
+    "pushed_at": "2026-10-31T16:40:57Z",
     "languages": {
       "TypeScript": 48218,
       "Astro": 23346,
@@ -53,7 +53,7 @@
         "html_url": "https://github.com/BlancaNietoPetinal"
       }
     ],
-    "size_kb": 1500,
+    "size_kb": 1467,
     "is_empty": false
   },
   "activity": {
@@ -825,7 +825,7 @@
       },
       {
         "week": 1792886400,
-        "total": 24,
+        "total": 25,
         "days": [
           4,
           3,
@@ -833,7 +833,7 @@
           4,
           3,
           4,
-          2
+          3
         ],
         "adds": 0,
         "dels": 0
@@ -841,6 +841,15 @@
     ]
   },
   "commits": [
+    {
+      "sha": "aa55eaf9ed7c050f56695e94c9981fbc54ce9ace",
+      "short_sha": "aa55eaf",
+      "author": "gestapro-bot",
+      "author_avatar_url": null,
+      "date": "2026-10-31T16:40:56Z",
+      "message": "data: refresh 2026-10-31T16:40:56Z",
+      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/aa55eaf9ed7c050f56695e94c9981fbc54ce9ace"
+    },
     {
       "sha": "84321bd613d738c45441f5dfd6f9228c81648541",
       "short_sha": "84321bd",
@@ -1101,15 +1110,6 @@
       "date": "2026-10-23T20:53:36Z",
       "message": "data: refresh 2026-10-23T20:53:36Z",
       "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/e8f82a016ba8e89615461f17a7743e697cbd3d17"
-    },
-    {
-      "sha": "dbecb86498eadc18bb4c3f84b791a6f8e7cb4808",
-      "short_sha": "dbecb86",
-      "author": "gestapro-bot",
-      "author_avatar_url": null,
-      "date": "2026-10-23T16:16:19Z",
-      "message": "data: refresh 2026-10-23T16:16:19Z",
-      "url": "https://github.com/Clinico-AI-Lab/gestapro/commit/dbecb86498eadc18bb4c3f84b791a6f8e7cb4808"
     }
   ],
   "todos": {
@@ -1118,6 +1118,6 @@
     "done": []
   },
   "churn": null,
-  "_generated_at": "2026-10-31T16:40:56.691Z",
+  "_generated_at": "2026-10-31T20:53:43.556Z",
   "_warnings": []
 }
